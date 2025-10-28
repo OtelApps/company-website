@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-white">
+  <main class="bg-white">
     <!-- Top Section - Dark Grey Background -->
     <div
       class="bg-[#383e42] text-white py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-16 relative"
@@ -99,44 +99,65 @@
 
               <!-- Work Email -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
-                  Work Email <span class="text-red-500">*</span>
-                </label>
                 <input
                   type="email"
-                  placeholder="Provide your corporate email account"
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
+                  placeholder="Work Email *"
+                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                   required
                 />
+              </div>
+
+              <!-- Country and Phone number -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <select
+                    class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                    required
+                  >
+                    <option value="">Country *</option>
+                    <option value="cz">Czech Republic</option>
+                    <option value="sk">Slovakia</option>
+                    <option value="de">Germany</option>
+                    <option value="at">Austria</option>
+                    <option value="pl">Poland</option>
+                  </select>
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    placeholder="Phone number *"
+                    class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                    required
+                  />
+                </div>
               </div>
 
               <!-- Job Title -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
-                  Job title <span class="text-red-500">*</span>
-                </label>
-                <input
-                  type="text"
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
+                <select
+                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                   required
-                />
+                >
+                  <option value="">Job Title *</option>
+                  <option value="owner">Owner / Founder</option>
+                  <option value="general">General Manager</option>
+                  <option value="it">IT / Technology Manager</option>
+                  <option value="revenue">Revenue Manager</option>
+                  <option value="consultant">Consultant Manager</option>
+                  <option value="other">Other</option>
+                </select>
               </div>
 
               <!-- Property Type -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
-                  Property Type <span class="text-red-500">*</span>
-                </label>
                 <select
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none appearance-none bg-white"
+                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                   required
                 >
-                  <option value="">What type of property do you represent?</option>
-                  <option value="hotel">Hotel</option>
-                  <option value="resort">Resort</option>
-                  <option value="hostel">Hostel</option>
-                  <option value="apartment">Apartment</option>
-                  <option value="other">Other</option>
+                  <option value="">Property Type *</option>
+                  <option value="hotel">Hotel Chain or Group</option>
+                  <option value="independent">Independent Hotel</option>
+                  <option value="other">Other (not a hotel or hotel group)</option>
                 </select>
               </div>
 
@@ -185,14 +206,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
-
-<script>
-export default {
-  name: 'BookDemo',
-}
-</script>
 
 <style scoped>
 /* Custom dropdown arrow */

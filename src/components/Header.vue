@@ -54,9 +54,11 @@
                 >About Us</span
               >
             </router-link>
-            <span class="text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base"
-              >Contact</span
-            >
+            <router-link to="/Contact">
+              <span class="text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base"
+                >Contact</span
+              >
+            </router-link>
           </nav>
         </div>
 
@@ -141,11 +143,13 @@
           </router-link>
 
           <!-- Book a demo button -->
-          <span
-            class="border border-gray-300 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-50 transition-colors text-sm cursor-pointer"
-          >
-            Book a demo
-          </span>
+          <router-link to="/Pricing">
+            <span
+              class="border border-gray-300 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-50 transition-colors text-sm cursor-pointer"
+            >
+              Book a demo
+            </span>
+          </router-link>
         </div>
       </div>
     </div>
@@ -241,10 +245,12 @@
                     />
                   </svg>
                   <div>
-                    <div class="font-medium text-gray-900">Guest App</div>
-                    <p class="text-sm text-gray-600">
-                      Showcase your hotel services to boost your revenue
-                    </p>
+                    <router-link to="/Product/GuestApp" @click="closeMobileMenu">
+                      <div class="font-medium text-gray-900">Guest App</div>
+                      <p class="text-sm text-gray-600">
+                        Showcase your hotel services to boost your revenue
+                      </p>
+                    </router-link>
                   </div>
                 </div>
               </div>
@@ -270,10 +276,12 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">Hotel Directory</div>
-                      <p class="text-sm text-gray-600">
-                        Provide detailed information about your hotel
-                      </p>
+                      <router-link to="/Product/HotelDirectory" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">Hotel Directory</div>
+                        <p class="text-sm text-gray-600">
+                          Provide detailed information about your hotel
+                        </p>
+                      </router-link>
                     </div>
                   </div>
                   <div class="flex items-start space-x-3">
@@ -291,8 +299,12 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">Mobile Ordering</div>
-                      <p class="text-sm text-gray-600">Easy ordering for the guest with no waits</p>
+                      <router-link to="/Product/MobileOrdering" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">Mobile Ordering</div>
+                        <p class="text-sm text-gray-600">
+                          Easy ordering for the guest with no waits
+                        </p>
+                      </router-link>
                     </div>
                   </div>
                   <div class="flex items-start space-x-3">
@@ -310,10 +322,12 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">Instant Feedback</div>
-                      <p class="text-sm text-gray-600">
-                        Get more feedback at the moments that matter
-                      </p>
+                      <router-link to="/Product/InstantFeedback" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">Instant Feedback</div>
+                        <p class="text-sm text-gray-600">
+                          Get more feedback at the moments that matter
+                        </p>
+                      </router-link>
                     </div>
                   </div>
                   <div class="flex items-start space-x-3">
@@ -331,8 +345,10 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">Task Manager</div>
-                      <p class="text-sm text-gray-600">Centralize all your guests requests</p>
+                      <router-link to="/Product/TaskManager" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">Task Manager</div>
+                        <p class="text-sm text-gray-600">Centralize all your guests requests</p>
+                      </router-link>
                     </div>
                   </div>
                   <div class="flex items-start space-x-3">
@@ -350,10 +366,12 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">Trip Planner</div>
-                      <p class="text-sm text-gray-600">
-                        Create a better experience for your guests
-                      </p>
+                      <router-link to="/Product/TripPlanner" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">Trip Planner</div>
+                        <p class="text-sm text-gray-600">
+                          Create a better experience for your guests
+                        </p>
+                      </router-link>
                     </div>
                   </div>
                   <div class="flex items-start space-x-3">
@@ -371,8 +389,10 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">Analytics & Insights</div>
-                      <p class="text-sm text-gray-600">Make better data-driven decisions</p>
+                      <router-link to="/Product/AnalyticsInsights" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">Analytics & Insights</div>
+                        <p class="text-sm text-gray-600">Make better data-driven decisions</p>
+                      </router-link>
                     </div>
                   </div>
                 </div>
@@ -422,8 +442,10 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">City Center</div>
-                      <p class="text-sm text-gray-600">Streamline operations and boost revenue</p>
+                      <router-link to="/Solution/CityCenter" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">City Center</div>
+                        <p class="text-sm text-gray-600">Streamline operations and boost revenue</p>
+                      </router-link>
                     </div>
                   </div>
                   <div class="flex items-start space-x-3">
@@ -441,10 +463,12 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">Boutiques</div>
-                      <p class="text-sm text-gray-600">
-                        Deliver personalized and immediate attention
-                      </p>
+                      <router-link to="/Solution/Boutiques" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">Boutiques</div>
+                        <p class="text-sm text-gray-600">
+                          Deliver personalized and immediate attention
+                        </p>
+                      </router-link>
                     </div>
                   </div>
                   <div class="flex items-start space-x-3">
@@ -462,8 +486,10 @@
                       />
                     </svg>
                     <div>
-                      <div class="font-medium text-gray-900">Small Hotels</div>
-                      <p class="text-sm text-gray-600">Enhance access to your hotel services</p>
+                      <router-link to="/Solution/SmallHotels" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900">Small Hotels</div>
+                        <p class="text-sm text-gray-600">Enhance access to your hotel services</p>
+                      </router-link>
                     </div>
                   </div>
                 </div>
@@ -499,7 +525,7 @@
             </span>
           </router-link>
 
-          <router-link to="/Contact" @click="closeMobileMenu">
+          <router-link to="/Pricing" @click="closeMobileMenu">
             <span
               class="block w-full bg-black text-white text-center px-4 py-3 hover:bg-gray-900 transition-colors text-base cursor-pointer"
               >Book a demo</span
@@ -534,7 +560,7 @@
                 />
               </svg>
               <div>
-                <router-link to="/GuestApp" @click="isProductOpen = false">
+                <router-link to="/Product/GuestApp" @click="isProductOpen = false">
                   <div class="font-medium text-gray-900">Guest App</div>
                   <p class="text-sm text-gray-600">
                     Showcase your hotel services to boost your revenue
@@ -565,7 +591,7 @@
                   />
                 </svg>
                 <div>
-                  <router-link to="/HotelDirectory" @click="isProductOpen = false">
+                  <router-link to="/Product/HotelDirectory" @click="isProductOpen = false">
                     <div class="font-medium text-gray-900">Hotel Directory</div>
                     <p class="text-sm text-gray-600">
                       Provide detailed information about your hotel
@@ -589,8 +615,10 @@
                   />
                 </svg>
                 <div>
-                  <div class="font-medium text-gray-900">Mobile Ordering</div>
-                  <p class="text-sm text-gray-600">Easy ordering for the guest with no waits</p>
+                  <router-link to="/Product/MobileOrdering" @click="isProductOpen = false">
+                    <div class="font-medium text-gray-900">Mobile Ordering</div>
+                    <p class="text-sm text-gray-600">Easy ordering for the guest with no waits</p>
+                  </router-link>
                 </div>
               </div>
 
@@ -609,7 +637,7 @@
                   />
                 </svg>
                 <div>
-                  <router-link to="/InstantFeedback" @click="isProductOpen = false">
+                  <router-link to="/Product/InstantFeedback" @click="isProductOpen = false">
                     <div class="font-medium text-gray-900">Instant Feedback</div>
                     <p class="text-sm text-gray-600">
                       Get more feedback at the moments that matter
@@ -633,7 +661,7 @@
                   />
                 </svg>
                 <div>
-                  <router-link to="/TaskManager" @click="isProductOpen = false">
+                  <router-link to="/Product/TaskManager" @click="isProductOpen = false">
                     <div class="font-medium text-gray-900">Task Manager</div>
                     <p class="text-sm text-gray-600">Centralize all your guests requests</p>
                   </router-link>
@@ -655,8 +683,10 @@
                   />
                 </svg>
                 <div>
-                  <div class="font-medium text-gray-900">Trip Planner</div>
-                  <p class="text-sm text-gray-600">Create a better experience for your guests</p>
+                  <router-link to="/Product/TripPlanner" @click="isProductOpen = false">
+                    <div class="font-medium text-gray-900">Trip Planner</div>
+                    <p class="text-sm text-gray-600">Create a better experience for your guests</p>
+                  </router-link>
                 </div>
               </div>
 
@@ -675,7 +705,7 @@
                   />
                 </svg>
                 <div>
-                  <router-link to="/AnalyticsInsights" @click="isProductOpen = false">
+                  <router-link to="/Product/AnalyticsInsights" @click="isProductOpen = false">
                     <div class="font-medium text-gray-900">Analytics & Insights</div>
                     <p class="text-sm text-gray-600">Make better data-driven decisions</p>
                   </router-link>
@@ -714,8 +744,10 @@
                   />
                 </svg>
                 <div>
-                  <div class="font-medium text-gray-900">City Center</div>
-                  <p class="text-sm text-gray-600">Streamline operations and boost revenue</p>
+                  <router-link to="/Solution/CityCenter" @click="isSolutionsOpen = false">
+                    <div class="font-medium text-gray-900">City Center</div>
+                    <p class="text-sm text-gray-600">Streamline operations and boost revenue</p>
+                  </router-link>
                 </div>
               </div>
 
@@ -734,8 +766,12 @@
                   />
                 </svg>
                 <div>
-                  <div class="font-medium text-gray-900">Boutiques</div>
-                  <p class="text-sm text-gray-600">Deliver personalized and immediate attention</p>
+                  <router-link to="/Solution/Boutiques" @click="isSolutionsOpen = false">
+                    <div class="font-medium text-gray-900">Boutiques</div>
+                    <p class="text-sm text-gray-600">
+                      Deliver personalized and immediate attention
+                    </p>
+                  </router-link>
                 </div>
               </div>
 
@@ -754,8 +790,10 @@
                   />
                 </svg>
                 <div>
-                  <div class="font-medium text-gray-900">Small Hotels</div>
-                  <p class="text-sm text-gray-600">Enhance access to your hotel services</p>
+                  <router-link to="/Solution/SmallHotels" @click="isSolutionsOpen = false">
+                    <div class="font-medium text-gray-900">Small Hotels</div>
+                    <p class="text-sm text-gray-600">Enhance access to your hotel services</p>
+                  </router-link>
                 </div>
               </div>
             </div>
