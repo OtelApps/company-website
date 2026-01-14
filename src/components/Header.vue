@@ -180,7 +180,7 @@
       <!-- Mobile menu header -->
       <div class="flex justify-between items-center p-4 border-b border-gray-200">
         <router-link to="/" @click="closeMobileMenu">
-          <img src="../assets/otelapps.web" alt="OtelApps logo" class="h-8 w-auto" />
+          <img src="../assets/otelapps.webp" alt="OtelApps logo" class="h-8 w-auto" />
         </router-link>
 
         <div class="flex items-center space-x-4">
