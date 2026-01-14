@@ -1,7 +1,7 @@
 <template>
   <main>
-    <section class="py-16 px-4">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-16">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
@@ -38,8 +38,8 @@
     />
 
     <!-- Key Functions Section -->
-    <section class="py-16 px-4">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-16">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
           <!-- Left visual placeholder -->
           <div class="lg:col-span-2 flex items-center justify-center">

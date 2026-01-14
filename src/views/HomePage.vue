@@ -27,7 +27,7 @@ const activeButton = ref('f&b')
           <button
             class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
           >
-            Book a demo
+            Vyzkoušet demo-verzi
           </button>
         </div>
 
@@ -101,7 +101,7 @@ const activeButton = ref('f&b')
               :class="[
                 'flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors cursor-pointer',
                 activeButton === 'f&b'
-                  ? 'bg-[#ffa500] text-white border-2 border-black dark:border-[#ffa500]'
+                  ? 'bg-[#ffa500] text-white border-2 dark:border-[#ffa500]'
                   : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
               ]"
             >
@@ -127,7 +127,7 @@ const activeButton = ref('f&b')
               :class="[
                 'flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors cursor-pointer',
                 activeButton === 'requests'
-                  ? 'bg-[#ffa500] text-white border-2 border-black dark:border-[#ffa500]'
+                  ? 'bg-[#ffa500] text-white border-2 dark:border-[#ffa500]'
                   : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
               ]"
             >
@@ -153,7 +153,7 @@ const activeButton = ref('f&b')
               :class="[
                 'flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors cursor-pointer',
                 activeButton === 'reservations'
-                  ? 'bg-[#ffa500] text-white border-2 border-black dark:border-[#ffa500]'
+                  ? 'bg-[#ffa500] text-white border-2 dark:border-[#ffa500]'
                   : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
               ]"
             >
@@ -492,7 +492,7 @@ const activeButton = ref('f&b')
             </div>
 
             <div class="sm:col-span-2">
-              <h3 class="text-sm sm:text-base font-bold text-gray-900 dark:text-whitev">
+              <h3 class="text-sm sm:text-base font-bold text-gray-900 dark:text-white">
                 Personalizovaný zážitek pro každého hosta
               </h3>
               <p class="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2 dark:text-white">

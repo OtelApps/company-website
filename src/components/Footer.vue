@@ -1,7 +1,11 @@
+<script setup lang="ts">
+import router from '../../router';
+</script>
+
 <template>
   <footer class="bg-white dark:bg-[#16171A] text-gray-800 mt-16 sm:mt-20 lg:mt-24">
     <!-- Newsletter -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
+    <section class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 hidden">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 sm:gap-6">
         <div>
           <h3 class="text-base sm:text-lg font-semibold dark:text-white">Join our newsletter</h3>
@@ -34,82 +38,81 @@
       </div>
     </section>
 
-    <hr class="border-gray-800 w-3/4 mx-auto" />
+    <hr class="border-gray-800 w-full mx-auto" />
 
     <!-- Links columns -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    <section class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
       <div
         class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-10"
       >
         <div>
           <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">PROČ OTEL APPS</h4>
           <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li><a href="#" class="hover:text-gray-900">Ceník</a></li>
-            <li><a href="#" class="hover:text-gray-900">Integrace</a></li>
-            <li><a href="#" class="hover:text-gray-900">Aktualizace systému</a></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Pricing">Ceník</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/">Integrace</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/">Aktualizace systému</router-link></li>
           </ul>
         </div>
 
         <div>
           <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">KLÍČOVÉ FUNKCE</h4>
           <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li>
-              <a href="#" class="hover:text-gray-900">Všechny důležité informace na jednom místě</a>
-            </li>
-            <li><a href="#" class="hover:text-gray-900">Objednávání</a></li>
-            <li><a href="#" class="hover:text-gray-900">Trip Planner</a></li>
-            <li><a href="#" class="hover:text-gray-900">Live chat + AI virtuální recepční</a></li>
-            <li><a href="#" class="hover:text-gray-900">Online check-in + check-out</a></li>
-            <li><a href="#" class="hover:text-gray-900">Virtuální pokojová karta</a></li>
-            <li><a href="#" class="hover:text-gray-900">Rezervace</a></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory">Všechny důležité informace na jednom místě</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering">Objednávání</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Trip Planner</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Live chat + AI virtuální recepční</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Online check-in + check-out</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Virtuální pokojová karta</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Rezervace</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/Boutiques">Butikové hotely</router-link></li>
           </ul>
         </div>
 
         <div>
           <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">ŘEŠENÍ</h4>
           <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li><router-link to="/Solution/CityCenter" class="hover:text-gray-900">Městské hotely</router-link></li>
-            <li><router-link to="/Solution/Boutiques" class="hover:text-gray-900">Resorty</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/CityCenter">Městské hotely</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/SmallHotels">Malé a středně velké hotely</router-link></li>
           </ul>
         </div>
 
         <div>
           <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">PROJEKT</h4>
           <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li><router-link to="/AboutUs" class="hover:text-gray-900">O nás</router-link></li>
-            <li><router-link to="/Contact" class="hover:text-gray-900">Napište nám</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/AboutUs">O nás</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Contact">Napište nám</router-link></li>
           </ul>
         </div>
 
         <div>
           <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">LEGAL</h4>
           <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li><a href="#" class="hover:text-gray-900">Právní upozornění</a></li>
-            <li><a href="#" class="hover:text-gray-900">Zásady používání cookies</a></li>
-            <li><a href="#" class="hover:text-gray-900">Zásady ochrany osobních údajů</a></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Právní upozornění</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Zásady používání cookies</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Zásady ochrany osobních údajů</router-link></li>
           </ul>
         </div>
       </div>
     </section>
 
-    <hr class="border-gray-800 w-3/4 mx-auto" />
+    <hr class="border-gray-800 w-full mx-auto" />
 
     <!-- Bottom bar -->
     <section
-      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-4"
+      class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-4"
     >
-      <img src="../assets/otelapps.png" alt="OtelApps logo" class="h-20 sm:h-24 w-auto" />
+      <img src="../assets/otelapps.webp" alt="OtelApps logo" class="h-20 sm:h-26 w-auto" />
       <p class="text-s text-gray-600 dark:text-white">
-        IČO: 123456789
+        IČO: 23905719
         <br>
-        DIČ: 123456789
+        DIČ: 23905719
       </p>
       <p class="text-s text-gray-600 dark:text-white">
-        Email: 
+        Email: info@otelapps.com
         <br>
-        Telefon: +420 123 456 789
+        Telefon: +420 604 607 225
         <br>
-        Adresa: Praha
+        Adresa: Příčná 1892/4, Nové Město, 110 00 Praha 1
       </p>
       <p class="text-xs text-gray-600 dark:text-white">© 2025 OtelApps. All rights reserved.</p>
     </section>

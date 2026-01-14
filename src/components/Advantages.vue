@@ -1,6 +1,6 @@
 <template>
-  <section class="py-16 px-4" :class="backgroundColor">
-    <div class="max-w-7xl mx-auto">
+  <section class="py-16" :class="backgroundColor">
+    <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{{ title }}</h2>
         <p class="text-lg text-gray-700 max-w-3xl mx-auto">

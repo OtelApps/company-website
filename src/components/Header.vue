@@ -9,17 +9,17 @@
     class="border-b not-dark:border-gray-200 bg-white transition-transform duration-300 ease-out dark:bg-[#16171A]"
     :style="{ position: 'sticky', top: 0, zIndex: 50, transform: headerTransform }"
   >
-    <div class="max-w-8xl mx-auto pl-2 sm:pl-3 lg:pl-20 pr-4 sm:pr-6 lg:pr-8">
+    <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center py-3 sm:py-4">
         <div class="flex items-center">
           <router-link to="/">
-            <img src="../assets/otelapps.png" alt="OtelApps logo" class="h-8 sm:h-10 w-auto" />
+            <img src="../assets/otelapps.webp" alt="OtelApps logo" class="h-10 sm:h-16 w-auto" />
           </router-link>
 
           <!-- Desktop Navigation (grouped with logo) -->
           <nav class="hidden md:flex items-center space-x-6 lg:space-x-8 ml-4">
             <div class="flex items-center space-x-1 cursor-pointer" @click.stop="toggleProductMenu">
-              <span class="text-gray-700 hover:text-gray-900 text-sm lg:text-base dark:text-white">Product</span>
+              <span :class="['text-gray-700 hover:text-gray-900 text-sm lg:text-base dark:text-white', { 'font-bold': isProductActive }]">Product</span>
               <svg
                 class="w-3 h-3 lg:w-4 lg:h-4 text-gray-500 dark:text-white"
                 fill="none"
@@ -38,7 +38,7 @@
               class="flex items-center space-x-1 cursor-pointer"
               @click.stop="toggleSolutionsMenu"
             >
-              <span class="text-gray-700 hover:text-gray-900 text-sm lg:text-base dark:text-white">Solutions</span>
+              <span :class="['text-gray-700 hover:text-gray-900 text-sm lg:text-base dark:text-white', { 'font-bold': isSolutionsActive }]">Solutions</span>
               <svg
                 class="w-3 h-3 lg:w-4 lg:h-4 text-gray-500 dark:text-white"
                 fill="none"
@@ -54,17 +54,17 @@
               </svg>
             </div>
             <router-link to="/Pricing">
-              <span class="text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white"
+              <span :class="['text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white', { 'font-bold': isPricingActive }]"
                 >Pricing</span
               >
             </router-link>
             <router-link to="/AboutUs">
-              <span class="text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white"
+              <span :class="['text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white', { 'font-bold': isAboutUsActive }]"
                 >About Us</span
               >
             </router-link>
             <router-link to="/Contact">
-              <span class="text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white"
+              <span :class="['text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white', { 'font-bold': isContactActive }]"
                 >Contact</span
               >
             </router-link>
@@ -180,7 +180,7 @@
       <!-- Mobile menu header -->
       <div class="flex justify-between items-center p-4 border-b border-gray-200">
         <router-link to="/" @click="closeMobileMenu">
-          <img src="../assets/otelapps.png" alt="OtelApps logo" class="h-8 w-auto" />
+          <img src="../assets/otelapps.web" alt="OtelApps logo" class="h-8 w-auto" />
         </router-link>
 
         <div class="flex items-center space-x-4">
@@ -234,7 +234,7 @@
             class="flex items-center justify-between py-4 border-b border-gray-200 cursor-pointer"
             @click.stop="toggleProductMenu"
           >
-            <span class="text-gray-900 text-base dark:text-white">Product</span>
+            <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isProductActive }]">Product</span>
             <svg
               class="w-4 h-4 text-gray-600 dark:text-white"
               fill="none"
@@ -430,7 +430,7 @@
             class="flex items-center justify-between py-4 border-b border-gray-200 cursor-pointer dark:text-white"
             @click.stop="toggleSolutionsMenu"
           >
-            <span class="text-gray-900 text-base dark:text-white">Solutions</span>
+            <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isSolutionsActive }]">Solutions</span>
             <svg
               class="w-4 h-4 text-gray-600 dark:text-white"
               fill="none"
@@ -524,19 +524,19 @@
           </div>
           <router-link to="/Pricing" @click="closeMobileMenu">
             <div class="py-4 border-b border-gray-200 cursor-pointer">
-              <span class="text-gray-900 text-base dark:text-white">Pricing</span>
+              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isPricingActive }]">Pricing</span>
             </div>
           </router-link>
 
           <router-link to="/AboutUs" @click="closeMobileMenu">
             <div class="py-4 border-b border-gray-200 cursor-pointer">
-              <span class="text-gray-900 text-base dark:text-white">About us</span>
+              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isAboutUsActive }]">About us</span>
             </div>
           </router-link>
 
           <router-link to="/Contact" @click="closeMobileMenu">
             <div class="py-4 border-b border-gray-200 cursor-pointer">
-              <span class="text-gray-900 text-base dark:text-white">Contact</span>
+              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isContactActive }]">Contact</span>
             </div>
           </router-link>
         </nav>
@@ -566,7 +566,7 @@
       class="hidden md:block absolute left-0 right-0 z-40 bg-white dark:bg-[#16171A] border-t border-b not-dark:border-gray-300 shadow-lg"
       @click.stop
     >
-      <div class="max-w-8xl mx-auto pl-2 sm:pl-3 lg:pl-20 pr-4 sm:pr-6 lg:pr-8 py-6">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <!-- Ecosystem -->
           <div>
@@ -749,7 +749,7 @@
       class="hidden md:block absolute left-0 right-0 z-40 bg-white dark:bg-[#16171A] border-t border-b not-dark:border-gray-300 shadow-lg"
       @click.stop
     >
-      <div class="max-w-8xl mx-auto pl-2 sm:pl-3 lg:pl-20 pr-4 sm:pr-6 lg:pr-8 py-6">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <!-- Ecosystem -->
           <div>
@@ -842,6 +842,26 @@ export default {
       lastScrollY: 0,
       ticking: false,
     }
+  },
+  computed: {
+    isProductActive() {
+      return this.$route.path.startsWith('/Product')
+    },
+    isSolutionsActive() {
+      return this.$route.path.startsWith('/Solution')
+    },
+    isPricingActive() {
+      return this.$route.path === '/Pricing'
+    },
+    isAboutUsActive() {
+      return this.$route.path === '/AboutUs'
+    },
+    isContactActive() {
+      return this.$route.path === '/Contact'
+    },
+    isHomeActive() {
+      return this.$route.path === '/'
+    },
   },
   methods: {
     toggleMobileMenu() {

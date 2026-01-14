@@ -1,6 +1,6 @@
 <template>
-  <section class="py-16 px-4">
-    <div class="max-w-7xl mx-auto">
+  <section class="py-16">
+    <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Left side - Image -->
         <div class="flex justify-center lg:justify-start">

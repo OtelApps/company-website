@@ -4,7 +4,7 @@
     <div
       class="bg-[#383e42] text-white py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-16 relative"
     >
-      <div class="max-w-7xl mx-auto">
+      <div class="max-w-screen-2xl mx-auto">
         <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
           <!-- Left content -->
           <div class="max-w-2xl">
@@ -29,7 +29,7 @@
 
     <!-- Bottom Section - White Background with Hotel Logos -->
     <div class="bg-white py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 relative">
-      <div class="max-w-7xl mx-auto">
+      <div class="max-w-screen-2xl mx-auto">
         <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
           <!-- Left side - Hotel logos -->
           <div class="flex-1 mr-0 lg:mr-32">

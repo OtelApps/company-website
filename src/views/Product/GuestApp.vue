@@ -1,7 +1,7 @@
 <template>
   <main>
-    <section class="py-16 px-4">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-16">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
@@ -33,8 +33,8 @@
       </div>
     </section>
     <!-- Features Section -->
-    <section class="py-16 px-4 bg-[#f4f4f4]">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-16 bg-[#f4f4f4]">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Your services will be accessible anytime, anywhere
@@ -188,8 +188,8 @@
     </section>
 
     <!-- Access Methods Section -->
-    <section class="py-32 px-4">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-32">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Flexible Access for Every Guest
@@ -268,8 +268,8 @@
       </div>
     </section>
     <!-- Why Choose Section -->
-    <section class="py-32 px-4 bg-[#f4f4f4]">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-32 bg-[#f4f4f4]">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-8">
@@ -364,8 +364,8 @@
     </section>
 
     <!-- Explore More Section -->
-    <section class="py-32 px-4">
-      <div class="max-w-7xl mx-auto">
+    <section class="py-32">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Explore More from Otel Apps
