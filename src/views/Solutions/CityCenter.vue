@@ -128,9 +128,9 @@
 
 <script>
 import HowItWorks from '@/components/HowItWorks.vue'
-import image1 from '@/assets/Solutions/CityCenter/1.png'
-import image2 from '@/assets/Solutions/CityCenter/2.png'
-import image3 from '@/assets/Solutions/CityCenter/3.png'
+import image1 from '@/assets/solutions/CityCenter/1.png'
+import image2 from '@/assets/solutions/CityCenter/2.png'
+import image3 from '@/assets/solutions/CityCenter/3.png'
 import Benefits from '@/components/Benefits.vue'
 import Improvement from '@/components/Improvement.vue'
 

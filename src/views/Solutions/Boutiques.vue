@@ -125,9 +125,9 @@
 
 <script>
 import HowItWorks from '@/components/HowItWorks.vue'
-import image1 from '@/assets/Solutions/Boutigues/1.png'
-import image2 from '@/assets/Solutions/Boutigues/2.png'
-import image3 from '@/assets/Solutions/Boutigues/3.png'
+import image1 from '@/assets/solutions/Boutigues/1.png'
+import image2 from '@/assets/solutions/Boutigues/2.png'
+import image3 from '@/assets/solutions/Boutigues/3.png'
 import Benefits from '@/components/Benefits.vue'
 
 export default {
