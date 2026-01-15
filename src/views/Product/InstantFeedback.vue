@@ -19,13 +19,9 @@
             </button>
           </div>
 
-          <!-- Right Section - Placeholder -->
-          <div class="flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 text-2xl font-medium"
-            >
-              #
-            </div>
+          <!-- Right Section - Image -->
+          <div class="flex items-center justify-end">
+            <img :src="image1" alt="Hotel Directory Obrázek" class="w-3/4">
           </div>
         </div>
       </div>
@@ -40,8 +36,8 @@
     />
 
     <Features
-      :image-src="image1"
-      :image-alt="'TEST obrázek'"
+      :image-src="image2"
+      :image-alt="'Instant Feedback obrázek'"
       title="Powerful Features"
       description="From customizable questions to a centralized inbox, our tool is equipped with
                   everything you need for effective feedback management."
@@ -53,8 +49,8 @@
       subtitle="Our process is simple and effective, designed to integrate seamlessly into your 
               operations and provide immediate value."
       :steps="instantFeedbackWork"
-      :image="image1"
-      image-alt="TEST obrázek"
+      :image="image3"
+      image-alt="Instant Feedback obrázek"
     />
 
     <Benefits
@@ -77,7 +73,9 @@
 <script>
 import Advantages from '@/components/Advantages.vue'
 import Features from '@/components/Features.vue'
-import image1 from '@/assets/home/image1.png'
+import image1 from '@/assets/product/InstantFeedback/1.png'
+import image2 from '@/assets/product/InstantFeedback/2.png'
+import image3 from '@/assets/product/InstantFeedback/3.png'
 import HowItWorks from '@/components/HowItWorks.vue'
 import Benefits from '@/components/Benefits.vue'
 import Improvement from '@/components/Improvement.vue'
@@ -94,6 +92,8 @@ export default {
   data() {
     return {
       image1: image1,
+      image2: image2,
+      image3: image3,
       instantFeedbackAdvantages: [
         {
           title: 'Real-Time Feedback',

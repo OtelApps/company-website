@@ -19,13 +19,9 @@
             </button>
           </div>
 
-          <!-- Right Section - Placeholder -->
-          <div class="flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 text-2xl font-medium"
-            >
-              #
-            </div>
+          <!-- Right Section - Image -->
+          <div class="flex items-center justify-end">
+            <img :src="image1" alt="City Center obrázek" class="w-4/5">
           </div>
         </div>
       </div>
@@ -70,11 +66,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
           <!-- Left visual placeholder -->
           <div class="lg:col-span-2 flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-100 rounded-xl flex items-center justify-center text-gray-400 text-2xl font-semibold"
-            >
-              #
-            </div>
+            <img :src="image2" alt="City Center obrázek" class="w-full">
           </div>
 
           <!-- Right content: title, subtitle, features -->
@@ -115,8 +107,8 @@
       title="Seamless Implementation & Technology"
       subtitle="Our flexible platform adapts to your needs, offering a frictionless experience for both guests and staff."
       :steps="cityCenterWork"
-      :image="image1"
-      image-alt="TEST obrázek"
+      :image="image3"
+      image-alt="City Center obrázek"
     />
 
     <Benefits
@@ -136,7 +128,9 @@
 
 <script>
 import HowItWorks from '@/components/HowItWorks.vue'
-import image1 from '@/assets/home/image1.png'
+import image1 from '@/assets/Solutions/CityCenter/1.png'
+import image2 from '@/assets/Solutions/CityCenter/2.png'
+import image3 from '@/assets/Solutions/CityCenter/3.png'
 import Benefits from '@/components/Benefits.vue'
 import Improvement from '@/components/Improvement.vue'
 
@@ -150,6 +144,8 @@ export default {
   data() {
     return {
       image1: image1,
+      image2: image2,
+      image3: image3,
       cityCenterFeatures: [
         {
           title: 'Eliminate Queues',

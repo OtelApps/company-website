@@ -1,7 +1,7 @@
 <template>
   <section class="py-16" :class="backgroundColor">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Levá strana - title, subtitle a kroky -->
         <div>
           <div class="text-left mb-8">
@@ -32,7 +32,7 @@
         <!-- Pravá strana - obrázek -->
         <div class="flex justify-center lg:justify-end">
           <div class="relative">
-            <img :src="image" :alt="imageAlt" class="max-w-full h-auto" />
+            <img :src="image" :alt="imageAlt" class="w-full h-auto" />
           </div>
         </div>
       </div>

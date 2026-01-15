@@ -20,13 +20,9 @@
             </button>
           </div>
 
-          <!-- Right Section - Placeholder -->
-          <div class="flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 text-2xl font-medium"
-            >
-              #
-            </div>
+          <!-- Right Section - Image -->
+          <div class="flex items-center justify-end">
+            <img :src="image1" alt="Hotel Directory Obrázek" class="w-[70%]">
           </div>
         </div>
       </div>
@@ -41,8 +37,8 @@
     />
 
     <Features
-      :image-src="image1"
-      :image-alt="'TEST obrázek'"
+      :image-src="image2"
+      :image-alt="'Hotel Directory Obrázek'"
       title="What Can You Include?"
       description="Our flexible content system supports a wide range of information types to cover all your hotel's needs."
       :features="hotelDirectoryFeatures"
@@ -53,8 +49,8 @@
       subtitle="Keep your information fresh and accessible. Our system is designed for
                   effortless content management and a seamless guest experience."
       :steps="hotelDirectoryWork"
-      :image="image1"
-      image-alt="TEST obrázek"
+      :image="image3"
+      image-alt="Hotel Directory Obrázek"
     />
 
     <Benefits
@@ -69,7 +65,9 @@
 <script>
 import Advantages from '@/components/Advantages.vue'
 import Features from '@/components/Features.vue'
-import image1 from '@/assets/home/image1.png'
+import image1 from '@/assets/product/HotelDirectory/1.png'
+import image2 from '@/assets/product/HotelDirectory/2.png'
+import image3 from '@/assets/product/HotelDirectory/3.png'
 import HowItWorks from '@/components/HowItWorks.vue'
 import Benefits from '@/components/Benefits.vue'
 
@@ -84,6 +82,8 @@ export default {
   data() {
     return {
       image1: image1,
+      image2: image2,
+      image3: image3,
       hotelDirectoryAdvantages: [
         {
           title: 'All Info in One Place',

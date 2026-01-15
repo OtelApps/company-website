@@ -19,13 +19,9 @@
             </button>
           </div>
 
-          <!-- Right Section - Placeholder -->
-          <div class="flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 text-2xl font-medium"
-            >
-              #
-            </div>
+          <!-- Right Section - Image -->
+          <div class="flex items-center justify-end">
+            <img :src="image1" alt="Boutigues obrázek" class="w-9/10">
           </div>
         </div>
       </div>
@@ -70,11 +66,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
           <!-- Left visual placeholder -->
           <div class="lg:col-span-2 flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-100 rounded-xl flex items-center justify-center text-gray-400 text-2xl font-semibold"
-            >
-              #
-            </div>
+            <img :src="image2" alt="Boutigues obrázek" class="w-full">
           </div>
 
           <!-- Right content: title, subtitle, features -->
@@ -118,8 +110,8 @@
       subtitle="A digital solution that feels as personal and curated as your hotel. Our platform is a digital extension 
                 of your brand, designed for ease and elegance."
       :steps="boutiquesWork"
-      :image="image1"
-      image-alt="TEST obrázek"
+      :image="image3"
+      image-alt="Boutigues obrázek"
     />
 
     <Benefits
@@ -133,11 +125,13 @@
 
 <script>
 import HowItWorks from '@/components/HowItWorks.vue'
-import image1 from '@/assets/home/image1.png'
+import image1 from '@/assets/Solutions/Boutigues/1.png'
+import image2 from '@/assets/Solutions/Boutigues/2.png'
+import image3 from '@/assets/Solutions/Boutigues/3.png'
 import Benefits from '@/components/Benefits.vue'
 
 export default {
-  name: 'CityCenter',
+  name: 'Boutigues',
   components: {
     HowItWorks,
     Benefits,
@@ -145,6 +139,8 @@ export default {
   data() {
     return {
       image1: image1,
+      image2: image2,
+      image3: image3,
       boutiquesFeatures: [
         {
           title: 'Maintain Exclusivity',

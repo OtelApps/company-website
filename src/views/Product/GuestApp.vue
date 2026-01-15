@@ -23,11 +23,7 @@
 
           <!-- Right Section - Placeholder -->
           <div class="flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 text-2xl font-medium"
-            >
-              #
-            </div>
+            <img src="../../assets/product/GuestApp/1.png" alt="Guest app page image" class="w-2/3">
           </div>
         </div>
       </div>
@@ -353,11 +349,7 @@
 
           <!-- Right Section - Video Placeholder -->
           <div class="flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 text-2xl font-medium"
-            >
-              #
-            </div>
+            <img src="../../assets/product/GuestApp/2.png" alt="Guest app page image" class="w-3/4">
           </div>
         </div>
       </div>

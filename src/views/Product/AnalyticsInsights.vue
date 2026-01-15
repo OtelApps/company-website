@@ -20,13 +20,9 @@
             </button>
           </div>
 
-          <!-- Right Section - Placeholder -->
-          <div class="flex items-center justify-center">
-            <div
-              class="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 text-2xl font-medium"
-            >
-              #
-            </div>
+          <!-- Right Section - Image -->
+          <div class="flex items-center justify-end">
+            <img :src="image1" alt="Analytics & Insights Obrázek" class="w-3/4">
           </div>
         </div>
       </div>
@@ -42,8 +38,8 @@
     />
 
     <Features
-      :image-src="image1"
-      :image-alt="'TEST obrázek'"
+      :image-src="image2"
+      :image-alt="'Analytics & Insights Obrázek'"
       title="Key Features"
       description="Get the insights you need to grow your business with our powerful analytics toolkit."
       :features="analyticsInsightsFeatures"
@@ -53,8 +49,8 @@
       title="How It Works"
       subtitle="Our platform simplifies data analysis, making it easy to access and act on powerful insights."
       :steps="analyticsInsightsWork"
-      :image="image1"
-      image-alt="TEST obrázek"
+      :image="image3"
+      image-alt="Analytics & Insights Obrázek"
     />
 
     <Benefits
@@ -77,7 +73,9 @@
 <script>
 import Advantages from '@/components/Advantages.vue'
 import Features from '@/components/Features.vue'
-import image1 from '@/assets/home/image1.png'
+import image1 from '@/assets/product/Analytics/1.png'
+import image2 from '@/assets/product/Analytics/2.png'
+import image3 from '@/assets/product/Analytics/3.png'
 import HowItWorks from '@/components/HowItWorks.vue'
 import Benefits from '@/components/Benefits.vue'
 import Improvement from '@/components/Improvement.vue'
@@ -94,6 +92,8 @@ export default {
   data() {
     return {
       image1: image1,
+      image2: image2,
+      image3: image3,
       analyticsInsightsAdvantages: [
         {
           title: 'Real-Time Monitoring',
