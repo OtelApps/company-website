@@ -8,12 +8,12 @@
         <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
           <!-- Left content -->
           <div class="max-w-2xl">
-            <h1 class="text-3xl md:text-4xl font-bold mb-6 md:mb-8 leading-tight">Contact Us</h1>
+            <h1 class="text-3xl md:text-4xl font-bold mb-6 md:mb-8 leading-tight">Kontaktujte nás</h1>
 
             <div class="space-y-4 md:space-y-6 text-base md:text-lg">
               <p>
-                We will be happy to answer any questions you may have. Do not hesitate to contact
-                our Otellapps team with any inquiry.
+                Máte otázky? My máme odpovědi (a nadšení pro hotelové inovace k tomu). Neváhejte se na nás obrátit s jakýmkoliv dotazem, 
+                technickým detailem nebo vizí, kterou chcete probrat.
               </p>
             </div>
           </div>
@@ -31,21 +31,24 @@
           <div
             class="w-full lg:w-128 bg-white rounded-3xl shadow-2xl p-6 md:p-8 relative z-10 mt-8 lg:-mt-84 border-3 border-black"
           >
-            <form class="space-y-6">
+            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+              <input type="hidden" name="access_key" value="5ef8b433-289a-4ea3-8a47-e122e68c3d6d">
               <!-- First Name and Last Name side by side -->
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <input
+                    name="Jmeno"
                     type="text"
-                    placeholder="First Name *"
+                    placeholder="Jméno *"
                     class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                     required
                   />
                 </div>
                 <div>
                   <input
+                    name="Prijmeni"
                     type="text"
-                    placeholder="Last Name *"
+                    placeholder="Příjmení *"
                     class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                     required
                   />
@@ -55,6 +58,7 @@
               <!-- Email -->
               <div>
                 <input
+                  name="Email"
                   type="email"
                   placeholder="Email *"
                   class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
@@ -66,21 +70,23 @@
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <select
+                    name="Zeme"
                     class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                     required
                   >
-                    <option value="">Country *</option>
-                    <option value="cz">Czech Republic</option>
-                    <option value="sk">Slovakia</option>
-                    <option value="de">Germany</option>
-                    <option value="at">Austria</option>
-                    <option value="pl">Poland</option>
+                    <option value="">Země *</option>
+                    <option value="Ceska republika">Česká republika</option>
+                    <option value="Slovensko">Slovensko</option>
+                    <option value="Nemecko">Německo</option>
+                    <option value="Rakousko">Rakousko</option>
+                    <option value="Polsko">Polsko</option>
                   </select>
                 </div>
                 <div>
                   <input
+                    name="Telefonni cislo"
                     type="tel"
-                    placeholder="Phone number *"
+                    placeholder="Telefonní číslo *"
                     class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                     required
                   />
@@ -90,22 +96,24 @@
               <!-- Type of inquiry -->
               <div>
                 <select
+                  name="Typ dotazu"
                   class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                   required
                 >
-                  <option value="">Type of inquiry *</option>
-                  <option value="sales">I'd like to contact sales</option>
-                  <option value="support">I'd like to contact support</option>
-                  <option value="admin">I'd like to contact admin</option>
-                  <option value="other">Other</option>
+                  <option value="">Typ dotazu *</option>
+                  <option value="Prodej">Rád bych kontaktoval prodej</option>
+                  <option value="Podpora">Rád bych kontaktoval podporu</option>
+                  <option value="Admin">Rád bych kontaktoval administrátora</option>
+                  <option value="Jine">Jiné</option>
                 </select>
               </div>
 
               <!-- Message -->
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2"> Message * </label>
+                <label class="block text-sm font-medium text-gray-700 mb-2"> Zpráva * </label>
                 <textarea
-                  placeholder="Your message"
+                  name="Zprava"
+                  placeholder="Vaše zpráva"
                   rows="4"
                   class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white resize-none"
                   required
@@ -116,17 +124,21 @@
               <div class="space-y-4">
                 <div class="flex items-start">
                   <input
+                    name="Zasilani"
                     type="checkbox"
                     id="communications"
+                    required
                     class="mt-1 h-4 w-4 text-[#f5a623] focus:ring-[#f5a623] border-black rounded"
                   />
                   <label for="communications" class="ml-3 text-sm text-gray-700">
-                    I agree to receive communications from OtelApps *
+                    Souhlasím se zasíláním sdělení od OtelApps
+                    <span class="text-red-500">*</span>
                   </label>
                 </div>
 
                 <div class="flex items-start">
                   <input
+                    name="Podminky"
                     type="checkbox"
                     id="terms"
                     class="mt-1 h-4 w-4 text-[#f5a623] focus:ring-[#f5a623] border-black rounded"
@@ -134,11 +146,11 @@
                     required
                   />
                   <label for="terms" class="ml-3 text-sm text-gray-700">
-                    I accept the
-                    <a href="#" class="text-gray-700 underline">Terms and Conditions</a>
-                    and the
-                    <a href="#" class="text-gray-700 underline">Privacy Policy</a>
-                    *
+                    Příjmám
+                    <a href="#" class="text-black underline font-semibold">Obchodní podmínky</a>
+                    a
+                    <a href="#" class="text-black underline font-semibold">Zásady ochrany osobních údajů</a>
+                    <span class="text-red-500">*</span>
                   </label>
                 </div>
               </div>
@@ -146,9 +158,9 @@
               <!-- Submit Button -->
               <button
                 type="submit"
-                class="w-full bg-[#f5a623] hover:bg-[#e0941a] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200"
+                class="w-full sm:w-[75%] lg:w-[50%] bg-[#ffa500] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
               >
-                Submit
+                Požádat o demo
               </button>
             </form>
           </div>

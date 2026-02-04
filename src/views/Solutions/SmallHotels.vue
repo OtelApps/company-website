@@ -5,15 +5,15 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
-            <h1 class="text-4xl lg:text-5xl leading-tight">Elevate the small hotel experience</h1>
+            <h1 class="text-4xl lg:text-5xl leading-tight">Vyšší úroveň zážitku pro menší hotely</h1>
             <p class="text-lg text-gray-700 leading-relaxed">
-              Modernize your small hotel operations with Mews PMS. Reach the right guests, automate
-              manual tasks and enjoy total flexibility to focus on running your property your way.
+              Modernizujte svůj provoz s Otel Apps. Automatizujte rutinu, oslovte správné hosty 
+              a získejte svobodu řídit svůj hotel po svém.
             </p>
             <button
-              class="bg-[#f5a623] hover:bg-orange-400 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 cursor-pointer"
+              class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Book a Demo
+              Vyzkoušet demo-verzi
             </button>
           </div>
 
@@ -26,9 +26,8 @@
     </section>
 
     <Advantages
-      title="Performance, Simplicity, and Flexibility in One System"
-      subtitle="Our Property Management System (PMS) simplifies daily operations, reduces manual
-                  labor, and improves the guest journey from booking to check-out."
+      title="Výkon, jednoduchost a flexibilita v jednom systému"
+      subtitle="Náš PMS zjednodušuje každodenní provoz, omezuje manuální rutinu a zlepšuje cestu hosta od rezervace až po odjezd."
       :features="smallHotelsAdvantages"
       background-color="bg-[#f4f4f4]"
     />
@@ -45,11 +44,11 @@
           <!-- Right content: title, subtitle, features -->
           <div class="lg:col-span-3">
             <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Key Functions for Small Hotels
+              Klíčové funkce pro malé a střední hotely
             </h2>
             <p class="text-gray-700 text-lg mb-8 max-w-2xl">
-              A comprehensive toolkit to manage your property efficiently, leaving you more time for
-              your guests.
+              Komplexní sada nástrojů pro efektivní správu vašeho hotelu. Získejte systém, který se postará o každodenní operativu, 
+              a věnujte svůj drahocenný čas tomu, co udělá váš hotel skutečně výjimečným, osobní péčí o vaše hosty.
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5">
@@ -79,18 +78,12 @@
     </section>
 
     <HowItWorks
-      title="Built for Simplicity and Flexibility"
-      subtitle="Our cloud-native platform is intuitive and fully customizable to fit your needs. No technical expertise required."
+      title="Navrženo pro jednoduchost a flexibilitu"
+      subtitle="Věříme, že technologie by vám měla cestu usnadňovat, nikoli ji komplikovat. Naše cloudová platforma je od základu navržena jako intuitivní nástroj, 
+      který si plně přizpůsobíte svým potřebám."
       :steps="smallHotelsWork"
       :image="image3"
       image-alt="Small Hotels obrázek"
-    />
-
-    <Benefits
-      title="The Impact on Your Operations"
-      :items="smallHotelsBenefits"
-      :rows="1"
-      :columns="3"
     />
   </main>
 </template>
@@ -117,109 +110,91 @@ export default {
       image3: image3,
       smallHotelsAdvantages: [
         {
-          title: 'Save Time',
-          description: 'Automate repetitive tasks and free up your team to focus on guests.',
+          title: 'Ušetřete čas',
+          description: 'Automatizujte rutinu a zbavte svůj tým administrativy. Dejte jim prostor soustředit se na to nejdůležitější na vaše hosty.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Better Control',
+          title: 'Větší kontrola',
           description:
-            'Manage reservations, rates, and housekeeping from a single, intuitive dashboard.',
+            'Mějte správu rezervací, cenotvorbu i koordinaci úklidu plně ve svých rukou. Díky jednomu intuitivnímu rozhraní vidíte vše podstatné okamžitě a na jednom místě.',
           icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
         },
         {
-          title: 'Increase Revenue',
-          description: 'Optimize pricing and offer add-ons to maximize profitability.',
+          title: 'Navyšte své tržby a ziskovost',
+          description: 'Maximalizujte svůj výnos díky dynamické cenotvorbě a cílenému prodeji doplňkových služeb. Nabízejte hostům víc právě tehdy, kdy to nejvíce ocení.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
         {
-          title: 'Better Guest Experience',
-          description: 'Faster check-ins, seamless payments, and direct communication.',
+          title: 'Zážitek hostů na prvním místěe',
+          description: 'Nabídněte jim rychlý check-in bez front, hladké placení a možnost okamžité komunikace s vaším týmem.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
         {
-          title: 'Faster Checkin-in/out',
-          description: 'Offer self-service kiosks and mobile solutions for guest convenience.',
+          title: 'Rychlejší check-in a check-out bez front',
+          description: 'Nabídněte hostům komfort samoobslužných kiosků a mobilního check-inu. Zrychlete provoz recepce a dopřejte hostům snadný přístup k jejich pokojům.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
         {
-          title: 'Automated Processes',
-          description: 'From booking to housekeeping, streamline your entire workflow.',
+          title: 'Automatizace procesů',
+          description: 'Propojte celý svůj hotel – od rezervací po úklid – do jednoho plynulého toku práce. Minimalizujte chyby a maximalizujte efektivitu svého týmu.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
       ],
       keyFunctions: [
         {
-          title: 'Cloud-Native Access:',
-          description: 'Manage your hotel from anywhere, anytime.',
+          title: 'Cloudový přístup:',
+          description: 'Řiďte svůj hotel odkudkoli a kdykoli. S cloudovým řešením máte veškerá data a kontrolu nad provozem neustále ve svých rukou.',
           icon: 'M3 3h14a1 1 0 011 1v9a2 2 0 01-2 2H6l-3 3V4a1 1 0 011-1z',
         },
         {
-          title: 'Rate Management:',
-          description: 'Flexible pricing and automatic demand response.',
+          title: 'Přímé rezervace:',
+          description: 'Získejte více objednávek napřímo a zvyšte své zisky díky integrovanému prodeji doplňkových služeb hned při rezervaci.',
           icon: 'M4 13h12v2H4v-2zm0-4h12v2H4V9zm0-4h12v2H4V5z',
         },
         {
-          title: 'Reservation Engine:',
-          description: 'Drive direct bookings and offer add-ons.',
+          title: 'Inteligentní správa rezervací:',
+          description: 'Přehledná časová osa, snadné přiřazování pokojů a okamžitý náhled na celkovou obsazenost. Vše intuitivně na jednom místě.',
           icon: 'M2 5a2 2 0 012-2h12a2 2 0 012 2v10H2V5zm3 3h10v2H5V8z',
         },
         {
-          title: 'Integrated Secure Payments:',
-          description: 'Simple and secure transactions.',
+          title: 'Samoobslužná řešení:',
+          description: 'Nabídněte hostům komfort v podobě mobilního check-inu a samoobslužných kiosků. Rychlé odbavení bez front a zbytečného čekání.',
           icon: 'M4 6h12v8H4V6zm2 2v4h8V8H6z',
         },
         {
-          title: 'Reservation Management:',
-          description: 'Timeline view, room assignment, and overview.',
+          title: 'Chytré řízení cen a prodejů:',
+          description: 'Flexibilní správa cen a automatická reakce na poptávku.',
           icon: 'M6 2h8v2H6V2zM4 6h12v10H4V6z',
         },
         {
-          title: 'Housekeeping Management:',
-          description: 'Real-time updates and smart scheduling.',
+          title: 'Integrované a bezpečné platby:',
+          description: 'Jednoduché a bezpečné transakce.',
           icon: 'M3 10h14v2H3v-2zm0 4h14v2H3v-2z',
         },
         {
-          title: 'Self-Service Solutions:',
-          description: 'Kiosks and mobile check-in/out.',
+          title: 'Efektivní správa úklidů:',
+          description: 'Okamžitý přehled o stavu pokojů v reálném čase a automatické plánování prioritních úklidů.',
           icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
         },
         {
-          title: 'Reporting & Analytics:',
-          description: 'Make data-driven decisions.',
+          title: 'Reporty & analytika:',
+          description: 'Dělejte rozhodnutí podložená skutečnými daty.',
           icon: 'M3 14h3V6H3v8zm5 0h3V2H8v12zm5 0h3V9h-3v5z',
         },
       ],
       smallHotelsWork: [
         {
-          title: 'Easy to Learn',
-          description: 'Intuitive interface, dashboards, and role-based training.',
+          title: 'Hravě to zvládne každý',
+          description: 'Intuitivní rozhraní, přehledné dashboardy a školení šité na míru konkrétním rolím v týmu.',
         },
         {
-          title: 'Extensive Customization',
-          description: 'Connect with over 1000+ integrations and customize to your brand.',
+          title: 'Systém, který roste s vámi',
+          description: 'Propojte se s velkým množstvím aplikací a přizpůsobte si vzhled i funkce přesně své potřebě.',
         },
         {
-          title: 'OTA Connection',
-          description: 'Connect to distribution channels to manage all your bookings in one place.',
-        },
-      ],
-      smallHotelsBenefits: [
-        {
-          title: 'Time Saved on Admin',
-          description:
-            'Automation of daily tasks leads to significant time savings for your staff.',
-          iconText: '40%',
-        },
-        {
-          title: 'Increased Conversion',
-          description: 'Effortless ordering leads to more sales and higher average checks.',
-          iconText: '15%',
-        },
-        {
-          title: 'New Revenue Channels',
-          description: 'Enable ordering from anywhere, not just the restaurant or bar.',
-          iconText: '95%',
+          title: 'Všechny rezervace pod jednou střechou',
+          description: 'Připojte se k distribučním kanálům a spravujte vše z jednoho místa.',
         },
       ],
     }

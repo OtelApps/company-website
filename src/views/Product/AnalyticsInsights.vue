@@ -6,17 +6,17 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
             <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Make data-driven decisions
+              Dělejte rozhodnutí na základě reálných dat
             </h1>
             <p class="text-lg text-gray-700 leading-relaxed">
-              Obtain real-time statistics on how your services are being used, so you know what
-              works well and what needs to be improved. You'll make better decisions that help your
-              business grow.
+              Získejte okamžitý přehled o tom, jak hosté využívají vaše služby. Díky statistikám přesně zjistíte, 
+              co funguje skvěle a kde je prostor pro zlepšení. S jasnými daty v ruce učiníte moudřejší rozhodnutí, 
+              která podpoří růst vašeho hotelu.
             </p>
             <button
-              class="bg-[#f5a623] hover:bg-orange-400 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 cursor-pointer"
+              class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Book a Demo
+              Vyzkoušet demo-verzi
             </button>
           </div>
 
@@ -29,10 +29,9 @@
     </section>
 
     <Advantages
-      title="Transform Data into Decisions"
-      subtitle="Our Analytics & Insights module gives you a clear overview of your hotel's
-                performance, helping you identify trends and optimize your offerings for maximum
-                impact."
+      title="Proměňte data v chytrá rozhodnutí"
+      subtitle="Analytika vám poskytnou dokonalý vhled do chodu vašeho hotelu. Pomůžou vám včas odhalit trendy, 
+      lépe porozumět chování hostů a optimalizovat vaši nabídku tak, abyste dosáhli maximálních výsledků a vyššího zisku."
       :features="analyticsInsightsAdvantages"
       background-color="bg-[#f4f4f4]"
     />
@@ -40,32 +39,26 @@
     <Features
       :image-src="image2"
       :image-alt="'Analytics & Insights Obrázek'"
-      title="Key Features"
-      description="Get the insights you need to grow your business with our powerful analytics toolkit."
+      title="Klíčové funkce pro váš růst"
+      description="Získejte vhled, který posunou váš hotel vpřed. Naše výkonné analytické nástroje vám poskytnou přesně ta data, 
+      která potřebujete pro strategická rozhodnutí a trvalý rozvoj vašeho hotelu."
       :features="analyticsInsightsFeatures"
     />
 
     <HowItWorks
-      title="How It Works"
-      subtitle="Our platform simplifies data analysis, making it easy to access and act on powerful insights."
+      title="Jak to funguje?"
+      subtitle="Naše platforma mění složitou analýzu dat na srozumitelný a snadný proces. Získejte snadný přístup ke klíčovým informacím, 
+      které vám umožní okamžitě reagovat a dělat rozhodnutí, která posunou váš hotel vpřed."
       :steps="analyticsInsightsWork"
       :image="image3"
       image-alt="Analytics & Insights Obrázek"
     />
 
     <Benefits
-      title="Benefits for Your Hotel Management"
+      title="Výhody pro váš hotelový management"
       :items="analyticsInsightsBenefits"
       :rows="2"
       :columns="3"
-    />
-
-    <Improvement
-      title="Trusted by Industry Leaders"
-      subtitle="Leading hotel brands are leveraging our analytics to drive growth and enhance guest experiences."
-      :stats="analyticsInsightsImprovementStats"
-      :features="analyticsInsightsImprovementFeatures"
-      background-color="bg-[#f4f4f4]"
     />
   </main>
 </template>
@@ -96,20 +89,20 @@ export default {
       image3: image3,
       analyticsInsightsAdvantages: [
         {
-          title: 'Real-Time Monitoring',
-          description: 'Track service usage and revenue as it happens with live dashboards.',
+          title: 'Okamžitý přehled',
+          description: 'Sledujte zájem o své služby a aktuální tržby v momentě, kdy vznikají. Mějte okamžitý a přesný přehled o dění v hotelu.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Trend Identification',
+          title: 'Rozpoznejte trendy',
           description:
-            'Analyze historical data to spot patterns and predict future guest behavior.',
+            'Analyzujte historická data a odhalte skryté vzorce v chování svých hostů. Předvídejte budoucí trendy a přizpůsobte svou nabídku i kapacity dříve, než to udělá konkurence.',
           icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
         },
         {
-          title: 'Advanced Filtering',
+          title: 'Hloubková analýza a segmentace',
           description:
-            'Segment data by time, service type, or guest demographics for granular analysis.',
+            'Ponořte se do detailů, které rozhodují o vašem zisku. Segmentujte data podle času, typu služby nebo demografie hostů. Získejte tak dokonalý přehled o tom, kdo jsou vaši zákazníci a co přesně v vyhledávají.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
       ],
@@ -117,108 +110,71 @@ export default {
         {
           title: 'Real-Time Dashboards: ',
           description:
-            'Monitor service usage, revenue streams, and guest satisfaction at a glance.',
+            'Sledujte využívání služeb, toky tržeb a spokojenost hostů v reálném čase.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Hotel Comparison: ',
-          description: 'Benchmark performance across different properties in your portfolio.',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'CSV Report Downloads: ',
+          title: 'Export dat do CSV: ',
           description:
-            'Easily export your data for offline analysis or use in other business intelligence tools.',
+            'Snadno exportujte svá data pro offline analýzu nebo pro použití v dalších nástrojích.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'User Permissions: ',
-          description: 'Control who has access to sensitive data with role-based permissions.',
+          title: 'Uživatelská oprávnění a role: ',
+          description: 'Mějte plnou kontrolu nad tím, kdo má přístup k citlivým datům díky definovaným rolím.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'API Integration: ',
+          title: 'Integrace pomoci API: ',
           description:
-            'Connect StayApp data with your existing systems for a unified view of your operations.',
+            'Propojte data z Otel Apps se svými stávajícími systémy (PMS, CRM, ERP) pro ucelený pohled na provoz.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
       ],
       analyticsInsightsWork: [
         {
-          title: 'Clear Dashboards',
-          description: 'Data is collected and visualized in real-time on intuitive dashboards.',
+          title: 'Přehledný dashboard',
+          description: 'Data z celého hotelu se automaticky sbírají a vizualizují v reálném čase na intuitivní nástěnce.',
         },
         {
-          title: 'Filter & Analyze',
+          title: 'Chytrá filtrace a analýza',
           description:
-            'Apply filters to drill down into specific areas of your business and uncover insights.',
+            'Používejte filtry pro hloubkovou analýzu konkrétních oblastí. Odhalte skryté souvislosti a získejte cenné vhledy do chodu hotelu.',
         },
         {
-          title: 'Download & Integrate',
-          description: 'Export reports or use our API to externalize data for further analysis.',
+          title: 'Export a integrace',
+          description: 'Snadno exportujte reporty pro další zpracování nebo využijte naše API pro propojení s vašimi dalšími systémy.',
         },
         {
-          title: 'Secure Access',
+          title: 'Zabezpečený přístup',
           description:
-            'Manage user permissions to ensure the right people have access to the right data.',
+            'Spravujte uživatelská oprávnění tak, aby ke konkrétním a citlivým datům měli přístup jen ti správní lidé.',
         },
       ],
       analyticsInsightsBenefits: [
         {
-          title: 'Better Decision-Making',
-          description: 'Use concrete data to guide your business and operational strategies.',
+          title: 'Lepší Decision-Making',
+          description: 'Přestaňte se spoléhat na odhady a začněte budovat úspěch svého hotelu na datech, která máte díky Otel Apps neustále k dispozici.',
         },
         {
-          title: 'Clear Performance Overview',
-          description: 'Get a holistic view of your performance across all services.',
+          title: 'Jasný přehled o výsledcích',
+          description: 'Získejte ucelený pohled na výkonnost celého hotelu. Sledujte, jak se daří jednotlivým službám a odhalte skrytý potenciál svého hotelu.',
         },
         {
-          title: 'Optimized Offerings',
-          description: 'Understand what your guests want and tailor your services accordingly.',
+          title: 'Nabídka ušitá na míru',
+          description: 'Zjistěte, co vaši hosté skutečně milují, a přizpůsobte své služby jejich přáním.',
         },
         {
-          title: 'Strategic Planning',
-          description: 'Identify long-term trends to inform future investments and growth plans.',
+          title: 'Strategické plánování',
+          description: 'Dívejte se dál než jen na příští sezónu. Identifikujte dlouhodobé trendy, které se stanou pevným základem pro vaše budoucí investice a plány růstu.',
         },
         {
-          title: 'Controlled Data Access',
-          description: 'Ensure data security with granular user permissions and controls.',
+          title: 'Absolutní kontrola nad přístupem',
+          description: 'Zajistěte stoprocentní bezpečnost svých informací. Mějte pod kontrolou, kdo může nahlížet do citlivých dat nebo finančních reportů, a chraňte své firemní know-how i soukromí svých hostů.',
         },
         {
-          title: 'Easy Integration',
-          description: 'Seamlessly connect with your existing hotel management systems.',
-        },
-      ],
-      analyticsInsightsImprovementStats: [
-        {
-          value: '15%',
-          label: 'Increase in ancillary revenue',
-        },
-        {
-          value: '20%',
-          label: 'Improvement in operational efficiency',
-        },
-        {
-          value: '+10pts',
-          label: 'Increase in Guest Satisfaction Score',
-        },
-      ],
-      analyticsInsightsImprovementFeatures: [
-        {
-          title: 'Hotel Directory',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Task Manager',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Instant Feedback',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Mobile Ordering',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+          title: 'Hladká integrace bez komplikací',
+          description: 'Bezproblémové propojení s vašimi stávajícími hotelovými systémy.',
         },
       ],
     }

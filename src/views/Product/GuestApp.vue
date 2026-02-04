@@ -6,18 +6,17 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
             <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Improve your guest<br />
-              engagement
+              Zlepšete komunikaci a budujte vztahy s vašimi hosty
             </h1>
             <p class="text-lg text-gray-700 leading-relaxed">
-              Your customers are already using their phones for everything. STAY gives them broad
-              access to all your services: a great opportunity to increase their engagement with
-              your hotel.
+              Vaši hosté už dnes telefonem ovládají a komunikují s celým svým svět. S OTEL APPS jim 
+              otevřete dveře ke všem vašim službám přímo v jejich mobilu – a získáte jedinečnou šanci, 
+              jak s nimi vybudovat silnější vztah.
             </p>
             <button
-              class="bg-[#f5a623] hover:bg-orange-400 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 cursor-pointer"
+              class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Book a Demo
+              Vyzkoušet demo-verzi
             </button>
           </div>
 
@@ -33,11 +32,11 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Your services will be accessible anytime, anywhere
+            Vaše služby budou dostupné kdykoliv a kdekoliv pro vaše hosty.
           </h2>
           <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-            Discover the key features that make the Otel Apps solution an indispensable tool for
-            modern hotels.
+            Objevte klíčové funkce a hlavní výhody, díky kterým je Otel Apps nepostradatelným partnerem 
+            pro hotely, bez kterého se moderní hotelový provoz neobejde.
           </p>
         </div>
 
@@ -49,9 +48,9 @@
                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Hotel Directory</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Informace o hotelu</h3>
             <p class="text-gray-600">
-              Provide a comprehensive overview of your hotel's information and amenities.
+              Poskytněte hostům kompletní přehled o vašem hotelu, vybavení a dostupných službách.
             </p>
           </div>
 
@@ -64,9 +63,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Spa Booking</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Wellness a procedury</h3>
             <p class="text-gray-600">
-              Allow guests to seamlessly reserve wellness services and treatments.
+              Jednoduchý způsob, jak si objednat relaxaci. Hosté si své procedury zarezervují snadno a bez čekání.
             </p>
           </div>
 
@@ -79,9 +78,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Mobile Ordering</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Mobilní objednávky</h3>
             <p class="text-gray-600">
-              Enable guests to order food and beverages directly from their phones.
+              Dejte hostům možnost objednat si jídlo, nápoje a další produkty odkudkoliv, přímo z jejich chytrého telefonu.
             </p>
           </div>
 
@@ -96,9 +95,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Task Manager</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Task management</h3>
             <p class="text-gray-600">
-              Efficiently manage and track guest requests for prompt service.
+              Efektivně řiďte a sledujte požadavky hostů. Zajistěte bleskový servis a mějte dokonalý přehled o každém úkolu.
             </p>
           </div>
 
@@ -111,9 +110,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Restaurant Reservations</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Rezervace stolů</h3>
             <p class="text-gray-600">
-              Let guests book a table at your hotel's restaurants with ease.
+              Umožněte hostům zarezervovat si stůl v hotelové restauraci či baru snadno, rychle a bez nutnosti kamkoliv volat.
             </p>
           </div>
 
@@ -126,9 +125,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Cabana Bookings</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Trip planner</h3>
             <p class="text-gray-600">
-              A simple way for guests to reserve poolside or beachside cabanas.
+              Poskytněte hostům nástroj k plánování jejich pobytu s tipy na výlety a místa v hotelovém okolí.
             </p>
           </div>
 
@@ -143,9 +142,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Instant Feedback</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Okamžitá zpětná vazba</h3>
             <p class="text-gray-600">
-              Gather real-time feedback to quickly address issues and improve service.
+              Mějte neustálý přehled o spokojenosti svých hostů. Díky okamžitým podnětům můžete ihned reagovat a neustále zvyšovat úroveň svých služeb.
             </p>
           </div>
 
@@ -158,9 +157,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Analytics & Insights</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Analytika a statistiky</h3>
             <p class="text-gray-600">
-              Make data-driven decisions with powerful analytics on guest behavior.
+              Dělejte správná rozhodnutí podložená reálnými daty. Díky pokročilé analytice detailně porozumíte chování a preferencím svých hostů
             </p>
           </div>
 
@@ -173,10 +172,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">And Many More...</h3>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">A mnohem více</h3>
             <p class="text-gray-600">
-              Concierge Chat, Service Reservations, Destination Guides, Upselling tools, Kids Club,
-              and more.
+              Rezervace služeb, Nástroje pro zvýšení tržeb, Live chat + AI virtuální recepční, Online check-in + check-out, Virtuální pokojová karta, a další...
             </p>
           </div>
         </div>
@@ -188,15 +186,15 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Flexible Access for Every Guest
+            Moderní a srozumitelný přístup pro každého hosta
           </h2>
           <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-            We provide multiple ways for your guests to access the app, ensuring a seamless
-            experience for everyone.
+            Vaše služby jsou dostupné odkudkoliv. Díky různým možnostem přístupu k aplikaci garantujeme, 
+            že se k vašemu digitálnímu obsahu dostane každý snadno a bez čekání.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- Web App -->
           <div
             class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md hover:bg-[#f9fafb] transition-shadow text-center"
@@ -212,10 +210,9 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Web App</h3>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Webová aplikace pro hosty (coming soon)</h3>
             <p class="text-gray-600">
-              No download required. Guests can access all features instantly through any web
-              browser.
+              Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč a všechny služby hotelu mají okamžitě na dosah ruky.
             </p>
           </div>
 
@@ -232,10 +229,10 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Native iOS & Android App</h3>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Mobilní aplikace pro iOS a Android</h3>
             <p class="text-gray-600">
-              Offer a fully branded native app with exclusive features like Mobile Room Key for a
-              premium experience.
+              Nabídněte hostům aplikaci ve vašem vlastním designu. S exkluzivními funkcemi, jako je mobilní virtuální pokojový klíč od pokoje, 
+              posunete zážitek z pobytu na tu nejvyšší úroveň.
             </p>
           </div>
 
@@ -254,10 +251,29 @@
                 />
               </svg>
             </div>
-            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Embedded Integration</h3>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Integrace na míru</h3>
             <p class="text-gray-600">
-              Already have any feature that our Ecosystem provides? We can tailor the whole
-              solutions to your needs.
+              Vážíme si vašich současných nástrojů. Otel Apps dokážeme plně přizpůsobit tak, 
+              aby doplnily váš ekosystém a vytvořily jeden dokonale fungující celek.
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md hover:bg-[#f9fafb] transition-shadow text-center"
+          >
+            <div
+              class="w-16 h-16 bg-[#f5a623] rounded-lg flex items-center justify-center mx-auto mb-6"
+            >
+              <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Webová aplikace pro hotel</h3>
+            <p class="text-gray-600">
+              Mějte přehled o chodu celého hotelu a přáních vašich hostů na jednom místě.
             </p>
           </div>
         </div>
@@ -270,11 +286,10 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-8">
             <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Why Choose the Otel Apps Mobile solution?
+              Proč zvolit mobilní řešení od Otel Apps?
             </h2>
             <p class="text-lg text-gray-700 leading-relaxed">
-              We are dedicated to helping you create unforgettable guest experiences through
-              innovative technology.
+              Nejsme jen další aplikace v telefonu. Pomůžeme vám automatizovat procesy, zvýšit tržby a zajistit, aby se k vám hosté rádi vraceli.
             </p>
 
             <!-- Benefits List -->
@@ -293,10 +308,10 @@
                   </svg>
                 </div>
                 <div>
-                  <h3 class="text-xl font-semibold text-gray-900 mb-2">Boost Efficiency</h3>
+                  <h3 class="text-xl font-semibold text-gray-900 mb-2">Vyšší efektivita</h3>
                   <p class="text-gray-600">
-                    Automate requests and services to free up your staff for more meaningful guest
-                    interactions.
+                    Automatizujte požadavky a služby, abyste uvolnili ruce svému personálu. Ten se pak může plně soustředit na to 
+                    nejdůležitější – osobní a smysluplnou péči o hosty.
                   </p>
                 </div>
               </div>
@@ -315,9 +330,10 @@
                   </svg>
                 </div>
                 <div>
-                  <h3 class="text-xl font-semibold text-gray-900 mb-2">Embrace Digitization</h3>
+                  <h3 class="text-xl font-semibold text-gray-900 mb-2">Cesta k digitalizaci</h3>
                   <p class="text-gray-600">
-                    Go paperless to save costs and appeal to environmentally conscious travelers.
+                    Zbavte se zbytečných papírů. Snížíte své náklady a zároveň oslovíte moderní cestovatele, 
+                    kterým záleží na ekologii, udržitelnosti a technologiích.
                   </p>
                 </div>
               </div>
@@ -337,10 +353,10 @@
                 </div>
                 <div>
                   <h3 class="text-xl font-semibold text-gray-900 mb-2">
-                    Enhance the Guest Experience
+                    Lepší zážitek pro hosty
                   </h3>
                   <p class="text-gray-600">
-                    Provide the convenience and personalization modern guests expect and deserve.
+                    Nabídněte pohodlí a personalizaci, kterou dnešní hosté nejen očekávají, ale i vyžadují. Dopřejte jim servis, který odpovídá digitálnímu věku.
                   </p>
                 </div>
               </div>
@@ -360,10 +376,10 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Explore More from Otel Apps
+            Objevte další možnosti s Otel Apps
           </h2>
           <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-            Our platform is built to integrate and grow with your hotel.
+            Naše platforma je navržena tak, aby se snadno propojila s vašimi systémy a rostla společně s vaším podnikáním.
           </p>
         </div>
 
@@ -383,8 +399,8 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Integrations</h3>
-            <p class="text-gray-600">Connect with the tools you already use.</p>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Integrace</h3>
+            <p class="text-gray-600">Propojte se s nástroji, které už denně používáte.</p>
           </div>
 
           <!-- Case Studies -->
@@ -402,8 +418,8 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Case Studies</h3>
-            <p class="text-gray-600">See how other hotels succeed with Otel Apps.</p>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Příběhy úspěchu</h3>
+            <p class="text-gray-600">Podívejte se, jak s Otel Apps rostou a prosperují ostatní hotely</p>
           </div>
 
           <!-- Blog & Resources -->
@@ -421,8 +437,8 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Blog & Resources</h3>
-            <p class="text-gray-600">Get insights, tips, and product updates.</p>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Blog a inspirace</h3>
+            <p class="text-gray-600">Mějte přehled o tom, co je nového z oboru a aktuální informace o našich produktech.</p>
           </div>
 
           <!-- Support Center -->
@@ -438,8 +454,8 @@
                 />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Support Center</h3>
-            <p class="text-gray-600">Find documentation and get help.</p>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Zákaznická podpora</h3>
+            <p class="text-gray-600">Jsme tu pro vás. Projděte si naše návody, nebo nás kontaktujte, pokud potřebujete s čímkoliv poradit.</p>
           </div>
         </div>
       </div>

@@ -8,12 +8,13 @@
       <!-- Right side - Text -->
       <div class="flex-auto flex-col basis-1/2">
         <h1 class="text-[2.5rem] sm:text-[3rem] lg:text-[4rem] font-bold leading-tight">
-          Welcome to Otelapps
+          Vítejte v Otel Apps: Příběh naší vize
         </h1>
         <p class="font-normal w-full lg:w-[82%] mt-4">
-          Our founders Lukáš Milt, Michal Krátký and IT manager Michal Vetiška started OtelApps in
-          2024 - Driven by a passion for technology and service, our mission is to transform the
-          hospitality industry with cloud solutions that make it more rewarding for everyone.
+          Otel Apps založili v roce 2024 Lukáš Milt, Michal Krátký a IT manažer Michal Vetiška. Spojila nás vášeň pro moderní 
+          technologie a touha po dokonalém servisu. Naším posláním je od základu proměnit hotelnictví pomocí inovativních řešení. 
+          Tvoříme ekosystém, díky kterému je každodenní provoz efektivnější pro hoteliéry a pobyt nezapomenutelný pro hosty. 
+          Věříme, že technologie mají přinášet více hodnoty a radosti všem.
         </p>
       </div>
 
@@ -38,24 +39,24 @@
       <!-- Left side - Text -->
       <div class="flex-auto flex-col basis-1/2">
         <h1 class="text-[2.5rem] sm:text-[3rem] lg:text-[4rem] font-bold leading-tight">
-          Who we serve
+          Pro koho tvoříme Otel Apps?
         </h1>
 
         <div class="mt-6 lg:mt-24 lg:mb-16">
-          <h2 class="font-bold text-xl">Hoteliers</h2>
+          <h2 class="font-bold text-xl">Hoteliéři</h2>
           <p class="font-normal w-full lg:w-[82%] mt-4">
-            The hoteliers who choose Mews share our passion for innovation and they don’t accept the
-            status quo. They’re using our technology to rethink physical spaces, services and guest
-            experiences.
+            Hoteliéři, kteří si vybrali Otel Apps, sdílejí naši vášeň pro inovace a digitalizaci. Využívají naše technologie k tomu, 
+            by zcela přehodnotili využití fyzického prostoru, úroveň služeb a celkový zážitek hostů. Jsou to lídři, kteří vědí, 
+            že budoucnost hospitality patří těm, kteří se nebojí digitální transformace a inovací
           </p>
         </div>
 
         <div class="mt-6 lg:mt-24 lg:mb-16">
-          <h2 class="font-bold text-xl">Guests</h2>
+          <h2 class="font-bold text-xl">Hosté</h2>
           <p class="font-normal w-full lg:w-[82%] mt-4">
-            Hospitality brands are heavily scrutinized. The day a guest checks-out, their rating
-            goes online. Ultimately we’re designing OtelApps for our customer’s customer because
-            every guest experience must be remarkable.
+            Hotely jsou dnes pod neustálým tlakem. Vteřinu po check-outu už hodnocení hosta míří na internet. Proto Otel Apps navrhujeme primárně 
+            pro, zákazníky našich zákazníků. Naším cílem je, aby každý digitální dotek přispěl k tomu, že zážitek hosta bude 
+            jednoduše výjimečný - od první rezervace až po finální recenzi.
           </p>
         </div>
       </div>
@@ -67,23 +68,23 @@
       <!-- Right side - Text -->
       <div class="flex-auto flex-col basis-1/2">
         <h1 class="text-[2.5rem] sm:text-[3rem] lg:text-[4rem] font-bold leading-tight">
-          Our team
+          Náš tým
         </h1>
 
-        <p class="mt-4 mb-6">Proudly headquartered in Prague.</p>
+        <p class="mt-4 mb-6">S hrdostí sídlíme v Praze, ale naše vize nezná hranic.</p>
 
         <div>
-          <h2 class="font-bold text-2xl">Who are we?</h2>
+          <h2 class="font-bold text-2xl">Kdo jsme?</h2>
           <p class="font-normal w-full lg:w-[82%] mt-4">
-            We get asked a lot: what makes us different at Mews? Well, we’re insiders - from global
-            hotel groups, from management training programs, from luxury brands. But we’re also
-            outsiders - developers, product managers, UX experts. It’s a killer combination.
+            V čem je OtelApps jiný? Odpověď je jednoduchá.
+            Jsme skupina nadšenců do technologií, s vizí v digitalizaci hotelnictví a cestovního ruchu. Vnímáme, že digitalizace světa je nevyhnutelnou budoucností 
+            a my jí chceme být součástí. Tato myšlenka nás přivedla k vývoji našeho sytému..
           </p>
           <p class="font-normal w-full lg:w-[82%] mt-4">
-            Why should you have to do a night audit every single night? Why don't your staff focus
-            on your guests? Why do you only let guests book overnight stays? Every day, our team
-            thinks about how to seamlessly connect people and services, and improve experiences,
-            through technology.
+            Proč byste měli každou noc trávit čas noční uzávěrkou? Proč se váš personál věnuje administrativě místo hostům? 
+            A proč by se u vás mělo jen přespávat, když váš prostor nabízí mnohem více možností?
+            Každý den přemýšlíme o tom, jak skrze technologie hladce propojit lidi se službami. Naším cílem je odbourat zbytečnou rutinu a vrátit do 
+            hotelnictví to nejdůležitější: skutečný zážitek a lidský kontakt.
           </p>
         </div>
       </div>
@@ -98,11 +99,12 @@
 
     <section class="mt-12 sm:mt-16 lg:mt-24">
       <h2 class="text-[2.5rem] sm:text-[3rem] lg:text-[4rem] font-bold leading-tight">
-        Culture & values
+        Kultura a hodnoty: DNA našeho týmu
       </h2>
       <p class="font-normal w-full lg:w-[70%] mt-4">
-        Our values are guiding principles. They’re a driving force behind our behavior and our
-        culture at OtelApps.
+        Naše hodnoty pro nás nejsou jen slova na papíře – jsou to principy, kterými každý den žijeme. Jsou hybnou silou našeho chování 
+        a tvoří samotné jádro kultury v Otel Apps. Tento vnitřní kompas nás vede při každém rozhodnutí, od vývoje nového řádku 
+        kódu až po komunikaci s našimi partnery. Díky nim budujeme technologie, které mají smysl, a vztahy, které jsou založeny na skutečné důvěře.
       </p>
 
       <div
@@ -115,9 +117,9 @@
             01
           </div>
           <div class="pl-20 md:pl-24">
-            <h3 class="font-semibold text-lg">Ambitious</h3>
+            <h3 class="font-semibold text-lg">Ambiciózní</h3>
             <p class="mt-3 text-[15px] leading-6 text-gray-700">
-              We believe that great technology can make the human experience better.
+              Nespokojíme se s průměrem, protože chceme být motorem růstu pro ty nejúspěšnější hotely na trhu.
             </p>
           </div>
         </div>
@@ -129,9 +131,9 @@
             02
           </div>
           <div class="pl-20 md:pl-24">
-            <h3 class="font-semibold text-lg">Resilient</h3>
+            <h3 class="font-semibold text-lg">Vizionáři</h3>
             <p class="mt-3 text-[15px] leading-6 text-gray-700">
-              We're tough. The workload might be heavy, but one foot in front of the other.
+              Neustále sledujeme trendy zítřka, abychom vám dodávali technologie, které zastarávání neznají.
             </p>
           </div>
         </div>
@@ -143,9 +145,9 @@
             03
           </div>
           <div class="pl-20 md:pl-24">
-            <h3 class="font-semibold text-lg">Curious</h3>
+            <h3 class="font-semibold text-lg">Odvážní</h3>
             <p class="mt-3 text-[15px] leading-6 text-gray-700">
-              We read, we discover, we ask questions, we challenge assumptions.
+              Nebojíme se bořit zažitá dogmata hospitality a hledat cesty tam, kde ostatní vidí jen překážky.
             </p>
           </div>
         </div>
@@ -157,9 +159,9 @@
             04
           </div>
           <div class="pl-20 md:pl-24">
-            <h3 class="font-semibold text-lg">Human</h3>
+            <h3 class="font-semibold text-lg">Lidští a otevření</h3>
             <p class="mt-3 text-[15px] leading-6 text-gray-700">
-              We will all make mistakes. The key is to learn, get feedback and improve.
+              Stavíme na upřímnosti a autentických vztazích, protože za každým skvělým kódem i hotelem stojí lidé.
             </p>
           </div>
         </div>
@@ -171,9 +173,9 @@
             05
           </div>
           <div class="pl-20 md:pl-24">
-            <h3 class="font-semibold text-lg">Open</h3>
+            <h3 class="font-semibold text-lg">Proklientský</h3>
             <p class="mt-3 text-[15px] leading-6 text-gray-700">
-              We share our experiences with one another. We believe in an open culture.
+              Váš úspěch je naším jediným měřítkem, proto tvoříme řešení, která skutečně řeší vaše každodenní výzvy.
             </p>
           </div>
         </div>

@@ -6,16 +6,16 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
             <h1 class="text-4xl lg:text-5xl leading-tight">
-              The Guest Experience OS for City Center Hotels
+              Guest Experience systém pro městské hotely
             </h1>
             <p class="text-lg text-gray-700 leading-relaxed">
-              Customers want a hassle-free stay and everything under control. Our digital solutions
-              will make this happen.
+              Dnešní hosté vyžadují pobyt bez starostí. Naše digitální řešení se postarají o to, aby každé jejich přání bylo splněno rychle, 
+              hladce a přesně tak, jak očekávají od moderního hotelu 21. století.
             </p>
             <button
-              class="bg-[#f5a623] hover:bg-orange-400 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 cursor-pointer"
+              class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Book a Demo
+              Vyzkoušet demo-verzi
             </button>
           </div>
 
@@ -31,16 +31,15 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            The City Hotel, Reimagined
+            Nová éra městských hotelů
           </h2>
           <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-            Offer a carefree stay for modern travelers. From seamless check-ins to instant room
-            service, StayApp transforms the guest journey, boosting satisfaction and your bottom
-            line.
+            Nabídněte moderním cestovatelům bezstarostný pobyt. Od hladkého odbavení po okamžitý servis, Otel Apps mění cestu hosta v zážitek, 
+            který zvyšuje spokojenost i vaše zisky.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div
             v-for="(feature, index) in cityCenterFeatures"
             :key="index"
@@ -71,10 +70,9 @@
 
           <!-- Right content: title, subtitle, features -->
           <div class="lg:col-span-3">
-            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">A Complete Ecosystem</h2>
+            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Ucelený ekosystém</h2>
             <p class="text-gray-700 text-lg mb-8 max-w-2xl">
-              StayApp is more than an app; it's a comprehensive operating system for your hotel,
-              connecting all your services in one place.
+              Otel Apps je víc než aplikace; je to komplexní operační systém pro váš hotel, který propojuje všechny vaše služby na jednom místě.
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5">
@@ -104,24 +102,21 @@
     </section>
 
     <HowItWorks
-      title="Seamless Implementation & Technology"
-      subtitle="Our flexible platform adapts to your needs, offering a frictionless experience for both guests and staff."
+      title="Hladká implementace a špičkové technologie"
+      subtitle="Naše flexibilní platforma se plně přizpůsobí specifickým potřebám vašeho hotelu. Nabízíme technologické řešení bez bariér, 
+      které zajišťuje naprostý komfort pro vaše hosty a maximální efektivitu pro váš personál."
       :steps="cityCenterWork"
       :image="image3"
       image-alt="City Center obrázek"
     />
 
     <Benefits
-      title="Designed for the Urban Traveler"
+      title="Navrženo pro rytmus velkoměsta"
+      subtitle="Nabídněte zážitek na míru hostům, kteří jsou neustále v pohybu velkoměsta. S Otel Apps mají vše potřebné okamžitě k dispozici. 
+      Otel Apps je navržen tak, aby odpovídal dynamickému životnímu stylu."
       :items="cityCenterBenefits"
       :rows="1"
       :columns="3"
-    />
-
-    <Improvement
-      title="Trusted by Leading City Hotels"
-      :stats="cityCenterImprovementStats"
-      background-color="bg-[#f4f4f4]"
     />
   </main>
 </template>
@@ -148,107 +143,100 @@ export default {
       image3: image3,
       cityCenterFeatures: [
         {
-          title: 'Eliminate Queues',
-          description: 'Reduce waiting times at the front desk and restaurants.',
+          title: 'Konec frontám a zbytečnému čekání',
+          description: 'Zkraťte čekací doby na recepci i v restauraci na úplné minimum. Dopřejte svým hostům plynulý zážitek bez zbytečných prostojů a nechte svůj personál zazářit tam, kde je to skutečně potřeba.',
           icon: 'M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 110-12 6 6 0 010 12zm1-7h2v2h-2V9zm-2 0H7v2h2V9z',
         },
         {
-          title: 'Empower Staff',
-          description: 'Free up your team to focus on high-value guest interactions.',
+          title: 'Podpora týmu',
+          description: 'Uvolněte svému týmu ruce, aby se mohl naplno věnovat tomu nejdůležitějšímu, budování osobních vztahů s hosty a poskytovaní špičkového servisu.',
           icon: 'M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z',
         },
         {
-          title: 'Increase Revenue',
-          description: 'Drive upselling and mobile orders with targeted promotions.',
-          icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
-        },
-        {
-          title: 'Digital Transformation',
-          description: 'Modernize your operations and meet guest expectations.',
+          title: 'Růst tržeb',
+          description: 'Podpořte doplňkový prodej a mobilní objednávky díky cíleným akcím.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
       ],
       keyFunctions: [
         {
-          title: 'Hotel Directory',
+          title: 'Digitální hotelový průvodce',
           icon: 'M3 3h14a1 1 0 011 1v9a2 2 0 01-2 2H6l-3 3V4a1 1 0 011-1z',
         },
         {
-          title: 'Room Service',
+          title: 'Room Service & Služby',
           icon: 'M4 13h12v2H4v-2zm0-4h12v2H4V9zm0-4h12v2H4V5z',
         },
         {
-          title: 'Destination Guide',
+          title: 'Průvodce destinací',
           icon: 'M4 6h12v8H4V6zm2 2v4h8V8H6z',
         },
         {
-          title: 'Task Manager',
+          title: 'Trip Planner',
           icon: 'M6 2h8v2H6V2zM4 6h12v10H4V6z',
         },
         {
-          title: 'QR/Mobile Ordering',
+          title: 'Task Manager & Provoz',
           icon: 'M2 5a2 2 0 012-2h12a2 2 0 012 2v10H2V5zm3 3h10v2H5V8z',
         },
         {
-          title: 'Gym/Spa Reservations',
+          title: 'Mobilní objednávky',
           icon: 'M3 10h14v2H3v-2zm0 4h14v2H3v-2z',
         },
         {
-          title: 'Analytics & Insights',
+          title: 'Rezervace Restaurace & Wellness & Gym',
+          icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+        },
+        {
+          title: 'Analytika a statistiky',
+          icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+        },
+        {
+          title: 'Online check-in & check-out',
+          icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+        },
+        {
+          title: 'A mnoho dalších funkcí...',
           icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
         },
       ],
       cityCenterWork: [
         {
-          title: 'Instant Access via QR',
+          title: 'Okamžitý přístup přes QR',
           description:
-            'No download required. Guests can access the web app instantly by scanning a QR code.',
+            'Hosté se do aplikace dostanou okamžitě pouhým naskenováním QR kódu.',
         },
         {
-          title: 'Multi-Platform Support',
+          title: 'Podpora všech platforem',
           description:
-            'Available as a progressive web app, native iOS/Android app, or embedded in your existing app.',
+            'Fungujeme jako nativní appka pro iOS/Android nebo progresivní webová aplikace (PWA).',
         },
         {
-          title: 'Fully Brandable',
+          title: 'Plně ve vašem brandu',
           description:
-            "Customize the interface with your hotel's logo, colors, and branding to create a consistent look.",
+            "Přizpůsobte rozhraní logu, barvám a stylu svého hotelu. Vytvořte jednotný a profesionální styl.",
         },
         {
-          title: 'Powerful Integrations',
+          title: 'Výkonné integrace',
           description:
-            'Connect seamlessly with your existing PMS, POS, and other hotel management systems.',
+            'Bezproblémově nás propojte se svým stávajícím PMS, pokladním systémem (POS) a dalším softwarem.',
         },
       ],
       cityCenterBenefits: [
         {
-          title: 'Easy to Use',
+          title: 'Intuitivní ovládání',
           description:
-            'An intuitive interface ensures a smooth experience for all guests, regardless of technical skill.',
+            'Naše rozhraní zajišťuje hladký zážitek pro všechny hosty bez ohledu na jejich technické dovednosti. Jednoduchost je náš standard.',
         },
         {
-          title: 'Multilingual Support',
+          title: 'Hotel, který mluví jazykem vašich hostů',
           description:
-            'Serve your international clientele by offering information in their native language.',
+            'Obslužte svou mezinárodní klientelu v jejich rodném jazyce. Odstraňte bariéry a zvyšte komfort svých hostů z celého světa.',
         },
         {
-          title: 'Accessible Design',
+          title: 'Design bez bariér pro každého',
           description:
-            'Built with accessibility standards in mind to ensure all guests can use the platform with ease.',
-        },
-      ],
-      cityCenterImprovementStats: [
-        {
-          value: '30%',
-          label: 'Reduction in front desk calls',
-        },
-        {
-          value: '25%',
-          label: 'Increase in mobile food & beverage orders',
-        },
-        {
-          value: '1M+',
-          label: 'Guest interactions per month',
+            'Naše platforma splňuje standardy přístupnosti a zajišťuje, že ji může snadno používat každý host bez ohledu na svá omezení.',
         },
       ],
     }

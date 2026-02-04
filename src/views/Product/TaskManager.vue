@@ -6,16 +6,16 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
             <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Take control of your guests' requests
+              Mějte přání svých hostů pod kontrolou
             </h1>
             <p class="text-lg text-gray-700 leading-relaxed">
-              Increase your team agility when it comes to taking care of guests. You'll be able to
-              manage tasks and requests better if everything is centralized.
+              Zvyšte produktivitu svého týmu při péči o hosty. Díky centralizaci všech úkolů a požadavků na jednom místě 
+              získáte dokonalý přehled a zajistíte, že žádné přání nezůstane bez odezvy.
             </p>
             <button
-              class="bg-[#f5a623] hover:bg-orange-400 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 cursor-pointer"
+              class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Book a Demo
+              Vyzkoušet demo-verzi
             </button>
           </div>
 
@@ -28,10 +28,9 @@
     </section>
 
     <Advantages
-      title="Never Miss a Guest Request Again"
-      subtitle="Our Task Manager centralizes all guest requests, from amenities to maintenance,
-                ensuring your team can track and resolve every task efficiently. No more lost requests, no more
-                frustrations."
+      title="Už žádné zapomenuté přání hosta"
+      subtitle="Náš Task Manager sjednocuje veškeré požadavky na jednom místě. Od objednávek na pokoj až po hlášení technických 
+      závad. Váš tým tak může každý úkol sledovat a vyřešit s maximální efektivitou. Už žádné ztracené lístky, žádné zmatky a žádná frustrace."
       :features="taskManagerAdvantages"
       background-color="bg-[#f4f4f4]"
     />
@@ -39,33 +38,25 @@
     <Features
       :image-src="image2"
       :image-alt="'Task Manager obrázek'"
-      title="Key Features"
-      description="Our Task Manager is designed to bring clarity and efficiency to your daily operations with powerful, 
-                  intuitive features."
+      title="Klíčové funkce"
+      description="Náš Task Manager je navržen tak, aby do vašeho každodenního provozu vnesl dokonalý řád a efektivitu. 
+      Díky výkonným a přitom intuitivním funkcím získáte nástroj, který vašemu týmu uvolní ruce pro to nejdůležitější, péči o hosty."
       :features="taskManagerFeatures"
     />
 
     <HowItWorks
-      title="How It Works"
-      subtitle="Streamline your workflow with a simple process that keeps everyone in sync and guests happy."
+      title="Jak to funguje?"
+      subtitle="Zjednodušte své pracovní postupy díky procesu, který udrží celý váš tým v dokonalém souladu a zajistí, že vaši hosté budou odcházet nadšení."
       :steps="taskManagerWork"
       :image="image3"
       image-alt="Task Manager obrázek"
     />
 
     <Benefits
-      title="Benefits for Your Hotel & Team"
+      title="Výhody pro váš hotelový a tým"
       :items="taskManagerBenefits"
       :rows="2"
       :columns="3"
-    />
-
-    <Improvement
-      title="Empowering Teams at Leading Hotels"
-      subtitle="Our partners have transformed their operations, increasing efficiency and guest satisfaction."
-      :stats="taskManagerImprovementStats"
-      :features="taskManagerImprovementFeatures"
-      background-color="bg-[#f4f4f4]"
     />
   </main>
 </template>
@@ -96,132 +87,100 @@ export default {
       image3: image3,
       taskManagerAdvantages: [
         {
-          title: 'Centralized All Tasks',
+          title: 'Všechny úkoly pod jednou střechou',
           description:
-            'View all pending, in-progress, and completed tasks from a single dashboard.',
+            'Získejte absolutní kontrolu nad chodem hotelu. Sledujte všechny čekající, rozpracované i dokončené úkoly v reálném čase z jednoho přehledného dashboardu, kde vám nic neunikne.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Multi-Department Coordination',
+          title: 'Dokonalá souhra všech oddělení',
           description:
-            'Assign tasks to housekeeping, maintenance, or other departments seamlessly.',
+            'Delegujte požadavky hostů okamžitě těm správným lidem. Přiřazujte úkoly úklidu, údržbě nebo dalším týmům bleskově a bez chyb. Zajistěte, aby o každém požadavku věděli přesně ti kolegové, kteří ho mají vyřešit.',
           icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
         },
         {
-          title: 'Real-Time Status Updates',
-          description: 'Keep both guests and staff informed with live updates on task progress.',
+          title: 'Aktualizace v reálném čase',
+          description: 'Mějte hosty i svůj tým neustále v obraze. Sledujte průběh každého požadavku v přímém přenosu, od jeho přijetí až po finální vyřešení.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
       ],
       taskManagerFeatures: [
         {
-          title: 'Centralized Dashboard: ',
+          title: 'Centrální dashboard: ',
           description:
-            'Track tasks by status: pending, in progress, or completed. Never lose a request.',
+            'Sledujte všechny úkoly přehledně podle jejich stavu: čekající, v řešení nebo dokončeno. Už nikdy neztratíte žádný požadavek.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Specific Request Types: ',
+          title: 'Specifické typy požadavků: ',
           description:
-            'Manage requests for amenities, technical support, housekeeping, and more with dedicated categories.',
+            'Spravujte požadavky na vybavení, technickou podporu nebo úklid díky dedikovaným kategoriím, které vnesou do práce řád.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Guest Status Tracking: ',
+          title: 'Sledování stavu případů: ',
           description:
-            'Provide guests with real-time updates on their requests, enhancing their experience and peace of mind.',
+            'Poskytněte hostům aktuální informace o průběhu jejich požadavku. Zvýšíte tím jejich klid i celkový zážitek z pobytu.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Mobile Access for Staff: ',
+          title: 'Mobilní přístup pro personál: ',
           description:
-            'Your team can receive, manage, and update tasks on the go from any mobile device.',
+            'Váš tým může přijímat a spravovat úkoly „za pochodu“ na jakémkoli mobilním zařízení kdekoli v areálu hotelu.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Customizable Transparency: ',
-          description: "Control what level of detail guests see about their request's proggress",
+          title: 'Nastavitelná transparentnost: ',
+          description: "Mějte plnou kontrolu nad tím, kolik detailů o průběhu řešení úkolu host uvidí. Vy rozhodujete, co je podstatné.",
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
       ],
       taskManagerWork: [
         {
-          title: 'Request Centralized',
+          title: 'Požadavky na jednom místě',
           description:
-            'Guest requests from any channel are automatically logged into the central system.',
+            'Veškerá přání hostů z jakéhokoli kanálu se automaticky zaznamenávají do centrálního systému.',
         },
         {
-          title: 'Assign & Track',
+          title: 'Delegování',
           description:
-            'Tasks are assigned to the right department, and progress is tracked in real-time.',
+            'Úkoly jsou okamžitě delegovány správnému oddělení a vy můžete v reálném čase sledovat jejich průběh od začátku až do konce.',
         },
         {
-          title: 'Mobile Management',
+          title: 'Efektivita v terénu',
           description:
-            'Staff manage and update tasks directly from their mobile devices, ensuring instant updates.',
+            'Váš tým spravuje a aktualizuje úkoly přímo v sytému. Informace jsou tak bleskově dostupné pro všechny kolegy.',
         },
         {
-          title: 'Real-Time Updates',
+          title: 'Informovaný host i tým',
           description:
-            'Both the team and the guest are notified as the task status changes, right through to completion.',
+            'Jakmile se změní stav úkolu, host i personál dostanou automatické upozornění.',
         },
       ],
       taskManagerBenefits: [
         {
-          title: 'Better Organization',
-          description: 'Centralize requests to eliminate chaos and missed tasks.',
+          title: 'Lepší organizace',
+          description: 'Dejte sbohem provoznímu chaosu a zajistěte, aby žádný úkol nebyl zapomenut.',
         },
         {
-          title: 'Increase Efficiency',
-          description: 'Automate assignment and tracking to speed up resolution times.',
+          title: 'Navyšte efektivitu',
+          description: 'Zrychlete vyřízení každého požadavku na maximum a získejte více času pro své hosty díky chytrému workflow, které pracuje za vás.',
         },
         {
-          title: 'Improved Communication',
-          description: 'Keep all departments and guests on the same page effortlessly.',
+          title: 'Zlepšete komunikaci',
+          description: 'Díky centralizovaným informacím a automatickým upozorněním bude váš hotel fungovat jako jeden celek, kde každý přesně ví, co se právě děje i váš host.',
         },
         {
-          title: 'Modernized Operations',
-          description: 'Replace walkie-talkies and paper with a sleek digital solution.',
+          title: 'Modernizace hotelového provozu',
+          description: 'Nahraďte zastaralé metody elegantním digitálním řešením, které do vašeho hotelu vnese klid, profesionalitu a dokonalý přehled.',
         },
         {
-          title: 'Measurable Impact',
-          description: 'Track performance and identify bottlenecks with powerful analytics.',
+          title: 'Měřitelný přínos pro váš hotel',
+          description: 'Naše pokročilá analytika vám umožní sledovat výkonnost týmu , identifikovat slabá místa v provozu a okamžitě reagovat na podněty, které brzdí váš růst.',
         },
         {
-          title: 'Easy of Use',
-          description: 'An intuitive interface means your team can get started in minutes.',
-        },
-      ],
-      taskManagerImprovementStats: [
-        {
-          value: '50%',
-          label: 'Faster task resolution time',
-        },
-        {
-          value: '98%',
-          label: 'Of requests tracked and completed',
-        },
-        {
-          value: '-30%',
-          label: 'Guest complaints about service',
-        },
-      ],
-      taskManagerImprovementFeatures: [
-        {
-          title: 'Hotel Directory',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Instant Feedback',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Mobile Ordering',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Analytics',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+          title: 'Intuitivní a jednoduché ovládání',
+          description: 'Díky přehlednému prostředí se váš tým naučí se systémem Otel Apps pracovat během chvíle.',
         },
       ],
     }

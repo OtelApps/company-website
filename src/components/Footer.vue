@@ -57,14 +57,13 @@ import router from '../../router';
         <div>
           <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">KLÍČOVÉ FUNKCE</h4>
           <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory">Všechny důležité informace na jednom místě</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory">Informace o hotelu</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering">Objednávání</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Trip Planner</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Live chat + AI virtuální recepční</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Online check-in + check-out</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Virtuální pokojová karta</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Rezervace</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/Boutiques">Butikové hotely</router-link></li>
           </ul>
         </div>
 
@@ -73,6 +72,7 @@ import router from '../../router';
           <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/CityCenter">Městské hotely</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/SmallHotels">Malé a středně velké hotely</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/Boutiques">Butikové hotely</router-link></li>
           </ul>
         </div>
 

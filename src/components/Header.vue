@@ -19,7 +19,7 @@
           <!-- Desktop Navigation (grouped with logo) -->
           <nav class="hidden md:flex items-center space-x-6 lg:space-x-8 ml-4">
             <div class="flex items-center space-x-1 cursor-pointer" @click.stop="toggleProductMenu">
-              <span :class="['text-gray-700 hover:text-gray-900 text-sm lg:text-base dark:text-white', { 'font-bold': isProductActive }]">Product</span>
+              <span :class="['text-gray-700 hover:text-gray-900 text-sm lg:text-base dark:text-white', { 'font-bold': isProductActive }]">Produkty</span>
               <svg
                 class="w-3 h-3 lg:w-4 lg:h-4 text-gray-500 dark:text-white"
                 fill="none"
@@ -38,7 +38,7 @@
               class="flex items-center space-x-1 cursor-pointer"
               @click.stop="toggleSolutionsMenu"
             >
-              <span :class="['text-gray-700 hover:text-gray-900 text-sm lg:text-base dark:text-white', { 'font-bold': isSolutionsActive }]">Solutions</span>
+              <span :class="['text-gray-700 hover:text-gray-900 text-sm lg:text-base dark:text-white', { 'font-bold': isSolutionsActive }]">Řešení</span>
               <svg
                 class="w-3 h-3 lg:w-4 lg:h-4 text-gray-500 dark:text-white"
                 fill="none"
@@ -55,17 +55,17 @@
             </div>
             <router-link to="/Pricing">
               <span :class="['text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white', { 'font-bold': isPricingActive }]"
-                >Pricing</span
+                >Ceník</span
               >
             </router-link>
             <router-link to="/AboutUs">
               <span :class="['text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white', { 'font-bold': isAboutUsActive }]"
-                >About Us</span
+                >O nás</span
               >
             </router-link>
             <router-link to="/Contact">
               <span :class="['text-gray-700 hover:text-gray-900 cursor-pointer text-sm lg:text-base dark:text-white', { 'font-bold': isContactActive }]"
-                >Contact</span
+                >Kontakt</span
               >
             </router-link>
           </nav>
@@ -73,25 +73,15 @@
 
         <!-- Mobile right controls: globe | divider | hamburger -->
         <div class="flex items-center md:hidden space-x-3">
+          <!-- 
           <button @click="toggleTheme" 
             class="border border-gray-300 text-gray-700 px-4 py-2 rounded-md not-dark:hover:bg-gray-50 transition-colors text-sm cursor-pointer dark:text-white"
             >
               {{ isDark ? 'Light' : 'Dark' }}
           </button>
+          -->
           <div class="p-2 rounded-md text-gray-700 dark:text-white">
-            <svg
-              class="w-6 h-6 text-gray-900 dark:text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9"
-              ></path>
-            </svg>
+            <span class="material-symbols-outlined">language</span>
           </div>
 
           <div class="w-px h-6 bg-gray-300"></div>
@@ -100,33 +90,14 @@
             @click.stop="toggleMobileMenu"
             class="p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100"
           >
-            <svg
-              v-if="!isMobileMenuOpen"
-              class="w-6 h-6 dark:text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              ></path>
-            </svg>
-            <svg v-else class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
-            </svg>
+            <span v-if="!isMobileMenuOpen" class="material-symbols-outlined">menu</span>
+            <span v-else class="material-symbols-outlined">close</span>
           </button>
         </div>
 
         <!-- Right side elements -->
         <div class="hidden md:flex items-center space-x-4">
+          <!--
           <div>
             <button @click="toggleTheme" 
             class="border border-gray-300 text-gray-700 px-4 py-2 rounded-md not-dark:hover:bg-gray-50 transition-colors text-sm cursor-pointer dark:text-white"
@@ -134,22 +105,11 @@
               {{ isDark ? 'Light' : 'Dark' }}
             </button>
           </div>
+          -->
 
           <!-- Language selector -->
           <div class="flex items-center space-x-1 cursor-pointer">
-            <svg
-              class="w-4 h-4 text-gray-600 dark:text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9"
-              ></path>
-            </svg>
+            <span class="material-symbols-outlined">language</span>
           </div>
 
           <!-- Separator -->
@@ -160,7 +120,7 @@
             <span
               class="border border-gray-300 text-gray-700 px-4 py-2 rounded-md not-dark:hover:bg-gray-50 transition-colors text-sm cursor-pointer dark:text-white"
             >
-              Log in</span>
+              Přihlásit se</span>
           </router-link>
 
           <!-- Book a demo button -->
@@ -168,7 +128,7 @@
             <span
               class="border border-gray-300 text-gray-700 px-4 py-2 rounded-md not-dark:hover:bg-gray-50 transition-colors text-sm cursor-pointer dark:text-white"
             >
-              Book a demo
+              Vyzkoušet demo-verzi
             </span>
           </router-link>
         </div>
@@ -183,27 +143,16 @@
           <img src="../assets/otelapps.webp" alt="OtelApps logo" class="h-8 w-auto" />
         </router-link>
 
+        
         <div class="flex items-center space-x-4">
           <button @click="toggleTheme" 
             class="border border-gray-300 text-gray-700 px-4 py-2 rounded-md not-dark:hover:bg-gray-50 transition-colors text-sm cursor-pointer dark:text-white"
             >
               {{ isDark ? 'Light' : 'Dark' }}
-            </button>
+          </button>
           <!-- Language selector -->
           <div class="flex items-center space-x-1 cursor-pointer">
-            <svg
-              class="w-4 h-4 text-gray-600 dark:text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9"
-              ></path>
-            </svg>
+            <span class="material-symbols-outlined">language</span>
           </div>
 
           <!-- Separator -->
@@ -234,7 +183,7 @@
             class="flex items-center justify-between py-4 border-b border-gray-200 cursor-pointer"
             @click.stop="toggleProductMenu"
           >
-            <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isProductActive }]">Product</span>
+            <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isProductActive }]">Produkty</span>
             <svg
               class="w-4 h-4 text-gray-600 dark:text-white"
               fill="none"
@@ -256,6 +205,30 @@
                 <div class="border-b border-gray-300 pb-2 mb-4 text-sm text-gray-700 dark:text-white">
                   Ecosystem
                 </div>
+                <div class="flex flex-col gap-y-6">
+                  <div class="flex items-start space-x-3">
+                  <svg
+                    class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 2l7 4v6c0 5-3 8-7 10-4-2-7-5-7-10V6l7-4z"
+                    />
+                  </svg>
+                  <div>
+                    <router-link to="/Product/GuestApp" @click="closeMobileMenu">
+                      <div class="font-medium text-gray-900 dark:text-white">Mobilní aplikace pro hosty</div>
+                      <p class="text-sm text-gray-600 dark:text-white">
+                        Ukažte hostům to nejlepší z vaší nabídky a nastartujte tím růst tržeb.
+                      </p>
+                    </router-link>
+                  </div>
+                </div>
                 <div class="flex items-start space-x-3">
                   <svg
                     class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
@@ -272,19 +245,20 @@
                   </svg>
                   <div>
                     <router-link to="/Product/GuestApp" @click="closeMobileMenu">
-                      <div class="font-medium text-gray-900 dark:text-white">Guest App</div>
+                      <div class="font-medium text-gray-900 dark:text-white">Webová aplikace pro hosty (již brzy)</div>
                       <p class="text-sm text-gray-600 dark:text-white">
-                        Showcase your hotel services to boost your revenue
+                        Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč k tomu, aby měl váš host vše na dosah ruky.
                       </p>
                     </router-link>
                   </div>
+                </div>
                 </div>
               </div>
 
               <!-- Main Features -->
               <div>
                 <div class="border-b border-gray-300 pb-2 mb-4 text-sm text-gray-700 dark:text-white">
-                  Main Features
+                  Hlavní funkce
                 </div>
                 <div class="grid grid-cols-1 gap-y-6">
                   <div class="flex items-start space-x-3">
@@ -303,9 +277,9 @@
                     </svg>
                     <div>
                       <router-link to="/Product/HotelDirectory" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">Hotel Directory</div>
+                        <div class="font-medium text-gray-900 dark:text-white">Informace o hotelu</div>
                         <p class="text-sm text-gray-600 dark:text-white">
-                          Provide detailed information about your hotel
+                          Detailní informace o vašem hotelu na jednom místě.
                         </p>
                       </router-link>
                     </div>
@@ -326,9 +300,9 @@
                     </svg>
                     <div>
                       <router-link to="/Product/MobileOrdering" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">Mobile Ordering</div>
+                        <div class="font-medium text-gray-900 dark:text-white">Mobilní objednávání a rezervace</div>
                         <p class="text-sm text-gray-600 dark:text-white">
-                          Easy ordering for the guest with no waits
+                          Snadné objednávání a rezervace bez front a čekání.
                         </p>
                       </router-link>
                     </div>
@@ -349,9 +323,9 @@
                     </svg>
                     <div>
                       <router-link to="/Product/InstantFeedback" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">Instant Feedback</div>
+                        <div class="font-medium text-gray-900 dark:text-white">Okamžitá zpětná vazba</div>
                         <p class="text-sm text-gray-600 dark:text-white">
-                          Get more feedback at the moments that matter
+                          Získávejte zpětnou vazbu ve chvílích, kdy na ní skutečně záleží.
                         </p>
                       </router-link>
                     </div>
@@ -372,8 +346,8 @@
                     </svg>
                     <div>
                       <router-link to="/Product/TaskManager" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">Task Manager</div>
-                        <p class="text-sm text-gray-600 dark:text-white">Centralize all your guests requests</p>
+                        <div class="font-medium text-gray-900 dark:text-white">Task management</div>
+                        <p class="text-sm text-gray-600 dark:text-white">Mějte všechny požadavky svých hostů přehledně a na jednom místě.</p>
                       </router-link>
                     </div>
                   </div>
@@ -393,9 +367,9 @@
                     </svg>
                     <div>
                       <router-link to="/Product/TripPlanner" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">Trip Planner</div>
+                        <div class="font-medium text-gray-900 dark:text-white">Trip planner</div>
                         <p class="text-sm text-gray-600 dark:text-white">
-                          Create a better experience for your guests
+                          Naplánujte si celý pobyt i výlety v okolí pohodlně ze svého mobilu.
                         </p>
                       </router-link>
                     </div>
@@ -416,9 +390,72 @@
                     </svg>
                     <div>
                       <router-link to="/Product/AnalyticsInsights" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">Analytics & Insights</div>
-                        <p class="text-sm text-gray-600 dark:text-white">Make better data-driven decisions</p>
+                        <div class="font-medium text-gray-900 dark:text-white">Analytika a statistiky</div>
+                        <p class="text-sm text-gray-600 dark:text-white">Dělejte správná rozhodnutí podložená reálnými daty a analýzami.</p>
                       </router-link>
+                    </div>
+                  </div>
+                  <div class="flex items-start space-x-3">
+                    <svg
+                      class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11 12h2m-1-9a9 9 0 100 18 9 9 0 000-18z"
+                      />
+                    </svg>
+                    <div>
+                      <div @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900 dark:text-white">Live chat + AI virtuální recepční</div>
+                        <p class="text-sm text-gray-600 dark:text-white">Buďte neustále ve spojení se svými hosty, kdykoliv to potřebují.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex items-start space-x-3">
+                    <svg
+                      class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11 12h2m-1-9a9 9 0 100 18 9 9 0 000-18z"
+                      />
+                    </svg>
+                    <div>
+                      <div @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900 dark:text-white">Online check-in + check-out</div>
+                        <p class="text-sm text-gray-600 dark:text-white">Ušetřete čas svému personálu i hostům při příjezdu či odjezdu.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex items-start space-x-3">
+                    <svg
+                      class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11 12h2m-1-9a9 9 0 100 18 9 9 0 000-18z"
+                      />
+                    </svg>
+                    <div>
+                      <div @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900 dark:text-white">Virtuální pokojová karta</div>
+                        <p class="text-sm text-gray-600 dark:text-white">Bez zbytečných karet, otevírejte pokoj i celý hotel jednoduše svým mobilem.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -430,7 +467,7 @@
             class="flex items-center justify-between py-4 border-b border-gray-200 cursor-pointer dark:text-white"
             @click.stop="toggleSolutionsMenu"
           >
-            <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isSolutionsActive }]">Solutions</span>
+            <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isSolutionsActive }]">Řešení</span>
             <svg
               class="w-4 h-4 text-gray-600 dark:text-white"
               fill="none"
@@ -469,8 +506,8 @@
                     </svg>
                     <div>
                       <router-link to="/Solution/CityCenter" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">City Center</div>
-                        <p class="text-sm text-gray-600 dark:text-white">Streamline operations and boost revenue</p>
+                        <div class="font-medium text-gray-900 dark:text-white">Městské hotely</div>
+                        <p class="text-sm text-gray-600 dark:text-white">Zefektivněte provoz a maximalizujte své zisky</p>
                       </router-link>
                     </div>
                   </div>
@@ -490,9 +527,9 @@
                     </svg>
                     <div>
                       <router-link to="/Solution/Boutiques" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">Boutiques</div>
+                        <div class="font-medium text-gray-900 dark:text-white">Butikové hotely</div>
                         <p class="text-sm text-gray-600 dark:text-white">
-                          Deliver personalized and immediate attention
+                          Dopřejte svým hostům pozornost, kterou si zaslouží
                         </p>
                       </router-link>
                     </div>
@@ -513,8 +550,28 @@
                     </svg>
                     <div>
                       <router-link to="/Solution/SmallHotels" @click="closeMobileMenu">
-                        <div class="font-medium text-gray-900 dark:text-white">Small Hotels</div>
-                        <p class="text-sm text-gray-600 dark:text-white">Enhance access to your hotel services</p>
+                        <div class="font-medium text-gray-900 dark:text-white">Malé a střední hotely</div>
+                        <p class="text-sm text-gray-600 dark:text-white">Služby vašeho hotelu na dosah ruky</p>
+                      </router-link>
+                    </div>
+                  </div>
+                  <div class="flex items-start space-x-3">
+                    <svg
+                      class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 7h18M3 12h18M3 17h18"
+                      />
+                    </svg>
+                    <div>
+                      <router-link to="/Solution/Boutiques" @click="closeMobileMenu">
+                        <div class="font-medium text-gray-900 dark:text-white">Rezorty (již brzy)</div>
                       </router-link>
                     </div>
                   </div>
@@ -524,19 +581,19 @@
           </div>
           <router-link to="/Pricing" @click="closeMobileMenu">
             <div class="py-4 border-b border-gray-200 cursor-pointer">
-              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isPricingActive }]">Pricing</span>
+              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isPricingActive }]">Ceník</span>
             </div>
           </router-link>
 
           <router-link to="/AboutUs" @click="closeMobileMenu">
             <div class="py-4 border-b border-gray-200 cursor-pointer">
-              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isAboutUsActive }]">About us</span>
+              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isAboutUsActive }]">O nás</span>
             </div>
           </router-link>
 
           <router-link to="/Contact" @click="closeMobileMenu">
             <div class="py-4 border-b border-gray-200 cursor-pointer">
-              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isContactActive }]">Contact</span>
+              <span :class="['text-gray-900 text-base dark:text-white', { 'font-bold': isContactActive }]">Kontakt</span>
             </div>
           </router-link>
         </nav>
@@ -547,14 +604,14 @@
             <span
               class="block w-full border border-black text-gray-900 text-center px-4 py-3 bg-white transition-colors text-base mb-5"
             >
-              Log in
+              Přihlásit se
             </span>
           </router-link>
 
           <router-link to="/Pricing" @click="closeMobileMenu">
             <span
               class="block w-full bg-black dark:bg-white text-white dark:text-black text-center px-4 py-3 hover:bg-gray-900 transition-colors text-base cursor-pointer"
-              >Book a demo</span
+              >Vyzkoušet demo-verzi</span
             >
           </router-link>
         </div>
@@ -571,6 +628,30 @@
           <!-- Ecosystem -->
           <div>
             <div class="border-b border-gray-300 pb-2 mb-4 text-sm text-gray-700 dark:text-white">Ecosystem</div>
+            <div class="flex flex-col md:gap-y-10.5">
+              <div class="flex items-start space-x-3">
+              <svg
+                class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 2l7 4v6c0 5-3 8-7 10-4-2-7-5-7-10V6l7-4z"
+                />
+              </svg>
+              <div>
+                <router-link to="/Product/GuestApp" @click="isProductOpen = false">
+                  <div class="font-medium text-gray-900 dark:text-white">Mobilní aplikace pro hosty</div>
+                  <p class="text-sm text-gray-600 dark:text-white">
+                    Ukažte hostům to nejlepší z vaší nabídky a nastartujte tím růst tržeb.
+                  </p>
+                </router-link>
+              </div>
+            </div>
             <div class="flex items-start space-x-3">
               <svg
                 class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
@@ -587,19 +668,20 @@
               </svg>
               <div>
                 <router-link to="/Product/GuestApp" @click="isProductOpen = false">
-                  <div class="font-medium text-gray-900 dark:text-white">Guest App</div>
+                  <div class="font-medium text-gray-900 dark:text-white">Webová aplikace pro hosty (již brzy)</div>
                   <p class="text-sm text-gray-600 dark:text-white">
-                    Showcase your hotel services to boost your revenue
+                    Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč k tomu, aby měl váš host vše na dosah ruky.
                   </p>
                 </router-link>
               </div>
+            </div>
             </div>
           </div>
 
           <!-- Main Features -->
           <div>
             <div class="border-b border-gray-300 pb-2 mb-4 text-sm text-gray-700 dark:text-white">
-              Main Features
+              Hlavní funkce
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-6">
               <div class="flex items-start space-x-3">
@@ -618,9 +700,9 @@
                 </svg>
                 <div>
                   <router-link to="/Product/HotelDirectory" @click="isProductOpen = false">
-                    <div class="font-medium text-gray-900 dark:text-white">Hotel Directory</div>
+                    <div class="font-medium text-gray-900 dark:text-white">Informace o hotelu</div>
                     <p class="text-sm text-gray-600 dark:text-white">
-                      Provide detailed information about your hotel
+                      Detailní informace o vašem hotelu na jednom místě.
                     </p>
                   </router-link>
                 </div>
@@ -642,8 +724,8 @@
                 </svg>
                 <div>
                   <router-link to="/Product/MobileOrdering" @click="isProductOpen = false">
-                    <div class="font-medium text-gray-900 dark:text-white">Mobile Ordering</div>
-                    <p class="text-sm text-gray-600 dark:text-white">Easy ordering for the guest with no waits</p>
+                    <div class="font-medium text-gray-900 dark:text-white">Mobilní objednávání a rezervace</div>
+                    <p class="text-sm text-gray-600 dark:text-white">Snadné objednávání a rezervace bez front a čekání.</p>
                   </router-link>
                 </div>
               </div>
@@ -664,9 +746,9 @@
                 </svg>
                 <div>
                   <router-link to="/Product/InstantFeedback" @click="isProductOpen = false">
-                    <div class="font-medium text-gray-900 dark:text-white">Instant Feedback</div>
+                    <div class="font-medium text-gray-900 dark:text-white">Okamžitá zpětná vazba</div>
                     <p class="text-sm text-gray-600 dark:text-white">
-                      Get more feedback at the moments that matter
+                      Získávejte zpětnou vazbu ve chvílích, kdy na ní skutečně záleží.
                     </p>
                   </router-link>
                 </div>
@@ -688,8 +770,8 @@
                 </svg>
                 <div>
                   <router-link to="/Product/TaskManager" @click="isProductOpen = false">
-                    <div class="font-medium text-gray-900 dark:text-white">Task Manager</div>
-                    <p class="text-sm text-gray-600 dark:text-white">Centralize all your guests requests</p>
+                    <div class="font-medium text-gray-900 dark:text-white">Task management</div>
+                    <p class="text-sm text-gray-600 dark:text-white">Mějte všechny požadavky svých hostů přehledně a na jednom místě.</p>
                   </router-link>
                 </div>
               </div>
@@ -711,7 +793,7 @@
                 <div>
                   <router-link to="/Product/TripPlanner" @click="isProductOpen = false">
                     <div class="font-medium text-gray-900 dark:text-white">Trip Planner</div>
-                    <p class="text-sm text-gray-600 dark:text-white">Create a better experience for your guests</p>
+                    <p class="text-sm text-gray-600 dark:text-white">Naplánujte si celý pobyt i výlety v okolí pohodlně ze svého mobilu.</p>
                   </router-link>
                 </div>
               </div>
@@ -732,9 +814,72 @@
                 </svg>
                 <div>
                   <router-link to="/Product/AnalyticsInsights" @click="isProductOpen = false">
-                    <div class="font-medium text-gray-900 dark:text-white">Analytics & Insights</div>
-                    <p class="text-sm text-gray-600 dark:text-white">Make better data-driven decisions</p>
+                    <div class="font-medium text-gray-900 dark:text-white">Analytika a statistiky</div>
+                    <p class="text-sm text-gray-600 dark:text-white">Dělejte správná rozhodnutí podložená reálnými daty a analýzami.</p>
                   </router-link>
+                </div>
+              </div>
+              <div class="flex items-start space-x-3">
+                <svg
+                  class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11 12h2m-1-9a9 9 0 100 18 9 9 0 000-18z"
+                  />
+                </svg>
+                <div>
+                  <div @click="isProductOpen = false">
+                    <div class="font-medium text-gray-900 dark:text-white">Live chat + AI virtuální recepční</div>
+                    <p class="text-sm text-gray-600 dark:text-white">Buďte neustále ve spojení se svými hosty, kdykoliv to potřebují.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-start space-x-3">
+                <svg
+                  class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11 12h2m-1-9a9 9 0 100 18 9 9 0 000-18z"
+                  />
+                </svg>
+                <div>
+                  <div @click="isProductOpen = false">
+                    <div class="font-medium text-gray-900 dark:text-white">Online check-in + check-out</div>
+                    <p class="text-sm text-gray-600 dark:text-white">Ušetřete čas svému personálu i hostům při příjezdu či odjezdu.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-start space-x-3">
+                <svg
+                  class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11 12h2m-1-9a9 9 0 100 18 9 9 0 000-18z"
+                  />
+                </svg>
+                <div>
+                  <div @click="isProductOpen = false">
+                    <div class="font-medium text-gray-900 dark:text-white">Virtuální pokojová karta</div>
+                    <p class="text-sm text-gray-600 dark:text-white">Bez zbytečných karet, otevírejte pokoj i celý hotel jednoduše svým mobilem.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -771,8 +916,8 @@
                 </svg>
                 <div>
                   <router-link to="/Solution/CityCenter" @click="isSolutionsOpen = false">
-                    <div class="font-medium text-gray-900 dark:text-white">City Center</div>
-                    <p class="text-sm text-gray-600 dark:text-white">Streamline operations and boost revenue</p>
+                    <div class="font-medium text-gray-900 dark:text-white">Městské hotely</div>
+                    <p class="text-sm text-gray-600 dark:text-white">Zefektivněte provoz a maximalizujte své zisky</p>
                   </router-link>
                 </div>
               </div>
@@ -793,9 +938,9 @@
                 </svg>
                 <div>
                   <router-link to="/Solution/Boutiques" @click="isSolutionsOpen = false">
-                    <div class="font-medium text-gray-900 dark:text-white">Boutiques</div>
+                    <div class="font-medium text-gray-900 dark:text-white">Butikové hotely</div>
                     <p class="text-sm text-gray-600 dark:text-white">
-                      Deliver personalized and immediate attention
+                      Dopřejte svým hostům pozornost, kterou si zaslouží
                     </p>
                   </router-link>
                 </div>
@@ -817,8 +962,28 @@
                 </svg>
                 <div>
                   <router-link to="/Solution/SmallHotels" @click="isSolutionsOpen = false">
-                    <div class="font-medium text-gray-900 dark:text-white">Small Hotels</div>
-                    <p class="text-sm text-gray-600 dark:text-white">Enhance access to your hotel services</p>
+                    <div class="font-medium text-gray-900 dark:text-white">Malé a střední hotely</div>
+                    <p class="text-sm text-gray-600 dark:text-white">Služby vašeho hotelu na dosah ruky</p>
+                  </router-link>
+                </div>
+              </div>
+              <div class="flex items-start space-x-3">
+                <svg
+                  class="w-5 h-5 text-gray-900 mt-1 dark:text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 7h18M3 12h18M3 17h18"
+                  />
+                </svg>
+                <div>
+                  <router-link to="/Solution/Boutiques" @click="isSolutionsOpen = false">
+                    <div class="font-medium text-gray-900 dark:text-white">Rezorty (již brzy)</div>
                   </router-link>
                 </div>
               </div>
@@ -890,6 +1055,15 @@ export default {
       this.isSolutionsOpen = false
     },
     handleScroll() {
+      // Pouze pro zařízení > 767px (desktop/tablet). Na mobilech header neschovávej.
+      if (window.innerWidth <= 767) {
+        this.headerTransform = 'translateY(0)'
+        this.lastScrollY =
+          window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+        this.ticking = false
+        return
+      }
+
       if (!this.ticking) {
         window.requestAnimationFrame(() => {
           const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0

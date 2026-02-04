@@ -6,16 +6,16 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
             <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Simplify ordering, maximize revenue
+              Jednodušší objednávky, vyšší tržby
             </h1>
             <p class="text-lg text-gray-700 leading-relaxed">
-              Enable guests to order and pay from their smartphones, bridge the gap between guest
-              requests and kitchen reception and skyrocket your F&B sales with exceptional service.
+              Umožněte hostům objednávat a platit přímo z jejich telefonu. Propojte přání hosta s kuchyní a zajistěte raketový růst 
+              tržeb v restauraci i lobby baru díky rychlému a bezchybnému servisu.
             </p>
             <button
-              class="bg-[#f5a623] hover:bg-orange-400 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 cursor-pointer"
+              class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Book a Demo
+              Vyzkoušet demo-verzi
             </button>
           </div>
 
@@ -28,9 +28,9 @@
     </section>
 
     <Advantages
-      title="Revolutionize Your F&B Service"
-      subtitle="Our Mobile Ordering solution allows guests to browse, order, and pay with ultimate
-                convenience, freeing up your staff and creating new revenue opportunities."
+      title="Revoluce vašeho servisu služeb"
+      subtitle="Naše řešení pro mobilní objednávky umožňuje hostům prohlížet menu, objednávat a platit s maximálním pohodlím. 
+                Vy tím uvolníte ruce svému personálu a otevřete dveře novým příležitostem k navýšení tržeb."
       :features="mobileOrderingAdvantages"
       background-color="bg-[#f4f4f4]"
     />
@@ -38,33 +38,25 @@
     <Features
       :image-src="image2"
       :image-alt="'Mobile Ordering obrázek'"
-      title="Key Features"
-      description="Empower your guests and streamline your operations with a powerful and
-                  flexible mobile ordering system."
+      title="Klíčové funkce"
+      description="Dejte svým hostům svobodu a svému týmu moderní nástroje pro plynulý provoz. Náš výkonný a flexibilní 
+                systém mobilních objednávek se plně přizpůsobí rytmu vašeho hotelu."
       :features="mobileOrderingFeatures"
     />
 
     <HowItWorks
-      title="How It Works"
-      subtitle="A simple, intuitive flow for guests and a powerful, streamlined workflow for your staff."
+      title="Jak to funguje?"
+      subtitle="Jednoduchý a intuitivní zážitek pro vaše hosty, výkonný a přehledný systém pro váš personál. Otel Apps propojuje oba světy v jeden dokonale fungující celek."
       :steps="mobileOrderingWork"
       :image="image3"
       image-alt="Mobile Ordering obrázek"
     />
 
     <Benefits
-      title="Benefits for Your Hotel"
+      title="Výhody pro váš hotel"
       :items="mobileOrderingBenefits"
       :rows="2"
       :columns="3"
-    />
-
-    <Improvement
-      title="Trusted by Industry Leaders"
-      subtitle="Leading hotel brands are using Mobile Ordering to transform their F&B operations and delight their guests."
-      :stats="mobileOrderingImprovementStats"
-      :features="mobileOrderingImprovementFeatures"
-      background-color="bg-[#f4f4f4]"
     />
   </main>
 </template>
@@ -95,129 +87,97 @@ export default {
       image3: image3,
       mobileOrderingAdvantages: [
         {
-          title: 'QR Code Ordering',
+          title: 'Objednávky přes QR kódy',
           description:
-            'Instant access to your digital menu via QR codes placed anywhere in your hotel.',
+            'Bleskový přístup k menu kdekoli v hotelu. Stačí naskenovat, vybrat si a objednat!',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Customizable Menus',
+          title: 'Digitální menu na míru',
           description:
-            'Showcase your offerings with beautiful, interactive, and easily updatable digital menus.',
+            'Představte svou nabídku v tom nejlepším světle. Vytvořte pro své hosty vizuálně atraktivní, interaktivní menu, která upravíte během okamžiku přímo ve svém prohlížeči.',
           icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
         },
         {
-          title: 'Seamless Payment',
+          title: 'Bezproblémové platby pro moderní hotel',
           description:
-            'Integrate with major POS systems and accept payments via Apple Pay, Google Pay, and credit cards.',
+            'Propojte svůj hotelový systém s nejoblíbenějšími platebními metodami. Přijímejte Apple Pay, Google Pay i platební karty přímo v aplikaci.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
       ],
       mobileOrderingFeatures: [
         {
-          title: 'Interactive Digital Menu: ',
+          title: 'Interaktivní digitální menu: ',
           description:
-            'Create beautiful, customizable menus with high-quality images and descriptions.',
+            'Tvořte atraktivní, plně přizpůsobitelné jídelní lístky s kvalitními fotografiemi a detailními popisy, které prodávají samy.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Real-Time Order Tracking: ',
-          description: 'Guests and staff can track order status from placement to delivery.',
+          title: 'Sledování objednávek v reálném čase: ',
+          description: 'Hosté i personál mají okamžitý přehled o stavu objednávky, od jejího přijetí až po doručení ke stolu či na pokoj.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'POS & Payment Integration: ',
+          title: 'Integrace s pokladnou a platbami: ',
           description:
-            'Connects with your existing POS and supports various payment methods, including Apple Pay & Google Pay.',
+            'Propojte aplikaci se svým stávajícím POS systémem. Přijímejte Apple Pay, Google Pay i platební karty bezpečně a bez přepisování.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Unattended Operations Support: ',
-          description: 'Ideal for room service, poolside, or any area without dedicated staff.',
+          title: 'Podpora samoobsluhy: ',
+          description: 'Ideální řešení pro pokojovou službu, bazény nebo wellness – místa, kde nemáte stálou obsluhu, ale hosté tam chtějí utrácet.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Upselling & Promotions: ',
-          description: 'Easily feature special offers and add-ons to increase average order value.',
+          title: 'Upselling a speciální nabídky: ',
+          description: 'Snadno zvýrazněte denní nabídky, dezerty nebo prémiové doplňky a zvyšte tak průměrnou hodnotu každé objednávky.',
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
       ],
       mobileOrderingWork: [
         {
-          title: 'Guest Scans QR Code',
-          description: 'Guest scans a QR code with their smartphone to instantly access the menu.',
+          title: 'Host naskenuje QR kód nebo otevřeny nabídku v aplikaci',
+          description: 'Pomocí svého telefonu získá host okamžitý přístup k digitálnímu menu, kdekoli v hotelu nebo mimo něj.',
         },
         {
-          title: 'Browse, Order & Pay',
-          description: 'They browse the menu, place their order, and pay securely within seconds.',
+          title: 'Prohlížení, objednávka a platba',
+          description: 'Host si v klidu vybere, odešle objednávku a během pár vteřin bezpečně zaplatí přímo v rozhraní aplikace.',
         },
         {
-          title: 'Kitchen Receives Order',
+          title: 'Kuchyně přijímá objednávku',
           description:
-            'The order is sent directly to the kitchen or bar via your POS or our staff app.',
+            'Požadavek putuje bleskově do kuchyně nebo baru skrze naši aplikaci pro personál.',
         },
         {
-          title: 'Delight the Guest',
+          title: 'Spokojený host',
           description:
-            'Staff prepares and delivers the order. The guest tracks its status on their phone.',
+            'Personál připraví a doručí objednávku. Host může celou dobu sledovat stav objednávky v reálném čase na svém telefonu.',
         },
       ],
       mobileOrderingBenefits: [
         {
-          title: 'Faster Service',
-          description: 'Reduce wait times and serve more guests, faster.',
+          title: 'Rychlejší servis pro více hostů',
+          description: 'Zkraťte čekací doby na minimum. Díky digitálním objednávkám obsloužíte více hostů za kratší čas a zajistíte jim plynulý zážitek bez zbytečného čekání.',
         },
         {
-          title: 'Increased Conversion',
-          description: 'Effortless ordering leads to more sales and higher average checks.',
+          title: 'Vyšší prodeje',
+          description: 'Odstraňte tření v prodejním procesu a sledujte, jak roste počet objednávek i průměrná útrata na každého hosta.',
         },
         {
-          title: 'New Revenue Channels',
-          description: 'Enable ordering from anywhere, not just the restaurant or bar.',
+          title: 'Nové zdroje příjmů',
+          description: 'Umožněte hostům objednávat jídlo, pití nebo služby odkudkoli.',
         },
         {
-          title: 'Efficient Kitchen Work',
-          description: 'Orders are clear, digitized, and sent directly to the right station.',
+          title: 'Plynulý provoz kuchyně',
+          description: 'Objednávky jsou digitální, dokonale přehledné a systém je automaticky odešle přesně tam, kam patří.',
         },
         {
-          title: 'Improved Guest Experience',
-          description: 'Offer convenience and control, letting guests order on their terms.',
+          title: 'Dokonalý zážitek pro vaše hosty',
+          description: 'Umožněte jim objednávat služby přesně tehdy, kdy chtějí, a způsobem, který jim nejvíce vyhovuje.',
         },
         {
-          title: 'Unified Data Flow',
-          description: 'Integrates with the STAY ecosystem for a complete view of guest spending.',
-        },
-      ],
-      mobileOrderingImprovementStats: [
-        {
-          value: '25%',
-          label: 'Increase in F&B revenue',
-        },
-        {
-          value: '30%',
-          label: 'Faster order turnover',
-        },
-        {
-          value: '18%',
-          label: 'Higher average check size',
-        },
-      ],
-      mobileOrderingImprovementFeatures: [
-        {
-          title: 'Hotel Directory',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Task Manager',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Instant Feedback',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Analytics & Insights',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+          title: 'Sjednocená data a přehled',
+          description: 'Díky plné integraci získáte ucelený pohled na veškeré výdaje a chování svých hostů. Všechna data o objednávkách a útratách se na jednom místě pro dokonalý přehled.',
         },
       ],
     }

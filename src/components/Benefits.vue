@@ -3,6 +3,9 @@
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div v-if="title" class="text-center mb-12">
         <h2 v-if="title" class="text-4xl lg:text-5xl font-bold text-gray-900 mb-3">{{ title }}</h2>
+        <p v-if="subtitle" class="text-lg text-gray-600 mb-8 max-w-4xl mx-auto">
+            {{ subtitle }}
+        </p>
       </div>
 
       <div class="grid gap-12 text-center" :class="gridClasses">

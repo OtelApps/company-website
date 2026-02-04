@@ -6,16 +6,16 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
             <h1 class="text-4xl lg:text-5xl leading-tight">
-              The Guest Experience OS for Boutique Hotels
+              Guest Experience systém pro boutique hotely
             </h1>
             <p class="text-lg text-gray-700 leading-relaxed">
-              Preserve the exclusivity and deliver a personalized and immediate attention to your
-              guests.
+              Otel Apps je navržen tak, aby zachoval exkluzivitu vašeho hotelu a zároveň vám umožnil poskytovat kvalitní a 
+              vysoce personalizovanou péči, kterou vaši hosté očekávají.
             </p>
             <button
-              class="bg-[#f5a623] hover:bg-orange-400 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 cursor-pointer"
+              class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Book a Demo
+              Vyzkoušet demo-verzi
             </button>
           </div>
 
@@ -31,12 +31,10 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Craft Unforgettable Stays
+            Tvořte nezapomenutelné zážitky
           </h2>
           <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-            Deliver an exceptional experience that reflects your hotel's distinctive character.
-            Empower your team to provide personal attention and create lasting memories for your
-            guests.
+            Dopřejte svým hostům výjimečný pobyt, který plně odráží jedinečný charakter a styl vašeho hotelu.
           </p>
         </div>
 
@@ -72,11 +70,10 @@
           <!-- Right content: title, subtitle, features -->
           <div class="lg:col-span-3">
             <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Key Features for Boutique Hotels
+              Klíčové funkce pro boutique hotely
             </h2>
             <p class="text-gray-700 text-lg mb-8 max-w-2xl">
-              A curated set of tools designed to enhance the intimate and personalized experience
-              your guests expect.
+              Pečlivě vybraná sada nástrojů navržená k posílení komfortu a osobního přístupu, který vaši hosté ocení.
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5">
@@ -106,19 +103,18 @@
     </section>
 
     <HowItWorks
-      title="Effortless Tech, Elegant Experience"
-      subtitle="A digital solution that feels as personal and curated as your hotel. Our platform is a digital extension 
-                of your brand, designed for ease and elegance."
+      title="Technologie s lehkostí, zážitek s elegancí"
+      subtitle="Digitální řešení, které působí stejně osobně jako váš hotel. Naše platforma je digitálním prodloužením vaší značky, navrženým pro snadnost a eleganci."
       :steps="boutiquesWork"
       :image="image3"
       image-alt="Boutigues obrázek"
     />
 
     <Benefits
-      title="The Boutique Guest Experience"
+      title="Výjimečný zážitek v boutique hotelu"
       :items="boutiquesBenefits"
       :rows="1"
-      :columns="3"
+      :columns="2"
     />
   </main>
 </template>
@@ -143,90 +139,86 @@ export default {
       image3: image3,
       boutiquesFeatures: [
         {
-          title: 'Maintain Exclusivity',
-          description: "Offer a unique digital space that mirrors your hotel's charm.",
+          title: 'Uchovejte si svou exkluzivitu',
+          description: "Váš digitální prostor by měl být stejně okouzlující jako váš hotel sám.",
           icon: 'M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 110-12 6 6 0 010 12zm1-7h2v2h-2V9zm-2 0H7v2h2V9z',
         },
         {
-          title: 'Prompt Guest Care',
-          description: 'Enable instant communication for personalized guest service.',
+          title: 'Péče, která buduje loajalitu',
+          description: 'V digitálním věku je rychlost synonymem pro kvalitu. Otel Apps vám dává nástroj k okamžitému spojení s každým hostem.',
           icon: 'M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z',
         },
         {
-          title: 'Improve Engagement',
-          description: 'Connect with guests through exclusive offers and curated content.',
+          title: 'Budování vztahu s hosty',
+          description: 'Oslovte své hosty personalizovanými nabídkami a obsahem na míru.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
         {
-          title: 'Reduce Waiting Times',
-          description: 'Allow guests to make requests and find info on their own terms.',
+          title: 'Konec zbytečného čekání',
+          description: 'Umožněte hostům zadávat požadavky a hledat informace v čase, kdy se to hodí jim. Rychle, digitálně a bez front.',
           icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
         },
       ],
       keyFunctions: [
         {
-          title: 'Hotel Directory: ',
-          description: "Your hotel's essence, digitized.",
+          title: 'Hotelový digitální průvodce: ',
+          description: "Esence vašeho hotelu v digitální podobě.",
           icon: 'M3 3h14a1 1 0 011 1v9a2 2 0 01-2 2H6l-3 3V4a1 1 0 011-1z',
         },
         {
-          title: 'Destination Guide: ',
-          description: 'Share local secrets and hidden gems.',
-          icon: 'M4 13h12v2H4v-2zm0-4h12v2H4V9zm0-4h12v2H4V5z',
-        },
-        {
-          title: 'Mobile Ordering: ',
-          description: 'Exclusive offers and in-room dining.',
+          title: 'Okamžitá zpětná vazba: ',
+          description: 'Vyřešte problémy dřív, než se stanou recenzí.',
           icon: 'M4 6h12v8H4V6zm2 2v4h8V8H6z',
         },
         {
-          title: 'Concierge Chat: ',
-          description: 'Direct, personal attention for every request.',
+          title: 'Analytika a statistiky: ',
+          description: 'Poznejte své hosty do hloubky.',
           icon: 'M6 2h8v2H6V2zM4 6h12v10H4V6z',
         },
         {
-          title: 'Instant Feedback: ',
-          description: 'Address concerns in real-time.',
+          title: 'Trip planner: ',
+          description: 'Staňte se pro své hosty tím nejlepším zdrojem inspirace a autentických zážitků.',
           icon: 'M2 5a2 2 0 012-2h12a2 2 0 012 2v10H2V5zm3 3h10v2H5V8z',
         },
         {
-          title: 'Spa & Wellness: ',
-          description: 'Easy booking for exclusive treatments.',
+          title: 'Live chat: ',
+          description: 'Osobní péče na jeden dotek.',
           icon: 'M3 10h14v2H3v-2zm0 4h14v2H3v-2z',
         },
         {
-          title: 'Analytics & Insights: ',
-          description: 'Understand your guests better.',
+          title: 'Spa & Wellness: ',
+          description: 'Relaxace, která začíná už při rezervaci.',
           icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+        },
+        {
+          title: 'Mobilní objednávky: ',
+          description: 'Room Service a exkluzivní nabídky přímo v telefonu. Zvyšte tržby díky pohodlnému objednávání jídla i zážitků na pár kliknutí.',
+          icon: 'M4 13h12v2H4v-2zm0-4h12v2H4V9zm0-4h12v2H4V5z',
         },
       ],
       boutiquesWork: [
         {
-          title: 'Digital Convenience',
-          description: 'Provide a modern, mobile and web-based solution for your guests.',
+          title: 'Moderní řešení pro moderního hosta',
+          description: 'Nabídněte hostům mobilní rozhraní pro okamžitý přístup k vašim službám.',
         },
         {
-          title: 'Brand Personalization',
-          description: 'Customize the platform to perfectly match your unique brand identity.',
+          title: 'Vaše identita v každém pixelu',
+          description: 'Přizpůsobte platformu tak, aby dokonale odrážela unikátní charakter a vizuální styl vašeho hotelu.',
         },
         {
-          title: 'Seamless Integration',
-          description: 'Works with your existing systems to ensure smooth operations.',
+          title: 'Dokonalá souhra vašich systémů',
+          description: 'Otel Apps spolupracuje s vašimi stávajícími nástroji a zajišťuje plynulý provoz.',
         },
       ],
       boutiquesBenefits: [
         {
-          title: 'Easy Access',
+          title: 'Služby v hostovo kapse',
           description:
-            'Guests can easily access all services and information from their own devices.',
+            'Okamžitý přístup ke všemu podstatnému přímo z telefonu hosta',
         },
         {
-          title: 'Personalization',
-          description: 'Deliver tailored recommendations and offers that delight your guests.',
-        },
-        {
-          title: 'High-Level Communication',
-          description: 'Maintain a high-touch service level through discreet digital channels.',
+          title: 'Personalizace',
+          description: 'Nabídněte doporučení a služby šité na míru. Nadchněte své hosty pozorností k detailu, která promění obyčejný pobyt v nezapomenutelný zážitek.',
         },
       ],
     }
