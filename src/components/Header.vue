@@ -136,7 +136,10 @@
     </div>
 
     <!-- Mobile Menu Overlay -->
-    <div v-if="isMobileMenuOpen" class="md:hidden fixed inset-0 z-50 bg-white dark:bg-[#16171A]">
+    <div
+      v-if="isMobileMenuOpen"
+      class="md:hidden fixed inset-0 z-50 bg-white dark:bg-[#16171A] flex flex-col h-full"
+    >
       <!-- Mobile menu header -->
       <div class="flex justify-between items-center p-4 border-b border-gray-200">
         <router-link to="/" @click="closeMobileMenu">
@@ -145,11 +148,13 @@
 
         
         <div class="flex items-center space-x-4">
+          <!--
           <button @click="toggleTheme" 
             class="border border-gray-300 text-gray-700 px-4 py-2 rounded-md not-dark:hover:bg-gray-50 transition-colors text-sm cursor-pointer dark:text-white"
             >
               {{ isDark ? 'Light' : 'Dark' }}
           </button>
+          -->
           <!-- Language selector -->
           <div class="flex items-center space-x-1 cursor-pointer">
             <span class="material-symbols-outlined">language</span>
@@ -176,7 +181,7 @@
       </div>
 
       <!-- Mobile menu content -->
-      <div class="px-4 py-6 bg-white dark:bg-[#16171A]">
+      <div class="flex-1 overflow-y-auto px-4 py-6 bg-white dark:bg-[#16171A]">
         <!-- Navigation items -->
         <nav class="space-y-0">
           <div
@@ -1003,7 +1008,7 @@ export default {
       isMobileMenuOpen: false,
       isProductOpen: false,
       isSolutionsOpen: false,
-      headerTransform: 'translateY(0)',
+      headerTransform: 'none',
       lastScrollY: 0,
       ticking: false,
     }
@@ -1057,7 +1062,7 @@ export default {
     handleScroll() {
       // Pouze pro zařízení > 767px (desktop/tablet). Na mobilech header neschovávej.
       if (window.innerWidth <= 767) {
-        this.headerTransform = 'translateY(0)'
+        this.headerTransform = 'none'
         this.lastScrollY =
           window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
         this.ticking = false
@@ -1071,7 +1076,7 @@ export default {
           const scrollDifference = currentScrollY - this.lastScrollY
           
           if (scrollDifference < 0) {
-            this.headerTransform = 'translateY(0)'
+            this.headerTransform = 'none'
           }
           else if (scrollDifference > 2) {
             this.headerTransform = 'translateY(-5000%)'
