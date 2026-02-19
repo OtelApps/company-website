@@ -1,14 +1,14 @@
 <template>
   <main>
-    <section class="py-16">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section>
+      <div class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
-            <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Jednodušší objednávky, vyšší tržby
             </h1>
-            <p class="text-lg text-gray-700 leading-relaxed">
+            <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
               Umožněte hostům objednávat a platit přímo z jejich telefonu. Propojte přání hosta s kuchyní a zajistěte raketový růst 
               tržeb v restauraci i lobby baru díky rychlému a bezchybnému servisu.
             </p>
@@ -20,8 +20,8 @@
           </div>
 
           <!-- Right Section - Image -->
-          <div class="flex items-center justify-end">
-            <img :src="image1" alt="Mobile Ordering obrázek" class="w-3/4">
+          <div class="flex items-center justify-center lg:justify-end">
+            <img :src="image1" alt="Mobile Ordering obrázek" class="w-[80%]">
           </div>
         </div>
       </div>
@@ -90,19 +90,19 @@ export default {
           title: 'Objednávky přes QR kódy',
           description:
             'Bleskový přístup k menu kdekoli v hotelu. Stačí naskenovat, vybrat si a objednat!',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+          icon: 'qr_code_2',
         },
         {
           title: 'Digitální menu na míru',
           description:
             'Představte svou nabídku v tom nejlepším světle. Vytvořte pro své hosty vizuálně atraktivní, interaktivní menu, která upravíte během okamžiku přímo ve svém prohlížeči.',
-          icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
+          icon: 'menu',
         },
         {
           title: 'Bezproblémové platby pro moderní hotel',
           description:
             'Propojte svůj hotelový systém s nejoblíbenějšími platebními metodami. Přijímejte Apple Pay, Google Pay i platební karty přímo v aplikaci.',
-          icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
+          icon: 'payments',
         },
       ],
       mobileOrderingFeatures: [
@@ -158,26 +158,32 @@ export default {
         {
           title: 'Rychlejší servis pro více hostů',
           description: 'Zkraťte čekací doby na minimum. Díky digitálním objednávkám obsloužíte více hostů za kratší čas a zajistíte jim plynulý zážitek bez zbytečného čekání.',
+          icon: 'speed'
         },
         {
           title: 'Vyšší prodeje',
           description: 'Odstraňte tření v prodejním procesu a sledujte, jak roste počet objednávek i průměrná útrata na každého hosta.',
+          icon: 'chart_data'
         },
         {
           title: 'Nové zdroje příjmů',
           description: 'Umožněte hostům objednávat jídlo, pití nebo služby odkudkoli.',
+          icon: 'paid'
         },
         {
           title: 'Plynulý provoz kuchyně',
           description: 'Objednávky jsou digitální, dokonale přehledné a systém je automaticky odešle přesně tam, kam patří.',
+          icon: 'dining'
         },
         {
           title: 'Dokonalý zážitek pro vaše hosty',
           description: 'Umožněte jim objednávat služby přesně tehdy, kdy chtějí, a způsobem, který jim nejvíce vyhovuje.',
+          icon: 'add_reaction'
         },
         {
           title: 'Sjednocená data a přehled',
           description: 'Díky plné integraci získáte ucelený pohled na veškeré výdaje a chování svých hostů. Všechna data o objednávkách a útratách se na jednom místě pro dokonalý přehled.',
+          icon: 'analytics'
         },
       ],
     }

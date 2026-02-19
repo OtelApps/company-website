@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16">
+  <section class="py-16 px-6">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Left side - Image -->
@@ -9,11 +9,11 @@
 
         <!-- Right side - Features -->
         <div class="space-y-6">
-          <h2 class="text-4xl font-bold text-gray-800 mb-4">
+          <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             {{ title }}
           </h2>
 
-          <p class="text-lg text-gray-600 mb-8">
+          <p class="text-base sm:text-lg text-gray-900 mb-8">
             {{ description }}
           </p>
 
@@ -33,8 +33,8 @@
                 </svg>
               </div>
               <div>
-                <p class="text-gray-600">
-                  <strong>{{ feature.title }}</strong
+                <p class="text-base sm:text-lg text-gray-600">
+                  <strong class="text-gray-900">{{ feature.title }}</strong
                   >{{ feature.description }}
                 </p>
               </div>

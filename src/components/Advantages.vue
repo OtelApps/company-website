@@ -2,8 +2,8 @@
   <section class="py-16" :class="backgroundColor">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{{ title }}</h2>
-        <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{{ title }}</h2>
+        <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
           {{ subtitle }}
         </p>
       </div>
@@ -14,13 +14,15 @@
           :key="feature.title"
           class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
         >
-          <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-              <path :d="feature.icon" />
-            </svg>
-          </div>
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ feature.title }}</h3>
-          <p class="text-gray-600">
+        <div class="w-12 h-12 flex items-center justify-center mb-4">
+          <span class="material-symbols-outlined text-[#f5a623]"
+                style="font-size: 35px; font-variation-settings: 'opsz' 40;"
+          >
+            {{ feature.icon }}
+          </span>
+        </div>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ feature.title }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">
             {{ feature.description }}
           </p>
         </div>

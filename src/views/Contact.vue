@@ -1,35 +1,24 @@
 <template>
   <main class="bg-white">
-    <!-- Top Section - Dark Grey Background -->
-    <div
-      class="bg-[#383e42] text-white py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-16 relative lg:h-87.5"
-    >
-      <div class="max-w-screen-2xl mx-auto">
-        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
-          <!-- Left content -->
-          <div class="max-w-2xl">
-            <h1 class="text-3xl md:text-4xl font-bold mb-6 md:mb-8 leading-tight">Kontaktujte nás</h1>
+    <!-- Split Layout: Left Dark, Right Dark with Form -->
+    <article class="flex flex-col lg:flex-row min-h-screen">
+      <!-- Left side - Dark Grey Background with Text -->
+      <section class="bg-[#383e42] text-white py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-16 lg:w-1/2 flex items-start">
+        <div class="max-w-2xl w-full">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8 leading-tight">Kontaktujte nás</h1>
 
-            <div class="space-y-4 md:space-y-6 text-base md:text-lg">
-              <p>
-                Máte otázky? My máme odpovědi (a nadšení pro hotelové inovace k tomu). Neváhejte se na nás obrátit s jakýmkoliv dotazem, 
-                technickým detailem nebo vizí, kterou chcete probrat.
-              </p>
-            </div>
-          </div>
+            <p class="space-y-4 md:space-y-6 text-base sm:text-lg">
+              Máte otázky? My máme odpovědi (a nadšení pro hotelové inovace k tomu). Neváhejte se na nás obrátit s jakýmkoliv dotazem, 
+              technickým detailem nebo vizí, kterou chcete probrat.
+            </p>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <!-- Bottom Section - White Background with Hotel Logos -->
-    <div class="bg-white py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 relative">
-      <div class="max-w-screen-2xl mx-auto">
-        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
-          <div class="flex-1 mr-0 lg:mr-32"></div>
-
-          <!-- Right side - Form overlaps both sections -->
+      <!-- Right side - Dark Grey Background with Form -->
+      <section class="bg-[#383e42] py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 lg:w-1/2 flex items-center">
+        <div class="w-full max-w-2xl mx-auto">
           <div
-            class="w-full lg:w-128 bg-white rounded-3xl shadow-2xl p-6 md:p-8 relative z-10 mt-8 lg:-mt-84 border-3 border-black"
+            class="w-full bg-white rounded-3xl shadow-2xl p-8 md:p-10 lg:p-12 border-2 border-[#383E42]"
           >
             <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
               <input type="hidden" name="access_key" value="5ef8b433-289a-4ea3-8a47-e122e68c3d6d">
@@ -40,7 +29,9 @@
                     name="Jmeno"
                     type="text"
                     placeholder="Jméno *"
-                    class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                    pattern="[A-Za-zÁ-Žá-ž]+"
+                    title="Zadej pouze písmena"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                     required
                   />
                 </div>
@@ -49,7 +40,9 @@
                     name="Prijmeni"
                     type="text"
                     placeholder="Příjmení *"
-                    class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                    pattern="[A-Za-zÁ-Žá-ž]+"
+                    title="Zadej pouze písmena"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                     required
                   />
                 </div>
@@ -61,7 +54,7 @@
                   name="Email"
                   type="email"
                   placeholder="Email *"
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                  class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                   required
                 />
               </div>
@@ -71,10 +64,10 @@
                 <div>
                   <select
                     name="Zeme"
-                    class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                     required
                   >
-                    <option value="">Země *</option>
+                    <option value="" disabled selected hidden>Země *</option>
                     <option value="Ceska republika">Česká republika</option>
                     <option value="Slovensko">Slovensko</option>
                     <option value="Nemecko">Německo</option>
@@ -87,7 +80,9 @@
                     name="Telefonni cislo"
                     type="tel"
                     placeholder="Telefonní číslo *"
-                    class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                    pattern="^\+?[0-9]{7,15}$"
+                    title="Zadejte telefonní číslo v mezinárodním formátu"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                     required
                   />
                 </div>
@@ -97,10 +92,10 @@
               <div>
                 <select
                   name="Typ dotazu"
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                  class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                   required
                 >
-                  <option value="">Typ dotazu *</option>
+                  <option value="" disabled selected hidden>Typ dotazu *</option>
                   <option value="Prodej">Rád bych kontaktoval prodej</option>
                   <option value="Podpora">Rád bych kontaktoval podporu</option>
                   <option value="Admin">Rád bych kontaktoval administrátora</option>
@@ -115,7 +110,7 @@
                   name="Zprava"
                   placeholder="Vaše zpráva"
                   rows="4"
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white resize-none"
+                  class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white resize-none"
                   required
                 ></textarea>
               </div>
@@ -160,13 +155,13 @@
                 type="submit"
                 class="w-full sm:w-[75%] lg:w-[50%] bg-[#ffa500] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
               >
-                Požádat o demo
+                Odeslat
               </button>
             </form>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   </main>
 </template>
 

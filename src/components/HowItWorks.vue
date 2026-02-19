@@ -1,12 +1,12 @@
 <template>
-  <section class="py-16" :class="backgroundColor">
+  <section class="py-16 px-6" :class="backgroundColor">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Levá strana - title, subtitle a kroky -->
         <div>
           <div class="text-left mb-8">
-            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{{ title }}</h2>
-            <p class="text-lg text-gray-700">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{{ title }}</h2>
+            <p class="text-base sm:text-lg text-gray-700">
               {{ subtitle }}
             </p>
           </div>
@@ -22,8 +22,8 @@
 
               <!-- Obsah kroku -->
               <div class="flex-1">
-                <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ step.title }}</h3>
-                <p class="text-gray-600">{{ step.description }}</p>
+                <h3 class=" text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ step.title }}</h3>
+                <p class="text-sm sm:text-base text-gray-600">{{ step.description }}</p>
               </div>
             </div>
           </div>

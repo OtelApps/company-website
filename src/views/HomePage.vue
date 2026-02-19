@@ -5,19 +5,28 @@ const activeButton = ref('f&b')
 </script>
 
 <template>
-  <!-- Main Content -->
-  <main class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+  <main class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
     <section>
       <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <!-- Left Section - Text Content -->
-        <div class="space-y-6 sm:space-y-8">
+        <div class="space-y-4 sm:space-y-8">
           <h1
             class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight dark:text-white"
           >
             Vylepšete hotelový provoz pomocí chytrého digitálního řešení!
           </h1>
 
-          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed">
+          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
+            Prostřednictvím naší intuitivní mobilní aplikace dáváme hostům do rukou nástroj pro
+            snadnou komunikaci a přístup ke službám.
+          </p>
+
+          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
+            Hotelům poskytujeme webové rozhraní, které zjednodušuje správu těchto požadavků, pomáhá
+            řídit interní procesy, efektivně spravovat náklady, navyšovat tržby a spokojenost hostů.
+          </p>
+
+          <p class="hidden sm:block text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed">
             Prostřednictvím naší intuitivní mobilní aplikace dáváme hostům do rukou nástroj pro
             snadnou komunikaci a přístup ke službám. Hotelům poskytujeme webové rozhraní, které
             zjednodušuje správu těchto požadavků, pomáhá řídit interní procesy, efektivně spravovat
@@ -56,19 +65,15 @@ const activeButton = ref('f&b')
 
       <!-- Text Overlay with full-width semi-transparent background (fills the section) -->
       <div class="absolute inset-0 bg-black/70 flex items-center justify-center">
-        <div class="text-center text-white w-full px-4 sm:px-6 lg:px-8">
+        <div class="text-white w-full px-4 sm:px-6 lg:px-8">
           <h2
-            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-center mx-auto"
           >
-            Zvyšte tržby svého hotelu a
-            <br />
-            spokojenost vašich hostů.
+            Zvyšte tržby svého hotelu a spokojenost vašich hostů.
           </h2>
-          <p class="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
+          <p class="text-sm sm:text-base md:text-lg lg:text-xl lg:max-w-2xl leading-relaxed mx-auto text-center">
             Zvyšte své tržby pomocí jednoduchého a rychlého systému
-            <br />
             objednávek přes naši mobilní aplikaci. Nabízejte všechny své
-            <br />
             produkty a služby pohodlně na mobilním telefonu vašeho hosta.
           </p>
         </div>
@@ -89,7 +94,7 @@ const activeButton = ref('f&b')
         <!-- Right Section - Text Content -->
         <div class="order-1 lg:order-2 space-y-6 sm:space-y-8">
           <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight dark:text-white"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
             Všechny vaše služby dostupné pouze na jedno kliknutí.
           </h2>
@@ -105,20 +110,7 @@ const activeButton = ref('f&b')
                   : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
               ]"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                class="h-5 w-5"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
-                />
-              </svg>
+            <span class="material-symbols-outlined">order_approve</span>
               Objednávání produktů
             </button>
 
@@ -131,20 +123,7 @@ const activeButton = ref('f&b')
                   : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
               ]"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                class="h-5 w-5"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
-                />
-              </svg>
+            <span class="material-symbols-outlined">rule</span>
               Požadavky
             </button>
 
@@ -157,20 +136,7 @@ const activeButton = ref('f&b')
                   : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
               ]"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                class="h-5 w-5"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
-                />
-              </svg>
+            <span class="material-symbols-outlined">event</span>
               Rezervace
             </button>
           </div>
@@ -345,7 +311,7 @@ const activeButton = ref('f&b')
         <!-- Left: Text -->
         <div>
           <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight dark:text-white"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
             Zvyšte efektivitu práce vašeho personálu
           </h2>
@@ -381,7 +347,7 @@ const activeButton = ref('f&b')
                 <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
                   Mějte požadavky pod kontrolou
                 </h3>
-                <p class="text-sm text-gray-600 mt-1 sm:mt-2 dark:text-white">
+                <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
                   Získávejte požadavky hostů okamžitě a vyřizujte je přehledněji a rychleji.
                 </p>
               </div>
@@ -417,7 +383,7 @@ const activeButton = ref('f&b')
                 <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
                   Mějte přehled o vašich službách v přítomném čase.
                 </h3>
-                <p class="text-sm text-gray-600 mt-1 sm:mt-2 dark:text-white">
+                <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
                   Aktualizujte nabídku a informace o vašich službách a udržujte vše neustále přehledné pro váš personál i hosty.
                 </p>
               </div>
@@ -450,13 +416,12 @@ const activeButton = ref('f&b')
         <!-- Right: Text -->
         <div class="order-1 lg:order-2">
           <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight dark:text-white"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
             Získávejte rychle a přehledně zpětnou vazbu od vašich hostů.
           </h2>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed mt-4 sm:mt-6 dark:text-white">
             Proměňte nespokojeného hosta ve spokojeného díky okamžité
-            <br />
             zpětné vazbě ke všem vašim produktům a službám.
           </p>
         </div>
@@ -468,7 +433,7 @@ const activeButton = ref('f&b')
         <!-- Left: Text -->
         <div>
           <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight dark:text-white"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
             Dopřejte hostům zážitek, který jste skutečně Vy!
           </h2>
@@ -478,28 +443,26 @@ const activeButton = ref('f&b')
 
           <div class="mt-8 sm:mt-12 grid sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
             <div>
-              <h3 class="text-sm sm:text-base font-bold text-gray-900 dark:text-white">Jednotný design vaší značky a identity</h3>
-              <p class="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2 dark:text-white">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Jednotný design vaší značky a identity</h3>
+              <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
                 Reagujte na potřeby hostů okamžitě díky chytrému systému žádostí a plynulé komunikaci, který zvyšuje spokojenost hostů a uvolňuje ruce vašemu personálu.
               </p>
             </div>
 
             <div>
-              <h3 class="text-sm sm:text-base font-bold text-gray-900 dark:text-white">Propagujte své nejlepší služby</h3>
-              <p class="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2 dark:text-white">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Propagujte své nejlepší služby</h3>
+              <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
                 Získejte přehled o preferencích hostů a zvyšujte kvalitu i prodeje tam, kde to má největší přínos pro váš hotel.
               </p>
             </div>
 
             <div class="sm:col-span-2">
-              <h3 class="text-sm sm:text-base font-bold text-gray-900 dark:text-white">
+              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
                 Personalizovaný zážitek pro každého hosta
               </h3>
-              <p class="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2 dark:text-white">
+              <p class="text-sm sm:text-base sm:max-w-xs text-gray-600 mt-1 sm:mt-2 dark:text-white">
                 Doporučujte každému hostovi nabídky a obsah na
-                <br />
                 míru podle jeho preferencí, abyste zvýšili jeho zapojení,
-                <br />
                 spokojenost i prodeje služeb.
               </p>
             </div>
@@ -517,12 +480,25 @@ const activeButton = ref('f&b')
       </div>
     </section>
     <section class="py-16 sm:py-20 lg:py-24">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto">
-          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
+      <div class="max-w-screen-2xl mx-auto lg:px-8">
+        <div class="lg:text-center max-w-5xl mx-auto space-y-4 sm:space-y-8">
+          <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white">
             Posuňte zážitek ve vašem hotelu na vyšší úroveň s naším chytrým softwarem.
           </h2>
-          <p class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed dark:text-white">
+
+          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
+            Náš software promění běžný hotelový provoz v dokonale sehraný systém, kde má každý host vše
+            na dosah ruky a personál pracuje efektivněji než kdykoli předtím.
+          </p>
+
+          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
+            Digitalizujeme komunikaci,
+            zrychlujeme reakční dobu a odstraňujeme zbytečné prostoje, díky čemuž získáte spokojenější
+            hosty i méně zatížený tým. Výsledkem je hladší provoz, vyšší kvalita služeb, optimalizace nákladů
+            a růst tržeb, který pocítíte okamžitě.
+          </p>
+
+          <p class="hidden sm:block text-base sm:text-lg text-gray-700 leading-relaxed dark:text-white">
             Náš software promění běžný hotelový provoz v dokonale sehraný systém, kde má každý host vše
             na dosah ruky a personál pracuje efektivněji než kdykoli předtím. Digitalizujeme komunikaci,
             zrychlujeme reakční dobu a odstraňujeme zbytečné prostoje, díky čemuž získáte spokojenější
@@ -558,10 +534,10 @@ const activeButton = ref('f&b')
                 />
               </svg>
             </div>
-            <h3 class="mt-4 sm:mt-6 text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
+            <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
               Zvyšte efektivitu vašeho personálu
             </h3>
-            <p class="mt-2 sm:mt-3 text-sm text-gray-600 dark:text-white">
+            <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
               Zjednodušte každodenní úkoly a zkraťte reakční dobu díky chytře organizovaným procesům.
             </p>
           </div>
@@ -592,10 +568,10 @@ const activeButton = ref('f&b')
                 />
               </svg>
             </div>
-            <h3 class="mt-4 sm:mt-6 text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
+            <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
               Poskytněte vaším hostům výjimečný zážitek a vyšší úroveň spokojenosti
             </h3>
-            <p class="mt-2 sm:mt-3 text-sm text-gray-600 dark:text-white">
+            <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
               Nadchněte vašeho hosty personalizovanými službami, které budou mít na dosah ruky.
             </p>
           </div>
@@ -626,10 +602,10 @@ const activeButton = ref('f&b')
                 />
               </svg>
             </div>
-            <h3 class="mt-4 sm:mt-6 text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
+            <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
               Efektivní provoz pro maximální produktivitu
             </h3>
-            <p class="mt-2 sm:mt-3 text-sm text-gray-600 dark:text-white">
+            <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
               Optimalizovaný provoz pro maximální efektivitu řízení hotelu.
             </p>
           </div>

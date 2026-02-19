@@ -1,14 +1,14 @@
 <template>
   <main>
-    <section class="py-16">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section>
+      <div class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
-            <h1 class="text-4xl lg:text-5xl leading-tight">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight">
               Guest Experience systém pro městské hotely
             </h1>
-            <p class="text-lg text-gray-700 leading-relaxed">
+            <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
               Dnešní hosté vyžadují pobyt bez starostí. Naše digitální řešení se postarají o to, aby každé jejich přání bylo splněno rychle, 
               hladce a přesně tak, jak očekávají od moderního hotelu 21. století.
             </p>
@@ -20,7 +20,7 @@
           </div>
 
           <!-- Right Section - Image -->
-          <div class="flex items-center justify-end">
+          <div class="flex items-center justify-center lg:justify-end">
             <img :src="image1" alt="City Center obrázek" class="w-4/5">
           </div>
         </div>
@@ -30,10 +30,10 @@
     <section class="py-16 bg-[#f4f4f4]">
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Nová éra městských hotelů
           </h2>
-          <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+          <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
             Nabídněte moderním cestovatelům bezstarostný pobyt. Od hladkého odbavení po okamžitý servis, Otel Apps mění cestu hosta v zážitek, 
             který zvyšuje spokojenost i vaše zisky.
           </p>
@@ -45,15 +45,15 @@
             :key="index"
             class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm text-center"
           >
-            <div
-              class="w-10 h-10 rounded-lg bg-[#f5a623]/20 flex items-center justify-center mx-auto mb-4"
-            >
-              <svg class="w-5 h-5 text-[#f5a623]" fill="currentColor" viewBox="0 0 20 20">
-                <path :d="feature.icon" />
-              </svg>
+            <div class="w-12 h-12 flex items-center justify-center mb-4 mx-auto">
+              <span class="material-symbols-outlined text-[#f5a623]"
+                style="font-size: 35px; font-variation-settings: 'opsz' 40;"
+              >
+                {{ feature.icon }}
+              </span>
             </div>
-            <h3 class="text-base font-semibold text-gray-900 mb-2">{{ feature.title }}</h3>
-            <p class="text-sm text-gray-600">{{ feature.description }}</p>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ feature.title }}</h3>
+            <p class="text-sm sm:text-base text-gray-600">{{ feature.description }}</p>
           </div>
         </div>
       </div>
@@ -69,9 +69,9 @@
           </div>
 
           <!-- Right content: title, subtitle, features -->
-          <div class="lg:col-span-3">
-            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Ucelený ekosystém</h2>
-            <p class="text-gray-700 text-lg mb-8 max-w-2xl">
+          <div class="lg:col-span-3 px-4">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Ucelený ekosystém</h2>
+            <p class="text-base sm:text-lg text-gray-600 mb-8 max-w-2xl">
               Otel Apps je víc než aplikace; je to komplexní operační systém pro váš hotel, který propojuje všechny vaše služby na jednom místě.
             </p>
 
@@ -81,18 +81,17 @@
                 :key="index"
                 class="flex items-start space-x-4"
               >
-                <div class="flex-shrink-0 mt-1">
-                  <div class="w-7 h-7 rounded-lg bg-[#f5a623]/20 flex items-center justify-center">
-                    <svg class="w-4 h-4 text-[#f5a623]" viewBox="0 0 20 20" fill="currentColor">
-                      <path :d="item.icon" />
-                    </svg>
-                  </div>
+                <div class="w-12 h-12 flex items-start justify-start">
+                  <span class="material-symbols-outlined text-[#f5a623]"
+                    style="font-size: 35px; font-variation-settings: 'opsz' 40;"
+                  >
+                    {{ item.icon }}
+                  </span>
                 </div>
                 <div>
-                  <p class="text-gray-700">
-                    <span class="font-semibold text-gray-900">{{ item.title }}</span>
-                    <span class="ml-1">{{ item.description }}</span>
-                  </p>
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-900">
+                    {{ item.title }}
+                  </h3>
                 </div>
               </div>
             </div>
@@ -145,59 +144,59 @@ export default {
         {
           title: 'Konec frontám a zbytečnému čekání',
           description: 'Zkraťte čekací doby na recepci i v restauraci na úplné minimum. Dopřejte svým hostům plynulý zážitek bez zbytečných prostojů a nechte svůj personál zazářit tam, kde je to skutečně potřeba.',
-          icon: 'M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 110-12 6 6 0 010 12zm1-7h2v2h-2V9zm-2 0H7v2h2V9z',
+          icon: 'clock_arrow_down',
         },
         {
           title: 'Podpora týmu',
           description: 'Uvolněte svému týmu ruce, aby se mohl naplno věnovat tomu nejdůležitějšímu, budování osobních vztahů s hosty a poskytovaní špičkového servisu.',
-          icon: 'M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z',
+          icon: 'help',
         },
         {
           title: 'Růst tržeb',
           description: 'Podpořte doplňkový prodej a mobilní objednávky díky cíleným akcím.',
-          icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
+          icon: 'chart_data',
         },
       ],
       keyFunctions: [
         {
           title: 'Digitální hotelový průvodce',
-          icon: 'M3 3h14a1 1 0 011 1v9a2 2 0 01-2 2H6l-3 3V4a1 1 0 011-1z',
+          icon: 'developer_guide',
         },
         {
           title: 'Room Service & Služby',
-          icon: 'M4 13h12v2H4v-2zm0-4h12v2H4V9zm0-4h12v2H4V5z',
+          icon: 'service_toolbox',
         },
         {
           title: 'Průvodce destinací',
-          icon: 'M4 6h12v8H4V6zm2 2v4h8V8H6z',
+          icon: 'location_on',
         },
         {
           title: 'Trip Planner',
-          icon: 'M6 2h8v2H6V2zM4 6h12v10H4V6z',
+          icon: 'trip',
         },
         {
           title: 'Task Manager & Provoz',
-          icon: 'M2 5a2 2 0 012-2h12a2 2 0 012 2v10H2V5zm3 3h10v2H5V8z',
+          icon: 'web_traffic',
         },
         {
           title: 'Mobilní objednávky',
-          icon: 'M3 10h14v2H3v-2zm0 4h14v2H3v-2z',
+          icon: 'mobile',
         },
         {
           title: 'Rezervace Restaurace & Wellness & Gym',
-          icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+          icon: 'exercise',
         },
         {
           title: 'Analytika a statistiky',
-          icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+          icon: 'analytics',
         },
         {
           title: 'Online check-in & check-out',
-          icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+          icon: 'wifi',
         },
         {
           title: 'A mnoho dalších funkcí...',
-          icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+          icon: 'more',
         },
       ],
       cityCenterWork: [
@@ -227,16 +226,19 @@ export default {
           title: 'Intuitivní ovládání',
           description:
             'Naše rozhraní zajišťuje hladký zážitek pro všechny hosty bez ohledu na jejich technické dovednosti. Jednoduchost je náš standard.',
+          icon: 'sentiment_satisfied'
         },
         {
           title: 'Hotel, který mluví jazykem vašich hostů',
           description:
             'Obslužte svou mezinárodní klientelu v jejich rodném jazyce. Odstraňte bariéry a zvyšte komfort svých hostů z celého světa.',
+          icon: 'emoji_language'
         },
         {
           title: 'Design bez bariér pro každého',
           description:
             'Naše platforma splňuje standardy přístupnosti a zajišťuje, že ji může snadno používat každý host bez ohledu na svá omezení.',
+          icon: 'design_services'
         },
       ],
     }

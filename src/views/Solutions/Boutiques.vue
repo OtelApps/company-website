@@ -1,14 +1,14 @@
 <template>
   <main>
-    <section class="py-16">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section>
+      <div class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
-            <h1 class="text-4xl lg:text-5xl leading-tight">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight">
               Guest Experience systém pro boutique hotely
             </h1>
-            <p class="text-lg text-gray-700 leading-relaxed">
+            <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
               Otel Apps je navržen tak, aby zachoval exkluzivitu vašeho hotelu a zároveň vám umožnil poskytovat kvalitní a 
               vysoce personalizovanou péči, kterou vaši hosté očekávají.
             </p>
@@ -20,7 +20,7 @@
           </div>
 
           <!-- Right Section - Image -->
-          <div class="flex items-center justify-end">
+          <div class="flex items-center justify-center lg:justify-end">
             <img :src="image1" alt="Boutigues obrázek" class="w-9/10">
           </div>
         </div>
@@ -30,10 +30,10 @@
     <section class="py-16 bg-[#f4f4f4]">
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Tvořte nezapomenutelné zážitky
           </h2>
-          <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+          <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
             Dopřejte svým hostům výjimečný pobyt, který plně odráží jedinečný charakter a styl vašeho hotelu.
           </p>
         </div>
@@ -44,15 +44,15 @@
             :key="index"
             class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm text-center"
           >
-            <div
-              class="w-10 h-10 rounded-lg bg-[#f5a623]/20 flex items-center justify-center mx-auto mb-4"
-            >
-              <svg class="w-5 h-5 text-[#f5a623]" fill="currentColor" viewBox="0 0 20 20">
-                <path :d="feature.icon" />
-              </svg>
+            <div class="w-12 h-12 flex items-center justify-center mb-4 mx-auto">
+              <span class="material-symbols-outlined text-[#f5a623]"
+                style="font-size: 35px; font-variation-settings: 'opsz' 40;"
+              >
+                {{ feature.icon }}
+              </span>
             </div>
-            <h3 class="text-base font-semibold text-gray-900 mb-2">{{ feature.title }}</h3>
-            <p class="text-sm text-gray-600">{{ feature.description }}</p>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ feature.title }}</h3>
+            <p class="text-sm sm:text-base text-gray-600">{{ feature.description }}</p>
           </div>
         </div>
       </div>
@@ -68,11 +68,11 @@
           </div>
 
           <!-- Right content: title, subtitle, features -->
-          <div class="lg:col-span-3">
-            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <div class="lg:col-span-3 px-4">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Klíčové funkce pro boutique hotely
             </h2>
-            <p class="text-gray-700 text-lg mb-8 max-w-2xl">
+            <p class="text-base sm:text-lg text-gray-600 mb-8 max-w-2xl">
               Pečlivě vybraná sada nástrojů navržená k posílení komfortu a osobního přístupu, který vaši hosté ocení.
             </p>
 
@@ -82,15 +82,15 @@
                 :key="index"
                 class="flex items-start space-x-4"
               >
-                <div class="flex-shrink-0 mt-1">
-                  <div class="w-7 h-7 rounded-lg bg-[#f5a623]/20 flex items-center justify-center">
-                    <svg class="w-4 h-4 text-[#f5a623]" viewBox="0 0 20 20" fill="currentColor">
-                      <path :d="item.icon" />
-                    </svg>
-                  </div>
+                <div class="w-12 h-12 flex items-start justify-start">
+                  <span class="material-symbols-outlined text-[#f5a623]"
+                    style="font-size: 35px; font-variation-settings: 'opsz' 40;"
+                  >
+                    {{ item.icon }}
+                  </span>
                 </div>
                 <div>
-                  <p class="text-gray-700">
+                  <p class="text-base sm:text-lg text-gray-700">
                     <span class="font-semibold text-gray-900">{{ item.title }}</span>
                     <span class="ml-1">{{ item.description }}</span>
                   </p>
@@ -141,59 +141,59 @@ export default {
         {
           title: 'Uchovejte si svou exkluzivitu',
           description: "Váš digitální prostor by měl být stejně okouzlující jako váš hotel sám.",
-          icon: 'M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 110-12 6 6 0 010 12zm1-7h2v2h-2V9zm-2 0H7v2h2V9z',
+          icon: 'crown',
         },
         {
           title: 'Péče, která buduje loajalitu',
           description: 'V digitálním věku je rychlost synonymem pro kvalitu. Otel Apps vám dává nástroj k okamžitému spojení s každým hostem.',
-          icon: 'M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z',
+          icon: 'loyalty',
         },
         {
           title: 'Budování vztahu s hosty',
           description: 'Oslovte své hosty personalizovanými nabídkami a obsahem na míru.',
-          icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
+          icon: 'handshake',
         },
         {
           title: 'Konec zbytečného čekání',
           description: 'Umožněte hostům zadávat požadavky a hledat informace v čase, kdy se to hodí jim. Rychle, digitálně a bez front.',
-          icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
+          icon: 'clock_arrow_down',
         },
       ],
       keyFunctions: [
         {
           title: 'Hotelový digitální průvodce: ',
           description: "Esence vašeho hotelu v digitální podobě.",
-          icon: 'M3 3h14a1 1 0 011 1v9a2 2 0 01-2 2H6l-3 3V4a1 1 0 011-1z',
+          icon: 'screen_search_desktop',
         },
         {
           title: 'Okamžitá zpětná vazba: ',
           description: 'Vyřešte problémy dřív, než se stanou recenzí.',
-          icon: 'M4 6h12v8H4V6zm2 2v4h8V8H6z',
+          icon: 'comment',
         },
         {
           title: 'Analytika a statistiky: ',
           description: 'Poznejte své hosty do hloubky.',
-          icon: 'M6 2h8v2H6V2zM4 6h12v10H4V6z',
+          icon: 'analytics',
         },
         {
           title: 'Trip planner: ',
           description: 'Staňte se pro své hosty tím nejlepším zdrojem inspirace a autentických zážitků.',
-          icon: 'M2 5a2 2 0 012-2h12a2 2 0 012 2v10H2V5zm3 3h10v2H5V8z',
+          icon: 'trip',
         },
         {
           title: 'Live chat: ',
           description: 'Osobní péče na jeden dotek.',
-          icon: 'M3 10h14v2H3v-2zm0 4h14v2H3v-2z',
+          icon: 'chat',
         },
         {
           title: 'Spa & Wellness: ',
           description: 'Relaxace, která začíná už při rezervaci.',
-          icon: 'M7 2h6v2H7V2zM5 6h10v10H5V6z',
+          icon: 'spa',
         },
         {
           title: 'Mobilní objednávky: ',
           description: 'Room Service a exkluzivní nabídky přímo v telefonu. Zvyšte tržby díky pohodlnému objednávání jídla i zážitků na pár kliknutí.',
-          icon: 'M4 13h12v2H4v-2zm0-4h12v2H4V9zm0-4h12v2H4V5z',
+          icon: 'mobile',
         },
       ],
       boutiquesWork: [
@@ -212,13 +212,15 @@ export default {
       ],
       boutiquesBenefits: [
         {
-          title: 'Služby v hostovo kapse',
+          title: 'Služby v hostově kapse',
           description:
             'Okamžitý přístup ke všemu podstatnému přímo z telefonu hosta',
+          icon: 'mobile_2'
         },
         {
           title: 'Personalizace',
           description: 'Nabídněte doporučení a služby šité na míru. Nadchněte své hosty pozorností k detailu, která promění obyčejný pobyt v nezapomenutelný zážitek.',
+          icon: 'person'
         },
       ],
     }

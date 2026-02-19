@@ -1,14 +1,14 @@
 <template>
   <main>
-    <section class="py-16">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section>
+      <div class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
-            <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Mějte přání svých hostů pod kontrolou
             </h1>
-            <p class="text-lg text-gray-700 leading-relaxed">
+            <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
               Zvyšte produktivitu svého týmu při péči o hosty. Díky centralizaci všech úkolů a požadavků na jednom místě 
               získáte dokonalý přehled a zajistíte, že žádné přání nezůstane bez odezvy.
             </p>
@@ -20,7 +20,7 @@
           </div>
 
           <!-- Right Section - Image -->
-          <div class="flex items-center justify-end">
+          <div class="flex items-center justify-center lg:justify-end">
             <img :src="image1" alt="Task Manager Obrázek" class="w-3/4">
           </div>
         </div>
@@ -90,18 +90,18 @@ export default {
           title: 'Všechny úkoly pod jednou střechou',
           description:
             'Získejte absolutní kontrolu nad chodem hotelu. Sledujte všechny čekající, rozpracované i dokončené úkoly v reálném čase z jednoho přehledného dashboardu, kde vám nic neunikne.',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+          icon: 'assignment',
         },
         {
           title: 'Dokonalá souhra všech oddělení',
           description:
             'Delegujte požadavky hostů okamžitě těm správným lidem. Přiřazujte úkoly úklidu, údržbě nebo dalším týmům bleskově a bez chyb. Zajistěte, aby o každém požadavku věděli přesně ti kolegové, kteří ho mají vyřešit.',
-          icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
+          icon: 'diversity_4',
         },
         {
           title: 'Aktualizace v reálném čase',
           description: 'Mějte hosty i svůj tým neustále v obraze. Sledujte průběh každého požadavku v přímém přenosu, od jeho přijetí až po finální vyřešení.',
-          icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
+          icon: 'alarm',
         },
       ],
       taskManagerFeatures: [
@@ -161,26 +161,32 @@ export default {
         {
           title: 'Lepší organizace',
           description: 'Dejte sbohem provoznímu chaosu a zajistěte, aby žádný úkol nebyl zapomenut.',
+          icon: 'account_tree'
         },
         {
           title: 'Navyšte efektivitu',
           description: 'Zrychlete vyřízení každého požadavku na maximum a získejte více času pro své hosty díky chytrému workflow, které pracuje za vás.',
+          icon: 'bolt'
         },
         {
           title: 'Zlepšete komunikaci',
           description: 'Díky centralizovaným informacím a automatickým upozorněním bude váš hotel fungovat jako jeden celek, kde každý přesně ví, co se právě děje i váš host.',
+          icon: 'communication'
         },
         {
           title: 'Modernizace hotelového provozu',
           description: 'Nahraďte zastaralé metody elegantním digitálním řešením, které do vašeho hotelu vnese klid, profesionalitu a dokonalý přehled.',
+          icon: 'hotel_class'
         },
         {
           title: 'Měřitelný přínos pro váš hotel',
           description: 'Naše pokročilá analytika vám umožní sledovat výkonnost týmu , identifikovat slabá místa v provozu a okamžitě reagovat na podněty, které brzdí váš růst.',
+          icon: 'finance'
         },
         {
           title: 'Intuitivní a jednoduché ovládání',
           description: 'Díky přehlednému prostředí se váš tým naučí se systémem Otel Apps pracovat během chvíle.',
+          icon: 'desktop_windows'
         },
       ],
     }

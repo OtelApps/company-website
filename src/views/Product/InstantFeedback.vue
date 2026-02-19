@@ -1,14 +1,14 @@
 <template>
   <main>
-    <section class="py-16">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section>
+      <div class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
-            <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Řešte negativní zážitky hostů hned, když nastanou
             </h1>
-            <p class="text-lg text-gray-700 leading-relaxed">
+            <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
               Negativní recenze bolí a to zejména ty, kterým jste mohli předejít. Otel Apps vám dává šanci zachytit nespokojenost hosta okamžitě, 
               ještě během jeho pobytu, a proměnit tak špatnou zkušenost v pozitivní.
             </p>
@@ -59,15 +59,6 @@
       :rows="1"
       :columns="4"
     />
-
-    <Improvement
-      title="Zvyšte své zisky společně s námi"
-      subtitle="Naši partneři potvrzují výrazný nárůst spokojenosti hostů i prokazatelně lepší online hodnocení. Přidejte se k moderním hotelům, 
-                které díky digitalizaci vydělávají více a šetří čas."
-      :stats="instantFeedbackImprovementStats"
-      :features="instantFeedbackImprovementFeatures"
-      background-color="bg-[#f4f4f4]"
-    />
   </main>
 </template>
 
@@ -87,8 +78,7 @@ export default {
     Advantages,
     Features,
     HowItWorks,
-    Benefits,
-    Improvement,
+    Benefits
   },
   data() {
     return {
@@ -100,19 +90,19 @@ export default {
           title: 'Zpětná vazba v reálném čase',
           description:
             'Oslovte své hosty přímo během pobytu. Získejte okamžitý přehled o jejich spokojenosti, dokud jsou ještě u vás, a ukažte jim, že vám na jejich pohodlí záleží.',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+          icon: 'alarm',
         },
         {
           title: 'Předcházejte negativním recenzím',
           description:
             'Zasáhněte včas tam, kde vzniká nespokojenost hosta. Vyřešte problémy svých hostů okamžitě a nenechte je přerůst ve veřejné hodnocení na internetu.',
-          icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
+          icon: 'report',
         },
         {
           title: 'Budujte si špičkovou reputaci',
           description:
             'Aktivní práce se zpětnou vazbou přímo během pobytu vede k lepším recenzím a silnějšímu jménu vašeho hotelu na rezervačních portálech i sociálních sítích.',
-          icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
+          icon: 'trending_up',
         },
       ],
       instantFeedbackFeatures: [
@@ -167,51 +157,23 @@ export default {
         {
           title: 'Blesková odezva',
           description: 'Upozornění v reálném čase vám umožní okamžitě reagovat na podněty hostů a vyřešit situaci dříve, než se z ní stane problém.',
+          icon: 'bolt'
         },
         {
           title: 'Efektivní správa',
           description: 'Centrální schránka s chytrým filtrováním zjednodušuje zpracování hodnocení, odstraňuje administrativní chaos a šetří drahocenný čas vašemu týmu.',
+          icon: 'manage_accounts'
         },
         {
           title: 'Lepší přehled',
           description: 'Získejte dokonalý vhled do svého provozu. Snadno identifikujte opakující se nedostatky a odhalte konkrétní oblasti, které vyžadují vaši pozornost, abyste mohli neustále zvyšovat standard svých služeb.',
+          icon: 'dashboard'
         },
         {
           title: 'Minimalizujte negativní recenze',
           description:
             'Vyřešte problémy hostů okamžitě přímo v hotelu. Nedejte nespokojenosti šanci přerůst ve veřejnou negativní recenzi na internetu a chraňte dobré jméno svého hotelu.',
-        },
-      ],
-      instantFeedbackImprovementStats: [
-        {
-          value: '40%',
-          label: 'Snížení negativních recenzí',
-        },
-        {
-          value: '+15%',
-          label: 'Nárůst pozitivních zmínek',
-        },
-        {
-          value: '24/7',
-          label: 'Řešení problémů v reálném čase',
-        },
-      ],
-      instantFeedbackImprovementFeatures: [
-        {
-          title: 'Analytika',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Komunikace',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Správa služeb',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-        },
-        {
-          title: 'Virtuální průvodce hotelem',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+          icon: 'chat_error'
         },
       ],
     }

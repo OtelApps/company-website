@@ -1,5 +1,22 @@
-<script setup lang="ts">
+<script setup>
+import { ref } from 'vue';
 import router from '../../router';
+
+const openDropdowns = ref({
+  procoOtelApps: false,
+  klicoveFunkce: false,
+  reseni: false,
+  projekt: false,
+  legal: false,
+});
+
+const toggleDropdown = (key) => {
+  openDropdowns.value[key] = !openDropdowns.value[key];
+};
+
+const closeDropdown = (key) => {
+  openDropdowns.value[key] = false;
+};
 </script>
 
 <template>
@@ -43,55 +60,155 @@ import router from '../../router';
     <!-- Links columns -->
     <section class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
       <div
-        class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-10"
+        class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-10"
       >
-        <div>
-          <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">PROČ OTEL APPS</h4>
-          <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Pricing">Ceník</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/">Integrace</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/">Aktualizace systému</router-link></li>
+        <article>
+          <button
+            @click="toggleDropdown('procoOtelApps')"
+            class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
+          >
+            <span>PROČ OTEL APPS</span>
+            <svg
+              class="w-4 h-4 md:hidden transition-transform duration-200"
+              :class="{ 'rotate-180': openDropdowns.procoOtelApps }"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <ul
+            class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white overflow-hidden transition-all duration-300"
+            :class="{
+              'max-h-0 opacity-0 md:max-h-none md:opacity-100': !openDropdowns.procoOtelApps,
+              'max-h-96 opacity-100': openDropdowns.procoOtelApps
+            }"
+          >
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Pricing" @click="closeDropdown('procoOtelApps')">Ceník</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/" @click="closeDropdown('procoOtelApps')">Integrace</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/" @click="closeDropdown('procoOtelApps')">Aktualizace systému</router-link></li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">KLÍČOVÉ FUNKCE</h4>
-          <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory">Informace o hotelu</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering">Objednávání</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Trip Planner</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Live chat + AI virtuální recepční</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Online check-in + check-out</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Virtuální pokojová karta</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Rezervace</router-link></li>
+        <article>
+          <button
+            @click="toggleDropdown('klicoveFunkce')"
+            class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
+          >
+            <span>KLÍČOVÉ FUNKCE</span>
+            <svg
+              class="w-4 h-4 md:hidden transition-transform duration-200"
+              :class="{ 'rotate-180': openDropdowns.klicoveFunkce }"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <ul
+            class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white overflow-hidden transition-all duration-300"
+            :class="{
+              'max-h-0 opacity-0 md:max-h-none md:opacity-100': !openDropdowns.klicoveFunkce,
+              'max-h-96 opacity-100': openDropdowns.klicoveFunkce
+            }"
+          >
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory" @click="closeDropdown('klicoveFunkce')">Informace o hotelu</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering" @click="closeDropdown('klicoveFunkce')">Objednávání</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Trip Planner</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Live chat + AI virtuální recepční</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Online check-in + check-out</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Virtuální pokojová karta</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Rezervace</router-link></li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">ŘEŠENÍ</h4>
-          <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/CityCenter">Městské hotely</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/SmallHotels">Malé a středně velké hotely</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/Boutiques">Butikové hotely</router-link></li>
+        <article>
+          <button
+            @click="toggleDropdown('reseni')"
+            class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
+          >
+            <span>ŘEŠENÍ</span>
+            <svg
+              class="w-4 h-4 md:hidden transition-transform duration-200"
+              :class="{ 'rotate-180': openDropdowns.reseni }"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <ul
+            class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white overflow-hidden transition-all duration-300"
+            :class="{
+              'max-h-0 opacity-0 md:max-h-none md:opacity-100': !openDropdowns.reseni,
+              'max-h-96 opacity-100': openDropdowns.reseni
+            }"
+          >
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/CityCenter" @click="closeDropdown('reseni')">Městské hotely</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/SmallHotels" @click="closeDropdown('reseni')">Malé a středně velké hotely</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/Boutiques" @click="closeDropdown('reseni')">Butikové hotely</router-link></li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">PROJEKT</h4>
-          <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/AboutUs">O nás</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Contact">Napište nám</router-link></li>
+        <article>
+          <button
+            @click="toggleDropdown('projekt')"
+            class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
+          >
+            <span>PROJEKT</span>
+            <svg
+              class="w-4 h-4 md:hidden transition-transform duration-200"
+              :class="{ 'rotate-180': openDropdowns.projekt }"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <ul
+            class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white overflow-hidden transition-all duration-300"
+            :class="{
+              'max-h-0 opacity-0 md:max-h-none md:opacity-100': !openDropdowns.projekt,
+              'max-h-96 opacity-100': openDropdowns.projekt
+            }"
+          >
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/AboutUs" @click="closeDropdown('projekt')">O nás</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Contact" @click="closeDropdown('projekt')">Napište nám</router-link></li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h4 class="text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white">LEGAL</h4>
-          <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white">
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Právní upozornění</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Zásady používání cookies</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="">Zásady ochrany osobních údajů</router-link></li>
+        <article>
+          <button
+            @click="toggleDropdown('legal')"
+            class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
+          >
+            <span>LEGAL</span>
+            <svg
+              class="w-4 h-4 md:hidden transition-transform duration-200"
+              :class="{ 'rotate-180': openDropdowns.legal }"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <ul
+            class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-700 dark:text-white overflow-hidden transition-all duration-300"
+            :class="{
+              'max-h-0 opacity-0 md:max-h-none md:opacity-100': !openDropdowns.legal,
+              'max-h-96 opacity-100': openDropdowns.legal
+            }"
+          >
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">Právní upozornění</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">Zásady používání cookies</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">Zásady ochrany osobních údajů</router-link></li>
           </ul>
-        </div>
+        </article>
       </div>
     </section>
 
@@ -101,19 +218,31 @@ import router from '../../router';
     <section
       class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-4"
     >
-      <img src="../assets/otelapps.webp" alt="OtelApps logo" class="h-20 sm:h-26 w-auto" />
-      <p class="text-s text-gray-600 dark:text-white">
-        IČO: 23905719
-        <br>
-        DIČ: 23905719
-      </p>
-      <p class="text-s text-gray-600 dark:text-white">
-        Email: info@otelapps.com
-        <br>
-        Telefon: +420 604 607 225
-        <br>
-        Adresa: Příčná 1892/4, Nové Město, 110 00 Praha 1
-      </p>
+      <img src="../assets/logo_text.jpg" alt="OtelApps logo" class="h-10 md:h-15 lg:h-20 w-auto" />
+
+      <div class="flex justify-between items-center gap-x-15 md:gap-x-0 lg:gap-x-48">
+        <article class="w-1/2">
+          <p class="text-sm sm:text-base text-gray-600 dark:text-white">
+            IČO: 23905719
+          </p>
+          <p class="text-sm sm:text-base text-gray-600 dark:text-white">
+            DIČ: 23905719
+          </p>
+        </article>
+
+        <article class="md:w-1/2">
+          <p class="text-sm sm:text-base text-gray-600 dark:text-white">
+            Email: info@otelapps.com
+          </p>
+          <p class="text-sm sm:text-base text-gray-600 dark:text-white">
+            Telefon: +420 604 607 225
+          </p>
+          <p class="text-sm sm:text-base text-gray-600 dark:text-white">
+            Adresa: Příčná 1892/4, Nové Město, 110 00 Praha 1
+          </p>
+        </article>
+      </div>
+
       <p class="text-xs text-gray-600 dark:text-white">© 2025 OtelApps. All rights reserved.</p>
     </section>
   </footer>

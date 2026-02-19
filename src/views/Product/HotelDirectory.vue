@@ -1,14 +1,14 @@
 <template>
   <main>
-    <section class="py-16">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <section>
+      <div class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-12 items-center">
           <!-- Left Section - Text Content -->
-          <div class="space-y-6">
-            <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+          <div class="space-y-4 sm:space-y-8">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Digitální průvodce hotelem
             </h1>
-            <p class="text-lg text-gray-700 leading-relaxed">
+            <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
               Vytvořte pro své hosty digitální prostor, kde najdou vše potřebné. Veškeré důležité informace o 
               hotelu tak budou mít na jednom místě, vždy dostupné a aktuální.
             </p>
@@ -20,8 +20,8 @@
           </div>
 
           <!-- Right Section - Image -->
-          <div class="flex items-center justify-end">
-            <img :src="image1" alt="Hotel Directory Obrázek" class="w-[70%]">
+          <div class="flex items-center justify-center lg:justify-end">
+            <img :src="image1" alt="Hotel Directory Obrázek" class="w-[80%]">
           </div>
         </div>
       </div>
@@ -88,19 +88,19 @@ export default {
           title: 'Veškeré informace na jednom místě',
           description:
             'Od časů příjezdu a odjezdu přes instrukce k vybavení pokoje až po bezpečnostní pokyny a FAQ – vše je hostům k dispozici okamžitě, digitálně a přehledně.',
-          icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+          icon: 'info',
         },
         {
           title: 'Méně volání na recepci',
           description:
             'Umožněte hostům najít odpovědi vlastními silami. Snížíte tím pracovní vytížení recepce a uvolníte ruce personálu pro důležitější úkoly.',
-          icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
+          icon: 'phone_callback',
         },
         {
           title: 'Příležitosti k upsellingu',
           description:
             'Propagujte speciální služby, exkluzivní balíčky a produkty přímo v aplikaci a navyšte své tržby z prodeje doplňkových produktů a služeb.',
-          icon: 'M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z',
+          icon: 'sell',
         },
       ],
       hotelDirectoryFeatures: [
@@ -149,25 +149,30 @@ export default {
           title: 'Úleva pro váš personál',
           description:
             'Automatizace požadavků hostů výrazně snižuje pracovní vytížení personálu na recepci i v dalších odděleních',
+          icon: 'group'
         },
         {
-          title: 'Zefektivnění provozu a kontrola procesů:',
+          title: 'Zefektivnění provozu a kontrola procesů',
           description: 'Digitalizace rutinních úkonů vede k vyšší efektivitě a lepší kontrole nad veškerými procesy v hotelu.',
+          icon: 'rule_settings'
         },
         {
           title: 'Optimalizace nákladů',
           description:
             'Přechod na digitální řešení šetří náklady na tisk a zefektivňuje správu doplňkových služeb.',
+          icon: 'payments'
         },
         {
           title: 'Data pro strategické řízení',
           description:
             'Management získává přístup k detailním reportům a analýzám, které umožňují dělat správná rozhodnutí podložená reálnými daty',
+          icon: 'chart_data'
         },
         {
           title: 'Zlepšete zážitek svých hostů',
           description:
             'Usnadněte hostům přístup k informacím a vytvořte podmínky pro hladší a příjemnější pobyt ve vašem hotelu',
+          icon: 'mood'
         },
       ],
     }

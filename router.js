@@ -3,6 +3,7 @@ import HomePage from './src/views/HomePage.vue'
 import AboutUs from './src/views/AboutUs.vue'
 import Pricing from './src/views/Pricing.vue'
 import Contact from './src/views/Contact.vue'
+import BookDemo from './src/views/BookDemo.vue'
 import GuestApp from './src/views/Product/GuestApp.vue'
 import HotelDirectory from './src/views/Product/HotelDirectory.vue'
 import TripPlanner from './src/views/Product/TripPlanner.vue'
@@ -19,6 +20,7 @@ const routes = [
   { path: '/AboutUs', component: AboutUs },
   { path: '/Pricing', component: Pricing },
   { path: '/Contact', component: Contact },
+  { path: '/BookDemo', component: BookDemo },
   { path: '/Product/GuestApp', component: GuestApp },
   { path: '/Product/HotelDirectory', component: HotelDirectory },
   { path: '/Product/TripPlanner', component: TripPlanner },
