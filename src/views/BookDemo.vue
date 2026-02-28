@@ -1,56 +1,62 @@
 <template>
-    <main class="bg-white">
-      <!-- Split Layout: Left Dark, Right White with Form -->
-      <article class="flex flex-col lg:flex-row min-h-screen">
-        <!-- Left side - Dark Grey Background with Text -->
-        <section class="bg-[#383e42] text-white py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-16 lg:w-1/2 flex items-start">
-          <div class="max-w-2xl w-full">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8 leading-tight">
+  <div class="relative min-h-screen bg-white font-sans antialiased">
+    <div class="absolute top-0 left-0 w-full h-[35%] md:h-[800px] lg:h-[600px] bg-[#383e42] z-0"></div>
+
+    <main class="relative z-10 max-w-screen-2xl mx-auto px-6 sm:px-8">
+      <article class="flex flex-col lg:flex-row min-h-screen lg:items-start pt-12 lg:pt-24">
+        <section class="text-white w-full lg:w-1/2 px-4 md:px-10 lg:px-16 mb-12 lg:mb-0">
+          <div class="max-w-2xl">
+            <h1 class="text-3xl md:text-4xl font-bold mb-6 leading-tight">
               Malý krok pro demo, velký skok pro Vaší firmu
             </h1>
-  
-            <p class="space-y-4 md:space-y-6 text-base sm:text-lg">
-                Transformujte svůj objekt, provoz, zážitek hostů a mnoho dalšího. Rezervujte si ukázku a 
-                jeden z našich odborníků se s vámi spojí, aby vám ukázal Otelapps.
+            <p class="text-lg md:text-xl text-gray-200 leading-relaxed">
+              Transformujte svůj objekt, provoz, zážitek hostů a mnoho dalšího. Rezervujte si ukázku
+              a jeden z našich odborníků se s vámi spojí, aby vám ukázal Otelapps.
             </p>
           </div>
         </section>
-  
+
         <!-- Right side - Dark Grey Background with Form -->
-        <section class="bg-[#383e42] py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 lg:w-1/2 flex items-center">
+        <section
+          class="py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 lg:w-1/2 flex items-center"
+        >
           <div class="w-full max-w-2xl mx-auto">
             <div
-              class="w-full bg-white rounded-3xl shadow-2xl p-8 md:p-10 lg:p-12 border-2 border-[#383E42]"
+              class="w-full bg-white rounded-3xl shadow-2xl p-8 md:p-10 lg:p-12 border-1 border-[#383E42]"
             >
               <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
-                <input type="hidden" name="access_key" value="24cbe704-4b19-477a-8d0a-691ab2209960">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="24cbe704-4b19-477a-8d0a-691ab2209960"
+                />
                 <!-- First Name and Last Name side by side -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <input
-                      name="Jmeno"
-                      type="text"
-                      placeholder="Jméno *"
-                      class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
-                      required
-                    />
-                    <input
-                      name="Prijmeni"
-                      type="text"
-                      placeholder="Příjmení *"
-                      class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
-                      required
-                    />
-                </div>
-  
-                <!-- Work Email -->
                   <input
-                    name="Email"
-                    type="email"
-                    placeholder="Pracovní email *"
-                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                    name="Jmeno"
+                    type="text"
+                    placeholder="Jméno *"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
                     required
                   />
-  
+                  <input
+                    name="Prijmeni"
+                    type="text"
+                    placeholder="Příjmení *"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
+                    required
+                  />
+                </div>
+
+                <!-- Work Email -->
+                <input
+                  name="Email"
+                  type="email"
+                  placeholder="Pracovní email *"
+                  class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                  required
+                />
+
                 <!-- Country and Phone number -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
@@ -77,7 +83,7 @@
                     />
                   </div>
                 </div>
-  
+
                 <!-- Job Title -->
                 <div>
                   <select
@@ -94,7 +100,7 @@
                     <option value="Jine">Jiné</option>
                   </select>
                 </div>
-  
+
                 <!-- Property Type -->
                 <div>
                   <select
@@ -102,13 +108,13 @@
                     class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                     required
                   >
-                  <option value="" disabled selected hidden>Typ nemovitosti *</option>
-                  <option value="Hotel">Hotelový řetězec nebo skupina</option>
-                  <option value="Nezavisly hotel">Nezávislý hotel</option>
-                  <option value="Jine">Jiné (ne hotel ani hotelová skupina)</option>
+                    <option value="" disabled selected hidden>Typ nemovitosti *</option>
+                    <option value="Hotel">Hotelový řetězec nebo skupina</option>
+                    <option value="Nezavisly hotel">Nezávislý hotel</option>
+                    <option value="Jine">Jiné (ne hotel ani hotelová skupina)</option>
                   </select>
                 </div>
-  
+
                 <!-- Checkboxes -->
                 <div class="space-y-4">
                   <div class="flex items-start">
@@ -124,7 +130,7 @@
                       <span class="text-red-500">*</span>
                     </label>
                   </div>
-  
+
                   <div class="flex items-start">
                     <input
                       name="Podminky"
@@ -138,12 +144,14 @@
                       Příjmám
                       <a href="#" class="text-black underline font-semibold">Obchodní podmínky</a>
                       a
-                      <a href="#" class="text-black underline font-semibold">Zásady ochrany osobních údajů</a>
+                      <a href="#" class="text-black underline font-semibold"
+                        >Zásady ochrany osobních údajů</a
+                      >
                       <span class="text-red-500">*</span>
                     </label>
                   </div>
                 </div>
-  
+
                 <!-- Submit Button -->
                 <button
                   type="submit"
@@ -157,15 +165,15 @@
         </section>
       </article>
     </main>
-  </template>
-  
-  <style scoped>
-  /* Custom dropdown arrow */
-  select {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
-    background-position: right 12px center;
-    background-repeat: no-repeat;
-    background-size: 16px;
-    padding-right: 40px;
-  }
-  </style>
+  </div>
+</template>
+
+<style scoped>
+select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 12px center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  padding-right: 40px;
+}
+</style>
