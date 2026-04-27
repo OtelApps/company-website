@@ -4,10 +4,12 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <div class="min-h-screen bg-white overflow-x-hidden">
+  <div class="min-h-screen transition-colors duration-500 dark:bg-[#292C35]">
     <Header />
 
-    <RouterView />
+    <div class="overflow-x-hidden">
+      <RouterView />
+    </div>
 
     <Footer />
   </div>

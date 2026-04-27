@@ -1,198 +1,181 @@
 <template>
-  <div class="min-h-screen bg-white">
-    <!-- Top Section - Dark Grey Background -->
-    <div
-      class="bg-[#383e42] text-white py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-16 relative"
-    >
-      <div class="max-w-7xl mx-auto">
-        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
-          <!-- Left content -->
-          <div class="max-w-2xl">
-            <h1 class="text-3xl md:text-4xl font-bold mb-6 md:mb-8 leading-tight">
-              Flexible pricing tailored to your needs
+  <div class="relative min-h-screen bg-white font-sans antialiased">
+    <div class="absolute top-0 left-0 w-full h-[40%] md:h-[800px] lg:h-[600px] bg-[#383e42] z-0"></div>
+
+    <main class="relative z-10 max-w-screen-2xl mx-auto px-6 sm:px-8">
+      <article class="flex flex-col lg:flex-row min-h-screen lg:items-start pt-12 lg:pt-24">
+        <section class="text-white w-full lg:w-1/2 px-4 md:px-10 lg:px-16 mb-12 lg:mb-0">
+          <div class="max-w-2xl w-full">
+            <h1
+              class="text-3xl md:text-4xl font-bold mb-6 md:mb-8 leading-tight"
+            >
+              Flexibilní cenotvorba, která se přizpůsobí vašim potřebám
             </h1>
 
-            <div class="space-y-4 md:space-y-6 text-base md:text-lg">
-              <p>We are excited to create a tailor-made proposal for you</p>
-              <p>
-                Our pricing model at OtelApps depends on several factors unique to your hotels. So
-                We will need to communicate with You for precise pricing details
+            <div class="space-y-4 md:space-y-6">
+              <h3 class="text-base sm:text-lg font-semibold">
+                Rádi pro vás připravíme návrh na míru.
+              </h3>
+              <p class="text-sm sm:text-base">
+                Pojďme společně vytvořit řešení, které bude dokonale ladit s vizí vašeho hotelu a
+                podpoří vaši jedinečnost. Každý hotel má svou unikátní DNA a my se už teď těšíme, až
+                tu vaši propojíme s technologiemi Otel Apps.
               </p>
             </div>
           </div>
+        </section>
 
-          <!-- Right side - Empty space for form continuation -->
-          <div class="w-96 hidden lg:block"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Bottom Section - White Background with Hotel Logos -->
-    <div class="bg-white py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 relative">
-      <div class="max-w-7xl mx-auto">
-        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
-          <!-- Left side - Hotel logos -->
-          <div class="flex-1 mr-0 lg:mr-32">
-            <p class="text-sm text-gray-600 mb-6 md:mb-8 text-center sm:text-left">
-              Trusted by the best hotel chains in the world
-            </p>
-
-            <!-- Hotel logos grid -->
+        <!-- Right side - Dark Grey Background with Form -->
+        <section
+          class="py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-16 lg:w-1/2 flex items-center"
+        >
+          <div class="w-full max-w-2xl mx-auto">
             <div
-              class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 ml-2"
+              class="w-full bg-white rounded-3xl shadow-2xl p-8 md:p-10 lg:p-12 border-1 border-[#383E42]"
             >
-              <div class="h-16 w-45 sm:w-35 bg-gray-100 rounded flex items-center justify-center">
-                <span class="text-gray-400 text-sm">LOGO 1</span>
-              </div>
-              <div class="h-16 w-45 sm:w-35 bg-gray-100 rounded flex items-center justify-center">
-                <span class="text-gray-400 text-sm">LOGO 2</span>
-              </div>
-              <div class="h-16 w-45 sm:w-35 bg-gray-100 rounded flex items-center justify-center">
-                <span class="text-gray-400 text-sm">LOGO 3</span>
-              </div>
-              <div class="h-16 w-45 sm:w-35 bg-gray-100 rounded flex items-center justify-center">
-                <span class="text-gray-400 text-sm">LOGO 4</span>
-              </div>
-              <div class="h-16 w-45 sm:w-35 bg-gray-100 rounded flex items-center justify-center">
-                <span class="text-gray-400 text-sm">LOGO 5</span>
-              </div>
-              <div class="h-16 w-45 sm:w-35 bg-gray-100 rounded flex items-center justify-center">
-                <span class="text-gray-400 text-sm">LOGO 6</span>
-              </div>
-              <div class="h-16 w-45 sm:w-35 bg-gray-100 rounded flex items-center justify-center">
-                <span class="text-gray-400 text-sm">LOGO 7</span>
-              </div>
-              <div class="h-16 w-45 sm:w-35 bg-gray-100 rounded flex items-center justify-center">
-                <span class="text-gray-400 text-sm">LOGO 8</span>
-              </div>
+              <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="d963ebcc-55d8-45cd-aa4a-410e51d23ef8"
+                />
+                <!-- First Name and Last Name side by side -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <input
+                    name="Jmeno"
+                    type="text"
+                    placeholder="Jméno *"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
+                    required
+                  />
+                  <input
+                    name="Prijmeni"
+                    type="text"
+                    placeholder="Příjmení *"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
+                    required
+                  />
+                </div>
+
+                <!-- Work Email -->
+                <input
+                  name="Email"
+                  type="email"
+                  placeholder="Pracovní email *"
+                  class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                  required
+                />
+
+                <!-- Country and Phone number -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <select
+                      name="Zeme"
+                      class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                      required
+                    >
+                      <option value="" disabled selected hidden>Země *</option>
+                      <option value="Cesko">Česká republika</option>
+                      <option value="Slovensko">Slovensko</option>
+                      <option value="Nemecko">Německo</option>
+                      <option value="Rakousko">Rakousko</option>
+                      <option value="Polsko">Polsko</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      name="Telefonni cislo"
+                      type="tel"
+                      placeholder="Telefonní číslo *"
+                      class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <!-- Job Title -->
+                <div>
+                  <select
+                    name="Pracovni titul"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                    required
+                  >
+                    <option value="" disabled selected hidden>Pracovní titul *</option>
+                    <option value="Majitel / Zakladatel">Majitel / Zakladatel</option>
+                    <option value="Generalni reditel">Generální ředitel</option>
+                    <option value="IT / Technologicky manazer">IT / Technologický manažer</option>
+                    <option value="Manazer trzeb">Manažer tržeb</option>
+                    <option value="Manazer konzultant">Manažer konzultant</option>
+                    <option value="Jine">Jiné</option>
+                  </select>
+                </div>
+
+                <!-- Property Type -->
+                <div>
+                  <select
+                    name="Typ nemovitosti"
+                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                    required
+                  >
+                    <option value="" disabled selected hidden>Typ nemovitosti *</option>
+                    <option value="Hotel">Hotelový řetězec nebo skupina</option>
+                    <option value="Nezavisly hotel">Nezávislý hotel</option>
+                    <option value="Jine">Jiné (ne hotel ani hotelová skupina)</option>
+                  </select>
+                </div>
+
+                <!-- Checkboxes -->
+                <div class="space-y-4">
+                  <div class="flex items-start">
+                    <input
+                      name="Sdeleni"
+                      type="checkbox"
+                      id="communications"
+                      class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
+                      required
+                    />
+                    <label for="communications" class="ml-3 text-sm text-gray-700">
+                      Souhlasím se zasíláním sdělení od OtelApps
+                      <span class="text-red-500">*</span>
+                    </label>
+                  </div>
+
+                  <div class="flex items-start">
+                    <input
+                      name="Podminky"
+                      type="checkbox"
+                      id="terms"
+                      class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
+                      checked
+                      required
+                    />
+                    <label for="terms" class="ml-3 text-sm text-gray-700">
+                      Příjmám
+                      <a href="#" class="text-black underline font-semibold">Obchodní podmínky</a>
+                      a
+                      <a href="#" class="text-black underline font-semibold"
+                        >Zásady ochrany osobních údajů</a
+                      >
+                      <span class="text-red-500">*</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button
+                  type="submit"
+                  class="w-full sm:w-[75%] lg:w-[50%] bg-[#ffa500] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
+                >
+                  Získat nacenění
+                </button>
+              </form>
             </div>
           </div>
-
-          <!-- Right side - Form overlaps both sections -->
-          <div
-            class="w-full lg:w-128 bg-white rounded-3xl shadow-2xl p-6 md:p-8 relative z-10 mt-8 lg:-mt-84 border-3 border-black"
-          >
-            <form class="space-y-6">
-              <!-- First Name and Last Name side by side -->
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2">
-                    First Name <span class="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
-                    required
-                  />
-                </div>
-                <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2">
-                    Last Name <span class="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
-                    required
-                  />
-                </div>
-              </div>
-
-              <!-- Work Email -->
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
-                  Work Email <span class="text-red-500">*</span>
-                </label>
-                <input
-                  type="email"
-                  placeholder="Provide your corporate email account"
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
-                  required
-                />
-              </div>
-
-              <!-- Job Title -->
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
-                  Job title <span class="text-red-500">*</span>
-                </label>
-                <input
-                  type="text"
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
-                  required
-                />
-              </div>
-
-              <!-- Property Type -->
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">
-                  Property Type <span class="text-red-500">*</span>
-                </label>
-                <select
-                  class="w-full px-4 py-3 border-2 border-black rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none appearance-none bg-white"
-                  required
-                >
-                  <option value="">What type of property do you represent?</option>
-                  <option value="hotel">Hotel</option>
-                  <option value="resort">Resort</option>
-                  <option value="hostel">Hostel</option>
-                  <option value="apartment">Apartment</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-
-              <!-- Checkboxes -->
-              <div class="space-y-4">
-                <div class="flex items-start">
-                  <input
-                    type="checkbox"
-                    id="communications"
-                    class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
-                    required
-                  />
-                  <label for="communications" class="ml-3 text-sm text-gray-700">
-                    I agree to receive communications from OtelApps
-                    <span class="text-red-500">*</span>
-                  </label>
-                </div>
-
-                <div class="flex items-start">
-                  <input
-                    type="checkbox"
-                    id="terms"
-                    class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
-                    checked
-                    required
-                  />
-                  <label for="terms" class="ml-3 text-sm text-gray-700">
-                    I accept the
-                    <a href="#" class="text-black underline font-semibold">Terms and Conditions</a>
-                    and the
-                    <a href="#" class="text-black underline font-semibold">Privacy Policy</a>
-                    <span class="text-red-500">*</span>
-                  </label>
-                </div>
-              </div>
-
-              <!-- Submit Button -->
-              <button
-                type="submit"
-                class="w-full sm:w-[75%] lg:w-[50%] bg-[#ffa500] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
-              >
-                Request demo
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+        </section>
+      </article>
+    </main>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'BookDemo',
-}
-</script>
 
 <style scoped>
 /* Custom dropdown arrow */

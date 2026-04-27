@@ -1,36 +1,42 @@
 <script setup>
 import { ref } from 'vue'
 
-const activeButton = ref('f&b') // Default active button
+const activeButton = ref('f&b')
 </script>
 
 <template>
-  <!-- Main Content -->
-  <main class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
+  <main class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
     <section>
       <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <!-- Left Section - Text Content -->
-        <div class="space-y-6 sm:space-y-8">
+        <div class="space-y-4 sm:space-y-8">
           <h1
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Transforming Hotel
-            <br />
-            Experiences with
-            <br />
-            Innovative Software
+            Vylepšete hotelový provoz pomocí chytrého digitálního řešení!
           </h1>
 
-          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-            Our cutting-edge mobile application empowers hotel guests to access essential services
-            at their fingertips, enhancing their stay. With seamless integration for receptionists,
-            we streamline operations and elevate guest satisfaction.
+          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
+            Prostřednictvím naší intuitivní mobilní aplikace dáváme hostům do rukou nástroj pro
+            snadnou komunikaci a přístup ke službám.
+          </p>
+
+          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
+            Hotelům poskytujeme webové rozhraní, které zjednodušuje správu těchto požadavků, pomáhá
+            řídit interní procesy, efektivně spravovat náklady, navyšovat tržby a spokojenost hostů.
+          </p>
+
+          <p class="hidden sm:block text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed">
+            Prostřednictvím naší intuitivní mobilní aplikace dáváme hostům do rukou nástroj pro
+            snadnou komunikaci a přístup ke službám. Hotelům poskytujeme webové rozhraní, které
+            zjednodušuje správu těchto požadavků, pomáhá řídit interní procesy, efektivně spravovat
+            náklady, navyšovat tržby a spokojenost hostů.
           </p>
 
           <button
             class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
           >
-            Book a demo
+            Vyzkoušet demo-verzi
           </button>
         </div>
 
@@ -59,20 +65,16 @@ const activeButton = ref('f&b') // Default active button
 
       <!-- Text Overlay with full-width semi-transparent background (fills the section) -->
       <div class="absolute inset-0 bg-black/70 flex items-center justify-center">
-        <div class="text-center text-white w-full px-4 sm:px-6 lg:px-8">
+        <div class="text-white w-full px-4 sm:px-6 lg:px-8">
           <h2
-            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-center mx-auto"
           >
-            Increase your sales and
-            <br />
-            customer experience
+            Zvyšte tržby svého hotelu a spokojenost vašich hostů.
           </h2>
-          <p class="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-            Increase your turnover thanks to a simple and fast ordering system
-            <br />
-            via our mobile app. Offer all your services conveniently on your
-            <br />
-            customer's mobile phone.
+          <p class="text-sm sm:text-base md:text-lg lg:text-xl lg:max-w-2xl leading-relaxed mx-auto text-center">
+            Zvyšte své tržby pomocí jednoduchého a rychlého systému
+            objednávek přes naši mobilní aplikaci. Nabízejte všechny své
+            produkty a služby pohodlně na mobilním telefonu vašeho hosta.
           </p>
         </div>
       </div>
@@ -92,9 +94,9 @@ const activeButton = ref('f&b') // Default active button
         <!-- Right Section - Text Content -->
         <div class="order-1 lg:order-2 space-y-6 sm:space-y-8">
           <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            All your services, just a tap away
+            Všechny vaše služby dostupné pouze na jedno kliknutí.
           </h2>
 
           <!-- Buttons -->
@@ -104,25 +106,12 @@ const activeButton = ref('f&b') // Default active button
               :class="[
                 'flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors cursor-pointer',
                 activeButton === 'f&b'
-                  ? 'bg-[#ffa500] text-white border-2 border-black'
+                  ? 'bg-[#ffa500] text-white border-2 dark:border-[#ffa500]'
                   : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
               ]"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                class="h-5 w-5"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
-                />
-              </svg>
-              F&B Ordering
+            <span class="material-symbols-outlined">order_approve</span>
+              Objednávání produktů
             </button>
 
             <button
@@ -130,25 +119,25 @@ const activeButton = ref('f&b') // Default active button
               :class="[
                 'flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors cursor-pointer',
                 activeButton === 'requests'
-                  ? 'bg-[#ffa500] text-white border-2 border-black'
+                  ? 'bg-[#ffa500] text-white border-2 dark:border-[#ffa500]'
                   : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
               ]"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                class="h-5 w-5"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
-                />
-              </svg>
-              Requests
+            <span class="material-symbols-outlined">rule</span>
+              Požadavky
+            </button>
+
+            <button
+              @click="activeButton = 'reservations'"
+              :class="[
+                'flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors cursor-pointer',
+                activeButton === 'reservations'
+                  ? 'bg-[#ffa500] text-white border-2 dark:border-[#ffa500]'
+                  : 'border border-gray-900 text-gray-900 bg-white hover:bg-gray-50',
+              ]"
+            >
+            <span class="material-symbols-outlined">event</span>
+              Rezervace
             </button>
           </div>
 
@@ -156,43 +145,42 @@ const activeButton = ref('f&b') // Default active button
           <div v-if="activeButton === 'f&b'" class="space-y-4 sm:space-y-6">
             <div class="flex items-start space-x-3">
               <div
-                class="h-6 w-6 rounded-full bg-gray-900 flex items-center justify-center flex-shrink-0 mt-1"
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
               >
-                <div class="h-2 w-2 bg-white rounded-full"></div>
+                <div class="h-2 w-2 bg-white dark:bg-gray-900 rounded-full"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900">Digital Menus</h3>
-                <p class="text-sm sm:text-base text-gray-600 mt-1">
-                  Interactive and easily accessible menus for your restaurants.
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Digitální menu</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Intuitivní objednávání z menu vaší resturace, baru či kavárny.
                 </p>
               </div>
             </div>
 
             <div class="flex items-start space-x-3">
               <div
-                class="h-6 w-6 rounded-full bg-gray-900 flex items-center justify-center flex-shrink-0 mt-1"
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
               >
-                <div class="h-2 w-2 bg-white rounded-full"></div>
+                <div class="h-2 w-2 bg-white dark:bg-gray-900 rounded-full"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900">Customized orders</h3>
-                <p class="text-sm sm:text-base text-gray-600 mt-1">
-                  Guests can add specific details to their requests if needed.
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Objednávky na míru</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Host může v objednávce specifikovat své vlastní požadavky.
                 </p>
               </div>
             </div>
 
             <div class="flex items-start space-x-3">
               <div
-                class="h-6 w-6 rounded-full bg-gray-900 flex items-center justify-center flex-shrink-0 mt-1"
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
               >
-                <div class="h-2 w-2 bg-white rounded-full"></div>
+                <div class="h-2 w-2 bg-white dark:bg-gray-900 rounded-full"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900">Room Service</h3>
-                <p class="text-sm sm:text-base text-gray-600 mt-1">
-                  Guests can order food and drinks using their phones from the comfort of their
-                  rooms.
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Room Service</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Host si může objednat jídlo, nápoje a další produkty z vaší nabídky pomocí telefonu až na svůj pokoj.
                 </p>
               </div>
             </div>
@@ -201,44 +189,114 @@ const activeButton = ref('f&b') // Default active button
           <div v-if="activeButton === 'requests'" class="space-y-4 sm:space-y-6">
             <div class="flex items-start space-x-3">
               <div
-                class="h-6 w-6 rounded-full bg-gray-900 flex items-center justify-center flex-shrink-0 mt-1"
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
               >
-                <div class="h-2 w-2 bg-white rounded-full"></div>
+                <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900">Amenities</h3>
-                <p class="text-sm sm:text-base text-gray-600 mt-1">
-                  Guests can request extra room amenities anytime, from a toothbrush to a pillow or
-                  a hairdryer.
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Vybavení</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Host si může požádat o doplnění toaletního papíru, zubní kartáče, fén, župan, ručníky a další.
                 </p>
               </div>
             </div>
 
             <div class="flex items-start space-x-3">
               <div
-                class="h-6 w-6 rounded-full bg-gray-900 flex items-center justify-center flex-shrink-0 mt-1"
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
               >
-                <div class="h-2 w-2 bg-white rounded-full"></div>
+                <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900">Issues</h3>
-                <p class="text-sm sm:text-base text-gray-600 mt-1">
-                  In the event of a malfunctioning facility within the room, guests can report it
-                  through the app.
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Poruchy</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Host může hlásit poruchy na pokoj, například výměnu žárovky prostřednictvím aplikace.
                 </p>
               </div>
             </div>
 
             <div class="flex items-start space-x-3">
               <div
-                class="h-6 w-6 rounded-full bg-gray-900 flex items-center justify-center flex-shrink-0 mt-1"
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
               >
-                <div class="h-2 w-2 bg-white rounded-full"></div>
+                <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900">Concierge Chat</h3>
-                <p class="text-sm sm:text-base text-gray-600 mt-1">
-                  Provide a more personalized service by adding a new communication channel.
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Live chat s recepcí</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Poskytněte hostům osobnější péči pomocí přímého komunikačního kanálu k vyřízení jeho potřeb.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <div
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
+              >
+                <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
+              </div>
+              <div>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Úklid</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Host si může pomocí aplikace objednat nebo zrušit plánovaný úklid pokoje.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div v-if="activeButton === 'reservations'" class="space-y-4 sm:space-y-6">
+            <div class="flex items-start space-x-3">
+              <div
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
+              >
+                <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
+              </div>
+              <div>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Restaurace</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Host si může jednoduše rezervovat stůl ve vaší restauraci.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <div
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
+              >
+                <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
+              </div>
+              <div>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">SPA & Wellness</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Host se může jednoduše objednat na masáž nebo jiné procedury.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <div
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
+              >
+                <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
+              </div>
+              <div>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Výlety</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Zjednodušte hostům přehled a možnost rezervace výletů s průvodcem a denních výletů.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <div
+                class="h-6 w-6 rounded-full bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 mt-1"
+              >
+                <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
+              </div>
+              <div>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Aktivity</h3>
+                <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
+                  Nabídněte hostům jednoduchý přístup k denním a večerním aktivitám ve vašem hotelu a účasti na hotelovém programu.
                 </p>
               </div>
             </div>
@@ -253,11 +311,9 @@ const activeButton = ref('f&b') // Default active button
         <!-- Left: Text -->
         <div>
           <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Streamline your staff
-            <br />
-            operations
+            Zvyšte efektivitu práce vašeho personálu
           </h2>
 
           <div class="mt-8 sm:mt-12 grid sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
@@ -288,11 +344,11 @@ const activeButton = ref('f&b') // Default active button
                 </svg>
               </div>
               <div class="min-w-0">
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900">
-                  Keep requests under control
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
+                  Mějte požadavky pod kontrolou
                 </h3>
-                <p class="text-sm text-gray-600 mt-1 sm:mt-2">
-                  Receive your guests' requests immediately and manage them more efficiently.
+                <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
+                  Získávejte požadavky hostů okamžitě a vyřizujte je přehledněji a rychleji.
                 </p>
               </div>
             </div>
@@ -324,11 +380,11 @@ const activeButton = ref('f&b') // Default active button
                 </svg>
               </div>
               <div class="min-w-0">
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900">
-                  Update your services in real time
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
+                  Mějte přehled o vašich službách v přítomném čase.
                 </h3>
-                <p class="text-sm text-gray-600 mt-1 sm:mt-2">
-                  Load and update information about everything in your hotel in real time.
+                <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
+                  Aktualizujte nabídku a informace o vašich službách a udržujte vše neustále přehledné pro váš personál i hosty.
                 </p>
               </div>
             </div>
@@ -360,15 +416,13 @@ const activeButton = ref('f&b') // Default active button
         <!-- Right: Text -->
         <div class="order-1 lg:order-2">
           <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Get immediate feedback
-            <br />
-            when it matters most
+            Získávejte rychle a přehledně zpětnou vazbu od vašich hostů.
           </h2>
-          <p class="text-base sm:text-lg text-gray-700 leading-relaxed mt-4 sm:mt-6">
-            Transform a bad experience into a great one by getting real-time quantitative and
-            qualitative feedback about each of your services.
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed mt-4 sm:mt-6 dark:text-white">
+            Proměňte nespokojeného hosta ve spokojeného díky okamžité
+            zpětné vazbě ke všem vašim produktům a službám.
           </p>
         </div>
       </div>
@@ -379,40 +433,37 @@ const activeButton = ref('f&b') // Default active button
         <!-- Left: Text -->
         <div>
           <h2
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+            class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Deliver a guest experience
-            <br />
-            that feels truly yours
+            Dopřejte hostům zážitek, který jste skutečně Vy!
           </h2>
-          <p class="text-base sm:text-lg text-gray-700 leading-relaxed mt-4 sm:mt-6">
-            Forget generic apps. Give your guests a fully branded experience that reflects your
-            hotel's identity and adapts to their preferences.
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed mt-4 sm:mt-6 dark:text-white">
+            Nabídněte hostům plně personalizovaný zážitek, který odráží identitu vašeho hotelu a přizpůsobí se jejich preferencím.
           </p>
 
           <div class="mt-8 sm:mt-12 grid sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
             <div>
-              <h3 class="text-sm sm:text-base font-bold text-gray-900">Branded look & feel</h3>
-              <p class="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2">
-                Quickly respond to guest needs with organized request tracking and easy
-                communication.
+              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Jednotný design vaší značky a identity</h3>
+              <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
+                Reagujte na potřeby hostů okamžitě díky chytrému systému žádostí a plynulé komunikaci, který zvyšuje spokojenost hostů a uvolňuje ruce vašemu personálu.
               </p>
             </div>
 
             <div>
-              <h3 class="text-sm sm:text-base font-bold text-gray-900">Showcase top services</h3>
-              <p class="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2">
-                Gain valuable insights into guest preferences and enhance service quality.
+              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Propagujte své nejlepší služby</h3>
+              <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
+                Získejte přehled o preferencích hostů a zvyšujte kvalitu i prodeje tam, kde to má největší přínos pro váš hotel.
               </p>
             </div>
 
             <div class="sm:col-span-2">
-              <h3 class="text-sm sm:text-base font-bold text-gray-900">
-                Personalized for every guest
+              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
+                Personalizovaný zážitek pro každého hosta
               </h3>
-              <p class="text-xs sm:text-sm text-gray-600 mt-1 sm:mt-2">
-                Quickly respond to guest needs with organized request tracking and easy
-                communication.
+              <p class="text-sm sm:text-base sm:max-w-xs text-gray-600 mt-1 sm:mt-2 dark:text-white">
+                Doporučujte každému hostovi nabídky a obsah na
+                míru podle jeho preferencí, abyste zvýšili jeho zapojení,
+                spokojenost i prodeje služeb.
               </p>
             </div>
           </div>
@@ -428,18 +479,31 @@ const activeButton = ref('f&b') // Default active button
         </div>
       </div>
     </section>
-    <section class="py-16 sm:py-20 lg:py-24 bg-white">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto">
-          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
-            Transform Your Hotel Experience
-            <br />
-            with Our Software
+    <section class="py-16 sm:py-20 lg:py-24">
+      <div class="max-w-screen-2xl mx-auto lg:px-8">
+        <div class="lg:text-center max-w-5xl mx-auto space-y-4 sm:space-y-8">
+          <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white">
+            Posuňte zážitek ve vašem hotelu na vyšší úroveň s naším chytrým softwarem.
           </h2>
-          <p class="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed">
-            Our innovative software enhances hotel operations, ensuring seamless service for guests.
-            <br />
-            Experience increased efficiency and satisfaction like never before.
+
+          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
+            Náš software promění běžný hotelový provoz v dokonale sehraný systém, kde má každý host vše
+            na dosah ruky a personál pracuje efektivněji než kdykoli předtím.
+          </p>
+
+          <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
+            Digitalizujeme komunikaci,
+            zrychlujeme reakční dobu a odstraňujeme zbytečné prostoje, díky čemuž získáte spokojenější
+            hosty i méně zatížený tým. Výsledkem je hladší provoz, vyšší kvalita služeb, optimalizace nákladů
+            a růst tržeb, který pocítíte okamžitě.
+          </p>
+
+          <p class="hidden sm:block text-base sm:text-lg text-gray-700 leading-relaxed dark:text-white">
+            Náš software promění běžný hotelový provoz v dokonale sehraný systém, kde má každý host vše
+            na dosah ruky a personál pracuje efektivněji než kdykoli předtím. Digitalizujeme komunikaci,
+            zrychlujeme reakční dobu a odstraňujeme zbytečné prostoje, díky čemuž získáte spokojenější
+            hosty i méně zatížený tým. Výsledkem je hladší provoz, vyšší kvalita služeb, optimalizace nákladů
+            a růst tržeb, který pocítíte okamžitě.
           </p>
         </div>
 
@@ -470,11 +534,11 @@ const activeButton = ref('f&b') // Default active button
                 />
               </svg>
             </div>
-            <h3 class="mt-4 sm:mt-6 text-lg sm:text-xl font-semibold text-gray-900">
-              Increased Efficiency for Hotel Staff
+            <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
+              Zvyšte efektivitu vašeho personálu
             </h3>
-            <p class="mt-2 sm:mt-3 text-sm text-gray-600">
-              Streamline daily tasks and reduce response times.
+            <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
+              Zjednodušte každodenní úkoly a zkraťte reakční dobu díky chytře organizovaným procesům.
             </p>
           </div>
 
@@ -504,11 +568,11 @@ const activeButton = ref('f&b') // Default active button
                 />
               </svg>
             </div>
-            <h3 class="mt-4 sm:mt-6 text-lg sm:text-xl font-semibold text-gray-900">
-              Enhanced Guest Experience and Satisfaction
+            <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
+              Poskytněte vaším hostům výjimečný zážitek a vyšší úroveň spokojenosti
             </h3>
-            <p class="mt-2 sm:mt-3 text-sm text-gray-600">
-              Delight guests with personalized services at their fingertips.
+            <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
+              Nadchněte vašeho hosty personalizovanými službami, které budou mít na dosah ruky.
             </p>
           </div>
 
@@ -538,11 +602,11 @@ const activeButton = ref('f&b') // Default active button
                 />
               </svg>
             </div>
-            <h3 class="mt-4 sm:mt-6 text-lg sm:text-xl font-semibold text-gray-900">
-              Streamlined Operations for Maximum Productivity
+            <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
+              Efektivní provoz pro maximální produktivitu
             </h3>
-            <p class="mt-2 sm:mt-3 text-sm text-gray-600">
-              Optimize workflows and improve overall hotel management.
+            <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
+              Optimalizovaný provoz pro maximální efektivitu řízení hotelu.
             </p>
           </div>
         </div>
