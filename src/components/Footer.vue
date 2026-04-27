@@ -17,6 +17,8 @@ const toggleDropdown = (key) => {
 const closeDropdown = (key) => {
   openDropdowns.value[key] = false;
 };
+
+const currentYear = new Date().getFullYear();
 </script>
 
 <template>
@@ -243,7 +245,7 @@ const closeDropdown = (key) => {
         </article>
       </div>
 
-      <p class="text-xs text-gray-600 dark:text-white">© 2025 OtelApps. All rights reserved.</p>
+      <p class="text-xs text-gray-600 dark:text-white">© {{ currentYear }} OtelApps. All rights reserved.</p>
     </section>
   </footer>
 </template>
