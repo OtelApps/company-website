@@ -2,8 +2,7 @@
   <main>
     <!-- Hero -->
     <section class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Left Section - Text Content -->
+      <div class="max-w-4xl">
         <section class="space-y-6">
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
             Zlepšete komunikaci a budujte vztahy s vašimi hosty
@@ -19,11 +18,6 @@
             Vyzkoušet demo-verzi
           </button>
         </section>
-
-        <!-- Right Section - Image -->
-        <figure class="flex items-center justify-center">
-          <img src="../../assets/product/GuestApp/1.png" alt="Guest app page image" class="w-4/5">
-        </figure>
       </div>
     </section>
 
