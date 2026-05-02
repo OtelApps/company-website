@@ -180,6 +180,15 @@
                       </p>
                     </router-link>
                   </div>
+                  <div class="flex items-start space-x-3">
+                    <span class="material-symbols-outlined">admin_panel_settings</span>
+                    <router-link to="/Product/WebAdmin" @click="closeMobileMenu" class="flex flex-col">
+                      <div class="font-medium text-gray-900 dark:text-white">WebAdmin pro obsluhu hotelu</div>
+                      <p class="text-sm text-gray-600 dark:text-white">
+                        Jedno místo pro správu obsahu a služeb mobilní aplikace — bez chaosu v e-mailech a tabulkách.
+                      </p>
+                    </router-link>
+                  </div>
                 </div>
               </div>
 
@@ -388,6 +397,15 @@
                   <div class="font-medium text-gray-900 dark:text-white">Webová aplikace pro hosty (již brzy)</div>
                   <p class="text-sm text-gray-600 dark:text-white">
                     Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč k tomu, aby měl váš host vše na dosah ruky.
+                  </p>
+                </router-link>
+              </div>
+              <div class="flex items-start space-x-3">
+                <span class="material-symbols-outlined">admin_panel_settings</span>
+                <router-link to="/Product/WebAdmin" @click="isProductOpen = false" class="flex flex-col">
+                  <div class="font-medium text-gray-900 dark:text-white">WebAdmin pro obsluhu hotelu</div>
+                  <p class="text-sm text-gray-600 dark:text-white">
+                    Jedno místo pro správu obsahu a služeb mobilní aplikace — bez chaosu v e-mailech a tabulkách.
                   </p>
                 </router-link>
               </div>

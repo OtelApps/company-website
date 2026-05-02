@@ -11,6 +11,7 @@ import InstantFeedback from './src/views/Product/InstantFeedback.vue'
 import TaskManager from './src/views/Product/TaskManager.vue'
 import AnalyticsInsights from './src/views/Product/AnalyticsInsights.vue'
 import MobileOrdering from './src/views/Product/MobileOrdering.vue'
+import WebAdmin from './src/views/Product/WebAdmin.vue'
 import CityCenter from './src/views/Solutions/CityCenter.vue'
 import SmallHotels from './src/views/Solutions/SmallHotels.vue'
 import Boutiques from './src/views/Solutions/Boutiques.vue'
@@ -28,6 +29,7 @@ const routes = [
   { path: '/Product/TaskManager', component: TaskManager },
   { path: '/Product/AnalyticsInsights', component: AnalyticsInsights },
   { path: '/Product/MobileOrdering', component: MobileOrdering },
+  { path: '/Product/WebAdmin', component: WebAdmin },
   { path: '/Solution/CityCenter', component: CityCenter },
   { path: '/Solution/SmallHotels', component: SmallHotels },
   { path: '/Solution/Boutiques', component: Boutiques },
