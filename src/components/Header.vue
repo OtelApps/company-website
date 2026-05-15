@@ -1,8 +1,3 @@
-<script setup>
-  import { useTheme } from '../useTheme.js'
-
-  const { isDark, toggleTheme } = useTheme()
-</script>
 <template>
   <header
     ref="header"

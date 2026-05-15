@@ -4,7 +4,7 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <div class="min-h-screen transition-colors duration-500 dark:bg-[#292C35]">
+  <div class="min-h-screen bg-white">
     <Header />
 
     <div class="overflow-x-hidden">
