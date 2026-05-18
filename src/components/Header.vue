@@ -38,6 +38,13 @@
               Ceník
             </router-link>
             <router-link
+              to="/Product/StayProgress"
+              class="text-gray-700 hover:text-gray-900 text-xs md:text-sm lg:text-base dark:text-white whitespace-nowrap"
+              :class="{ 'font-bold': isStayProgressActive }"
+            >
+              Průběh pobytu
+            </router-link>
+            <router-link
               to="/AboutUs"
               class="text-gray-700 hover:text-gray-900 text-xs md:text-sm lg:text-base dark:text-white whitespace-nowrap"
               :class="{ 'font-bold': isAboutUsActive }"
@@ -327,6 +334,15 @@
           </router-link>
 
           <router-link
+            to="/Product/StayProgress"
+            @click="closeMobileMenu"
+            class="block py-4 border-b border-gray-200 text-gray-900 text-base dark:text-white"
+            :class="{ 'font-bold': isStayProgressActive }"
+          >
+            Průběh pobytu
+          </router-link>
+
+          <router-link
             to="/AboutUs"
             @click="closeMobileMenu"
             class="block py-4 border-b border-gray-200 text-gray-900 text-base dark:text-white"
@@ -564,6 +580,9 @@ export default {
     },
     isPricingActive() {
       return this.$route.path === '/Pricing'
+    },
+    isStayProgressActive() {
+      return this.$route.path === '/Product/StayProgress'
     },
     isAboutUsActive() {
       return this.$route.path === '/AboutUs'

@@ -123,6 +123,7 @@ const currentYear = new Date().getFullYear();
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/CheckInCheckOut" @click="closeDropdown('klicoveFunkce')">Online check-in + check-out</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/VirtualKey" @click="closeDropdown('klicoveFunkce')">Virtuální pokojová karta</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/AnalyticsInsights" @click="closeDropdown('klicoveFunkce')">Analytika a statistiky</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/StayProgress" @click="closeDropdown('klicoveFunkce')">Průběh pobytu</router-link></li>
           </ul>
         </article>
 

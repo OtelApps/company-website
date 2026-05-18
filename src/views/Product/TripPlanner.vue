@@ -1,8 +1,9 @@
 <template>
   <main>
-    <!-- Hero -->
+    <!-- Hero Section -->
     <section class="max-w-screen-2xl mx-auto px-8 py-8 sm:py-12 lg:py-16">
-      <div class="max-w-4xl">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Left Section - Text -->
         <section class="space-y-6">
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
             Naplánujte hostům nezapomenutelné zážitky v Praze
@@ -17,6 +18,86 @@
             Vyzkoušet demo-verzi
           </button>
         </section>
+
+        <!-- Right Section - Trip Planner Phone Mockup -->
+        <figure class="flex items-center justify-center p-4">
+          <div class="w-full max-w-md bg-white rounded-3xl shadow-2xl border border-gray-200 overflow-hidden flex flex-col relative" style="height: 480px;">
+             <!-- Phone UI Header / Search -->
+             <div class="bg-white border-b px-5 py-4 flex flex-col space-y-3 shadow-sm z-10 relative">
+                <div class="flex items-center justify-between">
+                   <div class="flex items-center space-x-2">
+                      <span class="material-symbols-outlined text-[#f5a623] text-lg">explore</span>
+                      <span class="font-bold text-gray-900 text-sm">Trip Planner</span>
+                   </div>
+                   <span class="text-xs text-gray-500 font-medium">Praha</span>
+                </div>
+                <!-- Search bar -->
+                <div class="flex items-center bg-gray-100 rounded-lg px-3 py-1.5 border border-gray-200">
+                   <span class="material-symbols-outlined text-gray-400 text-sm mr-2">search</span>
+                   <span class="text-xs text-gray-400">Kam se chcete vydat?</span>
+                </div>
+             </div>
+
+             <!-- Phone UI Body (Map Simulation) -->
+             <div class="flex-1 relative bg-blue-50/40 overflow-hidden flex flex-col justify-between p-4">
+                <!-- Map Grid Gridlines/Roads (SVG Background Mockup) -->
+                <svg class="absolute inset-0 w-full h-full text-gray-200/60" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M 0 100 L 400 150 M 50 0 L 150 400 M 300 0 C 200 200, 350 300, 250 500" stroke="currentColor" stroke-width="6" fill="none" />
+                  <path d="M 0 250 Q 200 120 400 300" stroke="#cbe0ff" stroke-width="20" fill="none" opacity="0.4" /> <!-- Vltava River simulation -->
+                </svg>
+
+                <!-- Map Pins (Points of Interest) -->
+                <!-- Pin 1: Castle -->
+                <div class="absolute top-[25%] left-[20%] flex flex-col items-center">
+                   <div class="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center shadow-lg border-2 border-white hover:scale-110 transition-transform cursor-pointer">
+                      <span class="material-symbols-outlined text-white text-xs">castle</span>
+                   </div>
+                   <span class="text-[10px] font-bold text-gray-800 bg-white/95 px-1.5 py-0.5 rounded shadow mt-1">Pražský hrad</span>
+                </div>
+
+                <!-- Pin 2: Bridge (Active item) -->
+                <div class="absolute top-[45%] left-[55%] flex flex-col items-center">
+                   <div class="w-10 h-10 bg-[#f5a623] rounded-full flex items-center justify-center shadow-lg border-2 border-white hover:scale-110 transition-transform cursor-pointer relative">
+                      <span class="material-symbols-outlined text-white text-sm">directions_walk</span>
+                      <span class="absolute -top-1 -right-1 flex h-3 w-3">
+                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+                         <span class="relative inline-flex rounded-full h-3 w-3 bg-[#f5a623]"></span>
+                      </span>
+                   </div>
+                   <span class="text-[10px] font-extrabold text-white bg-gray-900 px-1.5 py-0.5 rounded shadow mt-1">Karlův most</span>
+                </div>
+
+                <!-- Pin 3: Square -->
+                <div class="absolute top-[60%] left-[80%] flex flex-col items-center">
+                   <div class="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center shadow-lg border-2 border-white hover:scale-110 transition-transform cursor-pointer">
+                      <span class="material-symbols-outlined text-white text-xs">account_balance</span>
+                   </div>
+                   <span class="text-[10px] font-bold text-gray-800 bg-white/95 px-1.5 py-0.5 rounded shadow mt-1">Orloj</span>
+                </div>
+
+                <!-- Active Monument Popup Card (Bottom Float) -->
+                <div class="mt-auto bg-white rounded-2xl p-3 shadow-xl border border-gray-100 flex items-center justify-between z-10 space-x-3">
+                   <div class="flex items-center space-x-3">
+                      <div class="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                         <span class="material-symbols-outlined text-[#f5a623] text-xl">map</span>
+                      </div>
+                      <div class="text-left text-left-important">
+                         <h4 class="font-bold text-gray-900 text-xs sm:text-sm text-left">Karlův most</h4>
+                         <p class="text-[10px] text-gray-500 flex items-center">
+                            <span class="material-symbols-outlined text-[10px] text-[#f5a623] mr-1">location_on</span>
+                            1.2 km od Vašeho hotelu
+                         </p>
+                      </div>
+                   </div>
+                   <div class="flex flex-col items-end space-y-1">
+                      <button class="bg-gray-900 text-white text-[10px] font-semibold px-3 py-1 rounded-md hover:bg-gray-800 transition-colors">
+                         Navigovat
+                      </button>
+                   </div>
+                </div>
+             </div>
+          </div>
+        </figure>
       </div>
     </section>
 
