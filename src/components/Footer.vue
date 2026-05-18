@@ -118,11 +118,11 @@ const currentYear = new Date().getFullYear();
           >
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory" @click="closeDropdown('klicoveFunkce')">Informace o hotelu</router-link></li>
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering" @click="closeDropdown('klicoveFunkce')">Objednávání</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Trip Planner</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Live chat + AI virtuální recepční</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Online check-in + check-out</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Virtuální pokojová karta</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Rezervace</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/TripPlanner" @click="closeDropdown('klicoveFunkce')">Trip Planner</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/VirtualReceptionist" @click="closeDropdown('klicoveFunkce')">Live chat + AI virtuální recepční</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/CheckInCheckOut" @click="closeDropdown('klicoveFunkce')">Online check-in + check-out</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/VirtualKey" @click="closeDropdown('klicoveFunkce')">Virtuální pokojová karta</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/AnalyticsInsights" @click="closeDropdown('klicoveFunkce')">Analytika a statistiky</router-link></li>
           </ul>
         </article>
 

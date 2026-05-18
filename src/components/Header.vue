@@ -245,24 +245,24 @@
                   </div>
                   <div class="flex items-start space-x-3">
                     <span class="material-symbols-outlined">chat_info</span>
-                    <button @click="closeMobileMenu" class="flex flex-col text-left">
+                    <router-link to="/Product/VirtualReceptionist" @click="closeMobileMenu" class="flex flex-col text-left">
                       <div class="font-medium text-gray-900 dark:text-white">Live chat + AI virtuální recepční</div>
                       <p class="text-sm text-gray-600 dark:text-white">Buďte neustále ve spojení se svými hosty, kdykoliv to potřebují.</p>
-                    </button>
+                    </router-link>
                   </div>
                   <div class="flex items-start space-x-3">
                     <span class="material-symbols-outlined">desktop_cloud</span>
-                    <button @click="closeMobileMenu" class="flex flex-col text-left">
+                    <router-link to="/Product/CheckInCheckOut" @click="closeMobileMenu" class="flex flex-col text-left">
                       <div class="font-medium text-gray-900 dark:text-white">Online check-in + check-out</div>
                       <p class="text-sm text-gray-600 dark:text-white">Ušetřete čas svému personálu i hostům při příjezdu či odjezdu.</p>
-                    </button>
+                    </router-link>
                   </div>
                   <div class="flex items-start space-x-3">
                     <span class="material-symbols-outlined">credit_card</span>
-                    <button @click="closeMobileMenu" class="flex flex-col text-left">
+                    <router-link to="/Product/VirtualKey" @click="closeMobileMenu" class="flex flex-col text-left">
                       <div class="font-medium text-gray-900 dark:text-white">Virtuální pokojová karta</div>
                       <p class="text-sm text-gray-600 dark:text-white">Bez zbytečných karet, otevírejte pokoj i celý hotel jednoduše svým mobilem.</p>
-                    </button>
+                    </router-link>
                   </div>
                 </div>
               </div>
@@ -466,24 +466,24 @@
               </div>
               <div class="flex items-start space-x-3">
                 <span class="material-symbols-outlined">chat_info</span>
-                <button @click="isProductOpen = false" class="flex flex-col text-left">
+                <router-link to="/Product/VirtualReceptionist" @click="isProductOpen = false" class="flex flex-col text-left">
                   <div class="font-medium text-gray-900 dark:text-white">Live chat + AI virtuální recepční</div>
                   <p class="text-sm text-gray-600 dark:text-white">Buďte neustále ve spojení se svými hosty, kdykoliv to potřebují.</p>
-                </button>
+                </router-link>
               </div>
               <div class="flex items-start space-x-3">
                 <span class="material-symbols-outlined">desktop_cloud</span>
-                <button @click="isProductOpen = false" class="flex flex-col text-left">
+                <router-link to="/Product/CheckInCheckOut" @click="isProductOpen = false" class="flex flex-col text-left">
                   <div class="font-medium text-gray-900 dark:text-white">Online check-in + check-out</div>
                   <p class="text-sm text-gray-600 dark:text-white">Ušetřete čas svému personálu i hostům při příjezdu či odjezdu.</p>
-                </button>
+                </router-link>
               </div>
               <div class="flex items-start space-x-3">
                 <span class="material-symbols-outlined">credit_card</span>
-                <button @click="isProductOpen = false" class="flex flex-col text-left">
+                <router-link to="/Product/VirtualKey" @click="isProductOpen = false" class="flex flex-col text-left">
                   <div class="font-medium text-gray-900 dark:text-white">Virtuální pokojová karta</div>
                   <p class="text-sm text-gray-600 dark:text-white">Bez zbytečných karet, otevírejte pokoj i celý hotel jednoduše svým mobilem.</p>
-                </button>
+                </router-link>
               </div>
             </div>
           </div>
