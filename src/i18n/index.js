@@ -23,6 +23,14 @@ const LOCALE_SHORT = {
   pl: 'PL',
 }
 
+const LOCALE_FLAGS = {
+  en: 'gb',
+  cs: 'cz',
+  de: 'de',
+  sk: 'sk',
+  pl: 'pl',
+}
+
 const messages = { en, cs, de, sk, pl }
 
 function normalizeBrowserLocale(lang) {
@@ -67,6 +75,7 @@ export const localeOptions = SUPPORTED_LOCALES.map((code) => ({
   code,
   label: LOCALE_LABELS[code],
   short: LOCALE_SHORT[code],
+  flag: `https://flagcdn.com/w40/${LOCALE_FLAGS[code]}.png`,
 }))
 
 const initialLocale = detectLocale()

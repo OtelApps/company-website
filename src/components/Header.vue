@@ -71,6 +71,12 @@
               @click.stop="toggleLangMenu"
             >
               <span class="material-symbols-outlined">language</span>
+              <img
+                :src="currentLocaleOption.flag"
+                :alt="`${currentLocaleOption.label} flag`"
+                class="w-4 h-3 rounded-[1px] object-cover"
+                loading="lazy"
+              />
               <span class="text-xs font-medium uppercase">{{ localeShort }}</span>
             </button>
             <div
@@ -92,7 +98,15 @@
                 "
                 @click="setLocale(opt.code)"
               >
-                <span>{{ opt.label }}</span>
+                <span class="flex items-center gap-2">
+                  <img
+                    :src="opt.flag"
+                    :alt="`${opt.label} flag`"
+                    class="w-4 h-3 rounded-[1px] object-cover"
+                    loading="lazy"
+                  />
+                  <span>{{ opt.label }}</span>
+                </span>
                 <span class="text-xs text-gray-500 dark:text-gray-400">{{ opt.short }}</span>
               </button>
             </div>
@@ -121,6 +135,12 @@
               @click.stop="toggleLangMenu"
             >
               <span class="material-symbols-outlined text-base md:text-lg">language</span>
+              <img
+                :src="currentLocaleOption.flag"
+                :alt="`${currentLocaleOption.label} flag`"
+                class="w-4 h-3 rounded-[1px] object-cover"
+                loading="lazy"
+              />
               <span class="text-xs font-medium uppercase">{{ localeShort }}</span>
             </button>
             <div
@@ -142,7 +162,15 @@
                 "
                 @click="setLocale(opt.code)"
               >
-                <span>{{ opt.label }}</span>
+                <span class="flex items-center gap-2">
+                  <img
+                    :src="opt.flag"
+                    :alt="`${opt.label} flag`"
+                    class="w-4 h-3 rounded-[1px] object-cover"
+                    loading="lazy"
+                  />
+                  <span>{{ opt.label }}</span>
+                </span>
                 <span class="text-xs text-gray-500 dark:text-gray-400">{{ opt.short }}</span>
               </button>
             </div>
@@ -200,6 +228,12 @@
               @click.stop="toggleLangMenu"
             >
               <span class="material-symbols-outlined">language</span>
+              <img
+                :src="currentLocaleOption.flag"
+                :alt="`${currentLocaleOption.label} flag`"
+                class="w-4 h-3 rounded-[1px] object-cover"
+                loading="lazy"
+              />
               <span class="text-xs font-medium uppercase">{{ localeShort }}</span>
             </button>
             <div
@@ -221,7 +255,15 @@
                 "
                 @click="setLocale(opt.code)"
               >
-                <span>{{ opt.label }}</span>
+                <span class="flex items-center gap-2">
+                  <img
+                    :src="opt.flag"
+                    :alt="`${opt.label} flag`"
+                    class="w-4 h-3 rounded-[1px] object-cover"
+                    loading="lazy"
+                  />
+                  <span>{{ opt.label }}</span>
+                </span>
                 <span class="text-xs text-gray-500 dark:text-gray-400">{{ opt.short }}</span>
               </button>
             </div>
@@ -644,6 +686,9 @@ export default {
     }
   },
   computed: {
+    currentLocaleOption() {
+      return this.localeOptions.find((opt) => opt.code === this.$i18n.locale) ?? this.localeOptions[0]
+    },
     localeShort() {
       return getLocaleShort(this.$i18n.locale)
     },
