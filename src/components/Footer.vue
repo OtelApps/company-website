@@ -69,7 +69,7 @@ const currentYear = new Date().getFullYear();
             @click="toggleDropdown('procoOtelApps')"
             class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
           >
-            <span>PROČ OTEL APPS</span>
+            <span>{{ $t('footer.button1.title') }}</span>
             <svg
               class="w-4 h-4 md:hidden transition-transform duration-200"
               :class="{ 'rotate-180': openDropdowns.procoOtelApps }"
@@ -87,9 +87,9 @@ const currentYear = new Date().getFullYear();
               'max-h-96 opacity-100': openDropdowns.procoOtelApps
             }"
           >
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Pricing" @click="closeDropdown('procoOtelApps')">Ceník</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/" @click="closeDropdown('procoOtelApps')">Integrace</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/" @click="closeDropdown('procoOtelApps')">Aktualizace systému</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Pricing" @click="closeDropdown('procoOtelApps')">{{ $t('footer.button1.items[0]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/" @click="closeDropdown('procoOtelApps')">{{ $t('footer.button1.items[1]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/" @click="closeDropdown('procoOtelApps')">{{ $t('footer.button1.items[2]') }}</router-link></li>
           </ul>
         </article>
 
@@ -98,7 +98,7 @@ const currentYear = new Date().getFullYear();
             @click="toggleDropdown('klicoveFunkce')"
             class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
           >
-            <span>KLÍČOVÉ FUNKCE</span>
+            <span>{{ $t('footer.button2.title') }}</span>
             <svg
               class="w-4 h-4 md:hidden transition-transform duration-200"
               :class="{ 'rotate-180': openDropdowns.klicoveFunkce }"
@@ -116,13 +116,13 @@ const currentYear = new Date().getFullYear();
               'max-h-96 opacity-100': openDropdowns.klicoveFunkce
             }"
           >
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory" @click="closeDropdown('klicoveFunkce')">Informace o hotelu</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering" @click="closeDropdown('klicoveFunkce')">Objednávání</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Trip Planner</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Live chat + AI virtuální recepční</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Online check-in + check-out</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Virtuální pokojová karta</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">Rezervace</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[0]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[1]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[2]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[3]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[4]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[5]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[6]') }}</router-link></li>
           </ul>
         </article>
 
@@ -131,7 +131,7 @@ const currentYear = new Date().getFullYear();
             @click="toggleDropdown('reseni')"
             class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
           >
-            <span>ŘEŠENÍ</span>
+            <span>{{ $t('footer.button3.title') }}</span>
             <svg
               class="w-4 h-4 md:hidden transition-transform duration-200"
               :class="{ 'rotate-180': openDropdowns.reseni }"
@@ -149,9 +149,9 @@ const currentYear = new Date().getFullYear();
               'max-h-96 opacity-100': openDropdowns.reseni
             }"
           >
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/CityCenter" @click="closeDropdown('reseni')">Městské hotely</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/SmallHotels" @click="closeDropdown('reseni')">Malé a středně velké hotely</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/Boutiques" @click="closeDropdown('reseni')">Butikové hotely</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/CityCenter" @click="closeDropdown('reseni')">{{ $t('footer.button3.items[0]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/SmallHotels" @click="closeDropdown('reseni')">{{ $t('footer.button3.items[1]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Solution/Boutiques" @click="closeDropdown('reseni')">{{ $t('footer.button3.items[2]') }}</router-link></li>
           </ul>
         </article>
 
@@ -160,7 +160,7 @@ const currentYear = new Date().getFullYear();
             @click="toggleDropdown('projekt')"
             class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
           >
-            <span>PROJEKT</span>
+            <span>{{ $t('footer.button4.title') }}</span>
             <svg
               class="w-4 h-4 md:hidden transition-transform duration-200"
               :class="{ 'rotate-180': openDropdowns.projekt }"
@@ -178,8 +178,8 @@ const currentYear = new Date().getFullYear();
               'max-h-96 opacity-100': openDropdowns.projekt
             }"
           >
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/AboutUs" @click="closeDropdown('projekt')">O nás</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Contact" @click="closeDropdown('projekt')">Napište nám</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/AboutUs" @click="closeDropdown('projekt')">{{ $t('footer.button4.items[0]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Contact" @click="closeDropdown('projekt')">{{ $t('footer.button4.items[1]') }}</router-link></li>
           </ul>
         </article>
 
@@ -188,7 +188,7 @@ const currentYear = new Date().getFullYear();
             @click="toggleDropdown('legal')"
             class="flex items-center justify-between w-full md:block md:text-left text-xs sm:text-sm font-bold mb-3 sm:mb-4 dark:text-white"
           >
-            <span>LEGAL</span>
+            <span>{{ $t('footer.button5.title') }}</span>
             <svg
               class="w-4 h-4 md:hidden transition-transform duration-200"
               :class="{ 'rotate-180': openDropdowns.legal }"
@@ -206,9 +206,9 @@ const currentYear = new Date().getFullYear();
               'max-h-96 opacity-100': openDropdowns.legal
             }"
           >
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">Právní upozornění</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">Zásady používání cookies</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">Zásady ochrany osobních údajů</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">{{ $t('footer.button5.items[0]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">{{ $t('footer.button5.items[1]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">{{ $t('footer.button5.items[2]') }}</router-link></li>
           </ul>
         </article>
       </div>
@@ -225,27 +225,27 @@ const currentYear = new Date().getFullYear();
       <div class="flex justify-between items-center gap-x-15 md:gap-x-0 lg:gap-x-48">
         <article class="w-1/2">
           <p class="text-sm sm:text-base text-gray-600 dark:text-white">
-            IČO: 23905719
+            {{ $t('footer.ico') }}: 23905719
           </p>
           <p class="text-sm sm:text-base text-gray-600 dark:text-white">
-            DIČ: 23905719
+            {{ $t('footer.dic') }}: 23905719
           </p>
         </article>
 
         <article class="md:w-1/2">
           <p class="text-sm sm:text-base text-gray-600 dark:text-white">
-            Email: info@otelapps.com
+            {{ $t('footer.contact.email') }}: info@otelapps.com
           </p>
           <p class="text-sm sm:text-base text-gray-600 dark:text-white">
-            Telefon: +420 604 607 225
+            {{ $t('footer.contact.phone') }}: +420 604 607 225
           </p>
           <p class="text-sm sm:text-base text-gray-600 dark:text-white">
-            Adresa: Příčná 1892/4, Nové Město, 110 00 Praha 1
+            {{ $t('footer.contact.address') }}: Příčná 1892/4, Nové Město, 110 00 Praha 1
           </p>
         </article>
       </div>
 
-      <p class="text-xs text-gray-600 dark:text-white">© {{ currentYear }} OtelApps. All rights reserved.</p>
+      <p class="text-xs text-gray-600 dark:text-white">© {{ currentYear }} OtelApps. {{ $t('footer.rights') }}</p>
     </section>
   </footer>
 </template>

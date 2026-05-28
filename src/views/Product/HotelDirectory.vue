@@ -6,16 +6,15 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-4 sm:space-y-8">
             <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Digitální průvodce hotelem
+              {{ $t('hotelDirectory.section1.title') }}
             </h1>
             <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-              Vytvořte pro své hosty digitální prostor, kde najdou vše potřebné. Veškeré důležité informace o 
-              hotelu tak budou mít na jednom místě, vždy dostupné a aktuální.
+              {{ $t('hotelDirectory.section1.desc') }}
             </p>
             <button
               class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Vyzkoušet demo-verzi
+            {{ $t('hotelDirectory.section1.button') }}
             </button>
           </div>
 
@@ -28,9 +27,8 @@
     </section>
 
     <Advantages
-      title="Virtuální průvodce hotelem"
-      subtitle="Váš virtuální průvodce sjednocuje veškeré důležité informace na jednom místě a nabízí hostům 
-                intuitivní samoobslužný nástroj, díky kterému mají vše potřebné okamžitě po ruce."
+      :title="$t('hotelDirectory.section2.title')"
+      :subtitle="$t('hotelDirectory.section2.subtitle')"
       :features="hotelDirectoryAdvantages"
       background-color="bg-[#f4f4f4]"
     />
@@ -38,22 +36,21 @@
     <Features
       :image-src="image2"
       :image-alt="'Hotel Directory Obrázek'"
-      title="Co všechno můžete aplikace zahrnout?"
-      description="Náš flexibilní systém podporuje širokou škálu typů obsahu, díky čemuž pokryje veškeré individuální potřeby vašeho hotelu."
+      :title="$t('hotelDirectory.section3.title')"
+      :description="$t('hotelDirectory.section3.desc')"
       :features="hotelDirectoryFeatures"
     />
 
     <HowItWorks
-      title="Dynamický obsah pod vaší kontrolou"
-      subtitle="Udržujte informace o svém hotelu neustále aktuální a snadno dostupné. Náš systém jsme navrhli pro maximálně 
-                jednoduchou správu obsahu, která šetří čas personálu a hostům přináší ničím nerušený digitální zážitek"
+      :title="$t('hotelDirectory.section4.title')"
+      :subtitle="$t('hotelDirectory.section4.subtitle')"
       :steps="hotelDirectoryWork"
       :image="image3"
       image-alt="Hotel Directory Obrázek"
     />
 
     <Benefits
-      title="Provozní výhody"
+      :title="$t('hotelDirectory.section5.title')"
       :items="hotelDirectoryBenefits"
       :rows="1"
       :columns="5"
@@ -83,99 +80,97 @@ export default {
       image1: image1,
       image2: image2,
       image3: image3,
-      hotelDirectoryAdvantages: [
+    }
+  },
+  computed: {
+    hotelDirectoryAdvantages() {
+      return [
         {
-          title: 'Veškeré informace na jednom místě',
-          description:
-            'Od časů příjezdu a odjezdu přes instrukce k vybavení pokoje až po bezpečnostní pokyny a FAQ – vše je hostům k dispozici okamžitě, digitálně a přehledně.',
+          title: this.$t('hotelDirectory.section2.items.0'),
+          description: this.$t('hotelDirectory.section2.desc.0'),
           icon: 'info',
         },
         {
-          title: 'Méně volání na recepci',
-          description:
-            'Umožněte hostům najít odpovědi vlastními silami. Snížíte tím pracovní vytížení recepce a uvolníte ruce personálu pro důležitější úkoly.',
+          title: this.$t('hotelDirectory.section2.items.1'),
+          description: this.$t('hotelDirectory.section2.desc.1'),
           icon: 'phone_callback',
         },
         {
-          title: 'Příležitosti k upsellingu',
-          description:
-            'Propagujte speciální služby, exkluzivní balíčky a produkty přímo v aplikaci a navyšte své tržby z prodeje doplňkových produktů a služeb.',
+          title: this.$t('hotelDirectory.section2.items.2'),
+          description: this.$t('hotelDirectory.section2.desc.2'),
           icon: 'sell',
         },
-      ],
-      hotelDirectoryFeatures: [
+      ]
+    },
+    hotelDirectoryFeatures() {
+      return [
         {
-          title: 'Klíčové informace: ',
-          description: 'Přehledně zpracované časy příjezdu a odjezdu (check-in/out), instrukce k vybavení pokojů a jasná pravidla pro ubytování s domácími mazlíčky či zásady kouření',
+          title: this.$t('hotelDirectory.section3.items.0'),
+          description: this.$t('hotelDirectory.section3.idesc.0'),
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Vybavení a služby: ',
-          description: 'Aktuální otevírací doby bazénů, wellness centra, restaurací a další.',
+          title: this.$t('hotelDirectory.section3.items.1'),
+          description: this.$t('hotelDirectory.section3.idesc.1'),
           icon: 'M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z',
         },
         {
-          title: 'Bohatý obsah: ',
-          description:
-            'Každý záznam v aplikaci může obsahovat poutavé texty, ikony, fotografie, videa, interaktivní mapy nebo akční tlačítka pro okamžitou objednávku.',
+          title: this.$t('hotelDirectory.section3.items.2'),
+          description: this.$t('hotelDirectory.section3.idesc.2'),
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Aktualizace v reálném čase: ',
-          description:
-            'Upravujte veškeré informace v reálném čase skrze webové rozhraní. Tím zajistíte, že vaši hosté budou mít v aplikaci vždy ty nejčerstvější detaily.',
+          title: this.$t('hotelDirectory.section3.items.3'),
+          description: this.$t('hotelDirectory.section3.idesc.3'),
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
-      ],
-      hotelDirectoryWork: [
+      ]
+    },
+    hotelDirectoryWork() {
+      return [
         {
-          title: 'Aktualizace v reálném čase:',
-          description:
-            'Veškeré změny se u hostů projeví okamžitě. To zaručuje 100% konzistenci a aktuálnost informací napříč celým hotelem.',
+          title: this.$t('hotelDirectory.section4.items.0'),
+          description: this.$t('hotelDirectory.section4.desc.0'),
         },
         {
-          title: 'Strukturované kategorie:',
-          description:
-            'Organizujte svůj obsah pomocí intuitivních ikon pro snadné prohlížení a bleskový přístup ke službám.',
+          title: this.$t('hotelDirectory.section4.items.1'),
+          description: this.$t('hotelDirectory.section4.desc.1'),
         },
         {
-          title: 'Podpora více jazyků:',
-          description:
-            "Nabídněte hostům informace v jejich rodném jazyce. Personalizovaný zážitek je klíčem ke spokojenosti hostů a lepším recenzím.",
+          title: this.$t('hotelDirectory.section4.items.2'),
+          description: this.$t('hotelDirectory.section4.desc.2'),
         },
-      ],
-      hotelDirectoryBenefits: [
+      ]
+    },
+    hotelDirectoryBenefits() {
+      return [
         {
-          title: 'Úleva pro váš personál',
-          description:
-            'Automatizace požadavků hostů výrazně snižuje pracovní vytížení personálu na recepci i v dalších odděleních',
+          title: this.$t('hotelDirectory.section5.items.0'),
+          description: this.$t('hotelDirectory.section5.desc.0'),
           icon: 'group'
         },
         {
-          title: 'Zefektivnění provozu a kontrola procesů',
-          description: 'Digitalizace rutinních úkonů vede k vyšší efektivitě a lepší kontrole nad veškerými procesy v hotelu.',
+          title: this.$t('hotelDirectory.section5.items.1'),
+          description: this.$t('hotelDirectory.section5.desc.1'),
           icon: 'rule_settings'
         },
         {
-          title: 'Optimalizace nákladů',
-          description:
-            'Přechod na digitální řešení šetří náklady na tisk a zefektivňuje správu doplňkových služeb.',
+          title: this.$t('hotelDirectory.section5.items.2'),
+          description: this.$t('hotelDirectory.section5.desc.2'),
           icon: 'payments'
         },
         {
-          title: 'Data pro strategické řízení',
-          description:
-            'Management získává přístup k detailním reportům a analýzám, které umožňují dělat správná rozhodnutí podložená reálnými daty',
+          title: this.$t('hotelDirectory.section5.items.3'),
+          description: this.$t('hotelDirectory.section5.desc.3'),
           icon: 'chart_data'
         },
         {
-          title: 'Zlepšete zážitek svých hostů',
-          description:
-            'Usnadněte hostům přístup k informacím a vytvořte podmínky pro hladší a příjemnější pobyt ve vašem hotelu',
+          title: this.$t('hotelDirectory.section5.items.4'),
+          description: this.$t('hotelDirectory.section5.desc.4'),
           icon: 'mood'
         },
-      ],
+      ]
     }
-  },
+  }
 }
 </script>

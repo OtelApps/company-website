@@ -1,0 +1,992 @@
+{
+  "header": {
+    "nav": {
+      "products": "Produkty",
+      "solutions": "Řešení",
+      "pricing": "Ceník",
+      "aboutUs": "O nás",
+      "contact": "Kontakt",
+      "login": "Přihlásit se",
+      "bookDemo": "Vyzkoušet demo-verzi"
+    },
+    "menu": {
+      "ecosystem": "Ecosystem",
+      "mainFeatures": "Hlavní funkce",
+      "guestMobileApp": {
+        "title": "Mobilní aplikace pro hosty",
+        "desc": "Ukažte hostům to nejlepší z vaší nabídky a nastartujte tím růst tržeb."
+      },
+      "guestWebApp": {
+        "title": "Webová aplikace pro hosty (již brzy)",
+        "desc": "Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč k tomu, aby měl váš host vše na dosah ruky."
+      },
+      "hotelDirectory": {
+        "title": "Informace o hotelu",
+        "desc": "Detailní informace o vašem hotelu na jednom místě."
+      },
+      "mobileOrdering": {
+        "title": "Mobilní objednávání a rezervace",
+        "desc": "Snadné objednávání a rezervace bez front a čekání."
+      },
+      "instantFeedback": {
+        "title": "Okamžitá zpětná vazba",
+        "desc": "Získávejte zpětnou vazbu ve chvílích, kdy na ní skutečně záleží."
+      },
+      "taskManager": {
+        "title": "Task management",
+        "desc": "Mějte všechny požadavky svých hostů přehledně a na jednom místě."
+      },
+      "tripPlanner": {
+        "title": "Trip planner",
+        "desc": "Naplánujte si celý pobyt i výlety v okolí pohodlně ze svého mobilu."
+      },
+      "analytics": {
+        "title": "Analytika a statistiky",
+        "desc": "Dělejte správná rozhodnutí podložená reálnými daty a analýzami."
+      },
+      "liveChat": {
+        "title": "Live chat + AI virtuální recepční",
+        "desc": "Buďte neustále ve spojení se svými hosty, kdykoliv to potřebují."
+      },
+      "checkInOut": {
+        "title": "Online check-in + check-out",
+        "desc": "Ušetřete čas svému personálu i hostům při příjezdu či odjezdu."
+      },
+      "virtualKey": {
+        "title": "Virtuální pokojová karta",
+        "desc": "Bez zbytečných karet, otevírejte pokoj i celý hotel jednoduše svým mobilem."
+      },
+      "cityHotels": {
+        "title": "Městské hotely",
+        "desc": "Zefektivněte provoz a maximalizujte své zisky"
+      },
+      "boutiqueHotels": {
+        "title": "Butikové hotely",
+        "desc": "Dopřejte svým hostům pozornost, kterou si zaslouží"
+      },
+      "smallHotels": {
+        "title": "Malé a střední hotely",
+        "desc": "Služby vašeho hotelu na dosah ruky"
+      },
+      "resorts": {
+        "title": "Rezorty (již brzy)"
+      }
+    }
+  },
+  "footer": {
+    "button1": {
+      "title": "PROČ OTEL APPS",
+      "items": ["Ceník", "Integrace", "Aktualizace systému"]
+    },
+    "button2": {
+      "title": "KLÍČOVÉ FUNKCE",
+      "items": [
+        "Informace o hotelu",
+        "Objednávání",
+        "Trip Planner",
+        "Live chat + AI virtuální recepční",
+        "Online check-in + check-out",
+        "Virtuální pokojová karta",
+        "Rezervace"
+      ]
+    },
+    "button3": {
+      "title": "ŘEŠENÍ",
+      "items": ["Městské hotely", "Malé a středně velké hotely", "Butikové hotely"]
+    },
+    "button4": {
+      "title": "PROJEKT",
+      "items": ["O nás", "Napište nám"]
+    },
+    "button5": {
+      "title": "LEGAL",
+      "items": ["Právní upozornění", "Zásady používání cookies", "Zásady ochrany osobních údajů"]
+    },
+    "ico": "IČO",
+    "dic": "DIČ",
+    "contact": {
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresa"
+    },
+    "rights": "Všechna práva vyhrazena."
+  },
+  "homepage": {
+    "section1": {
+      "title": "Vylepšete hotelový provoz pomocí chytrého digitálního řešení!",
+      "desc": "Prostřednictvím naší intuitivní mobilní aplikace dáváme hostům do rukou nástroj pro snadnou komunikaci a přístup ke službám. Hotelům poskytujeme webové rozhraní, které zjednodušuje správu těchto požadavků, pomáhá řídit interní procesy, efektivně spravovat náklady, navyšovat tržby a spokojenost hostů.",
+      "desc1": "Prostřednictvím naší intuitivní mobilní aplikace dáváme hostům do rukou nástroj pro snadnou komunikaci a přístup ke službám.",
+      "desc2": "Hotelům poskytujeme webové rozhraní, které zjednodušuje správu těchto požadavků, pomáhá řídit interní procesy, efektivně spravovat náklady, navyšovat tržby a spokojenost hostů.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "section2": {
+      "title": "Zvyšte tržby svého hotelu a spokojenost vašich hostů.",
+      "desc": "Zvyšte své tržby pomocí jednoduchého a rychlého systému objednávek přes naši mobilní aplikaci. Nabízejte všechny své produkty a služby pohodlně na mobilním telefonu vašeho hosta."
+    },
+    "section3": {
+      "title": "Všechny vaše služby dostupné pouze na jedno kliknutí.",
+      "button1": {
+        "title": "Objednávání produktů",
+        "items": ["Digitální menu", "Objednávky na míru", "Room Service"],
+        "desc": [
+          "Intuitivní objednávání z menu vaší resturace, baru či kavárny.",
+          "Host může v objednávce specifikovat své vlastní požadavky.",
+          "Host si může objednat jídlo, nápoje a další produkty z vaší nabídky pomocí telefonu až na svůj pokoj."
+        ]
+      },
+      "button2": {
+        "title": "Požadavky",
+        "items": ["Vybavení", "Poruchy", "Live chat s recepcí", "Úklid"],
+        "desc": [
+          "Host si může požádat o doplnění toaletního papíru, zubní kartáče, fén, župan, ručníky a další.",
+          "Host může hlásit poruchy na pokoj, například výměnu žárovky prostřednictvím aplikace.",
+          "Poskytněte hostům osobnější péči pomocí přímého komunikačního kanálu k vyřízení jeho potřeb.",
+          "Host si může pomocí aplikace objednat nebo zrušit plánovaný úklid pokoje."
+        ]
+      },
+      "button3": {
+        "title": "Rezervace",
+        "items": ["Restaurace", "SPA & Wellness", "Výlety", "Aktivity"],
+        "desc": [
+          "Host si může jednoduše rezervovat stůl ve vaší restauraci.",
+          "Host se může jednoduše objednat na masáž nebo jiné procedury.",
+          "Zjednodušte hostům přehled a možnost rezervace výletů s průvodcem a denních výletů.",
+          "Nabídněte hostům jednoduchý přístup k denním a večerním aktivitám ve vašem hotelu a účasti na hotelovém programu."
+        ]
+      }
+    },
+    "section4": {
+      "title": "Zvyšte efektivitu práce vašeho personálu",
+      "items": [
+        "Mějte požadavky pod kontrolou",
+        "Mějte přehled o vašich službách v přítomném čase."
+      ],
+      "desc": [
+        "Získávejte požadavky hostů okamžitě a vyřizujte je přehledněji a rychleji.",
+        "Aktualizujte nabídku a informace o vašich službách a udržujte vše neustále přehledné pro váš personál i hosty."
+      ]
+    },
+    "section5": {
+      "title": "Získávejte rychle a přehledně zpětnou vazbu od vašich hostů.",
+      "desc": "Proměňte nespokojeného hosta ve spokojeného díky okamžité zpětné vazbě ke všem vašim produktům a službám."
+    },
+    "section6": {
+      "title": "Dopřejte hostům zážitek, který jste skutečně Vy!",
+      "desc": "Nabídněte hostům plně personalizovaný zážitek, který odráží identitu vašeho hotelu a přizpůsobí se jejich preferencím.",
+      "items": [
+        "Jednotný design vaší značky a identity",
+        "Propagujte své nejlepší služby",
+        "Personalizovaný zážitek pro každého hosta"
+      ],
+      "idesc": [
+        "Reagujte na potřeby hostů okamžitě díky chytrému systému žádostí a plynulé komunikaci, který zvyšuje spokojenost hostů a uvolňuje ruce vašemu personálu.",
+        "Získejte přehled o preferencích hostů a zvyšujte kvalitu i prodeje tam, kde to má největší přínos pro váš hotel.",
+        "Doporučujte každému hostovi nabídky a obsah na míru podle jeho preferencí, abyste zvýšili jeho zapojení, spokojenost i prodeje služeb."
+      ]
+    },
+    "section7": {
+      "title": "Posuňte zážitek ve vašem hotelu na vyšší úroveň s naším chytrým softwarem.",
+      "desc": "Náš software promění běžný hotelový provoz v dokonale sehraný systém, kde má každý host vše na dosah ruky a personál pracuje efektivněji než kdykoli předtím. Digitalizujeme komunikaci, zrychlujeme reakční dobu a odstraňujeme zbytečné prostoje, díky čemuž získáte spokojenější hosty i méně zatížený tým. Výsledkem je hladší provoz, vyšší kvalita služeb, optimalizace nákladů a růst tržeb, který pocítíte okamžitě.",
+      "desc1": "Náš software promění běžný hotelový provoz v dokonale sehraný systém, kde má každý host vše na dosah ruky a personál pracuje efektivněji než kdykoli předtím.",
+      "desc2": "Digitalizujeme komunikaci, zrychlujeme reakční dobu a odstraňujeme zbytečné prostoje, díky čemuž získáte spokojenější hosty i méně zatížený tým. Výsledkem je hladší provoz, vyšší kvalita služeb, optimalizace nákladů a růst tržeb, který pocítíte okamžitě.",
+      "items": [
+        "Zvyšte efektivitu vašeho personálu",
+        "Poskytněte vaším hostům výjimečný zážitek a vyšší úroveň spokojenosti",
+        "Efektivní provoz pro maximální produktivitu"
+      ],
+      "idesc": [
+        "Zjednodušte každodenní úkoly a zkraťte reakční dobu díky chytře organizovaným procesům.",
+        "Nadchněte vašeho hosty personalizovanými službami, které budou mít na dosah ruky.",
+        "Optimalizovaný provoz pro maximální efektivitu řízení hotelu."
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Flexibilní cenotvorba, která se přizpůsobí vašim potřebám",
+    "subtitle": "Rádi pro vás připravíme návrh na míru.",
+    "desc": "Pojďme společně vytvořit řešení, které bude dokonale ladit s vizí vašeho hotelu a podpoří vaši jedinečnost. Každý hotel má svou unikátní DNA a my se už teď těšíme, až tu vaši propojíme s technologiemi Otel Apps.",
+    "form": {
+      "name": "Jméno",
+      "surname": "Příjmení",
+      "email": "Pracovní email",
+      "country": "Země",
+      "countries": ["Česká republika", "Slovensko", "Německo", "Rakousko", "Polsko"],
+      "phone": "Telefonní číslo",
+      "title": "Pracovní titul",
+      "titles": [
+        "Majitel / Zakladatel",
+        "Generální ředitel",
+        "IT / Technologický manažer",
+        "Manažer tržeb",
+        "Manažer konzultant",
+        "Jiné"
+      ],
+      "property": "Typ nemovitosti",
+      "properties": [
+        "Hotelový řetězec nebo skupina",
+        "Nezávislý hotel",
+        "Jiné (ne hotel ani hotelová skupina)"
+      ],
+      "communication": "Souhlasím se zasíláním sdělení od OtelApps",
+      "agreement": ["Příjmám", "Obchodní podmínky", "a", "Zásady ochrany osobních údajů"],
+      "button": "Získat nacenění"
+    }
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "desc": "Máte otázky? My máme odpovědi (a nadšení pro hotelové inovace k tomu). Neváhejte se na nás obrátit s jakýmkoliv dotazem, technickým detailem nebo vizí, kterou chcete probrat.",
+    "form": {
+      "name": "Jméno",
+      "surname": "Příjmení",
+      "email": "Email",
+      "country": "Země",
+      "countries": ["Česká republika", "Slovensko", "Německo", "Rakousko", "Polsko"],
+      "phone": "Telefonní číslo",
+      "inquiry": "Typ dotazu",
+      "inquiries": [
+        "Rád bych kontaktoval prodej",
+        "Rád bych kontaktoval podporu",
+        "Rád bych kontaktoval administrátora",
+        "Jiné"
+      ],
+      "message1": "Zpráva",
+      "message2": "Vaše zpráva",
+      "communication": "Souhlasím se zasíláním sdělení od OtelApps",
+      "agreement": ["Příjmám", "Obchodní podmínky", "a", "Zásady ochrany osobních údajů"],
+      "button": "Odeslat",
+      "errors": ["Zadej pouze písmena", "Zadejte telefonní číslo v mezinárodním formátu"]
+    }
+  },
+  "aboutUs": {
+    "section1": {
+      "title": "Vítejte v Otel Apps: Příběh naší vize",
+      "desc": "Otel Apps založili v roce 2024 Lukáš Milt, Michal Krátký a IT manažer Michal Vetiška. Spojila nás vášeň pro moderní technologie a touha po dokonalém servisu. Naším posláním je od základu proměnit hotelnictví pomocí inovativních řešení. Tvoříme ekosystém, díky kterému je každodenní provoz efektivnější pro hoteliéry a pobyt nezapomenutelný pro hosty. Věříme, že technologie mají přinášet více hodnoty a radosti všem.",
+      "desc1": "Otel Apps založili v roce 2024 Lukáš Milt, Michal Krátký a IT manažer Michal Vetiška. Spojila nás vášeň pro moderní technologie a touha po dokonalém servisu.",
+      "desc2": "Naším posláním je od základu proměnit hotelnictví pomocí inovativních řešení. Tvoříme ekosystém, díky kterému je každodenní provoz efektivnější pro hoteliéry a pobyt nezapomenutelný pro hosty. Věříme, že technologie mají přinášet více hodnoty a radosti všem."
+    },
+    "section2": {
+      "title": "Pro koho tvoříme Otel Apps?",
+      "items": ["Hoteliéři", "Hosté"],
+      "desc": [
+        "Hoteliéři, kteří si vybrali Otel Apps, sdílejí naši vášeň pro inovace a digitalizaci. Využívají naše technologie k tomu, by zcela přehodnotili využití fyzického prostoru, úroveň služeb a celkový zážitek hostů. Jsou to lídři, kteří vědí, že budoucnost hospitality patří těm, kteří se nebojí digitální transformace a inovací",
+        "Hotely jsou dnes pod neustálým tlakem. Vteřinu po check-outu už hodnocení hosta míří na internet. Proto Otel Apps navrhujeme primárně pro, zákazníky našich zákazníků. Naším cílem je, aby každý digitální dotek přispěl k tomu, že zážitek hosta bude jednoduše výjimečný - od první rezervace až po finální recenzi."
+      ]
+    },
+    "section3": {
+      "title": "Náš tým",
+      "subtitle": "S hrdostí sídlíme v Praze, ale naše vize nezná hranic.",
+      "teamTitle": "Kdo jsme?",
+      "teamDesc": "V čem je OtelApps jiný? Odpověď je jednoduchá. Jsme skupina nadšenců do technologií, s vizí v digitalizaci hotelnictví a cestovního ruchu. Vnímáme, že digitalizace světa je nevyhnutelnou budoucností a my jí chceme být součástí. Tato myšlenka nás přivedla k vývoji našeho sytému..",
+      "desc": "Proč byste měli každou noc trávit čas noční uzávěrkou? Proč se váš personál věnuje administrativě místo hostům? A proč by se u vás mělo jen přespávat, když váš prostor nabízí mnohem více možností? Každý den přemýšlíme o tom, jak skrze technologie hladce propojit lidi se službami. Naším cílem je odbourat zbytečnou rutinu a vrátit do hotelnictví to nejdůležitější: skutečný zážitek a lidský kontakt.",
+      "desc1": "Proč byste měli každou noc trávit čas noční uzávěrkou? Proč se váš personál věnuje administrativě místo hostům? A proč by se u vás mělo jen přespávat, když váš prostor nabízí mnohem více možností?",
+      "desc2": "Každý den přemýšlíme o tom, jak skrze technologie hladce propojit lidi se službami. Naším cílem je odbourat zbytečnou rutinu a vrátit do hotelnictví to nejdůležitější: skutečný zážitek a lidský kontakt."
+    },
+    "section4": {
+      "title": "Kultura a hodnoty: DNA našeho týmu",
+      "desc": "Naše hodnoty pro nás nejsou jen slova na papíře – jsou to principy, kterými každý den žijeme. Jsou hybnou silou našeho chování a tvoří samotné jádro kultury v Otel Apps. Tento vnitřní kompas nás vede při každém rozhodnutí, od vývoje nového řádku kódu až po komunikaci s našimi partnery. Díky nim budujeme technologie, které mají smysl, a vztahy, které jsou založeny na skutečné důvěře.",
+      "desc1": "Naše hodnoty pro nás nejsou jen slova na papíře – jsou to principy, kterými každý den žijeme. Jsou hybnou silou našeho chování a tvoří samotné jádro kultury v Otel Apps.",
+      "desc2": "Tento vnitřní kompas nás vede při každém rozhodnutí, od vývoje nového řádku kódu až po komunikaci s našimi partnery. Díky nim budujeme technologie, které mají smysl, a vztahy, které jsou založeny na skutečné důvěře.",
+      "items": ["Ambiciózní", "Vizionáři", "Odvážní", "Lidští a otevření", "Proklientský"],
+      "idesc": [
+        "Nespokojíme se s průměrem, protože chceme být motorem růstu pro ty nejúspěšnější hotely na trhu.",
+        "Neustále sledujeme trendy zítřka, abychom vám dodávali technologie, které zastarávání neznají.",
+        "Nebojíme se bořit zažitá dogmata hospitality a hledat cesty tam, kde ostatní vidí jen překážky.",
+        "Stavíme na upřímnosti a autentických vztazích, protože za každým skvělým kódem i hotelem stojí lidé.",
+        "Váš úspěch je naším jediným měřítkem, proto tvoříme řešení, která skutečně řeší vaše každodenní výzvy."
+      ]
+    }
+  },
+  "bookDemo": {
+    "title": "Malý krok pro demo, velký skok pro Vaší firmu",
+    "desc": "Transformujte svůj objekt, provoz, zážitek hostů a mnoho dalšího. Rezervujte si ukázku a jeden z našich odborníků se s vámi spojí, aby vám ukázal Otelapps.",
+    "form": {
+      "name": "Jméno",
+      "surname": "Příjmení",
+      "email": "Pracovní email",
+      "country": "Země",
+      "countries": ["Česká republika", "Slovensko", "Německo", "Rakousko", "Polsko"],
+      "phone": "Telefonní číslo",
+      "title": "Pracovní titul",
+      "titles": [
+        "Majitel / Zakladatel",
+        "Generální ředitel",
+        "IT / Technologický manažer",
+        "Manažer tržeb",
+        "Manažer konzultant",
+        "Jiné"
+      ],
+      "property": "Typ nemovitosti",
+      "properties": [
+        "Hotelový řetězec nebo skupina",
+        "Nezávislý hotel",
+        "Jiné (ne hotel ani hotelová skupina)"
+      ],
+      "communication": "Souhlasím se zasíláním sdělení od OtelApps",
+      "agreement": ["Příjmám", "Obchodní podmínky", "a", "Zásady ochrany osobních údajů"],
+      "button": "Požádat o demo"
+    }
+  },
+  "hotelDirectory": {
+    "section1": {
+      "title": "Digitální průvodce hotelem",
+      "desc": "Vytvořte pro své hosty digitální prostor, kde najdou vše potřebné. Veškeré důležité informace o hotelu tak budou mít na jednom místě, vždy dostupné a aktuální.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "section2": {
+      "title": "Virtuální průvodce hotelem",
+      "subtitle": "Váš virtuální průvodce sjednocuje veškeré důležité informace na jednom místě a nabízí hostům intuitivní samoobslužný nástroj, díky kterému mají vše potřebné okamžitě po ruce.",
+      "items": [
+        "Veškeré informace na jednom místě",
+        "Méně volání na recepci",
+        "Příležitosti k upsellingu"
+      ],
+      "desc": [
+        "Od časů příjezdu a odjezdu přes instrukce k vybavení pokoje až po bezpečnostní pokyny a FAQ – vše je hostům k dispozici okamžitě, digitálně a přehledně.",
+        "Umožněte hostům najít odpovědi vlastními silami. Snížíte tím pracovní vytížení recepce a uvolníte ruce personálu pro důležitější úkoly.",
+        "Propagujte speciální služby, exkluzivní balíčky a produkty přímo v aplikaci a navyšte své tržby z prodeje doplňkových produktů a služeb."
+      ]
+    },
+    "section3": {
+      "title": "Co všechno můžete aplikace zahrnout?",
+      "desc": "Náš flexibilní systém podporuje širokou škálu typů obsahu, díky čemuž pokryje veškeré individuální potřeby vašeho hotelu.",
+      "items": [
+        "Klíčové informace: ",
+        "Vybavení a služby: ",
+        "Bohatý obsah: ",
+        "Aktualizace v reálném čase: "
+      ],
+      "idesc": [
+        "Přehledně zpracované časy příjezdu a odjezdu (check-in/out), instrukce k vybavení pokojů a jasná pravidla pro ubytování s domácími mazlíčky či zásady kouření",
+        "Aktuální otevírací doby bazénů, wellness centra, restaurací a další.",
+        "Každý záznam v aplikaci může obsahovat poutavé texty, ikony, fotografie, videa, interaktivní mapy nebo akční tlačítka pro okamžitou objednávku.",
+        "Upravujte veškeré informace v reálném čase skrze webové rozhraní. Tím zajistíte, že vaši hosté budou mít v aplikaci vždy ty nejčerstvější detaily."
+      ]
+    },
+    "section4": {
+      "title": "Dynamický obsah pod vaší kontrolou",
+      "subtitle": "Udržujte informace o svém hotelu neustále aktuální a snadno dostupné. Náš systém jsme navrhli pro maximálně jednoduchou správu obsahu, která šetří čas personálu a hostům přináší ničím nerušený digitální zážitek",
+      "items": ["Aktualizace v reálném čase:", "Strukturované kategorie:", "Podpora více jazyků:"],
+      "desc": [
+        "Veškeré změny se u hostů projeví okamžitě. To zaručuje 100% konzistenci a aktuálnost informací napříč celým hotelem.",
+        "Organizujte svůj obsah pomocí intuitivních ikon pro snadné prohlížení a bleskový přístup ke službám.",
+        "Nabídněte hostům informace v jejich rodném jazyce. Personalizovaný zážitek je klíčem ke spokojenosti hostů a lepším recenzím."
+      ]
+    },
+    "section5": {
+      "title": "Provozní výhody",
+      "items": [
+        "Úleva pro váš personál",
+        "Zefektivnění provozu a kontrola procesů",
+        "Optimalizace nákladů",
+        "Data pro strategické řízení",
+        "Zlepšete zážitek svých hostů"
+      ],
+      "desc": [
+        "Automatizace požadavků hostů výrazně snižuje pracovní vytížení personálu na recepci i v dalších odděleních",
+        "Digitalizace rutinních úkonů vede k vyšší efektivitě a lepší kontrole nad veškerými procesy v hotelu.",
+        "Přechod na digitální řešení šetří náklady na tisk a zefektivňuje správu doplňkových služeb.",
+        "Management získává přístup k detailním reportům a analýzám, které umožňují dělat správná rozhodnutí podložená reálnými daty",
+        "Usnadněte hostům přístup k informacím a vytvořte podmínky pro hladší a příjemnější pobyt ve vašem hotelu"
+      ]
+    }
+  },
+  "mobileOrdering": {
+    "section1": {
+      "title": "Jednodušší objednávky, vyšší tržby",
+      "desc": "Umožněte hostům objednávat a platit přímo z jejich telefonu. Propojte přání hosta s kuchyní a zajistěte raketový růst tržeb v restauraci i lobby baru díky rychlému a bezchybnému servisu.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "section2": {
+      "title": "Revoluce vašeho servisu služeb",
+      "subtitle": "Naše řešení pro mobilní objednávky umožňuje hostům prohlížet menu, objednávat a platit s maximálním pohodlím. Vy tím uvolníte ruce svému personálu a otevřete dveře novým příležitostem k navýšení tržeb.",
+      "items": [
+        "Objednávky přes QR kódy",
+        "Digitální menu na míru",
+        "Bezproblémové platby pro moderní hotel"
+      ],
+      "desc": [
+        "Bleskový přístup k menu kdekoli v hotelu. Stačí naskenovat, vybrat si a objednat!",
+        "Představte svou nabídku v tom nejlepším světle. Vytvořte pro své hosty vizuálně atraktivní, interaktivní menu, která upravíte během okamžiku přímo ve svém prohlížeči.",
+        "Propojte svůj hotelový systém s nejoblíbenějšími platebními metodami. Přijímejte Apple Pay, Google Pay i platební karty přímo v aplikaci."
+      ]
+    },
+    "section3": {
+      "title": "Klíčové funkce",
+      "desc": "Dejte svým hostům svobodu a svému týmu moderní nástroje pro plynulý provoz. Náš výkonný a flexibilní systém mobilních objednávek se plně přizpůsobí rytmu vašeho hotelu.",
+      "items": [
+        "Interaktivní digitální menu: ",
+        "Sledování objednávek v reálném čase: ",
+        "Integrace s pokladnou a platbami: ",
+        "Podpora samoobsluhy: ",
+        "Upselling a speciální nabídky: "
+      ],
+      "idesc": [
+        "Tvořte atraktivní, plně přizpůsobitelné jídelní lístky s kvalitními fotografiemi a detailními popisy, které prodávají samy.",
+        "Hosté i personál mají okamžitý přehled o stavu objednávky, od jejího přijetí až po doručení ke stolu či na pokoj.",
+        "Propojte aplikaci se svým stávajícím POS systémem. Přijímejte Apple Pay, Google Pay i platební karty bezpečně a bez přepisování.",
+        "Ideální řešení pro pokojovou službu, bazény nebo wellness – místa, kde nemáte stálou obsluhu, ale hosté tam chtějí utrácet.",
+        "Snadno zvýrazněte denní nabídky, dezerty nebo prémiové doplňky a zvyšte tak průměrnou hodnotu každé objednávky."
+      ]
+    },
+    "section4": {
+      "title": "Jak to funguje?",
+      "subtitle": "Jednoduchý a intuitivní zážitek pro vaše hosty, výkonný a přehledný systém pro váš personál. Otel Apps propojuje oba světy v jeden dokonale fungující celek.",
+      "items": [
+        "Host naskenuje QR kód nebo otevře nabídku v aplikaci",
+        "Prohlížení, objednávka a platba",
+        "Kuchyně přijímá objednávku",
+        "Spokojený host"
+      ],
+      "desc": [
+        "Pomocí svého telefonu získá host okamžitý přístup k digitálnímu menu, kdekoli v hotelu nebo mimo něj.",
+        "Host si v klidu vybere, odešle objednávku a během pár vteřin bezpečně zaplatí přímo v rozhraní aplikace.",
+        "Požadavek putuje bleskově do kuchyně nebo baru skrze naši aplikaci pro personál.",
+        "Personál připraví a doručí objednávku. Host může celou dobu sledovat stav objednávky v reálném čase na svém telefonu."
+      ]
+    },
+    "section5": {
+      "title": "Výhody pro váš hotel",
+      "items": [
+        "Rychlejší servis pro více hostů",
+        "Vyšší prodeje",
+        "Nové zdroje příjmů",
+        "Plynulý provoz kuchyně",
+        "Dokonalý zážitek pro vaše hosty",
+        "Sjednocená data a přehled"
+      ],
+      "desc": [
+        "Zkraťte čekací doby na minimum. Díky digitálním objednávkám obsloužíte více hostů za kratší čas a zajistíte jim plynulý zážitek bez zbytečného čekání.",
+        "Odstraňte tření v prodejním procesu a sledujte, jak roste počet objednávek i průměrná útrata na každého hosta.",
+        "Umožněte hostům objednávat jídlo, pití nebo služby odkudkoli.",
+        "Objednávky jsou digitální, dokonale přehledné a systém je automaticky odešle přesně tam, kam patří.",
+        "Umožněte jim objednávat služby přesně tehdy, kdy chtějí, a způsobem, který jim nejvíce vyhovuje.",
+        "Díky plné integraci získáte ucelený pohled na veškeré výdaje a chování svých hostů. Všechna data o objednávkách a útratách se na jednom místě pro dokonalý přehled."
+      ]
+    }
+  },
+  "instantFeedback": {
+    "section1": {
+      "title": "Řešte negativní zážitky hostů hned, když nastanou",
+      "desc": "Negativní recenze bolí a to zejména ty, kterým jste mohli předejít. Otel Apps vám dává šanci zachytit nespokojenost hosta okamžitě, ještě během jeho pobytu, a proměnit tak špatnou zkušenost v pozitivní.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "section2": {
+      "title": "Proměňte zpětnou vazbu ve svou největší výhodu",
+      "subtitle": "Reagujte na dojmy svých hostů přesně ve chvíli, kdy na tom nejvíce záleží. Tento nástroj vám umožní řešit problémy proaktivně, zvýšit spokojenost hostů a zajistit si skvělé hodnocení ještě před jejich odjezdem.",
+      "items": [
+        "Zpětná vazba v reálném čase",
+        "Předcházejte negativním recenzím",
+        "Budujte si špičkovou reputaci"
+      ],
+      "desc": [
+        "Oslovte své hosty přímo během pobytu. Získejte okamžitý přehled o jejich spokojenosti, dokud jsou ještě u vás, a ukažte jim, že vám na jejich pohodlí záleží.",
+        "Zasáhněte včas tam, kde vzniká nespokojenost hosta. Vyřešte problémy svých hostů okamžitě a nenechte je přerůst ve veřejné hodnocení na internetu.",
+        "Aktivní práce se zpětnou vazbou přímo během pobytu vede k lepším recenzím a silnějšímu jménu vašeho hotelu na rezervačních portálech i sociálních sítích."
+      ]
+    },
+    "section3": {
+      "title": "Špičkové nástroje pro váš hotel",
+      "desc": "Od plně personalizovaných dotazníků až po centrální schránku požadavků – naše platforma je vybavena vším, co potřebujete pro efektivní práci s hodnocením od svých hostů.",
+      "items": [
+        "Dotazníky na míru: ",
+        "Centrální schránka a oznámení: ",
+        "Přímá komunikace: ",
+        "Analytika v praxi: "
+      ],
+      "idesc": [
+        "Sestavte si vlastní otázky a určete, ve které fázi pobytu a na kterém místě v aplikaci se mají hostům zobrazit.",
+        "Spravujte veškeré ohlasy na jednom místě. Díky chytrým filtrům a e-mailovým upozorněním vám nic neunikne.",
+        "Odpovídejte hostům přímo z rozhraní aplikace. Vyřešte jejich stížnosti nebo jim poděkujte za pochvalu během pár vteřin.",
+        "Sledujte trendy, odhalujte slabá místa a dělejte strategická rozhodnutí podložená reálnými daty pro neustálé zlepšování vašich služeb."
+      ]
+    },
+    "section4": {
+      "title": "Jak to funguje",
+      "subtitle": "Náš proces je jednoduchý a efektivní. Otel Apps jsme navrhli tak, aby se hladce integroval do vašeho každodenního provozu a začal vám přinášet reálnou hodnotu od prvního dne.",
+      "items": [
+        "Získejte zpětnou vazbu",
+        "Vše na jednom místě",
+        "Komunikujte napřímo",
+        "Analyzujte a vylepšujte"
+      ],
+      "desc": [
+        "Hosté dostávají dotazníky na míru v klíčových momentech svého pobytu, kdy jsou jejich dojmy nejčerstvější.",
+        "Odpovědi se okamžitě sbírají v centrální schránce a váš tým dostává upozornění v reálném čase, aby mohl jednat.",
+        "Spojte se s hostem přímo skrze aplikaci. Vyřešte případný problém nebo poděkujte za pochvalu.",
+        "Díky datům pochopíte, kde váš hotel září a kde je prostor pro zlepšení. Dělejte rozhodnutí, která zvýší vaše zisky a reputaci."
+      ]
+    },
+    "section5": {
+      "title": "Výhody pro váš tým",
+      "items": [
+        "Blesková odezva",
+        "Efektivní správa",
+        "Lepší přehled",
+        "Minimalizujte negativní recenze"
+      ],
+      "desc": [
+        "Upozornění v reálném čase vám umožní okamžitě reagovat na podněty hostů a vyřešit situaci dříve, než se z ní stane problém.",
+        "Centrální schránka s chytrým filtrováním zjednodušuje zpracování hodnocení, odstraňuje administrativní chaos a šetří drahocenný čas vašemu týmu.",
+        "Získejte dokonalý vhled do svého provozu. Snadno identifikujte opakující se nedostatky a odhalte konkrétní oblasti, které vyžadují vaši pozornost, abyste mohli neustále zvyšovat standard svých služeb.",
+        "Vyřešte problémy hostů okamžitě přímo v hotelu. Nedejte nespokojenosti šanci přerůst ve veřejnou negativní recenzi na internetu a chraňte dobré jméno svého hotelu."
+      ]
+    }
+  },
+  "taskManager": {
+    "section1": {
+      "title": "Mějte přání svých hostů pod kontrolou",
+      "desc": "Zvyšte produktivitu svého týmu při péči o hosty. Díky centralizaci všech úkolů a požadavků na jednom místě získáte dokonalý přehled a zajistíte, že žádné přání nezůstane bez odezvy.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "section2": {
+      "title": "Už žádné zapomenuté přání hosta",
+      "subtitle": "Náš Task Manager sjednocuje veškeré požadavky na jednom místě. Od objednávek na pokoj až po hlášení technických závad. Váš tým tak může každý úkol sledovat a vyřešit s maximální efektivitou. Už žádné ztracené lístky, žádné zmatky a žádná frustrace.",
+      "items": [
+        "Všechny úkoly pod jednou střechou",
+        "Dokonalá souhra všech oddělení",
+        "Aktualizace v reálném čase"
+      ],
+      "desc": [
+        "Získejte absolutní kontrolu nad chodem hotelu. Sledujte všechny čekající, rozpracované i dokončené úkoly v reálném čase z jednoho přehledného dashboardu, kde vám nic neunikne.",
+        "Delegujte požadavky hostů okamžitě těm správným lidem. Přiřazujte úkoly úklidu, údržbě nebo dalším týmům bleskově a bez chyb. Zajistěte, aby o každém požadavku věděli přesně ti kolegové, kteří ho mají vyřešit.",
+        "Mějte hosty i svůj tým neustále v obraze. Sledujte průběh každého požadavku v přímém přenosu, od jeho přijetí až po finální vyřešení."
+      ]
+    },
+    "section3": {
+      "title": "Klíčové funkce",
+      "desc": "Náš Task Manager je navržen tak, aby do vašeho každodenního provozu vnesl dokonalý řád a efektivitu. Díky výkonným a přitom intuitivním funkcím získáte nástroj, který vašemu týmu uvolní ruce pro to nejdůležitější, péči o hosty.",
+      "items": [
+        "Centrální dashboard: ",
+        "Specifické typy požadavků: ",
+        "Sledování stavu případů: ",
+        "Mobilní přístup pro personál: ",
+        "Nastavitelná transparentnost: "
+      ],
+      "idesc": [
+        "Sledujte všechny úkoly přehledně podle jejich stavu: čekající, v řešení nebo dokončeno. Už nikdy neztratíte žádný požadavek.",
+        "Spravujte požadavky na vybavení, technickou podporu nebo úklid díky dedikovaným kategoriím, které vnesou do práce řád.",
+        "Poskytněte hostům aktuální informace o průběhu jejich požadavku. Zvýšíte tím jejich klid i celkový zážitek z pobytu.",
+        "Váš tým může přijímat a spravovat úkoly „za pochodu“ na jakémkoli mobilním zařízení kdekoli v areálu hotelu.",
+        "Mějte plnou kontrolu nad tím, kolik detailů o průběhu řešení úkolu host uvidí. Vy rozhodujete, co je podstatné."
+      ]
+    },
+    "section4": {
+      "title": "Jak to funguje?",
+      "subtitle": "Zjednodušte své pracovní postupy díky procesu, který udrží celý váš tým v dokonalém souladu a zajistí, že vaši hosté budou odcházet nadšení.",
+      "items": [
+        "Požadavky na jednom místě",
+        "Delegování",
+        "Efektivita v terénu",
+        "Informovaný host i tým"
+      ],
+      "desc": [
+        "Veškerá přání hostů z jakéhokoli kanálu se automaticky zaznamenávají do centrálního systému.",
+        "Úkoly jsou okamžitě delegovány správnému oddělení a vy můžete v reálném čase sledovat jejich průběh od začátku až do konce.",
+        "Váš tým spravuje a aktualizuje úkoly přímo v sytému. Informace jsou tak bleskově dostupné pro všechny kolegy.",
+        "Jakmile se změní stav úkolu, host i personál dostanou automatické upozornění."
+      ]
+    },
+    "section5": {
+      "title": "Výhody pro váš hotel a tým",
+      "items": [
+        "Lepší organizace",
+        "Navyšte efektivitu",
+        "Zlepšete komunikaci",
+        "Modernizace hotelového provozu",
+        "Měřitelný přínos pro váš hotel",
+        "Intuitivní a jednoduché ovládání"
+      ],
+      "desc": [
+        "Dejte sbohem provoznímu chaosu a zajistěte, aby žádný úkol nebyl zapomenut.",
+        "Zrychlete vyřízení každého požadavku na maximum a získejte více času pro své hosty díky chytrému workflow, které pracuje za vás.",
+        "Díky centralizovaným informacím a automatickým upozorněním bude váš hotel fungovat jako jeden celek, kde každý přesně ví, co se právě děje i váš host.",
+        "Nahraďte zastaralé metody elegantním digitálním řešením, které do vašeho hotelu vnese klid, profesionalitu a dokonalý přehled.",
+        "Naše pokročilá analytika vám umožní sledovat výkonnost týmu , identifikovat slabá místa v provozu a okamžitě reagovat na podněty, které brzdí váš růst.",
+        "Díky přehlednému prostředí se váš tým naučí se systémem Otel Apps pracovat během chvíle."
+      ]
+    }
+  },
+  "analyticsInsights": {
+    "section1": {
+      "title": "Dělejte rozhodnutí na základě reálných dat",
+      "desc": "Získejte okamžitý přehled o tom, jak hosté využívají vaše služby. Díky statistikám přesně zjistíte, co funguje skvěle a kde je prostor pro zlepšení. S jasnými daty v ruce učiníte moudřejší rozhodnutí, která podpoří růst vašeho hotelu.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "section2": {
+      "title": "Proměňte data v chytrá rozhodnutí",
+      "subtitle": "Analytika vám poskytnou dokonalý vhled do chodu vašeho hotelu. Pomůžou vám včas odhalit trendy, lépe porozumět chování hostů a optimalizovat vaši nabídku tak, abyste dosáhli maximálních výsledků a vyššího zisku.",
+      "items": ["Okamžitý přehled", "Rozpoznejte trendy", "Hloubková analýza a segmentace"],
+      "desc": [
+        "Sledujte zájem o své služby a aktuální tržby v momentě, kdy vznikají. Mějte okamžitý a přesný přehled o dění v hotelu.",
+        "Analyzujte historická data and odhalte skryté vzorce v chování svých hostů. Předvídejte budoucí trendy a přizpůsobte svou nabídku i kapacity dříve, než to udělá konkurence.",
+        "Ponořte se do detailů, které rozhodují o vašem zisku. Segmentujte data podle času, typu služby nebo demografie hostů. Získejte tak dokonalý přehled o tom, kdo jsou vaši zákazníci a co přesně v vyhledávají."
+      ]
+    },
+    "section3": {
+      "title": "Klíčové funkce pro váš růst",
+      "desc": "Získejte vhled, který posunou váš hotel vpřed. Naše výkonné analytické nástroje vám poskytnou přesně ta data, která potřebujete pro strategická rozhodnutí a trvalý rozvoj vašeho hotelu.",
+      "items": [
+        "Real-Time Dashboards: ",
+        "Export dat do CSV: ",
+        "Uživatelská oprávnění a role: ",
+        "Integrace pomoci API: "
+      ],
+      "idesc": [
+        "Sledujte využívání služeb, toky tržeb a spokojenost hostů v reálném čase.",
+        "Snadno exportujte svá data pro offline analýzu nebo pro použití v dalších nástrojích.",
+        "Mějte plnou kontrolu nad tím, kdo má přístup k citlivým datům díky definovaným rolím.",
+        "Propojte data z Otel Apps se svými stávajícími systémy (PMS, CRM, ERP) pro ucelený pohled na provoz."
+      ]
+    },
+    "section4": {
+      "title": "Jak to funguje?",
+      "subtitle": "Naše platforma mění složitou analýzu dat na srozumitelný a snadný proces. Získejte snadný přístup ke klíčovým informacím, které vám umožní okamžitě reagovat a dělat rozhodnutí, která posunou váš hotel vpřed.",
+      "items": [
+        "Přehledný dashboard",
+        "Chytrá filtrace a analýza",
+        "Export a integrace",
+        "Zabezpečený přístup"
+      ],
+      "desc": [
+        "Data z celého hotelu se automaticky sbírají a vizualizují v reálném čase na intuitivní nástěnce.",
+        "Používejte filtry pro hloubkovou analýzu konkrétních oblastí. Odhalte skryté souvislosti a získejte cenné vhledy do chodu hotelu.",
+        "Snadno exportujte reporty pro další zpracování nebo využijte naše API pro propojení s vašimi dalšími systémy.",
+        "Spravujte uživatelská oprávnění tak, aby ke konkrétním a citlivým datům měli přístup jen ti správní lidé."
+      ]
+    },
+    "section5": {
+      "title": "Výhody pro váš hotelový management",
+      "items": [
+        "Lepší Decision-Making",
+        "Jasný přehled o výsledcích",
+        "Nabídka ušitá na míru",
+        "Strategické plánování",
+        "Absolutní kontrola nad přístupem",
+        "Hladká integrace bez komplikací"
+      ],
+      "desc": [
+        "Přestaňte se spoléhat na odhady a začněte budovat úspěch svého hotelu na datech, která máte díky Otel Apps neustále k dispozici.",
+        "Získejte ucelený pohled na výkonnost celého hotelu. Sledujte, jak se daří jednotlivým službám a odhalte skrytý potenciál svého hotelu.",
+        "Zjistěte, co vaši hosté skutečně milují, a přizpůsobte své služby jejich přáním.",
+        "Dívejte se dál než jen na příští sezónu. Identifikujte dlouhodobé trendy, které se stanou pevným základem pro vaše budoucí investice a plány růstu.",
+        "Zajistěte stoprocentní bezpečnost svých informací. Mějte pod kontrolou, kdo může nahlížet do citlivých dat nebo finančních reportů, a chraňte své firemní know-how i soukromí svých hostů.",
+        "Bezproblémové propojení s vašimi stávajícími hotelovými systémy."
+      ]
+    }
+  },
+  "guestApp": {
+    "hero": {
+      "title": "Zlepšete komunikaci a budujte vztahy s vašimi hosty",
+      "desc": "Vaši hosté už dnes telefonem ovládají a komunikují s celým svým světem. S OTEL APPS jim otevřete dveře ke všem vašim službám přímo v jejich mobilu – a získáte jedinečnou šanci, jak s nimi vybudovat silnější vztah.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "features": {
+      "title": "Vaše služby budou dostupné kdykoliv a kdekoliv pro vaše hosty.",
+      "desc": "Objevte klíčové funkce a hlavní výhody, díky kterým je Otel Apps nepostradatelným partnerem pro hotely, bez kterého se moderní hotelový provoz neobejde.",
+      "hotelDirectoryTitle": "Informace o hotelu",
+      "hotelDirectoryDesc": "Poskytněte hostům kompletní přehled o vašem hotelu, vybavení a dostupných službách.",
+      "spaBookingTitle": "Wellness a procedury",
+      "spaBookingDesc": "Jednoduchý způsob, jak si objednat relaxaci. Hosté si své procedury zarezervují snadno a bez čekání.",
+      "mobileOrderingTitle": "Mobilní objednávky",
+      "mobileOrderingDesc": "Dejte hostům možnost objednat si jídlo, nápoje a další produkty odkudkoliv, přímo z jejich chytrého telefonu.",
+      "taskManagerTitle": "Task management",
+      "taskManagerDesc": "Efektivně řiďte a sledujte požadavky hostů. Zajistěte bleskový servis a mějte dokonalý přehled o každém úkolu.",
+      "restaurantReservationsTitle": "Rezervace stolů",
+      "restaurantReservationsDesc": "Umožněte hostům zarezervovat si stůl v hotelové restauraci či baru snadno, rychle a bez nutnosti kamkoliv volat.",
+      "cabanaBookingsTitle": "Trip planner",
+      "cabanaBookingsDesc": "Poskytněte hostům nástroj k plánování jejich pobytu s tipy na výlety a místa v hotelovém okolí.",
+      "instantFeedbackTitle": "Okamžitá zpětná vazba",
+      "instantFeedbackDesc": "Mějte neustálý přehled o spokojenosti svých hostů. Díky okamžitým podnětům můžete ihned reagovat a neustále zvyšovat úroveň svých služeb.",
+      "analyticsInsightsTitle": "Analytika a statistiky",
+      "analyticsInsightsDesc": "Dělejte správná rozhodnutí podložená reálnými daty. Díky pokročilé analytice detailně porozumíte chování a preferencím svých hostů.",
+      "andManyMoreTitle": "A mnohem více",
+      "andManyMoreDesc": "Rezervace služeb, Nástroje pro zvýšení tržeb, Live chat + AI virtuální recepční, Online check-in + check-out, Virtuální pokojová karta, a další..."
+    },
+    "accessMethods": {
+      "title": "Moderní a srozumitelný přístup pro každého hosta",
+      "desc": "Vaše služby jsou dostupné odkudkoliv. Díky různým možnostem přístupu k aplikaci garantujeme, že se k vašemu digitálnímu obsahu dostane každý snadno a bez čekání.",
+      "webAppTitle": "Webová aplikace pro hosty (coming soon)",
+      "webAppDesc": "Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč a všechny služby hotelu mají okamžitě na dosah ruky.",
+      "nativeAppTitle": "Mobilní aplikace pro iOS a Android",
+      "nativeAppDesc": "Nabídněte hostům aplikaci ve vašem vlastním designu. S exkluzivními funkcemi, jako je mobilní virtuální pokojový klíč od pokoje, posunete zážitek z pobytu na tu nejvyšší úroveň.",
+      "embeddedTitle": "Integrace na míru",
+      "embeddedDesc": "Vážíme si vašich současných nástrojů. Otel Apps dokážeme plně přizpůsobit tak, aby doplnily váš ekosystém a vytvořily jeden dokonale fungující celek.",
+      "hotelWebAppTitle": "Webová aplikace pro hotel",
+      "hotelWebAppDesc": "Mějte přehled o chodu celého hotelu a přáních vašich hostů na jednom místě."
+    },
+    "whyChoose": {
+      "title": "Proč zvolit mobilní řešení od Otel Apps?",
+      "desc": "Nejsme jen další aplikace v telefonu. Pomůžeme vám automatizovat procesy, zvýšit tržby a zajistit, aby se k vám hosté rádi vraceli.",
+      "efficiencyTitle": "Vyšší efektivita",
+      "efficiencyDesc": "Automatizujte požadavky and služby, abyste uvolnili ruce svému personálu. Ten se pak může plně soustředit na to nejdůležitější – osobní a smysluplnou péči o hosty.",
+      "digitizationTitle": "Cesta k digitalizaci",
+      "digitizationDesc": "Zbavte se zbytečných papírů. Snížíte své náklady a zároveň oslovíte moderní cestovatele, kterým záleží na ekologii, udržitelnosti a technologiích.",
+      "experienceTitle": "Lepší zážitek pro hosty",
+      "experienceDesc": "Nabídněte pohodlí a personalizaci, kterou dnešní hosté nejen očekávají, ale i vyžadují. Dopřejte jim servis, který odpovídá digitálnímu věku."
+    },
+    "exploreMore": {
+      "title": "Objevte další možnosti s Otel Apps",
+      "desc": "Naše platforma je navržena tak, aby se snadno propojila s vašimi systémy a rostla společně s vaším podnikáním.",
+      "integrationsTitle": "Integrace",
+      "integrationsDesc": "Propojte se s nástroji, které už denně používáte."
+    },
+    "resources": {
+      "caseStudiesTitle": "Případové úspěchu",
+      "caseStudiesDesc": "Podívejte se, jak s Otel Apps rostou a prosperují ostatní hotely",
+      "blogTitle": "Blog a inspirace",
+      "blogDesc": "Mějte přehled o tom, co je nového z oboru a aktuální informace o našich produktech.",
+      "supportTitle": "Centrum podpory",
+      "supportDesc": "Máte dotaz nebo potřebujete pomoci? Náš tým je tu pro vás na telefonu i e-mailu."
+    }
+  },
+  "cityCenter": {
+    "hero": {
+      "title": "Guest Experience systém pro městské hotely",
+      "desc": "Dnešní hosté vyžadují pobyt bez starostí. Naše digitální řešení se postarají o to, aby každé jejich přání bylo splněno rychle, hladce a přesně tak, jak očekávají od moderního hotelu 21. století.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "era": {
+      "title": "Nová éra městských hotelů",
+      "desc": "Nabídněte moderním cestovatelům bezstarostný pobyt. Od hladkého odbavení po okamžitý servis, Otel Apps mění cestu hosta v zážitek, který zvyšuje spokojenost i vaše zisky."
+    },
+    "features": {
+      "f1": {
+        "title": "Konec frontám a zbytečnému čekání",
+        "desc": "Zkraťte čekací doby na recepci i v restauraci na úplné minimum. Dopřejte svým hostům plynulý zážitek bez zbytečných prostojů a nechte svůj personál zazářit tam, kde je to skutečně potřeba."
+      },
+      "f2": {
+        "title": "Podpora týmu",
+        "desc": "Uvolněte svému týmu ruce, aby se mohl naplno věnovat tomu nejdůležitějšímu, budování osobních vztahů s hosty a poskytovaní špičkového servisu."
+      },
+      "f3": {
+        "title": "Růst tržeb",
+        "desc": "Podpořte doplňkový prodej a mobilní objednávky díky cíleným akcím."
+      }
+    },
+    "ecosystem": {
+      "title": "Ucelený ekosystém",
+      "desc": "Otel Apps je víc než aplikace; je to komplexní operační systém pro váš hotel, který propojuje všechny vaše služby na jednom místě."
+    },
+    "keyFunctions": {
+      "f1": "Digitální hotelový průvodce",
+      "f2": "Room Service & Služby",
+      "f3": "Průvodce destinací",
+      "f4": "Trip Planner",
+      "f5": "Task Manager & Provoz",
+      "f6": "Mobilní objednávky",
+      "f7": "Rezervace Restaurace & Wellness & Gym",
+      "f8": "Analytika a statistiky",
+      "f9": "Online check-in & check-out",
+      "f10": "A mnoho dalších funkcí..."
+    },
+    "howItWorks": {
+      "title": "Hladká implementace a špičkové technologie",
+      "subtitle": "Naše flexibilní platforma se plně přizpůsobí specifickým potřebám vašeho hotelu. Nabízíme technologické řešení bez bariér, které zajišťuje naprostý komfort pro vaše hosty a maximální efektivitu pro váš personál.",
+      "step1": {
+        "title": "Okamžitý přístup přes QR",
+        "desc": "Hosté se do aplikace dostanou okamžitě pouhým naskenováním QR kódu."
+      },
+      "step2": {
+        "title": "Podpora všech platforem",
+        "desc": "Fungujeme jako nativní appka pro iOS/Android nebo progresivní webová aplikace (PWA)."
+      },
+      "step3": {
+        "title": "Plně ve vašem brandu",
+        "desc": "Přizpůsobte rozhraní logu, barvám a stylu svého hotelu. Vytvořte jednotný a profesionální styl."
+      },
+      "step4": {
+        "title": "Výkonné integrace",
+        "desc": "Bezproblémově nás propojte se svým stávajícím PMS, pokladním systémem (POS) a dalším softwarem."
+      }
+    },
+    "benefits": {
+      "title": "Navrženo pro rytmus velkoměsta",
+      "subtitle": "Nabídněte zážitek na míru hostům, kteří jsou neustále v pohybu velkoměsta. S Otel Apps mají vše potřebné okamžitě k dispozici. Otel Apps je navržen tak, aby odpovídal dynamickému životnímu stylu.",
+      "b1": {
+        "title": "Intuitivní ovládání",
+        "desc": "Naše rozhraní zajišťuje hladký zážitek pro všechny hosty bez ohledu na jejich technické dovednosti. Jednoduchost je náš standard."
+      },
+      "b2": {
+        "title": "Hotel, který mluví jazykem vašich hostů",
+        "desc": "Obslužte svou mezinárodní klientelu v jejich rodném jazyce. Odstraňte bariéry a zvyšte komfort svých hostů z celého světa."
+      },
+      "b3": {
+        "title": "Design bez bariér pro každého",
+        "desc": "Naše platforma splňuje standardy přístupnosti a zajišťuje, že ji může snadno používat každý host bez ohledu na svá omezení."
+      }
+    }
+  },
+  "boutiques": {
+    "hero": {
+      "title": "Guest Experience systém pro boutique hotely",
+      "desc": "Otel Apps je navržen tak, aby zachoval exkluzivitu vašeho hotelu a zároveň vám umožnil poskytovat kvalitní a vysoce personalizovanou péči, kterou vaši hosté očekávají.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "features": {
+      "title": "Tvořte nezapomenutelné zážitky",
+      "desc": "Dopřejte svým hostům výjimečný pobyt, který plně odráží jedinečný charakter a styl vašeho hotelu.",
+      "f1": {
+        "title": "Uchovejte si svou exkluzivitu",
+        "desc": "Váš digitální prostor by měl být stejně okouzlující jako váš hotel sám."
+      },
+      "f2": {
+        "title": "Péče, která buduje loajalitu",
+        "desc": "V digitálním věku je rychlost synonymem pro kvalitu. Otel Apps vám dává nástroj k okamžitému spojení s každým hostem."
+      },
+      "f3": {
+        "title": "Budování vztahu s hosty",
+        "desc": "Oslovte své hosty personalizovanými nabídkami a obsahem na míru."
+      },
+      "f4": {
+        "title": "Konec zbytečného čekání",
+        "desc": "Umožněte hostům zadávat požadavky a hledat informace v čase, kdy se to hodí jim. Rychle, digitálně a bez front."
+      }
+    },
+    "keyFunctions": {
+      "title": "Klíčové funkce pro boutique hotely",
+      "desc": "Pečlivě vybraná sada nástrojů navržená k posílení komfortu a osobního přístupu, který vaši hosté ocení.",
+      "f1": {
+        "title": "Hotelový digitální průvodce:",
+        "desc": "Esence vašeho hotelu v digitální podobě."
+      },
+      "f2": {
+        "title": "Okamžitá zpětná vazba:",
+        "desc": "Vyřešte problémy dřív, než se stanou recenzí."
+      },
+      "f3": {
+        "title": "Analytika a statistiky:",
+        "desc": "Poznejte své hosty do hloubky."
+      },
+      "f4": {
+        "title": "Trip planner:",
+        "desc": "Staňte se pro své hosty tím nejlepším zdrojem inspirace a autentických zážitků."
+      },
+      "f5": {
+        "title": "Live chat:",
+        "desc": "Osobní péče na jeden dotek."
+      },
+      "f6": {
+        "title": "Spa & Wellness:",
+        "desc": "Relaxace, která začíná už při rezervaci."
+      },
+      "f7": {
+        "title": "Mobilní objednávky:",
+        "desc": "Room Service a exkluzivní nabídky přímo v telefonu. Zvyšte tržby díky pohodlnému objednávání jídla i zážitků na pár kliknutí."
+      }
+    },
+    "howItWorks": {
+      "title": "Technologie s lehkostí, zážitek s elegancí",
+      "subtitle": "Digitální řešení, které působí stejně osobně jako váš hotel. Naše platforma je digitálním prodloužením vaší značky, navrženým pro snadnost a eleganci.",
+      "step1": {
+        "title": "Moderní řešení pro moderního hosta",
+        "desc": "Nabídněte hostům mobilní rozhraní pro okamžitý přístup k vašim službám."
+      },
+      "step2": {
+        "title": "Vaše identita v každém pixelu",
+        "desc": "Přizpůsobte platformu tak, aby dokonale odrážela unikátní charakter a vizuální styl vašeho hotelu."
+      },
+      "step3": {
+        "title": "Dokonalá souhra vašich systémů",
+        "desc": "Otel Apps spolupracuje s vašimi stávajícími nástroji a zajišťuje plynulý provoz."
+      }
+    },
+    "benefits": {
+      "title": "Výjimečný zážitek v boutique hotelu",
+      "b1": {
+        "title": "Služby v hostově kapse",
+        "desc": "Okamžitý přístup ke všemu podstatnému přímo z telefonu hosta"
+      },
+      "b2": {
+        "title": "Personalizace",
+        "desc": "Nabídněte doporučení a služby šité na míru. Nadchněte své hosty pozorností k detailu, která promění obyčejný pobyt v nezapomenutelný zážitek."
+      }
+    }
+  },
+  "smallHotels": {
+    "hero": {
+      "title": "Vyšší úroveň zážitku pro menší hotely",
+      "desc": "Modernizujte svůj provoz s Otel Apps. Automatizujte rutinu, oslovte správné hosty a získejte svobodu řídit svůj hotel po svém.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "advantages": {
+      "title": "Výkon, jednoduchost a flexibilita v jednom systému",
+      "subtitle": "Náš PMS zjednodušuje každodenní provoz, omezuje manuální rutinu a zlepšuje cestu hosta od rezervace až po odjezd.",
+      "f1": {
+        "title": "Ušetřete čas",
+        "desc": "Automatizujte rutinu a zbavte svůj tým administrativy. Dejte jim prostor soustředit se na to nejdůležitější na vaše hosty."
+      },
+      "f2": {
+        "title": "Větší kontrola",
+        "desc": "Mějte správu rezervací, cenotvorbu i koordinaci úklidu plně ve svých rukou. Díky jednomu intuitivnímu rozhraní vidíte vše podstatné okamžitě a na jednom místě."
+      },
+      "f3": {
+        "title": "Navyšte své tržby a ziskovost",
+        "desc": "Maximalizujte svůj výnos díky dynamické cenotvorbe a cílenému prodeji doplňkových služeb. Nabízejte hostům víc právě tehdy, kdy to nejvíce ocení."
+      },
+      "f4": {
+        "title": "Zážitek hostů na prvním místě",
+        "desc": "Nabídněte jim rychlý check-in bez front, hladké placení a možnost okamžité komunikace s vaším týmem."
+      },
+      "f5": {
+        "title": "Rychlejší check-in a check-out bez front",
+        "desc": "Nabídněte hostům komfort samoobslužných kiosků a mobilního check-inu. Zrychlete provoz recepce a dopřejte hostům snadný přístup k jejich pokojům."
+      },
+      "f6": {
+        "title": "Automatizace procesů",
+        "desc": "Propojte celý svůj hotel – od rezervací po úklid – do jednoho plynulého toku práce. Minimalizujte chyby a maximalizujte efektivitu svého týmu."
+      }
+    },
+    "keyFunctions": {
+      "title": "Klíčové funkce pro malé a střední hotely",
+      "desc": "Komplexní sada nástrojů pro efektivní správu vašeho hotelu. Získejte systém, který se postará o každodenní operativu, a věnujte svůj drahocenný čas tomu, co udělá váš hotel skutečně výjimečným, osobní péčí o vaše hosty.",
+      "f1": {
+        "title": "Cloudový přístup:",
+        "desc": "Řiďte svůj hotel odkudkoli a kdykoli. S cloudovým řešením máte veškerá data a kontrolu nad provozem neustále ve svých rukou."
+      },
+      "f2": {
+        "title": "Přímé rezervace:",
+        "desc": "Získejte více objednávek napřímo a zvyšte své zisky díky integrovanému prodeji doplňkových služeb hned při rezervaci."
+      },
+      "f3": {
+        "title": "Inteligentní správa rezervací:",
+        "desc": "Přehledná časová osa, snadné přiřazování pokojů a okamžitý náhled na celkovou obsazenost. Vše intuitivně na jednom místě."
+      },
+      "f4": {
+        "title": "Samoobslužná řešení:",
+        "desc": "Nabídněte hostům komfort v podobě mobilního check-inu a samoobslužných kiosků. Rychlé odbavení bez front a zbytečného čekání."
+      },
+      "f5": {
+        "title": "Chytré řízení cen a prodejů:",
+        "desc": "Flexibilní správa cen a automatická reakce na poptávku."
+      },
+      "f6": {
+        "title": "Integrované a bezpečné platby:",
+        "desc": "Jednoduché a bezpečné transakce."
+      },
+      "f7": {
+        "title": "Efektivní správa úklidů:",
+        "desc": "Okamžitý přehled o stavu pokojů v reálném čase a automatické plánování prioritních úklidů."
+      },
+      "f8": {
+        "title": "Reporty & analytika:",
+        "desc": "Dělejte rozhodnutí podložená skutečnými daty."
+      }
+    },
+    "howItWorks": {
+      "title": "Navrženo pro jednoduchost a flexibilitu",
+      "subtitle": "Věříme, že technologie by vám měla cestu usnadňovat, nikoli ji komplikovat. Naše cloudová platforma je od základu navržena jako intuitivní nástroj, který si plně přizpůsobíte svým potřebám.",
+      "step1": {
+        "title": "Hravě to zvládne každý",
+        "desc": "Intuitivní rozhraní, přehledné dashboardy a školení šité na míru konkrétním rolím v týmu."
+      },
+      "step2": {
+        "title": "Systém, který roste s vámi",
+        "desc": "Propojte se s velkým množstvím aplikací a přizpůsobte si vzhled i funkce přesně své potřebě."
+      },
+      "step3": {
+        "title": "Všechny rezervace pod jednou střechou",
+        "desc": "Připojte se k distribučním kanálům a spravujte vše z jednoho místa."
+      }
+    }
+  }
+}

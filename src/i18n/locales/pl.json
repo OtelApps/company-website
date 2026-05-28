@@ -1,0 +1,993 @@
+{
+  "header": {
+    "nav": {
+      "products": "Produkty",
+      "solutions": "Rozwiązania",
+      "pricing": "Cennik",
+      "aboutUs": "O nas",
+      "contact": "Kontakt",
+      "login": "Zaloguj się",
+      "bookDemo": "Wypróbuj demo"
+    },
+    "menu": {
+      "ecosystem": "Ecosystem",
+      "mainFeatures": "Główne funkcje",
+      "guestMobileApp": {
+        "title": "Aplikacja mobilna dla gości",
+        "desc": "Pokaż gościom to, co najlepsze w Twojej ofercie i zwiększ przychody."
+      },
+      "guestWebApp": {
+        "title": "Aplikacja webowa dla gości (wkrótce)",
+        "desc": "Bez pobierania aplikacji. Gość ma wszystko pod ręką w przeglądarce."
+      },
+      "hotelDirectory": {
+        "title": "Informacje o hotelu",
+        "desc": "Szczegółowe informacje o hotelu w jednym miejscu."
+      },
+      "mobileOrdering": {
+        "title": "Mobilne zamawianie i rezerwacje",
+        "desc": "Łatwe zamawianie i rezerwacje bez kolejek i czekania."
+      },
+      "instantFeedback": {
+        "title": "Natychmiastowa opinia",
+        "desc": "Zbieraj opinie w momentach, które naprawdę mają znaczenie."
+      },
+      "taskManager": {
+        "title": "Zarządzanie zadaniami",
+        "desc": "Wszystkie prośby gości przejrzyście w jednym miejscu."
+      },
+      "tripPlanner": {
+        "title": "Planer podróży",
+        "desc": "Zaplanuj cały pobyt i wycieczki wygodnie z telefonu."
+      },
+      "analytics": {
+        "title": "Analityka i statystyki",
+        "desc": "Podejmuj właściwe decyzje oparte na realnych danych."
+      },
+      "liveChat": {
+        "title": "Live chat + wirtualna recepcja AI",
+        "desc": "Bądź w kontakcie z gośćmi, gdy tylko Cię potrzebują."
+      },
+      "checkInOut": {
+        "title": "Online check-in + check-out",
+        "desc": "Oszczędź czas personelowi i gościom przy przyjeździe i wyjeździe."
+      },
+      "virtualKey": {
+        "title": "Wirtualna karta pokojowa",
+        "desc": "Bez fizycznych kart—otwieraj pokój i hotel telefonem."
+      },
+      "cityHotels": {
+        "title": "Hotele miejskie",
+        "desc": "Usprawnij działanie i maksymalizuj zyski"
+      },
+      "boutiqueHotels": {
+        "title": "Hotele butikowe",
+        "desc": "Zapewnij gościom uwagę, na jaką zasługują"
+      },
+      "smallHotels": {
+        "title": "Małe i średnie hotele",
+        "desc": "Usługi hotelu na wyciągnięcie ręki gości"
+      },
+      "resorts": {
+        "title": "Resorty (wkrótce)"
+      }
+    }
+  },
+  "footer": {
+    "button1": {
+      "title": "DLACZEGO OTEL APPS",
+      "items": ["Cennik", "Integracja", "Aktualizacje systemu"]
+    },
+    "button2": {
+      "title": "KLUCZOWE FUNKCJE",
+      "items": [
+        "Informacje o hotelu",
+        "Zamawianie",
+        "Planer podróży",
+        "Czat na żywo + wirtualny recepcjonista AI",
+        "Zameldowanie i wymeldowanie online",
+        "Wirtualna karta do pokoju",
+        "Rezerwacje"
+      ]
+    },
+    "button3": {
+      "title": "ROZWIĄZANIA",
+      "items": ["Hotele miejskie", "Małe i średnie hotele", "Hotele butikowe"]
+    },
+    "button4": {
+      "title": "PROJEKT",
+      "items": ["O nas", "Napisz do nas"]
+    },
+    "button5": {
+      "title": "LEGAL",
+      "items": ["Informacja prawna", "Polityka plików cookie", "Polityka prywatności"]
+    },
+    "ico": "Company ID",
+    "dic": "VAT ID",
+    "contact": {
+      "email": "E-mail",
+      "phone": "Telefon",
+      "address": "Adres"
+    },
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "homepage": {
+    "section1": {
+      "title": "Usprawnij funkcjonowanie swojego hotelu dzięki inteligentnemu rozwiązaniu cyfrowemu!",
+      "desc": "Dzięki naszej intuicyjnej aplikacji mobilnej dajemy gościom narzędzie do łatwej komunikacji i dostępu do usług. Zapewniamy hotelom interfejs internetowy, który upraszcza zarządzanie tymi prośbami, pomaga zarządzać procesami wewnętrznymi, skutecznie zarządzać kosztami, zwiększać przychody i zadowolenie gości.",
+      "desc1": "Dzięki naszej intuicyjnej aplikacji mobilnej dajemy gościom narzędzie do łatwej komunikacji i dostępu do usług.",
+      "desc2": "Udostępniamy hotelom interfejs internetowy, który upraszcza zarządzanie tymi prośbami, pomaga zarządzać procesami wewnętrznymi, skutecznie zarządzać kosztami, zwiększać przychody i zadowolenie gości.",
+      "button": "Wypróbuj demo"
+    },
+    "section2": {
+      "title": "Zwiększ przychody swojego hotelu i zadowolenie gości.",
+      "desc": "Zwiększ przychody dzięki prostemu i szybkiemu systemowi zamawiania za pośrednictwem naszej aplikacji mobilnej. Oferuj wszystkie swoje produkty i usługi wygodnie na telefonie komórkowym gości."
+    },
+    "section3": {
+      "title": "Wszystkie Twoje usługi dostępne za jednym kliknięciem.",
+      "button1": {
+        "title": "Zamawianie produktów",
+        "items": ["Menu cyfrowe", "Zamówienia niestandardowe", "Obsługa pokoju"],
+        "desc": [
+          "Intuicyjne zamawianie z menu restauracji, baru lub kawiarni.",
+          "Goście mogą określić swoje wymagania w zamówieniu.",
+          "Goście mogą zamawiać jedzenie, napoje i inne produkty z Twojego menu za pomocą telefonu do swojego pokoju."
+        ]
+      },
+      "button2": {
+        "title": "Wymagania",
+        "items": ["Udogodnienia", "Awarie", "Czat na żywo z recepcją", "Sprzątanie"],
+        "desc": [
+          "Goście mogą poprosić o uzupełnienie papieru toaletowego, szczoteczek do zębów, suszarek do włosów, szlafroków, ręczników i innych rzeczy.",
+          "Goście mogą zgłaszać awarie w pokoju, takie jak wymiana żarówki, za pośrednictwem app.",
+          "Zapewnij gościom bardziej spersonalizowaną opiekę dzięki bezpośredniemu kanałowi komunikacji, aby zaspokoić ich potrzeby.",
+          "Goście mogą używać aplikacji do planowania lub anulowania zaplanowanego sprzątania pokoju."
+        ]
+      },
+      "button3": {
+        "title": "Rezerwacje",
+        "items": ["Restauracje", "SPA i wellness", "Wycieczki", "Aktywności"],
+        "desc": [
+          "Goście mogą łatwo zarezerwować stolik w Twojej restauracji.",
+          "Goście mogą łatwo zarezerwować masaż lub inny zabieg.",
+          "Ułatw gościom przeglądanie i rezerwowanie wycieczek z przewodnikiem oraz jednodniowych wycieczek.",
+          "Zapewnij gościom łatwy dostęp do dziennych i wieczornych atrakcji i programu Twojego hotelu."
+        ]
+      }
+    },
+    "section4": {
+      "title": "Zwiększ wydajność swojego personelu",
+      "items": ["Kontroluj prośby", "Pilnuj swoich usług w czasie teraźniejszym."],
+      "desc": [
+        "Otrzymuj prośby gości natychmiast i obsługuj je szybciej i bardziej przejrzyście.",
+        "Aktualizuj swoją ofertę i informacje o swoich usługach, aby wszystko było jasne dla personelu i gości."
+      ]
+    },
+    "section5": {
+      "title": "Uzyskaj opinie od swoich gości szybko i jasno.",
+      "desc": "Zmień niezadowolonego gościa w zadowolonego dzięki natychmiastowym opiniom na temat wszystkich swoich produktów i usług."
+    },
+    "section6": {
+      "title": "Zapewnij swoim gościom doświadczenie, które naprawdę do Ciebie pasuje!",
+      "desc": "Zaoferuj gościom w pełni spersonalizowane doświadczenie, które odzwierciedla tożsamość Twojego hotelu i dostosowuje się do ich preferencji.",
+      "items": [
+        "Uniwersalny projekt dla Twojej marki i tożsamości",
+        "Promuj swoje najlepsze usługi",
+        "Spersonalizowane doświadczenie dla każdego gościa"
+      ],
+      "idesc": [
+        "Natychmiast reaguj na potrzeby gości dzięki inteligentnemu systemowi obsługi zgłoszeń i płynnej komunikacji, która zwiększa zadowolenie gości i odciąża personel.",
+        "Zdobądź wgląd w preferencje gości i zwiększ jakość oraz sprzedaż tam, gdzie jest to najbardziej korzystne dla Twojego hotelu.",
+        "Rekomenduj oferty i treści dopasowane do każdego gościa w oparciu o jego preferencje, aby zwiększyć zaangażowanie, satysfakcję i sprzedaż usług."
+      ]
+    },
+    "section7": {
+      "title": "Przenieś swoje doświadczenie hotelowe na wyższy poziom dzięki naszemu inteligentnemu oprogramowaniu.",
+      "desc": "Nasze oprogramowanie przekształca funkcjonowanie Twojego hotelu w płynny system, w którym każdy gość ma wszystko pod ręką, a Twój personel pracuje wydajniej niż kiedykolwiek wcześniej. Digitalizujemy komunikację, przyspieszamy czas reakcji i eliminujemy niepotrzebne przestoje, co przekłada się na zadowolenie gości i mniejszy stres zespołu. Rezultatem jest płynniejsze funkcjonowanie, wyższa jakość usług, optymalizacja kosztów i wzrost przychodów, który odczujesz natychmiast.",
+      "desc1": "Nasze oprogramowanie przekształca funkcjonowanie Twojego hotelu w płynniejszy system, w którym każdy gość ma wszystko pod ręką, a Twój personel pracuje wydajniej niż kiedykolwiek wcześniej.",
+      "desc2": "Dynalizujemy komunikację, przyspieszamy czas reakcji i eliminujemy niepotrzebne przestoje, co przekłada się na zadowolenie gości i mniejszy stres zespołu. Rezultatem jest płynniejsze funkcjonowanie, wyższa jakość usług, optymalizacja kosztów i wzrost przychodów, który odczujesz natychmiast.",
+      "items": [
+        "Zwiększ wydajność swojego personelu",
+        "Dostarcz Wyjątkowe doświadczenia i wyższy poziom satysfakcji gości",
+        "Efektywne działanie dla maksymalnej produktywności"
+      ],
+      "idesc": [
+        "Uprość codzienne zadania i skróć czas reakcji dzięki inteligentnie zorganizowanym procesom.",
+        "Zachęć gości spersonalizowanymi usługami na wyciągnięcie ręki.",
+        "Zoptymalizowane działanie dla maksymalnej efektywności zarządzania hotelem."
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Elastyczne ceny, które dopasowują się do Twoich potrzeb",
+    "subtitle": "Z przyjemnością przygotujemy dla Ciebie indywidualną ofertę.",
+    "desc": "Stwórzmy razem rozwiązanie, które idealnie wpasuje się w wizję Twojego hotelu i podkreśli jego wyjątkowość. Każdy hotel ma swoje własne, unikalne DNA i z niecierpliwością czekamy na połączenie Twojego z technologiami Otel Apps.",
+    "form": {
+      "name": "Imię",
+      "surname": "Nazwisko",
+      "email": "Służbowy adres e-mail",
+      "country": "Kraj",
+      "countries": ["Czechy", "Słowacja", "Niemcy", "Austria", "Polska"],
+      "phone": "Numer telefonu",
+      "title": "Stanowisko",
+      "titles": [
+        "Właściciel/Założyciel",
+        "Prezes Zarządu",
+        "Kierownik ds. IT/Technologii",
+        "Kierownik ds. Sprzedaży",
+        "Kierownik ds. Konsultantów",
+        "Inne"
+      ],
+      "property": "Rodzaj obiektu",
+      "properties": [
+        "Sieć lub grupa hoteli",
+        "Hotel niezależny",
+        "Inne (nie hotel ani grupa hoteli)"
+      ],
+      "communication": "Wyrażam zgodę na otrzymywanie wiadomości od OtelApps",
+      "agreement": ["Akceptuję", "Warunki", "a", "Polityka prywatności"],
+      "button": "Uzyskaj wycenę"
+    }
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "desc": "Masz pytania? Mamy odpowiedzi (i pasję do innowacji hotelarskich). Skontaktuj się z nami w razie jakichkolwiek pytań, szczegółów technicznych lub wizji, które chciałbyś omówić.",
+    "form": {
+      "name": "Imię",
+      "surname": "Nazwisko",
+      "email": "Adres e-mail",
+      "country": "Kraj",
+      "countries": ["Czechy", "Słowacja", "Niemcy", "Austria", "Polska"],
+      "phone": "Numer telefonu",
+      "inquiry": "Rodzaj zapytania",
+      "inquiries": [
+        "Chcę skontaktować się z działem sprzedaży",
+        "Chcę skontaktować się z działem pomocy technicznej",
+        "Chcę skontaktować się z administratorem",
+        "Inne"
+      ],
+      "message1": "Wiadomość",
+      "message2": "Twój wiadomość",
+      "communication": "Wyrażam zgodę na otrzymywanie wiadomości od OtelApps",
+      "agreement": ["Akceptuję", "Regulamin", "a", "Polityka prywatności"],
+      "button": "Wyślij",
+      "errors": ["Wprowadź tylko litery", "Wprowadź numer telefonu w formacie międzynarodowym"]
+    }
+  },
+  "aboutUs": {
+    "section1": {
+      "title": "Witamy w Otel Apps: Historia naszej wizji",
+      "desc": "Firma Otel Apps została założona w 2024 roku przez Lukáša Milta, Michala Krátký'ego i kierownika IT Michala Vetiškę. Połączyła nas pasja do nowoczesnych technologii i pragnienie doskonałej obsługi. Naszą misją jest fundamentalna transformacja branży hotelarskiej dzięki innowacyjnym rozwiązaniom. Tworzymy ekosystem, który usprawnia codzienne funkcjonowanie hotelarzy, a gościom zapewnia niezapomniany pobyt. Wierzymy, że technologia powinna przynosić wszystkim więcej wartości i radości.",
+      "desc1": "Firma Otel Apps została założona w 2024 roku przez Lukáša Milta, Michala Krátký'ego i kierownika IT Michala Vetiškę. Połączyła nas pasja do nowoczesnych technologii i pragnienie doskonałej obsługi.",
+      "desc2": "Naszą misją jest fundamentalna transformacja branży hotelarskiej dzięki innowacyjnym rozwiązaniom. Tworzymy ekosystem, który usprawnia codzienne funkcjonowanie hotelarzy. i niezapomniany pobyt dla gości. Wierzymy, że technologia powinna przynosić wszystkim więcej wartości i radości."
+    },
+    "section2": {
+      "title": "Dla kogo tworzymy aplikacje Otel?",
+      "items": ["Hotelarze", "Goście"],
+      "desc": [
+        "Hotelarze, którzy wybierają aplikacje Otel, podzielają naszą pasję do innowacji i cyfryzacji. Wykorzystują naszą technologię, aby całkowicie zmienić sposób wykorzystania przestrzeni, poziom usług i ogólne wrażenia gości. To liderzy, którzy wiedzą, że przyszłość hotelarstwa należy do tych, którzy nie boją się cyfrowej transformacji i innowacji.",
+        "Hotele są dziś pod ciągłą presją. Opinie gości są dostępne online już sekundę po wymeldowaniu. Dlatego aplikacje Otel projektujemy przede wszystkim dla klientów naszych klientów. Naszym celem jest, aby każdy cyfrowy element przyczyniał się do tego, aby doświadczenia gości były po prostu wyjątkowe – od pierwszej rezerwacji do ostatecznej recenzji."
+      ]
+    },
+    "section3": {
+      "title": "Nasz zespół",
+      "subtitle": "Z dumą mieścimy się w Pradze, ale nasza wizja nie zna granic.",
+      "teamTitle": "Kim jesteśmy?",
+      "teamDesc": "Co wyróżnia OtelApps? Odpowiedź jest prosta. Jesteśmy grupą entuzjastów technologii z wizją digitalizacji branży hotelarskiej i turystycznej. Zdajemy sobie sprawę, że digitalizacja świata to nieunikniona przyszłość i chcemy być jej częścią. Ta idea skłoniła nas do opracowania naszego systemu...",
+      "desc": "Po co tracić czas każdej nocy na zamykanie drzwi? Dlaczego personel powinien zajmować się administracją zamiast gośćmi? I dlaczego mieliby po prostu spać u Ciebie, skoro Twoja przestrzeń oferuje o wiele więcej możliwości? Codziennie zastanawiamy się, jak płynnie połączyć ludzi z usługami za pomocą technologii. Naszym celem jest przełamanie zbędnej rutyny i przywrócenie branży hotelarskiej tego, co najważniejsze: prawdziwego doświadczenia i kontaktu z ludźmi.",
+      "desc1": "Po co tracić czas każdej nocy Zamykanie drzwi? „Termin? Dlaczego Twój personel skupia się na administracji, a nie na gościach? I dlaczego mieliby po prostu spać u Ciebie, skoro Twoja przestrzeń oferuje o wiele więcej?",
+      "desc2": "Codziennie zastanawiamy się, jak płynnie połączyć ludzi z usługami za pomocą technologii. Naszym celem jest wyeliminowanie zbędnej rutyny i przywrócenie branży hotelarskiej tego, co najważniejsze: prawdziwego doświadczenia i kontaktu z ludźmi."
+    },
+    "section4": {
+      "title": "Kultura i wartości: DNA naszego zespołu",
+      "desc": "Nasze wartości to dla nas nie tylko słowa na papierze – to zasady, którymi kierujemy się na co dzień. Kierują one naszym zachowaniem i stanowią rdzeń kultury w Otel Apps. Ten wewnętrzny kompas kieruje nami w każdej decyzji, od tworzenia nowej linii kodu po komunikację z naszymi partnerami. Dzięki nim budujemy technologie, które mają sens, i relacje oparte na prawdziwym zaufaniu.",
+      "desc1": "Nasze wartości to dla nas nie tylko słowa na papierze – to zasady, którymi kierujemy się na co dzień. Kierują naszym zachowaniem i stanowią sedno kultury w Otel Apps.",
+      "desc2": "Ten wewnętrzny kompas kieruje nami przy każdej decyzji, od tworzenia nowej linii kodu po komunikację z naszymi partnerami. Dzięki nim budujemy technologie, które mają sens, i relacje oparte na prawdziwym zaufaniu.",
+      "items": ["Ambitni", "Wizjonerzy", "Odważni", "Ludzcy i otwarci", "Zorientowani na klienta"],
+      "idesc": [
+        "Nie zadowalamy się przeciętnością, ponieważ chcemy być motorem wzrostu dla najbardziej udanych hoteli na rynku.",
+        "Stale monitorujemy trendy jutra, aby dostarczać Państwu technologie, które nigdy nie wyjdą z mody.",
+        "Nie boimy się łamać utartych dogmatów hotelarstwa i szukać rozwiązań tam, gdzie inni widzą tylko przeszkody.",
+        "Budujemy na uczciwości i autentycznych relacjach, ponieważ za każdym dobrym kodem i hotelem stoją ludzie.",
+        "Twój sukces jest naszą jedyną miarą, dlatego tworzymy rozwiązania, które naprawdę rozwiążą Państwa codzienne wyzwania."
+      ]
+    }
+  },
+  "bookDemo": {
+    "title": "Jeden mały krok do demonstracji, wielki skok dla Twojej firmy",
+    "desc": "Zmień swój obiekt, działalność, doświadczenia gości i nie tylko. Zarezerwuj demo, a jeden z naszych ekspertów skontaktuje się z Tobą, aby zaprezentować Ci Otelapps.",
+    "form": {
+      "name": "Imię",
+      "surname": "Nazwisko",
+      "email": "Służbowy adres e-mail",
+      "country": "Kraj",
+      "countries": ["Czechy", "Słowacja", "Niemcy", "Austria", "Polska"],
+      "phone": "Numer telefonu",
+      "title": "Stanowisko",
+      "titles": [
+        "Właściciel/Założyciel",
+        "Prezes Zarządu",
+        "Kierownik ds. IT/Technologii",
+        "Kierownik ds. Sprzedaży",
+        "Kierownik ds. Konsultantów",
+        "Inne"
+      ],
+      "property": "Rodzaj obiektu",
+      "properties": [
+        "Sieć lub grupa hoteli",
+        "Hotel niezależny",
+        "Inne (nie hotel ani grupa hotelowa)"
+      ],
+      "komunikacja": "Wyrażam zgodę na otrzymywanie wiadomości od OtelApps",
+      "zgoda": ["Akceptuję", "Regulamin", "i", "Polityka prywatności"],
+      "przycisk": "Zamów demo"
+    }
+  },
+  "hotelDirectory": {
+    "section1": {
+      "title": "Cyfrowy przewodnik po hotelach",
+      "desc": "Stwórz cyfrową przestrzeń dla swoich gości, w której znajdą wszystko, czego potrzebują. Wszystkie ważne informacje o hotelu są w jednym miejscu, zawsze dostępne i aktualne.",
+      "button": "Wypróbuj demo"
+    },
+    "section2": {
+      "title": "Wirtualny przewodnik po hotelach",
+      "subtitle": "Twój wirtualny przewodnik gromadzi wszystkie ważne informacje w jednym miejscu i oferuje gościom intuicyjne narzędzie samoobsługowe, dzięki któremu wszystko, czego potrzebują, jest na wyciągnięcie ręki.",
+      "items": [
+        "Wszystkie informacje w jednym miejscu",
+        "Mniej telefonów do recepcji",
+        "Możliwości sprzedaży dodatkowej"
+      ],
+      "desc": [
+        "Od godzin zameldowania i wymeldowania, przez instrukcje dotyczące pokoju, instrukcje bezpieczeństwa, po często zadawane pytania – wszystko jest dostępne dla gości natychmiast, cyfrowo i przejrzyście.",
+        "Umożliw gościom samodzielne znalezienie odpowiedzi. Zmniejsza to pracę recepcji obciążenie pracą i uwolnij personel do ważniejszych zadań.",
+        "Promuj usługi specjalne, ekskluzywne pakiety i produkty bezpośrednio w aplikacji i zwiększ przychody ze sprzedaży dodatkowych produktów i usług."
+      ]
+    },
+    "section3": {
+      "title": "Co możesz umieścić w swojej aplikacji?",
+      "desc": "Nasz elastyczny system obsługuje szeroki zakres typów treści, dzięki czemu może zaspokoić wszystkie indywidualne potrzeby Twojego hotelu.",
+      "items": [
+        "Kluczowe informacje: ",
+        "Udogodnienia i usługi: ",
+        "Bogata treść: ",
+        "Aktualizacje w czasie rzeczywistym: "
+      ],
+      "idesc": [
+        "Przejrzyste godziny zameldowania/wymeldowania, instrukcje dotyczące wyposażenia pokoju oraz jasne zasady dotyczące zakwaterowania ze zwierzętami lub palenia.",
+        "Aktualne godziny otwarcia basenów, centrów odnowy biologicznej, restauracji i innych.",
+        "Każdy wpis w aplikacji może zawierać przyciągające wzrok teksty, ikony, zdjęcia, filmy, interaktywne mapy lub przyciski akcji do natychmiastowego zamawiania.",
+        "Edytuj wszystkie informacje w czasie rzeczywistym przez internet interfejs. Dzięki temu Twoi goście zawsze mają dostęp do najświeższych informacji w aplikacji."
+      ]
+    },
+    "section4": {
+      "title": "Dynamiczna treść pod Twoją kontrolą",
+      "subtitle": "Utrzymuj aktualne i łatwo dostępne informacje o swoim hotelu. Zaprojektowaliśmy nasz system tak, aby zarządzanie treścią było jak najprostsze, oszczędzając czas personelu i zapewniając gościom bezproblemowe cyfrowe doświadczenie",
+      "items": [
+        "Aktualizacje w czasie rzeczywistym:",
+        "Ustrukturyzowane kategorie:",
+        "Obsługa wielu języków:"
+      ],
+      "desc": [
+        "Wszystkie zmiany są natychmiast odzwierciedlane u gości. Zapewnia to 100% spójność i aktualność informacji w całym hotelu.",
+        "Uporządkuj swoje treści za pomocą intuicyjnych ikon, aby ułatwić przeglądanie i uzyskać błyskawiczny dostęp do usług.",
+        "Oferuj gościom informacje w ich ojczystym języku. Spersonalizowane doświadczenie jest kluczem do zadowolenia gości i lepszych recenzji."
+      ]
+    },
+    "section5": {
+      "title": "Korzyści operacyjne",
+      "items": [
+        "Ulga dla personelu",
+        "Usprawnienie operacyjne i kontrola procesów",
+        "Optymalizacja kosztów",
+        "Dane do zarządzania strategicznego",
+        "Popraw doświadczenia gości"
+      ],
+      "desc": [
+        "Automatyzacja próśb gości znacznie zmniejsza obciążenie pracą personelu recepcji i innych działów",
+        "Digitalizacja rutynowych zadań prowadzi do wyższej efektywności i lepszej kontroli nad wszystkimi procesami hotelowymi",
+        "Przejście na rozwiązanie cyfrowe pozwala zaoszczędzić na kosztach druku i usprawnia zarządzanie usługami dodatkowymi",
+        "Kierownictwo zyskuje dostęp do szczegółowych raportów i analiz, które pozwalają podejmować właściwe decyzje w oparciu o rzeczywiste dane",
+        "Ułatw gościom dostęp do informacji i stwórz warunki do płynniejszego i przyjemniejszego pobytu w hotelu"
+      ]
+    }
+  },
+  "mobileOrdering": {
+    "section1": {
+      "title": "Łatwiejsze zamawianie, wyższe przychody",
+      "desc": "Pozwól gościom zamawiać i płacić bezpośrednio z telefonu. Połącz prośby gości z kuchnią i zapewnij gwałtowny wzrost przychodów w swojej restauracji i barze w lobby dzięki szybkiej i bezbłędnej obsłudze.",
+      "button": "Wypróbuj demo"
+    },
+    "section2": {
+      "title": "Zrewolucjonizuj swoją obsługę",
+      "subtitle": "Nasze mobilne rozwiązanie do zamawiania pozwala gościom przeglądać menu, zamawiać i płacić z maksymalną wygodą. Uwalnia to ręce personelu i otwiera drzwi do nowych możliwości zwiększenia przychodów.",
+      "items": [
+        "Zamawianie za pomocą kodów QR",
+        "Indywidualne menu cyfrowe",
+        "Płynne płatności dla nowoczesnego hotelu"
+      ],
+      "desc": [
+        "Natychmiastowy dostęp do menu w dowolnym miejscu w hotelu. Wystarczy zeskanować, wybrać i zamówić!",
+        "Zaprezentuj swoją ofertę w najlepszym świetle. Stwórz Atrakcyjne wizualnie, interaktywne menu dla Twoich gości, które możesz błyskawicznie edytować w przeglądarce.",
+        "Połącz swój system hotelowy z najpopularniejszymi metodami płatności. Akceptuj płatności Apple Pay, Google Pay i kartami kredytowymi bezpośrednio w aplikacji."
+      ]
+    },
+    "section3": {
+      "title": "Kluczowe funkcje",
+      "desc": "Daj swoim gościom swobodę, a swojemu zespołowi nowoczesne narzędzia do płynnej pracy. Nasz wydajny i elastyczny mobilny system zamawiania w pełni dopasowuje się do rytmu Twojego hotelu.",
+      "items": [
+        "Interaktywne menu cyfrowe: ",
+        "Śledzenie zamówień w czasie rzeczywistym: ",
+        "Integracja z kasą fiskalną i płatnościami: ",
+        "Wsparcie samoobsługowe: ",
+        "Sprzedaż dodatkowa i oferty specjalne: "
+      ],
+      "idesc": [
+        "Twórz atrakcyjne, w pełni konfigurowalne menu z wysokiej jakości zdjęciami i szczegółowymi opisami, które same się sprzedają.",
+        "Goście i personel mają natychmiastowy podgląd statusu swojego zamówienia, od momentu jego otrzymania po dostawę do stolika lub pokoju.",
+        "Połącz aplikację z istniejącym systemem POS. Akceptuj płatności Apple Pay, Google Pay i kartami kredytowymi bezpiecznie i bez konieczności ponownego wpisywania.",
+        "Idealne do obsługi pokoju, basenów lub wellness – miejsc, w których Nie masz personelu na pełen etat, ale goście chcą wydawać pieniądze.",
+        "Łatwo wyróżnij dania dnia, desery lub dodatki premium, aby zwiększyć średnią wartość każdego zamówienia."
+      ]
+    },
+    "section4": {
+      "title": "Jak to działa?",
+      "subtitle": "Proste i intuicyjne doświadczenie dla gości, wydajny i przejrzysty system dla personelu. Otel Apps łączy oba światy w jedną, doskonale działającą całość.",
+      "items": [
+        "Gość skanuje kod QR lub otwiera menu w aplikacji",
+        "Przeglądaj, zamawiaj i płać",
+        "Kuchnia przyjmuje zamówienie",
+        "Zadowolony gość"
+      ],
+      "desc": [
+        "Za pomocą telefonu gość uzyskuje natychmiastowy dostęp do cyfrowego menu, z dowolnego miejsca w hotelu lub poza nim.",
+        "Goście wybierają, składają zamówienie i płacą bezpiecznie w ciągu kilku sekund bezpośrednio w interfejsie aplikacji.",
+        "Zamówienie błyskawicznie trafia do kuchni lub baru za pośrednictwem naszej aplikacji dla personelu.",
+        "Personel przygotowuje i dostarcza zamówienie. Gość może na bieżąco monitorować jego status na swoim telefonie."
+      ]
+    },
+    "section5": {
+      "title": "Korzyści dla Twojego hotelu",
+      "items": [
+        "Obsługuj więcej gości szybciej",
+        "Zwiększ sprzedaż",
+        "Nowe źródła przychodów",
+        "Sprawna praca kuchni",
+        "Doskonałe doświadczenia gości",
+        "Ujednolicone dane i przejrzystość"
+      ],
+      "desc": [
+        "Zminimalizuj czas oczekiwania. Obsłuż więcej gości w krótszym czasie dzięki cyfrowemu systemowi zamawiania, zapewniając płynne doświadczenie bez zbędnego czekania.",
+        "Usuń tarcia z procesu sprzedaży i obserwuj, jak rośnie liczba zamówień i średnie wydatki na gościa.",
+        "Pozwól gościom zamawiać jedzenie, napoje lub usługi z dowolnego miejsca.",
+        "Zamówienia są cyfrowe, doskonale zorganizowane i automatycznie wysyłane tam, gdzie powinny.",
+        "Pozwól im zamawiać usługi dokładnie wtedy, kiedy chcą i w sposób, który im najbardziej odpowiada.",
+        "Pełna integracja zapewnia holistyczny wgląd w wydatki i zachowania wszystkich gości. Wszystkie dane dotyczące zamówień i wydatków w jednym miejscu, co zapewnia doskonały przegląd."
+      ]
+    }
+  },
+  "instantFeedback": {
+    "section1": {
+      "title": "Radź sobie z negatywnymi doświadczeniami gości na bieżąco",
+      "desc": "Negatywne recenzje bolą, zwłaszcza te, którym można było zapobiec. Otel Apps daje Ci możliwość natychmiastowego wychwycenia niezadowolenia gości, podczas ich pobytu, i przekształcenia złego doświadczenia w pozytywne.",
+      "button": "Wypróbuj demo"
+    },
+    "section2": {
+      "title": "Zamień opinie w swoją największą korzyść",
+      "subtitle": "Reaguj na wrażenia gości dokładnie wtedy, gdy jest to najbardziej potrzebne. To narzędzie pozwala Ci proaktywnie rozwiązywać problemy, zwiększać zadowolenie gości i zdobywać świetne recenzje, zanim wyjadą.",
+      "items": [
+        "Opinie w czasie rzeczywistym",
+        "Zapobiegaj negatywnym recenzjom",
+        "Zbuduj doskonałą reputację"
+      ],
+      "desc": [
+        "Skontaktuj się ze swoimi gośćmi bezpośrednio podczas ich pobytu. Uzyskaj natychmiastowy wgląd w ich zadowolenie, gdy jeszcze u Ciebie są i pokaż im, że Dbaj o ich komfort.",
+        "Wcześnie reaguj na niezadowolenie gości. Rozwiązuj problemy gości natychmiast i nie pozwól, aby przerodziły się w publiczne recenzje online.",
+        "Aktywne podejście do opinii bezpośrednio podczas pobytu prowadzi do lepszych recenzji i silniejszej reputacji hotelu na portalach rezerwacyjnych i w mediach społecznościowych."
+      ]
+    },
+    "section3": {
+      "title": "Najwyższej klasy narzędzia dla Twojego hotelu",
+      "desc": "Od w pełni spersonalizowanych kwestionariuszy po centralną skrzynkę odbiorczą, nasza platforma jest wyposażona we wszystko, czego potrzebujesz, aby efektywnie zarządzać opiniami gości.",
+      "items": [
+        "Niestandardowe kwestionariusze: ",
+        "Centralna skrzynka odbiorcza i powiadomienia: ",
+        "Komunikacja bezpośrednia: ",
+        "Analityka w akcji: "
+      ],
+      "idesc": [
+        "Twórz własne pytania i określaj, na jakim etapie pobytu i w którym miejscu aplikacji powinny być wyświetlane gościom.",
+        "Zarządzaj wszystkimi opiniami w jednym miejscu. Dzięki inteligentnym filtrom i powiadomieniom e-mail niczego nie przegapisz.",
+        "Odpowiadaj gościom bezpośrednio z interfejsu aplikacji. Rozwiązuj ich skargi lub dziękuj im za komplementy w kilka sekund.",
+        "Śledź trendy, odkrywaj słabe punkty i podejmuj strategiczne decyzje w oparciu o rzeczywiste dane, aby stale ulepszać swoje usługi."
+      ]
+    },
+    "section4": {
+      "title": "Jak to działa",
+      "subtitle": "Nasz proces jest prosty i efektywny. Zaprojektowaliśmy aplikacje Otel tak, aby płynnie integrowały się z Twoimi codziennymi działaniami i zaczęły przynosić Ci realną wartość od pierwszego dnia.",
+      "items": [
+        "Uzyskaj opinie",
+        "Wszystko w jednym miejscu",
+        "Komunikuj się bezpośrednio",
+        "Analizuj i ulepszaj"
+      ],
+      "desc": [
+        "Goście otrzymują spersonalizowane ankiety w kluczowych momentach pobytu, gdy ich wrażenia są najświeższe.",
+        "Odpowiedzi są natychmiast gromadzone w centralnej skrzynce odbiorczej, a Twój zespół otrzymuje powiadomienia w czasie rzeczywistym, aby podjąć działania.",
+        "Skontaktuj się z gościem bezpośrednio przez aplikację. Rozwiąż wszelkie problemy lub przyjmij komplementy.",
+        "Dane pomagają Ci zrozumieć, w czym Twój hotel się wyróżnia, a co wymaga poprawy. Podejmuj decyzje, które zwiększą Twoje zyski i reputację."
+      ]
+    },
+    "section5": {
+      "title": "Korzyści dla Twojego zespołu",
+      "items": [
+        "Natychmiastowa reakcja",
+        "Sprawne zarządzanie",
+        "Lepsza widoczność",
+        "Minimalizacja negatywnych opinii"
+      ],
+      "desc": [
+        "Alerty w czasie rzeczywistym pozwalają natychmiast reagować na uwagi gości i rozwiązywać problemy, zanim staną się one problemem.",
+        "Centralna skrzynka odbiorcza z inteligentnym filtrowaniem upraszcza przetwarzanie opinii, eliminuje chaos administracyjny i oszczędza cenny czas Twojego zespołu.",
+        "Uzyskaj pełny wgląd w swoje działania. Z łatwością identyfikuj powtarzające się niedociągnięcia i wskazuj konkretne obszary wymagające uwagi, aby stale podnosić standardy obsługi.",
+        "Natychmiast rozwiązuj problemy gości w hotelu. Nie pozwól, aby niezadowolenie przerodziło się w publiczną negatywną opinię online i chroń reputację swojego hotelu."
+      ]
+    }
+  },
+  "taskManager": {
+    "section1": {
+      "title": "Kontroluj prośby gości",
+      "desc": "Zwiększ produktywność swojego zespołu, zajmując się gośćmi. Centralizując wszystkie zadania i prośby w jednym miejscu, uzyskasz doskonały przegląd i zagwarantujesz, że żadna prośba nie pozostanie bez odpowiedzi.",
+      "button": "Wypróbuj demo"
+    },
+    "section2": {
+      "title": "Koniec z zapomnianymi prośbami gości",
+      "subtitle": "Nasz Menedżer Zadań łączy wszystkie prośby w jednym miejscu. Od zamówień pokoi po zgłoszenia usterek technicznych. Twój zespół może śledzić i rozwiązywać każde zadanie z maksymalną wydajnością. Koniec z zagubionymi biletami, zamieszaniem i frustracją.",
+      "items": [
+        "Wszystkie zadania pod jednym dachem",
+        "Doskonała interakcja wszystkich działów",
+        "Aktualizacje w czasie rzeczywistym"
+      ],
+      "desc": [
+        "Uzyskaj pełną kontrolę nad funkcjonowaniem hotelu. Śledź wszystkie oczekujące, trwające i ukończone zadania w czasie rzeczywistym z jednego miejsca Przejrzysty panel, na którym niczego nie przegapisz.",
+        "Natychmiast deleguj prośby gości do odpowiednich osób. Szybko i bezbłędnie przydzielaj zadania zespołom sprzątającym, konserwatorskim lub innym. Upewnij się, że dokładnie ci współpracownicy, którzy mają zająć się każdą prośbą, o niej wiedzą.",
+        "Informuj gości i swój zespół na bieżąco. Śledź postępy w realizacji każdej prośby na bieżąco, od momentu jej otrzymania do ostatecznego rozwiązania."
+      ]
+    },
+    "section3": {
+      "title": "Kluczowe funkcje",
+      "desc": "Nasz Menedżer Zadań został zaprojektowany, aby wprowadzić idealny porządek i wydajność do Twoich codziennych operacji. Dzięki zaawansowanym, a zarazem intuicyjnym funkcjom, otrzymujesz narzędzie, które pozwala Twojemu zespołowi skupić się na tym, co najważniejsze: obsłudze gości.",
+      "items": [
+        "Centralny panel: ",
+        "Konkretne typy zgłoszeń: ",
+        "Śledzenie statusu sprawy: ",
+        "Mobilny dostęp dla personelu: ",
+        "Konfigurowalna przejrzystość: "
+      ],
+      "idesc": [
+        "Śledź wszystkie zadania w przejrzysty sposób według ich statusu: oczekujące, w trakcie realizacji lub zakończone. Nigdy więcej nie zgubisz zgłoszenia.",
+        "Zarządzaj zgłoszeniami dotyczącymi sprzętu, pomocy technicznej lub sprzątania dzięki dedykowanym kategoriom, które uporządkują Twoją pracę.",
+        "Informuj gości na bieżąco o postępach w realizacji ich zgłoszenia. To zwiększy ich spokój ducha i ogólne wrażenia z pobytu.",
+        "Twój zespół może otrzymywać i zarządzać zadaniami „w podróży” na dowolnym urządzeniu mobilnym w dowolnym miejscu hotel.",
+        "Miej pełną kontrolę nad tym, ile szczegółów na temat postępu zadania widzi gość. Ty decydujesz, co jest ważne."
+      ]
+    },
+    "section4": {
+      "title": "Jak to działa?",
+      "subtitle": "Uprość swój przepływ pracy dzięki procesowi, który zapewni spójność całego zespołu i zadowolenie gości.",
+      "items": [
+        "Prośby w jednym miejscu",
+        "Delegowanie",
+        "Efektywność w terenie",
+        "Poinformowani goście i zespół"
+      ],
+      "desc": [
+        "Wszystkie prośby gości z dowolnego kanału są automatycznie rejestrowane w systemie centralnym.",
+        "Zadania są natychmiast delegowane do odpowiedniego działu, a Ty możesz śledzić ich postęp w czasie rzeczywistym od początku do końca.",
+        "Twój zespół zarządza zadaniami i aktualizuje je bezpośrednio w systemie. Dzięki temu informacje są natychmiast dostępne dla wszystkich współpracowników.",
+        "Gdy status zadania ulegnie zmianie, goście i personel otrzymają automatyczne powiadomienia."
+      ]
+    },
+    "section5": {
+      "title": "Korzyści dla Twojego hotelu i zespołu",
+      "items": [
+        "Lepsza organizacja",
+        "Zwiększenie wydajności",
+        "Poprawa komunikacji",
+        "Unowocześnienie działalności hotelu",
+        "Wymierne korzyści dla Twojego hotelu",
+        "Intuicyjny i łatwy w obsłudze"
+      ],
+      "desc": [
+        "Pożegnaj się z chaosem operacyjnym i upewnij się, że żadne zadanie nie zostanie pominięte.",
+        "Maksymalnie przyspiesz każdą prośbę i zyskaj więcej czasu dla swoich gości dzięki inteligentnemu przepływowi pracy, który działa dla Ciebie.",
+        "Dzięki scentralizowanym informacjom i automatycznym alertom Twój hotel będzie funkcjonował jak jedna jednostka, w której wszyscy, łącznie z gośćmi, wiedzą dokładnie, co się dzieje.",
+        "Zastąp przestarzałe metody eleganckim rozwiązaniem cyfrowym, które zapewni Twojemu hotelowi spokój ducha, profesjonalizm i pełną przejrzystość.",
+        "Nasze zaawansowane narzędzia analityczne pozwalają monitorować wydajność zespołu, identyfikować wąskie gardła operacyjne i natychmiast reagować na bodźce hamujące Twój rozwój.",
+        "Dzięki przejrzyste środowisko, Twój zespół nauczy się pracować z systemem Otel Apps w mgnieniu oka."
+      ]
+    }
+  },
+  "analyticsInsights": {
+    "section1": {
+      "title": "Podejmuj decyzje w oparciu o rzeczywiste dane",
+      "desc": "Uzyskaj natychmiastowy wgląd w to, jak goście korzystają z Twoich usług. Dzięki temu wglądowi dokładnie zobaczysz, co działa dobrze, a co wymaga poprawy. Mając przejrzyste dane, możesz podejmować mądrzejsze decyzje, które wesprą rozwój Twojego hotelu.",
+      "button": "Wypróbuj demo"
+    },
+    "section2": {
+      "title": "Zamień dane w mądre decyzje",
+      "subtitle": "Analityka zapewnia pełny wgląd w działalność Twojego hotelu. Pomaga wcześnie dostrzegać trendy, lepiej rozumieć zachowania gości i optymalizować ofertę, aby osiągać maksymalne rezultaty i wyższe zyski.",
+      "items": ["Natychmiastowy wgląd", "Odkryj trendy", "Dogłębna analiza i segmentacja"],
+      "desc": [
+        "Śledź zainteresowanie swoimi usługami i bieżącą sprzedaż w momencie ich pojawienia się. Uzyskaj natychmiastowy i dokładny przegląd Co dzieje się w hotelu?",
+        "Analizuj dane historyczne i odkrywaj ukryte wzorce w zachowaniach gości. Przewiduj przyszłe trendy i dostosuj swoją ofertę oraz pojemność, zanim zrobi to konkurencja.",
+        "Zanurz się w szczegóły, które decydują o Twoim zysku. Segmentuj dane według czasu, rodzaju usługi lub danych demograficznych gości. Uzyskaj idealny przegląd tego, kim są Twoi klienci i czego dokładnie szukają."
+      ]
+    },
+    "section3": {
+      "title": "Kluczowe funkcje dla Twojego rozwoju",
+      "desc": "Uzyskaj wgląd, który pomoże Twojemu hotelowi się rozwijać. Nasze zaawansowane narzędzia analityczne dostarczają Ci dokładnie tych danych, których potrzebujesz do podejmowania strategicznych decyzji i rozwoju hotelu.",
+      "items": [
+        "Panele w czasie rzeczywistym: ",
+        "Eksport danych do pliku CSV: ",
+        "Uprawnienia i role użytkowników: ",
+        "Integracja API: "
+      ],
+      "idesc": [
+        "Monitoruj wykorzystanie usług, strumienie przychodów i zadowolenie gości w czasie rzeczywistym.",
+        "Łatwo eksportuj dane do analizy offline lub do wykorzystania w innych narzędziach.",
+        "Miej pełną kontrolę nad dostępem do danych wrażliwych dzięki zdefiniowanym rolom.",
+        "Połącz dane z aplikacji Otel z istniejącymi systemami (PMS, CRM, ERP), aby uzyskać kompleksowy obraz swoich działań."
+      ]
+    },
+    "section4": {
+      "title": "Jak to działa?",
+      "subtitle": "Nasza platforma przekształca złożoną analizę danych w przejrzysty i prosty proces. Uzyskaj łatwy dostęp do kluczowych informacji, które pozwolą Ci natychmiast reagować i podejmować decyzje, które pomogą Twojemu hotelowi się rozwijać.",
+      "items": [
+        "Przejrzysty panel",
+        "Inteligentne filtrowanie i analiza",
+        "Eksport i integracja",
+        "Bezpieczny dostęp"
+      ],
+      "desc": [
+        "Dane z całego hotelu są automatycznie gromadzone i wizualizowane w czasie rzeczywistym na intuicyjnym panelu.",
+        "Użyj filtrów, aby dogłębnie analizować określone obszary. Odkryj ukryte powiązania i uzyskaj cenne informacje na temat funkcjonowania hotelu.",
+        "Łatwo eksportuj raporty do dalszego przetwarzania lub skorzystaj z naszego API, aby połączyć się z innymi systemami.",
+        "Zarządzaj uprawnieniami użytkowników, aby tylko odpowiednie osoby miały dostęp do określonych i wrażliwych danych."
+      ]
+    },
+    "section5": {
+      "title": "Korzyści dla zarządzania hotelem",
+      "items": [
+        "Lepsze podejmowanie decyzji",
+        "Przejrzysty przegląd wyników",
+        "Oferta dopasowana do potrzeb",
+        "Planowanie strategiczne",
+        "Pełna kontrola nad dostępem",
+        "Płynna integracja bez komplikacji"
+      ],
+      "desc": [
+        "Przestań polegać na szacunkach i zacznij budować sukces swojego hotelu na danych, które są stale do Twojej dyspozycji dzięki Otel Apps.",
+        "Uzyskaj holistyczny obraz wyników całego hotelu. Monitoruj, jak radzą sobie poszczególne usługi i odkryj ukryty potencjał swojego hotelu.",
+        "Dowiedz się, co naprawdę kochają Twoi goście i dostosuj swoje usługi do ich życzeń.",
+        "Patrz dalej niż tylko na kolejny sezon. Zidentyfikuj długoterminowe trendy, które staną się solidnym fundamentem Twoich przyszłych inwestycji i planów rozwoju.",
+        "Zapewnij 100% bezpieczeństwa swoich informacji. Kontroluj, kto może przeglądać poufne dane lub raporty finansowe, i chroń swoją firmę know-how i prywatność Twoich gości.",
+        "Bezproblemowa integracja z istniejącymi systemami hotelowymi."
+      ]
+    }
+  },
+  "guestApp": {
+    "hero": {
+      "title": "Usprawnij komunikację i buduj relacje z gośćmi",
+      "desc": "Twoi goście mogą już kontrolować i komunikować się z całym światem za pośrednictwem telefonu. Dzięki OTEL APPS otwierasz drzwi do wszystkich swoich usług bezpośrednio na ich telefonie komórkowym – i zyskujesz wyjątkową szansę na zbudowanie z nimi silniejszej relacji.",
+      "button": "Wypróbuj demo"
+    },
+    "features": {
+      "title": "Twoje usługi będą dostępne dla gości zawsze i wszędzie.",
+      "desc": "Odkryj kluczowe funkcje i główne zalety, które sprawiają, że Otel Apps jest niezastąpionym partnerem dla hoteli, bez którego nowoczesne funkcjonowanie hoteli jest nieodzowne.",
+      "hotelDirectoryTitle": "Informacje o hotelu",
+      "hotelDirectoryDesc": "Zapewnij gościom pełny przegląd swojego hotelu, jego udogodnień i dostępnych usług.",
+      "spaBookingTitle": "Wellness i zabiegi",
+      "spaBookingDesc": "Łatwy sposób na zamówienie relaksu. Goście mogą łatwo i bez czekania rezerwować zabiegi.",
+      "mobileOrderingTitle": "Zamawianie mobilne",
+      "mobileOrderingDesc": "Daj gościom możliwość zamawiania jedzenia, napojów i innych produktów z dowolnego miejsca, bezpośrednio ze smartfona.",
+      "taskManagerTitle": "Zarządzanie zadaniami",
+      "taskManagerDesc": "Efektywnie zarządzaj i śledź prośby gości. Zapewnij błyskawiczną obsługę i miej doskonały podgląd każdego zadania.",
+      "restaurantReservationsTitle": "Rezerwacje stolików",
+      "restaurantReservationsDesc": "Umożliw gościom łatwą, szybką rezerwację stolika w hotelowej restauracji lub barze bez konieczności dzwonienia gdziekolwiek.",
+      "cabanaBookingsTitle": "Planer podróży",
+      "cabanaBookingsDesc": "Daj gościom narzędzie do planowania pobytu z poradami dotyczącymi wycieczek i miejsc w okolicy hotelu.",
+      "instantFeedbackTitle": "Natychmiast feedback",
+      "instantFeedbackDesc": "Zachowaj stały podgląd zadowolenia swoich gości. Dzięki natychmiastowym analizom możesz reagować natychmiast i stale podnosić poziom obsługi.",
+      "analyticsInsightsTitle": "Analityka i spostrzeżenia",
+      "analyticsInsightsDesc": "Podejmuj właściwe decyzje w oparciu o rzeczywiste dane. Dzięki zaawansowanej analityce dokładnie zrozumiesz zachowania i preferencje swoich gości.",
+      "andManyMoreTitle": "I wiele więcej",
+      "andManyMoreDesc": "Rezerwacje usług, narzędzia do generowania przychodów, czat na żywo + wirtualny recepcjonista AI, zameldowanie i wymeldowanie online, wirtualna karta do pokoju i wiele więcej..."
+    },
+    "accessMethods": {
+      "title": "Nowoczesny i zrozumiały dostęp dla każdego gościa",
+      "desc": "Dostęp do Twoich usług jest możliwy z dowolnego miejsca. Dzięki różnym opcjom dostępu do aplikacji gwarantujemy, że każdy będzie miał łatwy i szybki dostęp do Twoich treści cyfrowych.",
+      "webAppTitle": "Aplikacja internetowa dla gości (wkrótce)",
+      "webAppDesc": "Nie obciążaj gości pobieraniem aplikacji. Wystarczy otworzyć przeglądarkę internetową, a wszystkie usługi hotelowe będą od razu na wyciągnięcie ręki.",
+      "nativeAppTitle": "Aplikacje mobilne na iOS i Androida",
+      "nativeAppDesc": "Zaoferuj gościom aplikację w Twoim własnym stylu. Dzięki ekskluzywnym funkcjom, takim jak mobilny wirtualny klucz do pokoju, przeniesiesz pobyt na najwyższy poziom.",
+      "embeddedTitle": "Integracje niestandardowe",
+      "embeddedDesc": "Cenimy Twoje obecne narzędzia. Możemy w pełni dostosować aplikacje Otel do Twojego ekosystemu i stworzyć idealnie działającą całość.",
+      "hotelWebAppTitle": "Aplikacja internetowa dla hotelu",
+      "hotelWebAppDesc": "Zachowaj przegląd całego hotelu i życzeń gości w jednym miejscu."
+    },
+    "whyChoose": {
+      "title": "Dlaczego warto wybrać Otel Apps Mobile?",
+      "desc": "Nie jesteśmy kolejną aplikacją na telefonie. Pomagamy automatyzować procesy, zwiększać przychody i sprawiać, że goście będą do Ciebie wracać.",
+      "efficiencyTitle": "Większa wydajność",
+      "efficiencyDesc": "Automatyzuj prośby i usługi, aby Twój personel mógł skupić się na tym, co najważniejsze – osobistej i wartościowej obsłudze gości.",
+      "digitizationTitle": "Droga do cyfryzacji",
+      "digitizationDesc": "Pozbądź się zbędnej papierkowej roboty. Zmniejsz koszty, docierając jednocześnie do współczesnych podróżnych, którym zależy na ekologii, zrównoważonym rozwoju i technologii.",
+      "experienceTitle": "Lepsze doświadczenia gości",
+      "experienceDesc": "Zapewnij wygodę i personalizację, których dzisiejsi goście nie tylko oczekują, ale i wymagają. Zapewnij im usługę dostosowaną do ery cyfrowej."
+    },
+    "exploreMore": {
+      "title": "Dowiedz się więcej z aplikacjami Otel",
+      "desc": "Nasza platforma została zaprojektowana tak, aby łatwo łączyć się z Twoimi systemami i rozwijać się wraz z Twoją firmą.",
+      "integrationsTitle": "Integracje",
+      "integrationsDesc": "Połącz się z narzędziami, z których korzystasz na co dzień."
+    },
+    "resources": {
+      "caseStudiesTitle": "Historie sukcesu",
+      "caseStudiesDesc": "Zobacz, jak inne hotele rozwijają się i prosperują dzięki aplikacjom Otel",
+      "blogTitle": "Blog i inspiracje",
+      "blogDesc": "Bądź na bieżąco z branżowymi nowinkami i najnowszymi informacjami o naszych produktach.",
+      "supportTitle": "Centrum pomocy",
+      "supportDesc": "Masz pytanie lub potrzebujesz pomocy? Nasz zespół jest do Twojej dyspozycji telefonicznie i mailowo."
+    }
+  },
+  "cityCenter": {
+    "hero": {
+      "title": "System obsługi gości w hotelach City",
+      "desc": "Dzisiejsi goście oczekują bezstresowego pobytu. Nasze cyfrowe rozwiązania gwarantują, że każde ich życzenie zostanie spełnione szybko, sprawnie i dokładnie tak, jak oczekują od nowoczesnego hotelu XXI wieku.",
+      "button": "Wypróbuj demo"
+    },
+    "era": {
+      "title": "Nowa era dla hoteli City",
+      "desc": "Zapewnij współczesnym podróżnym bezstresowy pobyt. Od bezproblemowego zameldowania po natychmiastową obsługę, aplikacje Otel przekształcają podróż gości w doświadczenie, które zwiększa satysfakcję i zyski."
+    },
+    "features": {
+      "f1": {
+        "title": "Koniec z kolejkami i niepotrzebnym oczekiwaniem",
+        "desc": "Skróć czas oczekiwania w recepcji i restauracji do absolutnego minimum. Zapewnij swoim gościom bezstresowe wrażenia bez zbędnych przestojów i pozwól personelowi zabłysnąć tam, gdzie naprawdę tego potrzebują."
+      },
+      "f2": {
+        "title": "Wsparcie zespołu",
+        "desc": "Uwolnij swój zespół, aby mógł skupić się na tym, co najważniejsze: budowaniu osobistych relacji z gośćmi i zapewnianiu obsługi na najwyższym poziomie."
+      },
+      "f3": {
+        "title": "Wzrost sprzedaży",
+        "desc": "Zwiększ sprzedaż uzupełniającą i zamówienia mobilne dzięki ukierunkowanym promocjom."
+      }
+    },
+    "ecosystem": {
+      "title": "Kompleksowy ekosystem",
+      "desc": "Otel Apps to coś więcej niż aplikacja; to kompleksowy system operacyjny dla Twojego hotelu, który łączy wszystkie Twoje usługi w jednym miejscu."
+    },
+    "keyFunctions": {
+      "f1": "Cyfrowy przewodnik po hotelach",
+      "f2": "Obsługa pokoju i usługi",
+      "f3": "Przewodnik po miejscach docelowych",
+      "f4": "Planer podróży",
+      "f5": "Menedżer zadań i operacje",
+      "f6": "Zamówienia mobilne",
+      "f7": "Rezerwacje w restauracjach, strefie wellness i siłowni",
+      "f8": "Analizy i statystyki",
+      "f9": "Zameldowanie i wymeldowanie online",
+      "f10": "I wiele innych funkcji..."
+    },
+    "howItWorks": {
+      "title": "Sprawna implementacja i najnowocześniejsze technologie",
+      "subtitle": "Nasza elastyczna platforma w pełni dostosowuje się do specyficznych potrzeb Twojego hotelu. Oferujemy rozwiązanie technologiczne bez barier, które zapewnia pełen komfort gościom i maksymalną wydajność personelowi.",
+      "step1": {
+        "title": "Natychmiastowy dostęp za pomocą kodu QR",
+        "desc": "Goście mogą uzyskać natychmiastowy dostęp do aplikacji, skanując kod QR."
+      },
+      "step2": {
+        "title": "Obsługa wszystkich platform",
+        "desc": "Działamy jako natywna aplikacja na iOS/Androida lub progresywna aplikacja internetowa (PWA)."
+      },
+      "step3": {
+        "title": "W pełni dopasowana do Twojej marki",
+        "desc": "Dostosuj interfejs do logo, kolorów i stylu swojego hotelu. Stwórz ujednolicony i profesjonalny styl."
+      },
+      "step4": {
+        "title": "Potężne integracje",
+        "desc": "Bezproblemowo połącz nas z istniejącym systemem PMS, POS i innym oprogramowaniem."
+      }
+    },
+    "benefits": {
+      "title": "Zaprojektowane z myślą o rytmie miasta",
+      "subtitle": "Zaoferuj gościom, którzy są w ciągłym ruchu w mieście, spersonalizowane doświadczenie. Dzięki aplikacjom Otel Apps mają wszystko, czego potrzebują, na wyciągnięcie ręki. Aplikacje Otel Apps zostały zaprojektowane z myślą o dynamicznym stylu życia.",
+      "b1": {
+        "title": "Intuicyjne sterowanie",
+        "desc": "Nasz interfejs zapewnia płynne korzystanie z usług wszystkim gościom, niezależnie od ich umiejętności technicznych. Prostota to nasz standard."
+      },
+      "b2": {
+        "title": "Hotel, który mówi językiem Twoich gości",
+        "desc": "Obsługuj swoich międzynarodowych klientów w ich ojczystym języku. Usuń bariery i zwiększ komfort swoich gości z całego świata."
+      },
+      "b3": {
+        "title": "Dostępny projekt dla każdego",
+        "desc": "Nasza platforma spełnia standardy dostępności, zapewniając łatwość korzystania z niej każdemu gościowi, niezależnie od jego ograniczeń."
+      }
+    }
+  },
+  "boutiques": {
+    "hero": {
+      "title": "System obsługi gości w hotelach butikowych",
+      "desc": "Aplikacja Otel Apps została zaprojektowana, aby zachować ekskluzywność Twojego hotelu, umożliwiając jednocześnie zapewnienie wysokiej jakości i wysoce spersonalizowanej obsługi, jakiej oczekują Twoi goście.",
+      "button": "Wypróbuj demo"
+    },
+    "features": {
+      "title": "Stwórz niezapomniane wrażenia",
+      "desc": "Zapewnij swoim gościom wyjątkowy pobyt, który w pełni odzwierciedla unikalny charakter i styl Twojego hotelu.",
+      "f1": {
+        "title": "Zachowaj swoją ekskluzywność",
+        "desc": "Twoja przestrzeń cyfrowa powinna być równie urocza, jak sam Twój hotel."
+      },
+      "f2": {
+        "title": "Opieka, która buduje lojalność",
+        "desc": "W erze cyfrowej szybkość jest synonimem jakości. Aplikacja Otel Apps daje Ci narzędzie do natychmiastowego nawiązania kontaktu z każdym gościem."
+      },
+      "f3": {
+        "title": "Budowanie relacji z gośćmi",
+        "desc": "Dotrzyj do swoich gości, oferując im spersonalizowane oferty i dopasowane treści."
+      },
+      "f4": {
+        "title": "Koniec z czekaniem",
+        "desc": "Pozwól gościom składać prośby i znajdować informacje w dogodnym dla nich czasie. Szybko, cyfrowo i bez kolejek."
+      }
+    },
+    "keyFunctions": {
+      "title": "Kluczowe funkcje dla hoteli butikowych",
+      "desc": "Starannie opracowany zestaw narzędzi zaprojektowanych w celu zwiększenia komfortu i osobistego podejścia, które docenią Twoi goście.",
+      "f1": {
+        "title": "Cyfrowy przewodnik po hotelach:",
+        "desc": "Kwintesencja Twojego hotelu w formie cyfrowej."
+      },
+      "f2": {
+        "title": "Natychmiastowa informacja zwrotna:",
+        "desc": "Rozwiązuj problemy, zanim staną się recenzjami."
+      },
+      "f3": {
+        "title": "Analityka i spostrzeżenia:",
+        "desc": "Poznaj swoich gości dogłębnie."
+      },
+      "f4": {
+        "title": "Planer podróży:",
+        "desc": "Stań się dla swoich gości najważniejszym źródłem inspiracji i autentycznych doświadczeń."
+      },
+      "f5": {
+        "title": "Czat na żywo:",
+        "desc": "Opieka osobista za jednym dotknięciem."
+      },
+      "f6": {
+        "title": "Spa i wellness:",
+        "desc": "Relaks, który zaczyna się od rezerwacji."
+      },
+      "f7": {
+        "title": "Zamawianie mobilne:",
+        "desc": "Obsługa pokoju i ekskluzywne oferty bezpośrednio na telefonie. Zwiększ sprzedaż, wygodnie zamawiając jedzenie i atrakcje za pomocą kilku kliknięć."
+      }
+    },
+    "howItWorks": {
+      "title": "Technologia z łatwością, doświadczenie z elegancją",
+      "subtitle": "Cyfrowe rozwiązanie, które jest tak osobiste, jak Twój hotel. Nasza platforma to cyfrowe rozszerzenie Twojej marki, zaprojektowane z myślą o łatwości i elegancji.",
+      "step1": {
+        "title": "Nowoczesne rozwiązania dla nowoczesnego gościa",
+        "desc": "Zaoferuj gościom mobilny interfejs zapewniający natychmiastowy dostęp do Twoich usług."
+      },
+      "step2": {
+        "title": "Twoja tożsamość w każdym pikselu",
+        "desc": "Dostosuj platformę, aby idealnie odzwierciedlała unikalny charakter i styl wizualny Twojego hotelu."
+      },
+      "step3": {
+        "title": "Idealna współpraca Twoich systemów",
+        "desc": "Otel Apps współpracuje z Twoimi istniejącymi narzędziami, zapewniając płynne działanie."
+      }
+    },
+    "benefits": {
+      "title": "Wyjątkowe doświadczenie w butikowym hotelu",
+      "b1": {
+        "title": "Usługi w kieszeni gościa",
+        "desc": "Natychmiastowy dostęp do wszystkiego, co niezbędne, prosto z telefonu gościa"
+      },
+      "b2": {
+        "title": "Personalizacja",
+        "desc": "Oferuj rekomendacje i usługi dopasowane do Twoich potrzeb. Zachwyć swoich gości dbałością o szczegóły, która zamieni zwykły pobyt w niezapomniane przeżycie."
+      }
+    }
+  },
+  "smallHotels": {
+    "hero": {
+      "title": "Wyższy poziom obsługi dla mniejszych hoteli",
+      "desc": "Unowocześnij swoje działania dzięki aplikacjom Otel. Zautomatyzuj procedury, dotrzyj do odpowiednich gości i zyskaj swobodę zarządzania hotelem po swojemu.",
+      "button": "Wypróbuj demo"
+    },
+    "advantages": {
+      "title": "Moc, prostota i elastyczność w jednym systemie",
+      "subtitle": "Nasz system PMS upraszcza codzienne operacje, redukuje ręczne procedury i usprawnia podróż gości od rezerwacji do wyjazdu.",
+      "f1": {
+        "title": "Oszczędzaj czas",
+        "desc": "Zautomatyzuj procedury i uwolnij swój zespół od administracji. Daj im przestrzeń, aby mogli skupić się na tym, co najważniejsze: na gościach."
+      },
+      "f2": {
+        "title": "Większa kontrola",
+        "desc": "Przejmij pełną kontrolę nad rezerwacjami, cenami i koordynacją sprzątania. Dzięki jednemu intuicyjnemu interfejsowi zobaczysz wszystko, czego potrzebujesz, na pierwszy rzut oka, w jednym miejscu."
+      },
+      "f3": {
+        "title": "Zwiększ swoje przychody i rentowność",
+        "desc": "Zmaksymalizuj swoje przychody dzięki dynamicznym cenom i ukierunkowanej sprzedaży dodatkowych usług. Oferuj swoim gościom więcej, kiedy najbardziej tego potrzebują."
+      },
+      "f4": {
+        "title": "Postaw na pierwszym miejscu doświadczenia gości",
+        "desc": "Zaoferuj im szybkie zameldowanie bez kolejek, bezproblemowe wymeldowanie i natychmiastową komunikację z zespołem."
+      },
+      "f5": {
+        "title": "Szybsze zameldowanie i wymeldowanie bez kolejek",
+        "desc": "Zapewnij gościom wygodę samoobsługowych kiosków i mobilnego zameldowania. Przyspiesz pracę recepcji i zapewnij gościom łatwy dostęp do pokoi."
+      },
+      "f6": {
+        "title": "Automatyzacja procesów",
+        "desc": "Połącz cały hotel – od rezerwacji po sprzątanie – w jeden płynny proces. Zminimalizuj błędy i zmaksymalizuj wydajność swojego zespołu."
+      }
+    },
+    "keyFunctions": {
+      "title": "Kluczowe funkcje dla małych i średnich hoteli",
+      "desc": "Kompleksowy zestaw narzędzi do efektywnego zarządzania hotelem. Zdobądź system, który zajmie się codzienną obsługą i poświęć swój cenny czas na to, co czyni Twój hotel naprawdę wyjątkowym – osobistą opiekę nad gośćmi.",
+      "f1": {
+        "title": "Dostęp do chmury:",
+        "desc": "Zarządzaj swoim hotelem z dowolnego miejsca i o każdej porze. Dzięki rozwiązaniu chmurowemu masz wszystkie dane i kontrolę nad działaniem przez cały czas."
+      },
+      "f2": {
+        "title": "Rezerwacje bezpośrednie:",
+        "desc": "Zyskaj więcej zamówień bezpośrednio i zwiększ zyski dzięki zintegrowanej sprzedaży dodatkowych usług już w momencie rezerwacji."
+      },
+      "f3": {
+        "title": "Inteligentne zarządzanie rezerwacjami:",
+        "desc": "Przejrzysta oś czasu, łatwe przydzielanie pokoi i natychmiastowy podgląd całkowitego obłożenia. Wszystko intuicyjnie w jednym miejscu."
+      },
+      "f4": {
+        "title": "Rozwiązania samoobsługowe:",
+        "desc": "Zapewnij gościom wygodę dzięki mobilnej meldunkowej i kioskom samoobsługowym. Szybka meldunkowa bez kolejek i zbędnego czekania."
+      },
+      "f5": {
+        "title": "Inteligentne zarządzanie cenami i sprzedażą:",
+        "desc": "Elastyczne zarządzanie cenami i automatyczna reakcja na popyt."
+      },
+      "f6": {
+        "title": "Zintegrowane i bezpieczne płatności:",
+        "desc": "Proste i bezpieczne transakcje."
+      },
+      "f7": {
+        "title": "Efektywne zarządzanie sprzątaniem:",
+        "desc": "Natychmiastowy status pokoju w czasie rzeczywistym i automatyczne planowanie priorytetowego sprzątania."
+      },
+      "f8": {
+        "title": "Raporty i analizy:",
+        "desc": "Podejmuj decyzje w oparciu o rzeczywiste dane."
+      }
+    },
+    "howItWorks": {
+      "title": "Zaprojektowane z myślą o prostocie i elastyczności",
+      "subtitle": "Wierzymy, że technologia powinna ułatwiać Ci podróżowanie, a nie je komplikować. Nasza platforma chmurowa została zaprojektowana od podstaw jako intuicyjne narzędzie, które możesz w pełni dostosować do swoich potrzeb.",
+      "step1": {
+        "title": "Każdy może to zrobić z łatwością",
+        "desc": "Intuicyjny interfejs, przejrzyste pulpity nawigacyjne i szkolenia dostosowane do konkretnych ról w zespole."
+      },
+      "step2": {
+        "title": "System, który rośnie wraz z Tobą",
+        "desc": "Połącz się z szeroką gamą aplikacji i dostosuj wygląd i funkcjonalność do swoich potrzeb."
+      },
+      "step3": {
+        "title": "Wszystkie rezerwacje pod jednym dachem",
+        "desc": "Połącz się z kanałami dystrybucji i zarządzaj wszystkim z jednego miejsca."
+      }
+    }
+  }
+}

@@ -13,30 +13,25 @@ const activeButton = ref('f&b')
           <h1
             class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Vylepšete hotelový provoz pomocí chytrého digitálního řešení!
+            {{ $t('homepage.section1.title') }}
           </h1>
 
           <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
-            Prostřednictvím naší intuitivní mobilní aplikace dáváme hostům do rukou nástroj pro
-            snadnou komunikaci a přístup ke službám.
+            {{ $t('homepage.section1.desc1') }}
           </p>
 
           <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
-            Hotelům poskytujeme webové rozhraní, které zjednodušuje správu těchto požadavků, pomáhá
-            řídit interní procesy, efektivně spravovat náklady, navyšovat tržby a spokojenost hostů.
+            {{ $t('homepage.section1.desc2') }}
           </p>
 
           <p class="hidden sm:block text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed">
-            Prostřednictvím naší intuitivní mobilní aplikace dáváme hostům do rukou nástroj pro
-            snadnou komunikaci a přístup ke službám. Hotelům poskytujeme webové rozhraní, které
-            zjednodušuje správu těchto požadavků, pomáhá řídit interní procesy, efektivně spravovat
-            náklady, navyšovat tržby a spokojenost hostů.
+            {{ $t('homepage.section1.desc') }}
           </p>
 
           <button
             class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
           >
-            Vyzkoušet demo-verzi
+            {{ $t('homepage.section1.button') }}
           </button>
         </div>
 
@@ -69,12 +64,10 @@ const activeButton = ref('f&b')
           <h2
             class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-center mx-auto"
           >
-            Zvyšte tržby svého hotelu a spokojenost vašich hostů.
+            {{ $t('homepage.section2.title') }}
           </h2>
           <p class="text-sm sm:text-base md:text-lg lg:text-xl lg:max-w-2xl leading-relaxed mx-auto text-center">
-            Zvyšte své tržby pomocí jednoduchého a rychlého systému
-            objednávek přes naši mobilní aplikaci. Nabízejte všechny své
-            produkty a služby pohodlně na mobilním telefonu vašeho hosta.
+            {{ $t('homepage.section2.desc') }}
           </p>
         </div>
       </div>
@@ -96,7 +89,7 @@ const activeButton = ref('f&b')
           <h2
             class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Všechny vaše služby dostupné pouze na jedno kliknutí.
+            {{ $t('homepage.section3.title') }}
           </h2>
 
           <!-- Buttons -->
@@ -111,7 +104,7 @@ const activeButton = ref('f&b')
               ]"
             >
             <span class="material-symbols-outlined">order_approve</span>
-              Objednávání produktů
+              {{ $t('homepage.section3.button1.title') }}
             </button>
 
             <button
@@ -124,7 +117,7 @@ const activeButton = ref('f&b')
               ]"
             >
             <span class="material-symbols-outlined">rule</span>
-              Požadavky
+              {{ $t('homepage.section3.button2.title') }}
             </button>
 
             <button
@@ -137,7 +130,7 @@ const activeButton = ref('f&b')
               ]"
             >
             <span class="material-symbols-outlined">event</span>
-              Rezervace
+              {{ $t('homepage.section3.button3.title') }}
             </button>
           </div>
 
@@ -150,9 +143,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white dark:bg-gray-900 rounded-full"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Digitální menu</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button1.items[0]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Intuitivní objednávání z menu vaší resturace, baru či kavárny.
+                  {{ $t('homepage.section3.button1.desc[0]') }}
                 </p>
               </div>
             </div>
@@ -164,9 +157,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white dark:bg-gray-900 rounded-full"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Objednávky na míru</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button1.items[1]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Host může v objednávce specifikovat své vlastní požadavky.
+                  {{ $t('homepage.section3.button1.desc[1]') }}
                 </p>
               </div>
             </div>
@@ -178,9 +171,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white dark:bg-gray-900 rounded-full"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Room Service</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button1.items[2]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Host si může objednat jídlo, nápoje a další produkty z vaší nabídky pomocí telefonu až na svůj pokoj.
+                  {{ $t('homepage.section3.button1.desc[2]') }}
                 </p>
               </div>
             </div>
@@ -194,9 +187,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Vybavení</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button2.items[0]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Host si může požádat o doplnění toaletního papíru, zubní kartáče, fén, župan, ručníky a další.
+                  {{ $t('homepage.section3.button2.desc[0]') }}
                 </p>
               </div>
             </div>
@@ -208,9 +201,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Poruchy</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button2.items[1]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Host může hlásit poruchy na pokoj, například výměnu žárovky prostřednictvím aplikace.
+                  {{ $t('homepage.section3.button2.desc[1]') }}
                 </p>
               </div>
             </div>
@@ -222,9 +215,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Live chat s recepcí</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button2.items[2]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Poskytněte hostům osobnější péči pomocí přímého komunikačního kanálu k vyřízení jeho potřeb.
+                  {{ $t('homepage.section3.button2.desc[2]') }}
                 </p>
               </div>
             </div>
@@ -236,9 +229,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Úklid</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button2.items[3]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Host si může pomocí aplikace objednat nebo zrušit plánovaný úklid pokoje.
+                  {{ $t('homepage.section3.button2.desc[3]') }}
                 </p>
               </div>
             </div>
@@ -252,9 +245,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Restaurace</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button3.items[0]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Host si může jednoduše rezervovat stůl ve vaší restauraci.
+                  {{ $t('homepage.section3.button3.desc[0]') }}
                 </p>
               </div>
             </div>
@@ -266,9 +259,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">SPA & Wellness</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button3.items[1]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Host se může jednoduše objednat na masáž nebo jiné procedury.
+                  {{ $t('homepage.section3.button3.desc[1]') }}
                 </p>
               </div>
             </div>
@@ -280,9 +273,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Výlety</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button3.items[2]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Zjednodušte hostům přehled a možnost rezervace výletů s průvodcem a denních výletů.
+                  {{ $t('homepage.section3.button3.desc[2]') }}
                 </p>
               </div>
             </div>
@@ -294,9 +287,9 @@ const activeButton = ref('f&b')
                 <div class="h-2 w-2 bg-white rounded-full dark:bg-gray-900"></div>
               </div>
               <div>
-                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Aktivity</h3>
+                <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section3.button3.items[3]') }}</h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 dark:text-white">
-                  Nabídněte hostům jednoduchý přístup k denním a večerním aktivitám ve vašem hotelu a účasti na hotelovém programu.
+                  {{ $t('homepage.section3.button3.desc[3]') }}
                 </p>
               </div>
             </div>
@@ -313,7 +306,7 @@ const activeButton = ref('f&b')
           <h2
             class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Zvyšte efektivitu práce vašeho personálu
+            {{ $t('homepage.section4.title') }}
           </h2>
 
           <div class="mt-8 sm:mt-12 grid sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
@@ -345,10 +338,10 @@ const activeButton = ref('f&b')
               </div>
               <div class="min-w-0">
                 <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
-                  Mějte požadavky pod kontrolou
+                  {{ $t('homepage.section4.items[0]') }}
                 </h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
-                  Získávejte požadavky hostů okamžitě a vyřizujte je přehledněji a rychleji.
+                  {{ $t('homepage.section4.desc[0]') }}
                 </p>
               </div>
             </div>
@@ -381,10 +374,10 @@ const activeButton = ref('f&b')
               </div>
               <div class="min-w-0">
                 <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
-                  Mějte přehled o vašich službách v přítomném čase.
+                  {{ $t('homepage.section4.items[1]') }}
                 </h3>
                 <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
-                  Aktualizujte nabídku a informace o vašich službách a udržujte vše neustále přehledné pro váš personál i hosty.
+                  {{ $t('homepage.section4.desc[1]') }}
                 </p>
               </div>
             </div>
@@ -418,11 +411,10 @@ const activeButton = ref('f&b')
           <h2
             class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Získávejte rychle a přehledně zpětnou vazbu od vašich hostů.
+            {{ $t('homepage.section5.title') }}
           </h2>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed mt-4 sm:mt-6 dark:text-white">
-            Proměňte nespokojeného hosta ve spokojeného díky okamžité
-            zpětné vazbě ke všem vašim produktům a službám.
+            {{ $t('homepage.section5.desc') }}
           </p>
         </div>
       </div>
@@ -435,35 +427,33 @@ const activeButton = ref('f&b')
           <h2
             class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight dark:text-white"
           >
-            Dopřejte hostům zážitek, který jste skutečně Vy!
+            {{ $t('homepage.section6.title') }}
           </h2>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed mt-4 sm:mt-6 dark:text-white">
-            Nabídněte hostům plně personalizovaný zážitek, který odráží identitu vašeho hotelu a přizpůsobí se jejich preferencím.
+            {{ $t('homepage.section6.desc') }}
           </p>
 
           <div class="mt-8 sm:mt-12 grid sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
             <div>
-              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Jednotný design vaší značky a identity</h3>
+              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section6.items[0]') }}</h3>
               <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
-                Reagujte na potřeby hostů okamžitě díky chytrému systému žádostí a plynulé komunikaci, který zvyšuje spokojenost hostů a uvolňuje ruce vašemu personálu.
+                {{ $t('homepage.section6.idesc[0]') }}
               </p>
             </div>
 
             <div>
-              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">Propagujte své nejlepší služby</h3>
+              <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">{{ $t('homepage.section6.items[1]') }}</h3>
               <p class="text-sm sm:text-base text-gray-600 mt-1 sm:mt-2 dark:text-white">
-                Získejte přehled o preferencích hostů a zvyšujte kvalitu i prodeje tam, kde to má největší přínos pro váš hotel.
+                {{ $t('homepage.section6.idesc[1]') }}
               </p>
             </div>
 
             <div class="sm:col-span-2">
               <h3 class="text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
-                Personalizovaný zážitek pro každého hosta
+                {{ $t('homepage.section6.items[2]') }}
               </h3>
               <p class="text-sm sm:text-base sm:max-w-xs text-gray-600 mt-1 sm:mt-2 dark:text-white">
-                Doporučujte každému hostovi nabídky a obsah na
-                míru podle jeho preferencí, abyste zvýšili jeho zapojení,
-                spokojenost i prodeje služeb.
+                {{ $t('homepage.section6.idesc[2]') }}
               </p>
             </div>
           </div>
@@ -483,27 +473,19 @@ const activeButton = ref('f&b')
       <div class="max-w-screen-2xl mx-auto lg:px-8">
         <div class="lg:text-center max-w-5xl mx-auto space-y-4 sm:space-y-8">
           <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white">
-            Posuňte zážitek ve vašem hotelu na vyšší úroveň s naším chytrým softwarem.
+            {{ $t('homepage.section7.title') }}
           </h2>
 
           <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
-            Náš software promění běžný hotelový provoz v dokonale sehraný systém, kde má každý host vše
-            na dosah ruky a personál pracuje efektivněji než kdykoli předtím.
+            {{ $t('homepage.section7.desc1') }}
           </p>
 
           <p class="text-base sm:text-lg text-gray-700 dark:text-white leading-relaxed sm:hidden">
-            Digitalizujeme komunikaci,
-            zrychlujeme reakční dobu a odstraňujeme zbytečné prostoje, díky čemuž získáte spokojenější
-            hosty i méně zatížený tým. Výsledkem je hladší provoz, vyšší kvalita služeb, optimalizace nákladů
-            a růst tržeb, který pocítíte okamžitě.
+            {{ $t('homepage.section7.desc2') }}
           </p>
 
           <p class="hidden sm:block text-base sm:text-lg text-gray-700 leading-relaxed dark:text-white">
-            Náš software promění běžný hotelový provoz v dokonale sehraný systém, kde má každý host vše
-            na dosah ruky a personál pracuje efektivněji než kdykoli předtím. Digitalizujeme komunikaci,
-            zrychlujeme reakční dobu a odstraňujeme zbytečné prostoje, díky čemuž získáte spokojenější
-            hosty i méně zatížený tým. Výsledkem je hladší provoz, vyšší kvalita služeb, optimalizace nákladů
-            a růst tržeb, který pocítíte okamžitě.
+            {{ $t('homepage.section7.desc') }}
           </p>
         </div>
 
@@ -535,10 +517,10 @@ const activeButton = ref('f&b')
               </svg>
             </div>
             <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
-              Zvyšte efektivitu vašeho personálu
+              {{ $t('homepage.section7.items[0]') }}
             </h3>
             <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
-              Zjednodušte každodenní úkoly a zkraťte reakční dobu díky chytře organizovaným procesům.
+              {{ $t('homepage.section7.idesc[0]') }}
             </p>
           </div>
 
@@ -569,10 +551,10 @@ const activeButton = ref('f&b')
               </svg>
             </div>
             <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
-              Poskytněte vaším hostům výjimečný zážitek a vyšší úroveň spokojenosti
+              {{ $t('homepage.section7.items[1]') }}
             </h3>
             <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
-              Nadchněte vašeho hosty personalizovanými službami, které budou mít na dosah ruky.
+              {{ $t('homepage.section7.idesc[1]') }}
             </p>
           </div>
 
@@ -603,10 +585,10 @@ const activeButton = ref('f&b')
               </svg>
             </div>
             <h3 class="mt-4 sm:mt-6 text-base sm:text-lg font-semibold text-gray-900 dark:text-white">
-              Efektivní provoz pro maximální produktivitu
+              {{ $t('homepage.section7.items[2]') }}
             </h3>
             <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
-              Optimalizovaný provoz pro maximální efektivitu řízení hotelu.
+              {{ $t('homepage.section7.idesc[2]') }}
             </p>
           </div>
         </div>

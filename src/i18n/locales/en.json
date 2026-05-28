@@ -1,0 +1,956 @@
+{
+  "header": {
+    "nav": {
+      "products": "Products",
+      "solutions": "Solutions",
+      "pricing": "Pricing",
+      "aboutUs": "About us",
+      "contact": "Contact",
+      "login": "Log in",
+      "bookDemo": "Try the demo"
+    },
+    "menu": {
+      "ecosystem": "Ecosystem",
+      "mainFeatures": "Main features",
+      "guestMobileApp": {
+        "title": "Guest mobile app",
+        "desc": "Show guests the best of your offer and drive revenue growth."
+      },
+      "guestWebApp": {
+        "title": "Guest web app (coming soon)",
+        "desc": "No app downloads required. Guests get everything they need in their browser."
+      },
+      "hotelDirectory": {
+        "title": "Hotel information",
+        "desc": "Detailed information about your hotel in one place."
+      },
+      "mobileOrdering": {
+        "title": "Mobile ordering and reservations",
+        "desc": "Easy ordering and booking without queues or waiting."
+      },
+      "instantFeedback": {
+        "title": "Instant feedback",
+        "desc": "Collect feedback at the moments that truly matter."
+      },
+      "taskManager": {
+        "title": "Task management",
+        "desc": "Keep all guest requests organized in one place."
+      },
+      "tripPlanner": {
+        "title": "Trip planner",
+        "desc": "Plan your entire stay and nearby trips conveniently from your phone."
+      },
+      "analytics": {
+        "title": "Analytics and insights",
+        "desc": "Make the right decisions backed by real data and analytics."
+      },
+      "liveChat": {
+        "title": "Live chat + AI virtual reception",
+        "desc": "Stay connected with your guests whenever they need you."
+      },
+      "checkInOut": {
+        "title": "Online check-in + check-out",
+        "desc": "Save time for your staff and guests at arrival and departure."
+      },
+      "virtualKey": {
+        "title": "Virtual room key",
+        "desc": "No physical cards needed—open your room and hotel with your phone."
+      },
+      "cityHotels": {
+        "title": "City hotels",
+        "desc": "Streamline operations and maximize your profits"
+      },
+      "boutiqueHotels": {
+        "title": "Boutique hotels",
+        "desc": "Give your guests the attention they deserve"
+      },
+      "smallHotels": {
+        "title": "Small and mid-size hotels",
+        "desc": "Your hotel services at your guests' fingertips"
+      },
+      "resorts": {
+        "title": "Resorts (coming soon)"
+      }
+    }
+  },
+  "footer": {
+    "button1": {
+      "title": "WHY OTEL APPS",
+      "items": ["Price list", "Integrations", "System updates"]
+    },
+    "button2": {
+      "title": "KEY FEATURES",
+      "items": [
+        "Hotel information",
+        "Ordering",
+        "Trip Planner",
+        "Live chat + AI virtual receptionist",
+        "Online check-in + check-out",
+        "Virtual room key",
+        "Reservations"
+      ]
+    },
+    "button3": {
+      "title": "SOLUTIONS",
+      "items": ["City hotels", "Small and medium-sized hotels", "Boutique hotels"]
+    },
+    "button4": {
+      "title": "PROJECT",
+      "items": ["About us", "Write to us"]
+    },
+    "button5": {
+      "title": "LEGAL",
+      "items": ["Legal notice", "Cookie usage policy", "Privacy policy"]
+    },
+    "ico": "Company ID",
+    "dic": "VAT ID",
+    "contact": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "rights": "All rights reserved."
+  },
+  "homepage": {
+    "section1": {
+      "title": "Improve your hotel operations with a smart digital solution!",
+      "desc": "Through our intuitive mobile application, we give guests a tool for easy communication and access to services. We provide hotels with a web interface that simplifies the management of these requests, helps manage internal processes, effectively manage costs, increase revenue and guest satisfaction.",
+      "desc1": "Through our intuitive mobile application, we give guests a tool for easy communication and access to services.",
+      "desc2": "We provide hotels with a web interface that simplifies the management of these requests, helps manage internal processes, effectively manage costs, increase revenue and guest satisfaction.",
+      "button": "Try the demo"
+    },
+    "section2": {
+      "title": "Increase your hotel's revenue and your guests' satisfaction.",
+      "desc": "Increase your revenue with a simple and fast ordering system through our mobile app. Offer all your products and services conveniently on your guest's mobile phone."
+    },
+    "section3": {
+      "title": "All your services available with just one click.",
+      "button1": {
+        "title": "Ordering products",
+        "items": ["Digital menu", "Custom orders", "Room Service"],
+        "desc": [
+          "Intuitive ordering from your restaurant, bar or café menu.",
+          "Guests can specify their own requirements in their order.",
+          "Guests can order food, drinks and other products from your menu using their phone to their room."
+        ]
+      },
+      "button2": {
+        "title": "Requirements",
+        "items": ["Amenities", "Breakdowns", "Live chat with reception", "Cleaning"],
+        "desc": [
+          "Guests can request refills of toilet paper, toothbrushes, hairdryers, bathrobes, towels and more.",
+          "Guests can report room breakdowns, such as changing a light bulb, via the app.",
+          "Give guests more personalized care with a direct communication channel to handle their needs.",
+          "Guests can use the app to schedule or cancel scheduled room cleaning."
+        ]
+      },
+      "button3": {
+        "title": "Reservations",
+        "items": ["Restaurants", "SPA & Wellness", "Excursions", "Activities"],
+        "desc": [
+          "Guests can easily reserve a table at your restaurant.",
+          "Guests can easily book a massage or other treatment.",
+          "Make it easy for guests to see and book guided tours and day trips.",
+          "Give guests easy access to your hotel's daytime and evening activities and program."
+        ]
+      }
+    },
+    "section4": {
+      "title": "Increase your staff's efficiency",
+      "items": [
+        "Keep requests under control",
+        "Keep an eye on your services in the present tense."
+      ],
+      "desc": [
+        "Get guest requests instantly and handle them more clearly and quickly.",
+        "Update your offer and information about your services and keep everything clear for your staff and guests."
+      ]
+    },
+    "section5": {
+      "title": "Get feedback from your guests quickly and clearly.",
+      "desc": "Turn a dissatisfied guest into a satisfied one with instant feedback on all your products and services."
+    },
+    "section6": {
+      "title": "Give your guests an experience that's truly you!",
+      "desc": "Offer guests a fully personalized experience that reflects your hotel's identity and adapts to their preferences.",
+      "items": [
+        "Uniform design for your brand and identity",
+        "Promote your best services",
+        "A personalized experience for every guest"
+      ],
+      "idesc": [
+        "Respond to guest needs instantly with a smart request system and seamless communication that increases guest satisfaction and frees up your staff.",
+        "Gain insight into guest preferences and drive quality and sales where it benefits your hotel the most.",
+        "Recommend offers and content tailored to each guest based on their preferences to increase engagement, satisfaction and service sales."
+      ]
+    },
+    "section7": {
+      "title": "Take your hotel experience to the next level with our smart software.",
+      "desc": "Our software transforms your hotel operations into a seamless system where every guest has everything at their fingertips and your staff works more efficiently than ever before. We digitize communication, speed up response times, and eliminate unnecessary downtime, resulting in happier guests and a less stressed team. The result is smoother operations, higher quality of service, cost optimization, and revenue growth that you can feel immediately.",
+      "desc1": "Our software transforms your hotel operations into a seamless system where every guest has everything at their fingertips and your staff works more efficiently than ever before.",
+      "desc2": "We digitize communication, speed up response times, and eliminate unnecessary downtime, resulting in happier guests and a less stressed team. The result is smoother operations, higher quality of service, cost optimization, and revenue growth that you can feel immediately.",
+      "items": [
+        "Increase your staff efficiency",
+        "Deliver an exceptional experience and higher levels of satisfaction to your guests",
+        "Efficient operations for maximum productivity"
+      ],
+      "idesc": [
+        "Simplify daily tasks and reduce response times with smartly organized processes.",
+        "Enthuse your guests with personalized services at their fingertips.",
+        "Optimized operations for maximum hotel management efficiency."
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Flexible pricing that adapts to your needs",
+    "subtitle": "We'd be happy to prepare a tailor-made proposal for you.",
+    "desc": "Let's create a solution together that will perfectly match your hotel's vision and support your uniqueness. Every hotel has its own unique DNA and we're looking forward to connecting yours with Otel Apps technologies.",
+    "form": {
+      "name": "First name",
+      "surname": "Last name",
+      "email": "Work email",
+      "country": "Country",
+      "countries": ["Czech Republic", "Slovakia", "Germany", "Austria", "Poland"],
+      "phone": "Phone number",
+      "title": "Job title",
+      "titles": [
+        "Owner / Founder",
+        "CEO",
+        "IT / Technology Manager",
+        "Sales Manager",
+        "Consultant Manager",
+        "Other"
+      ],
+      "property": "Property Type",
+      "properties": [
+        "Hotel Chain or Group",
+        "Independent Hotel",
+        "Other (not a hotel or hotel group)"
+      ],
+      "communication": "I agree to receive communications from OtelApps",
+      "agreement": ["I accept", "Terms and Conditions", "a", "Privacy Policy"],
+      "button": "Get a pricing"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "desc": "Got questions? We have the answers (and a passion for hotel innovation to go with it). Feel free to reach out to us with any questions, technical details, or visions you'd like to discuss.",
+    "form": {
+      "name": "First name",
+      "surname": "Last name",
+      "email": "Email",
+      "country": "Country",
+      "countries": ["Czech Republic", "Slovakia", "Germany", "Austria", "Poland"],
+      "phone": "Phone number",
+      "inquiry": "Inquiry type",
+      "inquiries": [
+        "I would like to contact sales",
+        "I would like to contact support",
+        "I would like to contact the administrator",
+        "Other"
+      ],
+      "message1": "Message",
+      "message2": "Your message",
+      "communication": "I agree to receive communications from OtelApps",
+      "agreement": ["I accept", "Terms and Conditions", "a", "Privacy Policy"],
+      "button": "Submit",
+      "errors": ["Enter letters only", "Enter phone number in international format"]
+    }
+  },
+  "aboutUs": {
+    "section1": {
+      "title": "Welcome to Otel Apps: The Story of Our Vision",
+      "desc": "Otel Apps was founded in 2024 by Lukáš Milt, Michal Krátký and IT manager Michal Vetiška. We were united by a passion for modern technology and a desire for perfect service. Our mission is to fundamentally transform the hotel industry with innovative solutions. We create an ecosystem that makes everyday operations more efficient for hoteliers and an unforgettable stay for guests. We believe that technology should bring more value and joy to everyone.",
+      "desc1": "Otel Apps was founded in 2024 by Lukáš Milt, Michal Krátký and IT manager Michal Vetiška. We were united by a passion for modern technology and a desire for perfect service.",
+      "desc2": "Our mission is to fundamentally transform the hotel industry with innovative solutions. We create an ecosystem that makes everyday operations more efficient for hoteliers and an unforgettable stay for guests. We believe that technology should bring more value and joy to everyone."
+    },
+    "section2": {
+      "title": "Who do we create Otel Apps for?",
+      "items": ["Hoteliers", "Guests"],
+      "desc": [
+        "Hoteliers who choose Otel Apps share our passion for innovation and digitalization. They use our technology to completely rethink the use of physical space, service levels and the overall guest experience. They are leaders who know that the future of hospitality belongs to those who are not afraid of digital transformation and innovation",
+        "Hotels are under constant pressure today. Guest reviews are already online a second after check-out. That's why we design Otel Apps primarily for, the customers of our customers. Our goal is for every digital touch to contribute to making the guest experience simply exceptional - from the first booking to the final review."
+      ]
+    },
+    "section3": {
+      "title": "Our team",
+      "subtitle": "We are proudly based in Prague, but our vision knows no borders.",
+      "teamTitle": "Who are we?",
+      "teamDesc": "What makes OtelApps different? The answer is simple. We are a group of technology enthusiasts with a vision of digitizing the hotel and tourism industry. We perceive that the digitization of the world is an inevitable future and we want to be a part of it. This idea led us to develop our system..",
+      "desc": "Why should you spend time every night closing the door? Why should your staff devote themselves to administration instead of guests? And why should they just sleep at your place when your space offers so many more possibilities? Every day we think about how to seamlessly connect people with services through technology. Our goal is to eliminate unnecessary routine and return the most important thing to the hotel industry: a real experience and human contact.",
+      "desc1": "Why should you spend time every night closing the door? Why should you Does your staff dedicate more time to administration than to guests? And why should they just sleep in your place when your space offers so much more?",
+      "desc2": "Every day we think about how to seamlessly connect people with services through technology. Our goal is to eliminate unnecessary routine and bring back to the hospitality industry what matters most: real experience and human contact."
+    },
+    "section4": {
+      "title": "Culture and Values: Our Team's DNA",
+      "desc": "Our values ​​are not just words on paper for us - they are principles we live by every day. They drive our behavior and form the very core of the culture at Otel Apps. This inner compass guides us in every decision, from developing a new line of code to communicating with our partners. Thanks to them, we build technologies that make sense and relationships that are based on real trust.",
+      "desc1": "Our values ​​are not just words on paper for us - they are principles we live by every day. They drive our behavior and form the very core of the culture at Otel Apps.",
+      "desc2": "This inner compass guides us in every decision, from developing a new line of code to communicating with our partners. Thanks to them, we build technologies that make sense and relationships that are based on real trust.",
+      "items": ["Ambitious", "Visionaries", "Courageous", "Human and open", "Client-oriented"],
+      "idesc": [
+        "We don't settle for average, because we want to be the engine of growth for the most successful hotels on the market.",
+        "We constantly monitor tomorrow's trends to provide you with technologies that never go out of style.",
+        "We are not afraid to break the established dogmas of hospitality and find ways where others only see obstacles.",
+        "We build on honesty and authentic relationships, because behind every great code and hotel are people.",
+        "Your success is our only measure, that's why we create solutions that truly solve your daily challenges."
+      ]
+    }
+  },
+  "bookDemo": {
+    "title": "One small step for a demo, one giant leap for your business",
+    "desc": "Transform your property, operations, guest experience and more. Book a demo and one of our experts will contact you to show you Otelapps.",
+    "form": {
+      "name": "First name",
+      "surname": "Last name",
+      "email": "Work email",
+      "country": "Country",
+      "countries": ["Czech Republic", "Slovakia", "Germany", "Austria", "Poland"],
+      "phone": "Phone number",
+      "title": "Work title",
+      "titles": [
+        "Owner / Founder",
+        "CEO",
+        "IT / Technology Manager",
+        "Sales Manager",
+        "Consultant Manager",
+        "Other"
+      ],
+      "property": "Property type",
+      "properties": [
+        "Hotel chain or group",
+        "Independent hotel",
+        "Other (not hotel nor hotel group)"
+      ],
+      "communication": "I agree to receive communications from OtelApps",
+      "agreement": ["I accept", "Terms and Conditions", "and", "Privacy Policy"],
+      "button": "Request a demo"
+    }
+  },
+  "hotelDirectory": {
+    "section1": {
+      "title": "Digital Hotel Guide",
+      "desc": "Create a digital space for your guests where they can find everything they need. All important hotel information is in one place, always accessible and up-to-date.",
+      "button": "Try demo"
+    },
+    "section2": {
+      "title": "Virtual Hotel Guide",
+      "subtitle": "Your virtual guide consolidates all important information in one place and offers guests an intuitive self-service tool that puts everything they need at their fingertips.",
+      "items": [
+        "All information in one place",
+        "Fewer calls to the front desk",
+        "Upselling opportunities"
+      ],
+      "desc": [
+        "From check-in and check-out times to room instructions, safety instructions and FAQs - everything is available to guests instantly, digitally and clearly.",
+        "Empower guests to find answers on their own. This reduces the work reception workload and free up staff for more important tasks.",
+        "Promote special services, exclusive packages and products directly in the app and increase your revenue from the sale of additional products and services."
+      ]
+    },
+    "section3": {
+      "title": "What can you include in your app?",
+      "desc": "Our flexible system supports a wide range of content types, so it can cover all the individual needs of your hotel.",
+      "items": [
+        "Key information: ",
+        "Amenities and services: ",
+        "Rich content: ",
+        "Real-time updates: "
+      ],
+      "idesc": [
+        "Clearly processed check-in/out times, instructions for room equipment and clear rules for accommodation with pets or smoking policies.",
+        "Current opening hours of pools, wellness centers, restaurants and more.",
+        "Each entry in the app can contain eye-catching texts, icons, photos, videos, interactive maps or action buttons for instant ordering.",
+        "Edit all information in real time via the web interface. This ensures that your guests always have the freshest details in the app."
+      ]
+    },
+    "section4": {
+      "title": "Dynamic content under your control",
+      "subtitle": "Keep your hotel information up-to-date and easily accessible. We designed our system to be as simple as possible to manage content, saving staff time and providing a seamless digital experience for guests",
+      "items": ["Real-time updates:", "Structured categories:", "Multi-language support:"],
+      "desc": [
+        "All changes are reflected immediately to guests. This ensures 100% consistency and up-to-date information across the entire hotel.",
+        "Organize your content with intuitive icons for easy browsing and lightning-fast access to services.",
+        "Offer guests information in their native language. A personalized experience is key to guest satisfaction and better reviews."
+      ]
+    },
+    "section5": {
+      "title": "Operational Benefits",
+      "items": [
+        "Relief for your staff",
+        "Operational Streamlining and Process Control",
+        "Cost Optimization",
+        "Data for Strategic Management",
+        "Improve your guest experience"
+      ],
+      "desc": [
+        "Automating guest requests significantly reduces the workload of staff at the reception and in other departments",
+        "Digitalization of routine tasks leads to higher efficiency and better control over all hotel processes.",
+        "Moving to a digital solution saves printing costs and streamlines the management of additional services.",
+        "Management gains access to detailed reports and analyses that allow you to make the right decisions based on real data",
+        "Make it easier for guests to access information and create conditions for a smoother and more enjoyable stay at your hotel"
+      ]
+    }
+  },
+  "mobileOrdering": {
+    "section1": {
+      "title": "Easier ordering, higher revenue",
+      "desc": "Allow guests to order and pay directly from their phone. Connect guest requests to the kitchen and ensure skyrocketing revenue growth in your restaurant and lobby bar with fast and flawless service.",
+      "button": "Try demo"
+    },
+    "section2": {
+      "title": "Revolutionize your service",
+      "subtitle": "Our mobile ordering solution allows guests to browse menus, order and pay with maximum convenience. This frees up your staff's hands and opens the door to new opportunities to increase revenue.",
+      "items": [
+        "Ordering via QR codes",
+        "Custom digital menus",
+        "Seamless payments for the modern hotel"
+      ],
+      "desc": [
+        "Instant access to the menu anywhere in the hotel. Just scan, choose and order!",
+        "Present your offering in the best light. Create visually appealing, interactive menus for your guests that you can edit in a snap right in your browser.",
+        "Connect your hotel system to the most popular payment methods. Accept Apple Pay, Google Pay, and credit cards right in the app."
+      ]
+    },
+    "section3": {
+      "title": "Key Features",
+      "desc": "Give your guests the freedom and your team the modern tools to run smoothly. Our powerful and flexible mobile ordering system fully adapts to the rhythm of your hotel.",
+      "items": [
+        "Interactive digital menu: ",
+        "Real-time order tracking: ",
+        "Integration with cash register and payments: ",
+        "Self-service support: ",
+        "Upselling and special offers: "
+      ],
+      "idesc": [
+        "Create attractive, fully customizable menus with high-quality photos and detailed descriptions that sell themselves.",
+        "Guests and staff have an instant overview of the status of their order, from its receipt to delivery to the table or room.",
+        "Connect the app to your existing POS system. Accept Apple Pay, Google Pay and credit cards securely and without retyping.",
+        "Ideal for room service, pools or wellness - places where you don't have a full-time staff but guests want to spend.",
+        "Easily highlight daily specials, desserts, or premium add-ons to increase the average value of each order."
+      ]
+    },
+    "section4": {
+      "title": "How does it work?",
+      "subtitle": "A simple and intuitive experience for your guests, a powerful and clear system for your staff. Otel Apps connects both worlds into one perfectly functioning whole.",
+      "items": [
+        "Guest scans the QR code or opens the menu in the app",
+        "Browse, order and pay",
+        "Kitchen takes the order",
+        "Satisfied guest"
+      ],
+      "desc": [
+        "Using their phone, the guest gets instant access to the digital menu, anywhere in the hotel or outside.",
+        "Guests choose, submit their order and pay securely in seconds directly in the app interface.",
+        "The request travels in a flash to the kitchen or bar through our staff app.",
+        "Staff prepare and deliver the order. The guest can monitor the status of the order in real time on their phone at all times."
+      ]
+    },
+    "section5": {
+      "title": "Benefits for your hotel",
+      "items": [
+        "Serve more guests faster",
+        "Increase sales",
+        "New revenue streams",
+        "Smooth kitchen operations",
+        "Perfect guest experience",
+        "Unified data and visibility"
+      ],
+      "desc": [
+        "Minimize wait times. Serve more guests in less time with digital ordering, ensuring a seamless experience without unnecessary waiting.",
+        "Remove friction from the sales process and watch your order volume and average spend per guest grow.",
+        "Let guests order food, drinks or services from anywhere.",
+        "Orders are digital, perfectly organized and automatically sent to where they belong.",
+        "Let them order services exactly when they want, in the way that suits them best.",
+        "Full integration gives you a holistic view of all your guests' spending and behavior. All your order and spending data in one place for a perfect overview."
+      ]
+    }
+  },
+  "instantFeedback": {
+    "section1": {
+      "title": "Deal with negative guest experiences as they happen",
+      "desc": "Negative reviews hurt, especially those you could have prevented. Otel Apps gives you the chance to capture guest dissatisfaction immediately, during their stay, and turn a bad experience into a positive one.",
+      "button": "Try the demo"
+    },
+    "section2": {
+      "title": "Turn feedback into your greatest advantage",
+      "subtitle": "Respond to your guests' impressions exactly when it matters most. This tool allows you to proactively resolve issues, increase guest satisfaction, and secure great reviews before they leave.",
+      "items": ["Real-time feedback", "Prevent negative reviews", "Build a top-notch reputation"],
+      "desc": [
+        "Reach out to your guests directly during their stay. Get instant insight into their satisfaction while they are still with you and show them that you care about their comfort.",
+        "Intervene early where guest dissatisfaction arises. Resolve your guests' issues immediately and don't let them escalate into public online reviews.",
+        "Proactively working with feedback directly during your stay leads to better reviews and a stronger name for your hotel on booking portals and social networks."
+      ]
+    },
+    "section3": {
+      "title": "Top-notch tools for your hotel",
+      "desc": "From fully personalized questionnaires to a central request inbox, our platform is equipped with everything you need to work effectively with your guest reviews.",
+      "items": [
+        "Custom questionnaires: ",
+        "Central inbox and notifications: ",
+        "Direct communication: ",
+        "Analytics in action: "
+      ],
+      "idesc": [
+        "Build your own questions and determine at what stage of the stay and where in the app they should be displayed to guests.",
+        "Manage all your feedback in one place. Thanks to smart filters and email notifications, you won't miss anything.",
+        "Respond to guests directly from the app interface. Resolve their complaints or thank them for their compliments in seconds.",
+        "Track trends, uncover weak points and make strategic decisions based on real data for constantly improving your services."
+      ]
+    },
+    "section4": {
+      "title": "How it works",
+      "subtitle": "Our process is simple and efficient. We designed Otel Apps to seamlessly integrate into your daily operations and start delivering real value to you from day one.",
+      "items": ["Get feedback", "All in one place", "Communicate directly", "Analyze and improve"],
+      "desc": [
+        "Guests receive tailored surveys at key moments of their stay, when their impressions are freshest.",
+        "Responses are instantly collected in a central inbox and your team receives real-time notifications to take action.",
+        "Connect with the guest directly through the app. Resolve any issues or acknowledge compliments.",
+        "Data helps you understand where your hotel shines and where there is room for improvement. Make decisions that will increase your profits and reputation."
+      ]
+    },
+    "section5": {
+      "title": "Benefits for your team",
+      "items": [
+        "Immediate response",
+        "Efficient management",
+        "Better visibility",
+        "Minimize negative reviews"
+      ],
+      "desc": [
+        "Real-time alerts allow you to respond to guest concerns immediately and resolve issues before they become problems.",
+        "A central inbox with smart filtering simplifies review processing, eliminates administrative chaos, and saves your team valuable time.",
+        "Get complete insight into your operations. Easily identify recurring shortcomings and reveal specific areas that need your attention so you can continuously improve your service standards.",
+        "Resolve guest issues instantly at the hotel. Don't let dissatisfaction turn into a public negative review online and protect your hotel's reputation."
+      ]
+    }
+  },
+  "taskManager": {
+    "section1": {
+      "title": "Keep your guests' requests under control",
+      "desc": "Increase your team's productivity when taking care of guests. By centralizing all tasks and requests in one place, you get a perfect overview and ensure that no request goes unanswered.",
+      "button": "Try the demo"
+    },
+    "section2": {
+      "title": "No more forgotten guest requests",
+      "subtitle": "Our Task Manager unifies all requests in one place. From room orders to technical defect reports. Your team can track and resolve each task with maximum efficiency. No more lost tickets, no more confusion and no more frustration.",
+      "items": [
+        "All tasks under one roof",
+        "Perfect interaction of all departments",
+        "Real-time updates"
+      ],
+      "desc": [
+        "Get absolute control over the running of the hotel. Keep track of all pending, in-process and completed tasks in real time from one clear dashboard where you won't miss anything.",
+        "Delegate guest requests to the right people instantly. Assign tasks to housekeeping, maintenance or other teams quickly and without errors. Ensure that the exact colleagues who are supposed to solve each request know about it.",
+        "Keep guests and your team in the loop. Follow the progress of each request live, from its receipt to its final resolution."
+      ]
+    },
+    "section3": {
+      "title": "Key Features",
+      "desc": "Our Task Manager is designed to bring perfect order and efficiency to your daily operations. With powerful yet intuitive features, you get a tool that frees your team to do what matters most: taking care of your guests.",
+      "items": [
+        "Central dashboard: ",
+        "Specific request types: ",
+        "Case status tracking: ",
+        "Mobile access for staff: ",
+        "Configurable transparency: "
+      ],
+      "idesc": [
+        "Track all tasks clearly by their status: pending, in progress or completed. Never lose a request again.",
+        "Manage requests for equipment, technical support or cleaning with dedicated categories that bring order to your work.",
+        "Keep guests up to date on the progress of their request. This will increase their peace of mind and the overall experience of their stay.",
+        "Your team can receive and manage tasks on the go on any mobile device anywhere in the hotel.",
+        "Have full control over how much detail about the task progress the guest sees. You decide what's important."
+      ]
+    },
+    "section4": {
+      "title": "How does it work?",
+      "subtitle": "Simplify your workflow with a process that keeps your entire team aligned and ensures your guests leave happy.",
+      "items": [
+        "Requests in one place",
+        "Delegation",
+        "Efficiency in the field",
+        "Informed guest and team"
+      ],
+      "desc": [
+        "All guest requests from any channel are automatically recorded in a central system.",
+        "Tasks are immediately delegated to the right department and you can track their progress in real time from start to finish.",
+        "Your team manages and updates tasks directly in the system. This makes information instantly available to all colleagues.",
+        "When a task status changes, guests and staff receive automatic notifications."
+      ]
+    },
+    "section5": {
+      "title": "Benefits for your hotel and team",
+      "items": [
+        "Better organization",
+        "Increase efficiency",
+        "Improve communication",
+        "Modernize hotel operations",
+        "Measurable benefits for your hotel",
+        "Intuitive and easy to use"
+      ],
+      "desc": [
+        "Say goodbye to operational chaos and ensure that no task is forgotten.",
+        "Speed ​​up every request to the maximum and gain more time for your guests with a smart workflow that works for you.",
+        "With centralized information and automatic alerts, your hotel will function as one unit, where everyone knows exactly what is happening, including your guest.",
+        "Replace outdated methods with an elegant digital solution that brings peace of mind, professionalism and complete visibility to your hotel.",
+        "Our advanced analytics allow you to monitor team performance, identify operational bottlenecks and respond immediately to stimuli that hinder your growth.",
+        "Thanks to the clear environment, your team will learn to work with the Otel Apps system in no time."
+      ]
+    }
+  },
+  "analyticsInsights": {
+    "section1": {
+      "title": "Make decisions based on real data",
+      "desc": "Get instant insights into how guests are using your services. With insights, you can see exactly what's working well and where there's room for improvement. With clear data in hand, you can make smarter decisions that will support your hotel's growth.",
+      "button": "Try the demo"
+    },
+    "section2": {
+      "title": "Turn data into smart decisions",
+      "subtitle": "Analytics give you complete insight into your hotel's operations. They help you spot trends early, better understand guest behavior, and optimize your offering to achieve maximum results and higher profits.",
+      "items": ["Instant insights", "Discover trends", "In-depth analysis and segmentation"],
+      "desc": [
+        "Track interest in your services and current sales the moment you arise. Get an instant and accurate overview of what is happening in the hotel.",
+        "Analyze historical data and uncover hidden patterns in your guests' behavior. Anticipate future trends and adapt your offer and capacity before your competition does.",
+        "Dive into the details that determine your profit. Segment data by time, type of service or guest demographics. Get a perfect overview of who your customers are and what exactly they are looking for."
+      ]
+    },
+    "section3": {
+      "title": "Key Features for Your Growth",
+      "desc": "Gain insights that will drive your hotel forward. Our powerful analytics tools give you exactly the data you need to make strategic decisions and grow your hotel.",
+      "items": [
+        "Real-Time Dashboards: ",
+        "Export Data to CSV: ",
+        "User Permissions and Roles: ",
+        "API Integration: "
+      ],
+      "idesc": [
+        "Monitor service usage, revenue streams, and guest satisfaction in real time.",
+        "Easily export your data for offline analysis or use in other tools.",
+        "Have full control over who has access to sensitive data with defined roles.",
+        "Connect data from Otel Apps to your existing systems (PMS, CRM, ERP) for a holistic view of your operations."
+      ]
+    },
+    "section4": {
+      "title": "How does it work?",
+      "subtitle": "Our platform turns complex data analysis into a clear and easy process. Get easy access to key information that allows you to react immediately and make decisions that move your hotel forward.",
+      "items": [
+        "Clear dashboard",
+        "Smart filtering and analysis",
+        "Export and integration",
+        "Secure access"
+      ],
+      "desc": [
+        "Data from your entire hotel is automatically collected and visualized in real time on an intuitive dashboard.",
+        "Use filters to analyze specific areas in depth. Uncover hidden connections and gain valuable insights into the running of your hotel.",
+        "Easily export reports for further processing or use our API to connect with your other systems.",
+        "Manage user permissions so that only the right people have access to specific and sensitive data."
+      ]
+    },
+    "section5": {
+      "title": "Benefits for your hotel management",
+      "items": [
+        "Better Decision-Making",
+        "Clear overview of results",
+        "Tailored offer",
+        "Strategic planning",
+        "Absolute control over access",
+        "Smooth integration without complications"
+      ],
+      "desc": [
+        "Stop relying on estimates and start building your hotel's success on data that is constantly at your disposal thanks to Otel Apps.",
+        "Get a holistic view of the performance of the entire hotel. Monitor how individual services are doing and uncover the hidden potential of your hotel.",
+        "Find out what your guests really love and adapt your services to their wishes.",
+        "Look beyond just next season. Identify long-term trends that will become a solid foundation for your future investments and growth plans.",
+        "Ensure 100% security of your information. Keep under control who can view sensitive data or financial reports, and protect your corporate know-how and your guests' privacy.",
+        "Seamless integration with your existing hotel systems."
+      ]
+    }
+  },
+  "guestApp": {
+    "hero": {
+      "title": "Improve communication and build relationships with your guests",
+      "desc": "Your guests already control and communicate with their entire world via their phone. With OTEL APPS, you open the door to all your services directly on their mobile phone - and you get a unique chance to build a stronger relationship with them.",
+      "button": "Try the demo"
+    },
+    "features": {
+      "title": "Your services will be available to your guests anytime, anywhere.",
+      "desc": "Discover the key features and main advantages that make Otel Apps an indispensable partner for hotels, without which modern hotel operations are indispensable.",
+      "hotelDirectoryTitle": "Hotel information",
+      "hotelDirectoryDesc": "Give guests a complete overview of your hotel, its facilities and available services.",
+      "spaBookingTitle": "Wellness and treatments",
+      "spaBookingDesc": "The easy way to order relaxation. Guests can book their treatments easily and without waiting.",
+      "mobileOrderingTitle": "Mobile ordering",
+      "mobileOrderingDesc": "Give guests the ability to order food, drinks and other products from anywhere, directly from their smartphone.",
+      "taskManagerTitle": "Task management",
+      "taskManagerDesc": "Effectively manage and track guest requests. Ensure lightning-fast service and have a perfect overview of each task.",
+      "restaurantReservationsTitle": "Table reservations",
+      "restaurantReservationsDesc": "Allow guests to book a table in the hotel restaurant or bar easily, quickly and without having to call anywhere.",
+      "cabanaBookingsTitle": "Trip planner",
+      "cabanaBookingsDesc": "Give guests a tool to plan their stay with tips for trips and places in the hotel's vicinity.",
+      "instantFeedbackTitle": "Instant feedback",
+      "instantFeedbackDesc": "Keep a constant overview of the satisfaction of your guests guests. With instant insights, you can react immediately and continuously improve your service level.",
+      "analyticsInsightsTitle": "Analytics and Insights",
+      "analyticsInsightsDesc": "Make the right decisions based on real data. With advanced analytics, you will understand your guests' behavior and preferences in detail.",
+      "andManyMoreTitle": "And much more",
+      "andManyMoreDesc": "Service reservations, Revenue tools, Live chat + AI virtual receptionist, Online check-in + check-out, Virtual room card, and more..."
+    },
+    "accessMethods": {
+      "title": "Modern and understandable access for every guest",
+      "desc": "Your services are accessible from anywhere. With various access options to the app, we guarantee that everyone can access your digital content easily and without waiting.",
+      "webAppTitle": "Web app for guests (coming soon)",
+      "webAppDesc": "Don't burden guests with downloading apps. Just open a web browser and all hotel services are immediately at their fingertips.",
+      "nativeAppTitle": "Mobile apps for iOS and Android",
+      "nativeAppDesc": "Offer guests an app in your own design. With exclusive features such as a mobile virtual room key, you take the stay experience to the highest level.",
+      "embeddedTitle": "Custom integrations",
+      "embeddedDesc": "We value your current tools. We can fully customize Otel Apps to complement your ecosystem and create one perfectly functioning whole.",
+      "hotelWebAppTitle": "Web app for hotel",
+      "hotelWebAppDesc": "Keep an overview of the entire hotel and your guests' wishes in one place."
+    },
+    "whyChoose": {
+      "title": "Why choose Otel Apps mobile?",
+      "desc": "We're not just another app on your phone. We help you automate processes, increase revenue, and keep your guests coming back.",
+      "efficiencyTitle": "Increased efficiency",
+      "efficiencyDesc": "Automate requests and services to free up your staff so they can focus on what matters most - personal and meaningful guest care.",
+      "digitizationTitle": "The journey to digitization",
+      "digitizationDesc": "Get rid of unnecessary paperwork. Reduce your costs while reaching modern travelers who care about ecology, sustainability, and technology.",
+      "experienceTitle": "A better guest experience",
+      "experienceDesc": "Offer the convenience and personalization that today's guests not only expect, but also demand. Treat them to a service that is appropriate for the digital age."
+    },
+    "exploreMore": {
+      "title": "Discover more with Otel Apps",
+      "desc": "Our platform is designed to easily connect with your systems and grow with your business.",
+      "integrationsTitle": "Integrations",
+      "integrationsDesc": "Connect with the tools you already use every day."
+    },
+    "resources": {
+      "caseStudiesTitle": "Success Stories",
+      "caseStudiesDesc": "See how other hotels are growing and thriving with Otel Apps",
+      "blogTitle": "Blog & Inspiration",
+      "blogDesc": "Stay up to date with industry news and the latest information on our products.",
+      "supportTitle": "Support Center",
+      "supportDesc": "Have a question or need help? Our team is here for you by phone and email."
+    }
+  },
+  "cityCenter": {
+    "hero": {
+      "title": "Guest Experience System for City Hotels",
+      "desc": "Today's guests demand a carefree stay. Our digital solutions ensure that their every wish is fulfilled quickly, smoothly and exactly as they expect from a modern 21st century hotel.",
+      "button": "Try the Demo"
+    },
+    "era": {
+      "title": "A New Era for City Hotels",
+      "desc": "Offer modern travelers a carefree stay. From seamless check-in to instant service, Otel Apps transform the guest journey into an experience that increases satisfaction and your profits."
+    },
+    "features": {
+      "f1": {
+        "title": "No more queues and unnecessary waiting",
+        "desc": "Reduce waiting times at reception and in the restaurant to an absolute minimum. Give your guests a seamless experience without unnecessary downtime and let your staff shine where they really need it."
+      },
+      "f2": {
+        "title": "Team support",
+        "desc": "Free your team to focus on what matters most: building personal relationships with guests and providing top-notch service."
+      },
+      "f3": {
+        "title": "Sales growth",
+        "desc": "Drive up-sells and mobile orders with targeted promotions."
+      }
+    },
+    "ecosystem": {
+      "title": "A comprehensive ecosystem",
+      "desc": "Otel Apps is more than an app; it's a comprehensive operating system for your hotel that connects all your services in one place."
+    },
+    "keyFunctions": {
+      "f1": "Digital Hotel Guide",
+      "f2": "Room Service & Services",
+      "f3": "Destination Guide",
+      "f4": "Trip Planner",
+      "f5": "Task Manager & Operations",
+      "f6": "Mobile Orders",
+      "f7": "Restaurant & Wellness & Gym Reservations",
+      "f8": "Analytics & Statistics",
+      "f9": "Online Check-in & Check-out",
+      "f10": "And many more features..."
+    },
+    "howItWorks": {
+      "title": "Smooth implementation and cutting-edge technologies",
+      "subtitle": "Our flexible platform fully adapts to the specific needs of your hotel. We offer a barrier-free technological solution that ensures complete comfort for your guests and maximum efficiency for your staff.",
+      "step1": {
+        "title": "Instant access via QR",
+        "desc": "Guests can access the application instantly by simply scanning a QR code."
+      },
+      "step2": {
+        "title": "Support for all platforms",
+        "desc": "We work as a native iOS/Android app or a progressive web application (PWA)."
+      },
+      "step3": {
+        "title": "Fully on your brand",
+        "desc": "Customize the interface to your hotel's logo, colors, and style. Create a unified and professional style."
+      },
+      "step4": {
+        "title": "Powerful Integrations",
+        "desc": "Seamlessly connect us to your existing PMS, POS and other software."
+      }
+    },
+    "benefits": {
+      "title": "Designed for the rhythm of the city",
+      "subtitle": "Offer a tailor-made experience to guests who are constantly on the move in the city. With Otel Apps, they have everything they need at their fingertips. Otel Apps is designed to match a dynamic lifestyle.",
+      "b1": {
+        "title": "Intuitive controls",
+        "desc": "Our interface ensures a smooth experience for all guests, regardless of their technical skills. Simplicity is our standard."
+      },
+      "b2": {
+        "title": "A hotel that speaks your guests' language",
+        "desc": "Serve your international clientele in their native language. Remove barriers and increase the comfort of your guests from all over the world."
+      },
+      "b3": {
+        "title": "Accessible Design for Everyone",
+        "desc": "Our platform meets accessibility standards, ensuring that it can be easily used by any guest, regardless of their limitations."
+      }
+    }
+  },
+  "boutiques": {
+    "hero": {
+      "title": "Guest Experience System for Boutique Hotels",
+      "desc": "Otel Apps is designed to preserve the exclusivity of your hotel while allowing you to provide the high-quality and highly personalized care that your guests expect.",
+      "button": "Try the Demo"
+    },
+    "features": {
+      "title": "Create Unforgettable Experiences",
+      "desc": "Give your guests an exceptional stay that fully reflects the unique character and style of your hotel.",
+      "f1": {
+        "title": "Maintain Your Exclusivity",
+        "desc": "Your digital space should be as charming as your hotel itself."
+      },
+      "f2": {
+        "title": "Care that Builds Loyalty",
+        "desc": "In the digital age, speed is synonymous with quality. Otel Apps gives you the tool to instantly connect with every guest."
+      },
+      "f3": {
+        "title": "Guest Relationship Building",
+        "desc": "Reach out to your guests with personalized offers and tailored content."
+      },
+      "f4": {
+        "title": "No more waiting",
+        "desc": "Let guests make requests and find information at their convenience. Fast, digital, and without queues."
+      }
+    },
+    "keyFunctions": {
+      "title": "Key features for boutique hotels",
+      "desc": "A carefully curated set of tools designed to enhance the comfort and personal touch your guests will appreciate.",
+      "f1": {
+        "title": "Hotel Digital Guide:",
+        "desc": "The essence of your hotel in digital form."
+      },
+      "f2": {
+        "title": "Instant Feedback:",
+        "desc": "Resolve issues before they become reviews."
+      },
+      "f3": {
+        "title": "Analytics & Insights:",
+        "desc": "Get to know your guests in depth."
+      },
+      "f4": {
+        "title": "Trip planner:",
+        "desc": "Become your guests' ultimate source of inspiration and authentic experiences."
+      },
+      "f5": {
+        "title": "Live chat:",
+        "desc": "One-touch personal care."
+      },
+      "f6": {
+        "title": "Spa & Wellness:",
+        "desc": "Relaxation that starts with the reservation."
+      },
+      "f7": {
+        "title": "Mobile ordering:",
+        "desc": "Room service and exclusive offers right on your phone. Increase sales by conveniently ordering food and experiences in just a few clicks."
+      }
+    }
+  },
+  "smallHotels": {
+    "hero": {
+      "title": "A higher level of experience for smaller hotels",
+      "desc": "Modernize your operations with Otel Apps. Automate routines, reach the right guests and gain the freedom to run your hotel your way.",
+      "button": "Try the demo"
+    },
+    "advantages": {
+      "title": "Power, simplicity and flexibility in one system",
+      "subtitle": "Our PMS simplifies daily operations, reduces manual routines and improves the guest journey from booking to departure.",
+      "f1": {
+        "title": "Save time",
+        "desc": "Automate routines and free your team from administration. Give them the space to focus on what matters most: your guests."
+      },
+      "f2": {
+        "title": "More control",
+        "desc": "Take full control of your bookings, pricing and cleaning coordination. With one intuitive interface, you can see everything you need at a glance, all in one place."
+      },
+      "f3": {
+        "title": "Increase your revenue and profitability",
+        "desc": "Maximize your revenue with dynamic pricing and targeted upselling of additional services. Offer your guests more when they need it most."
+      },
+      "f4": {
+        "title": "Put the guest experience first",
+        "desc": "Offer them fast, no-queue check-in, seamless checkout and instant communication with your team."
+      },
+      "f5": {
+        "title": "Faster check-in and check-out without queues",
+        "desc": "Offer guests the convenience of self-service kiosks and mobile check-in. Speed ​​up front desk operations and give guests easy access to their rooms."
+      },
+      "f6": {
+        "title": "Process automation",
+        "desc": "Connect your entire hotel – from reservations to housekeeping – into one seamless workflow. Minimize errors and maximize your team's efficiency."
+      }
+    },
+    "keyFunctions": {
+      "title": "Key functions for small and medium-sized hotels",
+      "desc": "A comprehensive set of tools for efficient management of your hotel. Get a system that takes care of the daily operations and dedicate your valuable time to what makes your hotel truly exceptional, personal care for your guests.",
+      "f1": {
+        "title": "Cloud access:",
+        "desc": "Manage your hotel from anywhere, anytime. With a cloud solution, you have all the data and control over the operation at all times in your hands."
+      },
+      "f2": {
+        "title": "Direct bookings:",
+        "desc": "Get more orders directly and increase your profits with integrated upselling of additional services right at the time of booking."
+      },
+      "f3": {
+        "title": "Smart Reservation Management:",
+        "desc": "Clear timeline, easy room assignment and instant overview of total occupancy. All intuitively in one place."
+      },
+      "f4": {
+        "title": "Self-service solutions:",
+        "desc": "Offer guests convenience with mobile check-in and self-service kiosks. Fast check-in without queues and unnecessary waiting."
+      },
+      "f5": {
+        "title": "Smart price and sales management:",
+        "desc": "Flexible price management and automatic response to demand."
+      },
+      "f6": {
+        "title": "Integrated and secure payments:",
+        "desc": "Simple and secure transactions."
+      },
+      "f7": {
+        "title": "Effective cleaning management:",
+        "desc": "Instant real-time room status and automatic priority cleaning scheduling."
+      },
+      "f8": {
+        "title": "Reports & analytics:",
+        "desc": "Make decisions based on real data."
+      }
+    },
+    "howItWorks": {
+      "title": "Designed for simplicity and flexibility",
+      "subtitle": "We believe that technology should make your journey easier, not more complicated. Our cloud platform is designed from the ground up to be an intuitive tool that you can fully customize to your needs.",
+      "step1": {
+        "title": "Anyone can do it easily",
+        "desc": "Intuitive interface, clear dashboards, and training tailored to specific team roles."
+      },
+      "step2": {
+        "title": "A system that grows with you",
+        "desc": "Connect to a wide range of applications and customize the look and functionality to your exact needs."
+      },
+      "step3": {
+        "title": "All reservations under one roof",
+        "desc": "Connect to distribution channels and manage everything from one place."
+      }
+    }
+  }
+}
