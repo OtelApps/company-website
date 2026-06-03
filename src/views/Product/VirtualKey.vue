@@ -6,7 +6,7 @@
         <!-- Left Section - Text -->
         <section class="space-y-6">
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            Váš smartphone je nový klíč
+            Telefon jako klíč
           </h1>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
             Zapomeňte na ztracené plastové karty a fronty na recepci. S virtuální pokojovou kartou v aplikaci mohou vaši hosté odemknout dveře svého pokoje pouhým přiložením telefonu.
@@ -91,7 +91,7 @@
         
         <div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6 max-w-5xl mx-auto">
           <!-- Large Card -->
-          <div class="md:col-span-2 md:row-span-2 bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-8 text-white flex flex-col justify-between hover:shadow-lg transition-shadow">
+          <div class="md:col-span-2 md:row-span-2 bg-gradient-to-br from-green-600 to-green-800 rounded-3xl p-8 text-white flex flex-col justify-between hover:shadow-lg transition-shadow">
             <div>
               <span class="material-symbols-outlined text-5xl mb-6 text-blue-200">security</span>
               <h3 class="text-2xl font-bold mb-4">Nejvyšší bezpečnost</h3>

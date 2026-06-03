@@ -121,7 +121,7 @@
             </div>
             <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Interaktivní mapa</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Přehledná mapa Prahy s vyznačenými body zájmu, která hosty navede přímo k cíli.
+              Přehledná mapa Prahy s vyznačenými body, která hosty navede přímo k cíli.
             </p>
           </article>
 
@@ -132,7 +132,7 @@
             </div>
             <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Nejznámější památky</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Katedrála sv. Víta, Karlův most nebo Staroměstské náměstí. Hosté snadno zjistí informace a otevírací doby.
+              Katedrála sv. Víta, Karlův most nebo Staroměstské náměstí. Hosté snadno zjistí potřebné informace.
             </p>
           </article>
 

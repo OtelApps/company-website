@@ -6,10 +6,10 @@
         <!-- Left Section - Text -->
         <section class="space-y-6">
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            Provázejte hosty celou jejich cestou
+            Provázejte hosty celým jejich pobytem
           </h1>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-            Od okamžiku rezervace, přes bezkontaktní pobyt, až po hladký online odjezd. OtelApps digitalizuje a zjednodušuje každý krok cesty hosta, zvyšuje vaše tržby a šetří čas hotelovému personálu.
+            Od okamžiku rezervace, přes bezstarostný pobyt, až po pohodlný odjezd. Otel Apps digitalizuje a zjednodušuje každý krok na hostově cestě, zvyšuje vaše tržby a šetří čas vašemu personálu.
           </p>
           <button
             class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer hover:bg-gray-50 transition-colors"
@@ -90,16 +90,16 @@
     </section>
 
     <!-- Phase 1: Před příjezdem (Dark Section) -->
-    <section class="py-20 bg-gray-950 text-white">
+    <section class="py-20 bg-gray-900 text-white">
       <div class="max-w-screen-2xl mx-auto px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <!-- Text and feature lists -->
           <div class="space-y-8 order-2 lg:order-1">
             <header class="space-y-4">
-              <span class="bg-[#f5a623]/25 text-[#f5a623] px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">Fáze 1</span>
+              <span class="bg-[#f5a623]/25 text-[#f5a623] px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">1. FÁZE</span>
               <h2 class="text-3xl sm:text-4xl font-bold leading-tight">Před příjezdem: První dojem dělá divy</h2>
               <p class="text-gray-400 text-base sm:text-lg">
-                Zaujměte hosty ještě předtím, než překročí práh hotelu. Nabídněte jim plně digitální odbavení z pohodlí domova a zjistěte jejich preference.
+                Zaujměte hosty ještě předtím, než překročí práh vašeho hotelu. Nabídněte jim plně digitální check-in z pohodlí domova a zjistěte jejich preference.
               </p>
             </header>
 
@@ -118,7 +118,7 @@
 
               <article class="bg-white/5 border border-white/10 p-5 rounded-2xl space-y-2">
                 <span class="material-symbols-outlined text-3xl text-[#f5a623]">page_info</span>
-                <h3 class="font-bold text-white text-base">Digitální průvodce (Directory)</h3>
+                <h3 class="font-bold text-white text-base">Digitální průvodce</h3>
                 <p class="text-xs text-gray-400">Zodpovězte často kladené dotazy dříve, než se hosté vůbec stihnou zeptat.</p>
               </article>
 
@@ -164,7 +164,7 @@
               <!-- Hotel Logo & Welcome -->
               <div class="flex justify-between items-center">
                 <div>
-                   <h3 class="font-bold text-gray-900 text-lg">Hotel Grand Praha</h3>
+                   <h3 class="font-bold text-gray-900 text-lg">Hotel Otel Apps</h3>
                    <p class="text-xs text-gray-500 font-medium">Pokoj 204 • Wifi: Grand_Guest</p>
                 </div>
                 <div class="w-8 h-8 rounded-full bg-yellow-100 flex items-center justify-center">
@@ -206,10 +206,10 @@
           <!-- Text and features list -->
           <div class="space-y-8">
             <header class="space-y-4">
-              <span class="bg-[#f5a623]/25 text-[#f5a623] px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">Fáze 2</span>
-              <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">Během pobytu: Maximální zážitek s nulovým třením</h2>
+              <span class="bg-[#f5a623]/25 text-[#f5a623] px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">2. FÁZE</span>
+              <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">Během pobytu: zážitek bez komplikací</h2>
               <p class="text-gray-600 text-base sm:text-lg">
-                Udělejte pobyt svých hostů pohodlným a nezapomenutelným. Veškeré služby, mobilní klíče i komunikaci s recepcí mají okamžitě k dispozici ve svém telefonu bez instalace aplikací.
+                Udělejte pobyt svých hostů pohodlným a nezapomenutelným. Veškeré služby, mobilní klíče i komunikaci s recepcí mají okamžitě k dispozici ve svém telefonu.
               </p>
             </header>
 
@@ -217,13 +217,13 @@
               <article class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 space-y-2">
                 <span class="material-symbols-outlined text-3xl text-[#f5a623]">key</span>
                 <h3 class="font-bold text-gray-900 text-base">Virtuální klíč od pokoje</h3>
-                <p class="text-xs text-gray-600">Bezkontaktní a bezpečné otevírání pokojových dveří rovnou ze smartphonu hosta.</p>
+                <p class="text-xs text-gray-600">Bezkontaktní a bezpečné otevírání pokojových dveří ze telefonu hosta.</p>
               </article>
 
               <article class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 space-y-2">
                 <span class="material-symbols-outlined text-3xl text-[#f5a623]">menu_book</span>
                 <h3 class="font-bold text-gray-900 text-base">Chytrý katalog služeb</h3>
-                <p class="text-xs text-gray-600">Objednávání pokojové služby, rezervace wellness a doplňkového prodeje na jeden klik.</p>
+                <p class="text-xs text-gray-600">Objednávání pokojové služby, rezervace wellness a produktů z nabídky hotelu na jeden klik.</p>
               </article>
 
               <article class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 space-y-2">
@@ -235,7 +235,7 @@
               <article class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 space-y-2">
                 <span class="material-symbols-outlined text-3xl text-[#f5a623]">support_agent</span>
                 <h3 class="font-bold text-gray-900 text-base">Komunikace s recepcí</h3>
-                <p class="text-xs text-gray-600">Hosté mohou komunikovat s recepcí prostřednictvím vestavěného chatu nebo přes WhatsApp.</p>
+                <p class="text-xs text-gray-600">Hosté mohou komunikovat s recepcí prostřednictvím mobilní aplikace.</p>
               </article>
             </div>
           </div>
@@ -244,13 +244,13 @@
     </section>
 
     <!-- Phase 3: Před odjezdem (Dark Section) -->
-    <section class="py-20 bg-gray-950 text-white">
+    <section class="py-20 bg-gray-900 text-white">
       <div class="max-w-screen-2xl mx-auto px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <!-- Text and feature lists -->
           <div class="space-y-8 order-2 lg:order-1">
             <header class="space-y-4">
-              <span class="bg-[#f5a623]/25 text-[#f5a623] px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">Fáze 3</span>
+              <span class="bg-[#f5a623]/25 text-[#f5a623] px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">3. FÁZE</span>
               <h2 class="text-3xl sm:text-4xl font-bold leading-tight">Před odjezdem: Perfektní dojem až do konce</h2>
               <p class="text-gray-400 text-base sm:text-lg">
                 Ujistěte se, že odjezd proběhne bez front na recepci. Umožněte hostům zkontrolovat účet a zaplatit z pokoje, a poté je potěšte personalizovaným rozloučením.
@@ -261,7 +261,7 @@
               <article class="bg-white/5 border border-white/10 p-5 rounded-2xl space-y-2">
                 <span class="material-symbols-outlined text-3xl text-[#f5a623]">credit_score</span>
                 <h3 class="font-bold text-white text-base">Online Check-out a platba</h3>
-                <p class="text-xs text-gray-400">Host zkontroluje finální hotelový účet (včetně útraty) a zaplatí jej online.</p>
+                <p class="text-xs text-gray-400">Host zkontroluje finální pokojový účet a zaplatí jej online při check-outu.</p>
               </article>
 
               <article class="bg-white/5 border border-white/10 p-5 rounded-2xl space-y-2">

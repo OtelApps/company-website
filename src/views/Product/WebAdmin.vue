@@ -77,11 +77,10 @@
           </figure>
           <div class="order-1 lg:order-2 space-y-6">
             <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-              Obsah pod kontrolou — bez rozházených verzí
+              Obsah pod kontrolou
             </h2>
             <p class="text-gray-600 leading-relaxed">
-              Jeden přehled místo roztroušených dokumentů. Úpravy se promítnou do aplikace pro hosty tak, aby byl zážitek
-              v souladu s vaší značkou.
+              Jedno přehledné místo pro všechno, co potřebujete řešit a mít pod kontrolou.
             </p>
             <ul class="space-y-4">
               <li v-for="(row, i) in featureRows" :key="i" class="flex gap-3">
@@ -122,9 +121,8 @@
             vazbě nebo concierge požadavcích.
           </p>
           <p class="text-sm sm:text-base text-gray-700 leading-relaxed">
-            Cílem není „další admin“, ale méně chyb, rychlejší reakce na hosta a jednotná značka napříč tím, co host v
-            telefonu vidí. Díky modulům se systém přizpůsobí velikosti provozu — od butikového hotelu po resort s více
-            službami — bez zbytečných obrazovek, které by personál zahlcovaly.
+            Cílem není „další admin“, ale méně chyb, rychlejší reakce na hosta a jednotná značka napříč tím, co host v telefonu vidí. 
+            Díky modulům se systém přizpůsobí velikosti provozu, od butikového hotelu po resort s širokým výběrem služeb.
           </p>
         </div>
       </div>
@@ -191,10 +189,9 @@
               <span class="material-symbols-outlined text-3xl">code</span>
             </div>
             <div>
-              <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-2">Technologie</h2>
               <p class="text-gray-700 leading-relaxed max-w-xl">
-                Postaveno na Laravel + React — rychlý, moderní webový zážitek pro administrátora a základ pro bezpečný
-                provoz v hotelovém prostředí.
+                Náš WebAdmin slouží k správě hostů a jejich potřebám - jednoduché CRM pro přehlednost, efektivnost a vyšší výnosnost z každého hosta, 
+                díky personalizovanému a jednoduchému upsellu.
               </p>
             </div>
           </article>

@@ -9,8 +9,7 @@
             Buďte neustále ve spojení se svými hosty
           </h1>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-            Spojte živou komunikaci s recepcí s chytrou AI virtuální recepční, 
-            která okamžitě odpovídá na dotazy a doporučuje vaše služby 24 hodin denně, 7 dní v týdnu.
+            Komunikujte snadno a rychle se svými hosty a ulevte personálů díky chytré AI virtuální recepční, která okamžitě vyřídí rutinní dotazy a doporučuje vaše služby 24 hodin denně, 7 dní v týdnu.
           </p>
           <button
             class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer hover:bg-gray-50 transition-colors"
@@ -57,10 +56,10 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <header class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-            Komplexní řešení pro komunikaci
+            Komplexní řešení pro komunikaci s hosty
           </h2>
           <p class="text-lg text-gray-400 max-w-3xl mx-auto">
-            Zajistěte okamžitou odezvu na každý dotaz. Náš systém chytře kombinuje umělou inteligenci s lidským přístupem.
+            Zajistěte okamžitou odpověď na každý dotaz hostů. Náš systém chytře kombinuje umělou inteligenci s lidským přístupem.
           </p>
         </header>
 
@@ -108,9 +107,9 @@
               <span class="material-symbols-outlined text-[#f5a623] text-3xl">translate</span>
             </div>
             <div>
-              <h3 class="text-xl font-semibold mb-3">Vícejazyčná podpora</h3>
+              <h3 class="text-xl font-semibold mb-3">Vícejazyčná podpora a automatický překlad</h3>
               <p class="text-gray-400 leading-relaxed text-sm sm:text-base">
-                Překonejte jazykové bariéry. Komunikujte s hosty v jejich mateřštině. Náš systém automaticky a přesně překládá komunikaci v reálném čase.
+                Překonejte jazykové bariéry. Komunikujte s hosty v jejich mateřském jazyce. Náš systém automaticky překládá komunikaci v reálném čase.
               </p>
             </div>
           </div>
@@ -133,7 +132,7 @@
             <span class="material-symbols-outlined text-4xl text-[#f5a623] mb-6 block">battery_charging_full</span>
             <h3 class="text-xl font-semibold text-gray-900 mb-4">Úleva pro recepci</h3>
             <p class="text-gray-600 text-sm sm:text-base">
-              Až 70 % běžných dotazů typu "kdy jsou snídaně" nebo "jaké je heslo na Wi-Fi" vyřeší AI automaticky. Zaměstnanci se tak mohou věnovat lidem u pultu.
+              Až 70 % běžných dotazů typu "kdy jsou snídaně" nebo "jaké je heslo na Wi-Fi" vyřeší AI recepční automaticky. Personál se tak může plně věnovat vašim hostům.
             </p>
           </div>
 
@@ -142,7 +141,7 @@
             <span class="material-symbols-outlined text-4xl text-[#f5a623] mb-6 block relative z-10">trending_up</span>
             <h3 class="text-xl font-semibold text-gray-900 mb-4 relative z-10">Zvýšení tržeb</h3>
             <p class="text-gray-600 text-sm sm:text-base relative z-10">
-              Pokud se host ptá na masáže, umělá inteligence mu okamžitě pošle odkaz na rezervaci nebo nabídne slevu, a významně tak podpoří prodej dalších služeb.
+              Pokud se host ptá na masáže, umělá inteligence mu okamžitě pošle odkaz na rezervaci nebo nabídne slevu, a významně tak podpoří prodej doplňkových služeb.
             </p>
           </div>
 
