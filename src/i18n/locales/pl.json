@@ -17,7 +17,7 @@
         "desc": "Pokaż gościom to, co najlepsze w Twojej ofercie i zwiększ przychody."
       },
       "guestWebApp": {
-        "title": "Aplikacja webowa dla gości (wkrótce)",
+        "title": "Aplikacja webowa dla gości",
         "desc": "Bez pobierania aplikacji. Gość ma wszystko pod ręką w przeglądarce."
       },
       "hotelDirectory": {
@@ -465,6 +465,90 @@
       ]
     }
   },
+  "webApp": {
+    "section1": {
+      "title": "Aplikacja internetowa dla gości",
+      "desc": "Nie obciążaj gości pobieraniem aplikacji. Wystarczy otworzyć przeglądarkę – a gość ma wszystko pod ręką: informacje o hotelu, zamówienia, rezerwacje i opinie.",
+      "button": "Wypróbuj wersję demo"
+    },
+    "preview": {
+      "title": "Doświadczenie jak w aplikacji natywnej",
+      "subtitle": "Nowoczesny interfejs mobilny, który goście znają z aplikacji – bez instalacji. Wszystko działa w przeglądarce na telefonie, tablecie i komputerze.",
+      "screens": [
+        "Ekran główny",
+        "Przegląd usług i tipów",
+        "Oferta pokoi",
+        "Szczegóły pokoju"
+      ]
+    },
+    "section2": {
+      "title": "Dlaczego aplikacja webowa?",
+      "subtitle": "Ten sam komfort co aplikacja mobilna, bez barier. Gość otwiera link lub skanuje kod QR i od razu ma dostęp do wszystkiego, co oferuje hotel.",
+      "items": [
+        "Bez pobierania i rejestracji",
+        "Natychmiastowy dostęp z dowolnego miejsca",
+        "Działa na każdym urządzeniu"
+      ],
+      "desc": [
+        "Bez sklepu z aplikacjami, bez aktualizacji po stronie gości. Wystarczy link do aplikacji webowej – najlepiej z kodu QR w pokoju, na recepcji lub w e-mailu przed przyjazdem.",
+        "Gość ma usługi hotelu w zasięgu ręki w kilka sekund. Informacje, zamówienia i rezerwacje bez czekania na recepcji.",
+        "Responsywny design dopasowuje się do iPhone'a, Androida i tabletów. Jedna platforma dla wszystkich gości, niezależnie od urządzenia."
+      ]
+    },
+    "section3": {
+      "title": "Co możesz zaoferować gościom?",
+      "desc": "Aplikacja webowa obejmuje te same kluczowe funkcje co rozwiązania natywne. Goście przeglądają intuicyjnie – od przeglądu hotelu po szczegóły pokoju lub zamówienie w restauracji.",
+      "items": [
+        "Informacje o hotelu: ",
+        "Oferta pokoi i mapa: ",
+        "Restauracje i bary: ",
+        "Usługi i pre-check-in: ",
+        "Czat i opinie: "
+      ],
+      "idesc": [
+        "Recepcja, udogodnienia, godziny otwarcia i praktyczne informacje w jednym miejscu – przejrzyście i zawsze aktualnie.",
+        "Prezentuj typy pokoi ze zdjęciami i opisami. Gość może zobaczyć szczegóły, w tym wyposażenie i metraż.",
+        "Menu, rezerwacje stolików i tipy w okolicy – wszystko dostępne bezpośrednio z przeglądarki mobilnej.",
+        "Szybki dostęp do usług hotelu, online pre-check-in i możliwość oceny pobytu jeszcze na miejscu.",
+        "Czat na żywo z recepcją i natychmiastowa opinia bez dzwonienia na recepcję."
+      ]
+    },
+    "section4": {
+      "title": "Jak to działa?",
+      "subtitle": "Prosty proces dla gości i zespołu. Aplikacja webowa łączy się płynnie z ekosystemem Otel Apps od pierwszego dnia.",
+      "items": [
+        "Gość otwiera link lub skanuje QR",
+        "Przegląda i zamawia usługi",
+        "Personel otrzymuje prośbę",
+        "Zadowolony gość, mniej kolejek"
+      ],
+      "desc": [
+        "Po przyjeździe lub przed check-inem gość otwiera aplikację webową w przeglądarce – bez instalacji i konta w sklepie z aplikacjami.",
+        "W przejrzystym interfejsie znajduje informacje, wybiera pokój, zamawia w restauracji lub prosi o obsługę pokojową.",
+        "Prośby trafiają do systemu personelu tak jak z aplikacji natywnej – przejrzyście i w czasie rzeczywistym.",
+        "Gość ma wszystko pod ręką, recepcja obsługuje mniej rutynowych pytań, a Ty lepiej upsellujesz usługi hotelu."
+      ]
+    },
+    "section5": {
+      "title": "Korzyści dla Twojego hotelu",
+      "items": [
+        "Niższa bariera dla gości",
+        "Szybsze wdrożenie usług",
+        "Oszczędność kosztów",
+        "Wyższe przychody z usług dodatkowych",
+        "Twoje branding",
+        "Zawsze najnowsza wersja"
+      ],
+      "desc": [
+        "Goście nie muszą nic pobierać – więcej z nich faktycznie korzysta z oferowanych usług cyfrowych.",
+        "Udostępnij link lub kod QR zaraz po rezerwacji. Goście zaczynają korzystać z aplikacji, zanim dotrą na recepcję.",
+        "Jedna platforma webowa zamiast osobnego rozwoju i utrzymania wersji iOS i Android dla gości.",
+        "Łatwy upselling restauracji, wellness, room service i innych ofert w interfejsie, który goście naprawdę otwierają.",
+        "Kolory, logo i treść pod Twoją kontrolą – gość widzi Twój hotel, nie generyczny szablon.",
+        "Wdrażaj aktualizacje natychmiast dla wszystkich. Goście zawsze używają najnowszej wersji bez ręcznej aktualizacji."
+      ]
+    }
+  },
   "instantFeedback": {
     "section1": {
       "title": "Radź sobie z negatywnymi doświadczeniami gości na bieżąco",
@@ -706,7 +790,7 @@
     "accessMethods": {
       "title": "Nowoczesny i zrozumiały dostęp dla każdego gościa",
       "desc": "Dostęp do Twoich usług jest możliwy z dowolnego miejsca. Dzięki różnym opcjom dostępu do aplikacji gwarantujemy, że każdy będzie miał łatwy i szybki dostęp do Twoich treści cyfrowych.",
-      "webAppTitle": "Aplikacja internetowa dla gości (wkrótce)",
+      "webAppTitle": "Aplikacja internetowa dla gości",
       "webAppDesc": "Nie obciążaj gości pobieraniem aplikacji. Wystarczy otworzyć przeglądarkę internetową, a wszystkie usługi hotelowe będą od razu na wyciągnięcie ręki.",
       "nativeAppTitle": "Aplikacje mobilne na iOS i Androida",
       "nativeAppDesc": "Zaoferuj gościom aplikację w Twoim własnym stylu. Dzięki ekskluzywnym funkcjom, takim jak mobilny wirtualny klucz do pokoju, przeniesiesz pobyt na najwyższy poziom.",

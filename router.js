@@ -14,6 +14,7 @@ import MobileOrdering from './src/views/Product/MobileOrdering.vue'
 import CityCenter from './src/views/Solutions/CityCenter.vue'
 import SmallHotels from './src/views/Solutions/SmallHotels.vue'
 import Boutiques from './src/views/Solutions/Boutiques.vue'
+import WebApp from './src/views/Product/WebApp.vue'
 
 const routes = [
   { path: '/', component: HomePage },
@@ -31,6 +32,7 @@ const routes = [
   { path: '/Solution/CityCenter', component: CityCenter },
   { path: '/Solution/SmallHotels', component: SmallHotels },
   { path: '/Solution/Boutiques', component: Boutiques },
+  { path: '/Product/WebApp', component: WebApp },
 ]
 
 const router = createRouter({

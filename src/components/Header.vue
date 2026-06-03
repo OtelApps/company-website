@@ -312,7 +312,7 @@
                   </div>
                   <div class="flex items-start space-x-3">
                     <span class="material-symbols-outlined">desktop_windows</span>
-                    <router-link to="/Product/GuestApp" @click="closeMobileMenu" class="flex flex-col">
+                    <router-link to="/Product/WebApp" @click="closeMobileMenu" class="flex flex-col">
                       <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.guestWebApp.title') }}</div>
                       <p class="text-sm text-gray-600 dark:text-white">
                         {{ $t('header.menu.guestWebApp.desc') }}
@@ -523,7 +523,7 @@
               </div>
               <div class="flex items-start space-x-3">
                 <span class="material-symbols-outlined">desktop_windows</span>
-                <router-link to="/Product/GuestApp" @click="isProductOpen = false" class="flex flex-col">
+                <router-link to="/Product/WebApp" @click="isProductOpen = false" class="flex flex-col">
                   <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.guestWebApp.title') }}</div>
                   <p class="text-sm text-gray-600 dark:text-white">
                     {{ $t('header.menu.guestWebApp.desc') }}

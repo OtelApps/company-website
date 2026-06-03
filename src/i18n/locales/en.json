@@ -17,7 +17,7 @@
         "desc": "Show guests the best of your offer and drive revenue growth."
       },
       "guestWebApp": {
-        "title": "Guest web app (coming soon)",
+        "title": "Guest web app",
         "desc": "No app downloads required. Guests get everything they need in their browser."
       },
       "hotelDirectory": {
@@ -464,6 +464,90 @@
       ]
     }
   },
+  "webApp": {
+    "section1": {
+      "title": "Web app for guests",
+      "desc": "Don't burden guests with downloading apps. Just open a web browser and your guest has everything at their fingertips – hotel information, orders, reservations and feedback.",
+      "button": "Try the demo"
+    },
+    "preview": {
+      "title": "An experience like a native app",
+      "subtitle": "A modern mobile interface guests know from apps – with nothing to install. Everything runs right in the browser on phone, tablet and desktop.",
+      "screens": [
+        "Home screen",
+        "Services and tips",
+        "Room offer",
+        "Room detail"
+      ]
+    },
+    "section2": {
+      "title": "Why a web app?",
+      "subtitle": "The same comfort as a mobile app, without barriers. Guests open a link or scan a QR code and instantly access everything your hotel offers.",
+      "items": [
+        "No downloads or sign-up",
+        "Instant access from anywhere",
+        "Works on every device"
+      ],
+      "desc": [
+        "No app store, no updates for guests. A link to the web app is enough – ideally from a QR code in the room, at reception or in a pre-arrival email.",
+        "Guests reach hotel services in seconds. Information, orders and reservations without waiting at the front desk.",
+        "Responsive design adapts to iPhone, Android and tablets. One platform for all guests regardless of device."
+      ]
+    },
+    "section3": {
+      "title": "What can you offer guests?",
+      "desc": "The web app covers the same key features as native solutions. Guests browse intuitively – from hotel overview to room details or restaurant orders.",
+      "items": [
+        "Hotel information: ",
+        "Rooms and map: ",
+        "Restaurants and bars: ",
+        "Services and pre-check-in: ",
+        "Chat and feedback: "
+      ],
+      "idesc": [
+        "Reception, amenities, opening hours and practical info in one place – clear and always up to date.",
+        "Present room types with photos and descriptions. Guests can view details including amenities and size.",
+        "Menus, table reservations and local tips – all available directly from the mobile browser.",
+        "Quick access to hotel services, online pre-check-in and the option to rate their stay while still on site.",
+        "Live chat with reception and instant feedback without calling the front desk."
+      ]
+    },
+    "section4": {
+      "title": "How does it work?",
+      "subtitle": "A simple process for guests and your team. The web app connects seamlessly with the Otel Apps ecosystem from day one.",
+      "items": [
+        "Guest opens link or scans QR",
+        "Browses and orders services",
+        "Staff receives the request",
+        "Happy guest, fewer queues"
+      ],
+      "desc": [
+        "On arrival or before check-in, guests open the web app in their browser – no installation and no app store account.",
+        "In a clear interface they find information, browse rooms, order from the restaurant or request in-room service.",
+        "Requests flow into staff systems just like from the native app – clearly and in real time.",
+        "Guests have everything at hand, reception handles fewer routine questions and you can upsell hotel services better."
+      ]
+    },
+    "section5": {
+      "title": "Benefits for your hotel",
+      "items": [
+        "Lower barrier for guests",
+        "Faster adoption of services",
+        "Cost savings",
+        "Higher ancillary revenue",
+        "Your branding",
+        "Always the latest version"
+      ],
+      "desc": [
+        "Guests don't need to download anything – more of them actually use the digital services you offer.",
+        "Share a link or QR code right after booking. Guests start using the app before they reach reception.",
+        "One web platform instead of developing and maintaining separate iOS and Android guest apps.",
+        "Easy upselling of restaurants, wellness, room service and more in an interface guests actually open.",
+        "Colors, logo and content fully under your control – guests see your hotel, not a generic template.",
+        "Deploy updates instantly for everyone. Guests always use the latest version without manual updates."
+      ]
+    }
+  },
   "instantFeedback": {
     "section1": {
       "title": "Deal with negative guest experiences as they happen",
@@ -696,7 +780,7 @@
     "accessMethods": {
       "title": "Modern and understandable access for every guest",
       "desc": "Your services are accessible from anywhere. With various access options to the app, we guarantee that everyone can access your digital content easily and without waiting.",
-      "webAppTitle": "Web app for guests (coming soon)",
+      "webAppTitle": "Web app for guests",
       "webAppDesc": "Don't burden guests with downloading apps. Just open a web browser and all hotel services are immediately at their fingertips.",
       "nativeAppTitle": "Mobile apps for iOS and Android",
       "nativeAppDesc": "Offer guests an app in your own design. With exclusive features such as a mobile virtual room key, you take the stay experience to the highest level.",

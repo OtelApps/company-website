@@ -17,7 +17,7 @@
         "desc": "Ukažte hostům to nejlepší z vaší nabídky a nastartujte tím růst tržeb."
       },
       "guestWebApp": {
-        "title": "Webová aplikace pro hosty (již brzy)",
+        "title": "Webová aplikace pro hosty",
         "desc": "Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč k tomu, aby měl váš host vše na dosah ruky."
       },
       "hotelDirectory": {
@@ -464,6 +464,90 @@
       ]
     }
   },
+  "webApp": {
+    "section1": {
+      "title": "Webová aplikace pro hosty",
+      "desc": "Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč k tomu, aby měl váš host vše na dosah ruky – informace o hotelu, objednávky, rezervace i zpětnou vazbu.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "preview": {
+      "title": "Zážitek jako v nativní aplikaci",
+      "subtitle": "Moderní mobilní rozhraní, které hosté znají z aplikací – bez nutnosti cokoli instalovat. Vše běží přímo v prohlížeči na telefonu, tabletu i počítači.",
+      "screens": [
+        "Domovská obrazovka",
+        "Přehled služeb a tipů",
+        "Nabídka pokojů",
+        "Detail pokoje"
+      ]
+    },
+    "section2": {
+      "title": "Proč webová aplikace?",
+      "subtitle": "Stejný komfort jako mobilní aplikace, ale bez bariér. Host otevře odkaz nebo naskenuje QR kód a okamžitě má přístup ke všemu, co váš hotel nabízí.",
+      "items": [
+        "Bez stahování a registrace",
+        "Okamžitý přístup odkudkoliv",
+        "Funguje na každém zařízení"
+      ],
+      "desc": [
+        "Žádné App Store, žádné aktualizace u hostů. Stačí odkaz na webovou aplikaci – ideálně z QR kódu v pokoji, na recepci nebo v e-mailu před příjezdem.",
+        "Host má služby hotelu na dosah během pár vteřin. Informace, objednávky i rezervace bez čekání na recepci.",
+        "Responzivní design se přizpůsobí iPhonu, Androidu i tabletu. Jedna platforma pro všechny hosty bez ohledu na to, jaké zařízení používají."
+      ]
+    },
+    "section3": {
+      "title": "Co všechno hostům nabídnete?",
+      "desc": "Webová aplikace pokrývá stejné klíčové funkce jako nativní řešení. Hosté procházejí obsah intuitivně – od přehledu hotelu až po detail pokoje nebo objednávku v restauraci.",
+      "items": [
+        "Informace o hotelu: ",
+        "Nabídka pokojů a mapa: ",
+        "Restaurace a bary: ",
+        "Služby a pre-check-in: ",
+        "Chat a zpětná vazba: "
+      ],
+      "idesc": [
+        "Recepce, vybavení, otevírací doby a praktické informace na jednom místě – přehledně a vždy aktuálně.",
+        "Prezentujte typy pokojů s fotografiemi a popisy. Host si může prohlédnout detaily včetně vybavení a rozměrů.",
+        "Menu, rezervace stolů i tipy na podniky v okolí – vše dostupné přímo z mobilního prohlížeče.",
+        "Rychlý přístup ke službám hotelu, online pre-check-in a možnost hodnotit pobyt ještě během něj.",
+        "Živý chat s recepcí a okamžitá zpětná vazba bez nutnosti volat na recepci."
+      ]
+    },
+    "section4": {
+      "title": "Jak to funguje?",
+      "subtitle": "Jednoduchý proces pro hosty i váš tým. Webová aplikace se hladce propojí s ekosystémem Otel Apps a začne pracovat od prvního dne.",
+      "items": [
+        "Host otevře odkaz nebo naskenuje QR",
+        "Prohlíží a objednává služby",
+        "Personál dostane požadavek",
+        "Spokojený host, méně front"
+      ],
+      "desc": [
+        "Po příjezdu nebo před check-inem host otevře webovou aplikaci v prohlížeči – bez instalace a bez účtu v obchodě s aplikacemi.",
+        "V přehledném rozhraní najde informace, vybere pokoj, objedná z restaurace nebo požádá o službu na pokoj.",
+        "Požadavky putují do systému pro personál stejně jako z nativní aplikace – přehledně a v reálném čase.",
+        "Host má vše po ruce, recepce řeší méně rutinních dotazů a vy můžete lépe upsellovat služby hotelu."
+      ]
+    },
+    "section5": {
+      "title": "Výhody pro váš hotel",
+      "items": [
+        "Nižší bariéra pro hosty",
+        "Rychlejší adopce služeb",
+        "Úspora nákladů",
+        "Vyšší tržby z doplňkových služeb",
+        "Váš branding",
+        "Vždy aktuální verze"
+      ],
+      "desc": [
+        "Hosté nemusí nic stahovat – více z nich skutečně využije digitální služby, které jim nabízíte.",
+        "Odkaz nebo QR kód stačí sdílet hned po rezervaci. Hosti začnou aplikaci používat dříve, než dorazí na recepci.",
+        "Jedna webová platforma místo vývoje a údržby separátních verzí pro iOS a Android u hostů.",
+        "Snadný upselling restaurací, wellness, pokojové služby a dalších nabídek přímo v rozhraní, které hosté opravdu otevřou.",
+        "Barvy, logo a obsah plně pod vaší kontrolou – host vidí váš hotel, ne generickou šablonu.",
+        "Aktualizace nasadíte okamžitě pro všechny. Hosté vždy používají nejnovější verzi bez ruční aktualizace."
+      ]
+    }
+  },
   "instantFeedback": {
     "section1": {
       "title": "Řešte negativní zážitky hostů hned, když nastanou",
@@ -705,7 +789,7 @@
     "accessMethods": {
       "title": "Moderní a srozumitelný přístup pro každého hosta",
       "desc": "Vaše služby jsou dostupné odkudkoliv. Díky různým možnostem přístupu k aplikaci garantujeme, že se k vašemu digitálnímu obsahu dostane každý snadno a bez čekání.",
-      "webAppTitle": "Webová aplikace pro hosty (coming soon)",
+      "webAppTitle": "Webová aplikace pro hosty",
       "webAppDesc": "Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč a všechny služby hotelu mají okamžitě na dosah ruky.",
       "nativeAppTitle": "Mobilní aplikace pro iOS a Android",
       "nativeAppDesc": "Nabídněte hostům aplikaci ve vašem vlastním designu. S exkluzivními funkcemi, jako je mobilní virtuální pokojový klíč od pokoje, posunete zážitek z pobytu na tu nejvyšší úroveň.",
