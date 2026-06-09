@@ -7,12 +7,10 @@
         <section class="text-white w-full lg:w-1/2 px-4 md:px-10 lg:px-16 mb-12 lg:mb-0">
           <div class="max-w-2xl">
             <h1 class="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-              Kontaktujte nás
+              {{ $t('contact.title') }}
             </h1>
             <p class="text-lg md:text-xl text-gray-200 leading-relaxed">
-              Máte otázky? My máme odpovědi (a nadšení pro hotelové inovace k tomu). Neváhejte se na
-              nás obrátit s jakýmkoliv dotazem, technickým detailem nebo vizí, kterou chcete
-              probrat.
+              {{ $t('contact.desc') }}
             </p>
           </div>
         </section>
@@ -35,9 +33,9 @@
                     <input
                       name="Jmeno"
                       type="text"
-                      placeholder="Jméno *"
+                      :placeholder="$t('contact.form.name') + ' *'"
                       pattern="[A-Za-zÁ-Žá-ž]+"
-                      title="Zadej pouze písmena"
+                      :title="$t('contact.form.errors[0]')"
                       class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                       required
                     />
@@ -46,9 +44,9 @@
                     <input
                       name="Prijmeni"
                       type="text"
-                      placeholder="Příjmení *"
+                      :placeholder="$t('contact.form.surname') + ' *'"
                       pattern="[A-Za-zÁ-Žá-ž]+"
-                      title="Zadej pouze písmena"
+                      :title="$t('contact.form.errors[0]')"
                       class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                       required
                     />
@@ -60,7 +58,7 @@
                   <input
                     name="Email"
                     type="email"
-                    placeholder="Email *"
+                    :placeholder="$t('contact.form.email') + ' *'"
                     class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                     required
                   />
@@ -74,21 +72,21 @@
                       class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                       required
                     >
-                      <option value="" disabled selected hidden>Země *</option>
-                      <option value="Ceska republika">Česká republika</option>
-                      <option value="Slovensko">Slovensko</option>
-                      <option value="Nemecko">Německo</option>
-                      <option value="Rakousko">Rakousko</option>
-                      <option value="Polsko">Polsko</option>
+                      <option value="" disabled selected hidden>{{ $t('contact.form.country') }} *</option>
+                      <option value="Ceska republika">{{ $t('contact.form.countries[0]') }}</option>
+                      <option value="Slovensko">{{ $t('contact.form.countries[1]') }}</option>
+                      <option value="Nemecko">{{ $t('contact.form.countries[2]') }}</option>
+                      <option value="Rakousko">{{ $t('contact.form.countries[3]') }}</option>
+                      <option value="Polsko">{{ $t('contact.form.countries[4]') }}</option>
                     </select>
                   </div>
                   <div>
                     <input
                       name="Telefonni cislo"
                       type="tel"
-                      placeholder="Telefonní číslo *"
+                      :placeholder="$t('contact.form.phone') + ' *'"
                       pattern="^\+?[0-9]{7,15}$"
-                      title="Zadejte telefonní číslo v mezinárodním formátu"
+                      :title="$t('contact.form.errors[1]')"
                       class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                       required
                     />
@@ -102,20 +100,20 @@
                     class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                     required
                   >
-                    <option value="" disabled selected hidden>Typ dotazu *</option>
-                    <option value="Prodej">Rád bych kontaktoval prodej</option>
-                    <option value="Podpora">Rád bych kontaktoval podporu</option>
-                    <option value="Admin">Rád bych kontaktoval administrátora</option>
-                    <option value="Jine">Jiné</option>
+                    <option value="" disabled selected hidden>{{ $t('contact.form.inquiry') }} *</option>
+                    <option value="Prodej">{{ $t('contact.form.inquiries[0]') }}</option>
+                    <option value="Podpora">{{ $t('contact.form.inquiries[1]') }}</option>
+                    <option value="Admin">{{ $t('contact.form.inquiries[2]') }}</option>
+                    <option value="Jine">{{ $t('contact.form.inquiries[3]') }}</option>
                   </select>
                 </div>
 
                 <!-- Message -->
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"> Zpráva * </label>
+                  <label class="block text-sm font-medium text-gray-700 mb-2">{{ $t('contact.form.message1') }} * </label>
                   <textarea
                     name="Zprava"
-                    placeholder="Vaše zpráva"
+                    :placeholder="$t('contact.form.message2') + ' *'"
                     rows="4"
                     class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white resize-none"
                     required
@@ -133,7 +131,7 @@
                       class="mt-1 h-4 w-4 text-[#f5a623] focus:ring-[#f5a623] border-black rounded"
                     />
                     <label for="communications" class="ml-3 text-sm text-gray-700">
-                      Souhlasím se zasíláním sdělení od OtelApps
+                      {{ $t('contact.form.communication') }}
                       <span class="text-red-500">*</span>
                     </label>
                   </div>
@@ -148,12 +146,12 @@
                       required
                     />
                     <label for="terms" class="ml-3 text-sm text-gray-700">
-                      Příjmám
-                      <a href="#" class="text-black underline font-semibold">Obchodní podmínky</a>
-                      a
-                      <a href="#" class="text-black underline font-semibold"
-                        >Zásady ochrany osobních údajů</a
-                      >
+                      {{ $t('contact.form.agreement[0]') }}
+                      <a href="#" class="text-black underline font-semibold">{{ $t('contact.form.agreement[1]') }}</a>
+                      {{ $t('contact.form.agreement[2]') }}
+                      <a href="#" class="text-black underline font-semibold">
+                        {{ $t('contact.form.agreement[3]') }}
+                      </a>
                       <span class="text-red-500">*</span>
                     </label>
                   </div>
@@ -164,7 +162,7 @@
                   type="submit"
                   class="w-full sm:w-[75%] lg:w-[50%] bg-[#ffa500] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
                 >
-                  Odeslat
+                  {{ $t('contact.form.button') }}
                 </button>
               </form>
             </div>

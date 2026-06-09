@@ -5,32 +5,32 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Mějte přání svých hostů pod kontrolou
+            <h1
+              class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+            >
+              {{ $t('taskManager.section1.title') }}
             </h1>
             <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-              Zvyšte produktivitu svého týmu při péči o hosty. Díky centralizaci všech úkolů a požadavků na jednom místě 
-              získáte dokonalý přehled a zajistíte, že žádné přání nezůstane bez odezvy.
+              {{ $t('taskManager.section1.desc') }}
             </p>
             <button
               class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Vyzkoušet demo-verzi
+              {{ $t('taskManager.section1.button') }}
             </button>
           </div>
 
           <!-- Right Section - Image -->
           <div class="flex items-center justify-center lg:justify-end">
-            <img :src="image1" alt="Task Manager Obrázek" class="w-3/4">
+            <img :src="image1" alt="Task Manager Obrázek" class="w-3/4" />
           </div>
         </div>
       </div>
     </section>
 
     <Advantages
-      title="Už žádné zapomenuté přání hosta"
-      subtitle="Náš Task Manager sjednocuje veškeré požadavky na jednom místě. Od objednávek na pokoj až po hlášení technických 
-      závad. Váš tým tak může každý úkol sledovat a vyřešit s maximální efektivitou. Už žádné ztracené lístky, žádné zmatky a žádná frustrace."
+      :title="$t('taskManager.section2.title')"
+      :subtitle="$t('taskManager.section2.subtitle')"
       :features="taskManagerAdvantages"
       background-color="bg-[#f4f4f4]"
     />
@@ -38,22 +38,21 @@
     <Features
       :image-src="image2"
       :image-alt="'Task Manager obrázek'"
-      title="Klíčové funkce"
-      description="Náš Task Manager je navržen tak, aby do vašeho každodenního provozu vnesl dokonalý řád a efektivitu. 
-      Díky výkonným a přitom intuitivním funkcím získáte nástroj, který vašemu týmu uvolní ruce pro to nejdůležitější, péči o hosty."
+      :title="$t('taskManager.section3.title')"
+      :description="$t('taskManager.section3.desc')"
       :features="taskManagerFeatures"
     />
 
     <HowItWorks
-      title="Jak to funguje?"
-      subtitle="Zjednodušte své pracovní postupy díky procesu, který udrží celý váš tým v dokonalém souladu a zajistí, že vaši hosté budou odcházet nadšení."
+      :title="$t('taskManager.section4.title')"
+      :subtitle="$t('taskManager.section4.subtitle')"
       :steps="taskManagerWork"
       :image="image3"
       image-alt="Task Manager obrázek"
     />
 
     <Benefits
-      title="Výhody pro váš hotelový a tým"
+      :title="$t('taskManager.section5.title')"
       :items="taskManagerBenefits"
       :rows="2"
       :columns="3"
@@ -85,111 +84,111 @@ export default {
       image1: image1,
       image2: image2,
       image3: image3,
-      taskManagerAdvantages: [
+    }
+  },
+  computed: {
+    taskManagerAdvantages() {
+      return [
         {
-          title: 'Všechny úkoly pod jednou střechou',
-          description:
-            'Získejte absolutní kontrolu nad chodem hotelu. Sledujte všechny čekající, rozpracované i dokončené úkoly v reálném čase z jednoho přehledného dashboardu, kde vám nic neunikne.',
+          title: this.$t('taskManager.section2.items.0'),
+          description: this.$t('taskManager.section2.desc.0'),
           icon: 'assignment',
         },
         {
-          title: 'Dokonalá souhra všech oddělení',
-          description:
-            'Delegujte požadavky hostů okamžitě těm správným lidem. Přiřazujte úkoly úklidu, údržbě nebo dalším týmům bleskově a bez chyb. Zajistěte, aby o každém požadavku věděli přesně ti kolegové, kteří ho mají vyřešit.',
+          title: this.$t('taskManager.section2.items.1'),
+          description: this.$t('taskManager.section2.desc.1'),
           icon: 'diversity_4',
         },
         {
-          title: 'Aktualizace v reálném čase',
-          description: 'Mějte hosty i svůj tým neustále v obraze. Sledujte průběh každého požadavku v přímém přenosu, od jeho přijetí až po finální vyřešení.',
+          title: this.$t('taskManager.section2.items.2'),
+          description: this.$t('taskManager.section2.desc.2'),
           icon: 'alarm',
         },
-      ],
-      taskManagerFeatures: [
+      ]
+    },
+    taskManagerFeatures() {
+      return [
         {
-          title: 'Centrální dashboard: ',
-          description:
-            'Sledujte všechny úkoly přehledně podle jejich stavu: čekající, v řešení nebo dokončeno. Už nikdy neztratíte žádný požadavek.',
+          title: this.$t('taskManager.section3.items.0'),
+          description: this.$t('taskManager.section3.idesc.0'),
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Specifické typy požadavků: ',
-          description:
-            'Spravujte požadavky na vybavení, technickou podporu nebo úklid díky dedikovaným kategoriím, které vnesou do práce řád.',
+          title: this.$t('taskManager.section3.items.1'),
+          description: this.$t('taskManager.section3.idesc.1'),
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Sledování stavu případů: ',
-          description:
-            'Poskytněte hostům aktuální informace o průběhu jejich požadavku. Zvýšíte tím jejich klid i celkový zážitek z pobytu.',
+          title: this.$t('taskManager.section3.items.2'),
+          description: this.$t('taskManager.section3.idesc.2'),
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Mobilní přístup pro personál: ',
-          description:
-            'Váš tým může přijímat a spravovat úkoly „za pochodu“ na jakémkoli mobilním zařízení kdekoli v areálu hotelu.',
+          title: this.$t('taskManager.section3.items.3'),
+          description: this.$t('taskManager.section3.idesc.3'),
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
         {
-          title: 'Nastavitelná transparentnost: ',
-          description: "Mějte plnou kontrolu nad tím, kolik detailů o průběhu řešení úkolu host uvidí. Vy rozhodujete, co je podstatné.",
+          title: this.$t('taskManager.section3.items.4'),
+          description: this.$t('taskManager.section3.idesc.4'),
           icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
         },
-      ],
-      taskManagerWork: [
+      ]
+    },
+    taskManagerWork() {
+      return [
         {
-          title: 'Požadavky na jednom místě',
-          description:
-            'Veškerá přání hostů z jakéhokoli kanálu se automaticky zaznamenávají do centrálního systému.',
+          title: this.$t('taskManager.section4.items.0'),
+          description: this.$t('taskManager.section4.desc.0'),
         },
         {
-          title: 'Delegování',
-          description:
-            'Úkoly jsou okamžitě delegovány správnému oddělení a vy můžete v reálném čase sledovat jejich průběh od začátku až do konce.',
+          title: this.$t('taskManager.section4.items.1'),
+          description: this.$t('taskManager.section4.desc.1'),
         },
         {
-          title: 'Efektivita v terénu',
-          description:
-            'Váš tým spravuje a aktualizuje úkoly přímo v sytému. Informace jsou tak bleskově dostupné pro všechny kolegy.',
+          title: this.$t('taskManager.section4.items.2'),
+          description: this.$t('taskManager.section4.desc.2'),
         },
         {
-          title: 'Informovaný host i tým',
-          description:
-            'Jakmile se změní stav úkolu, host i personál dostanou automatické upozornění.',
+          title: this.$t('taskManager.section4.items.3'),
+          description: this.$t('taskManager.section4.desc.3'),
         },
-      ],
-      taskManagerBenefits: [
+      ]
+    },
+    taskManagerBenefits() {
+      return [
         {
-          title: 'Lepší organizace',
-          description: 'Dejte sbohem provoznímu chaosu a zajistěte, aby žádný úkol nebyl zapomenut.',
-          icon: 'account_tree'
-        },
-        {
-          title: 'Navyšte efektivitu',
-          description: 'Zrychlete vyřízení každého požadavku na maximum a získejte více času pro své hosty díky chytrému workflow, které pracuje za vás.',
-          icon: 'bolt'
+          title: this.$t('taskManager.section5.items.0'),
+          description: this.$t('taskManager.section5.desc.0'),
+          icon: 'account_tree',
         },
         {
-          title: 'Zlepšete komunikaci',
-          description: 'Díky centralizovaným informacím a automatickým upozorněním bude váš hotel fungovat jako jeden celek, kde každý přesně ví, co se právě děje i váš host.',
-          icon: 'communication'
+          title: this.$t('taskManager.section5.items.1'),
+          description: this.$t('taskManager.section5.desc.1'),
+          icon: 'bolt',
         },
         {
-          title: 'Modernizace hotelového provozu',
-          description: 'Nahraďte zastaralé metody elegantním digitálním řešením, které do vašeho hotelu vnese klid, profesionalitu a dokonalý přehled.',
-          icon: 'hotel_class'
+          title: this.$t('taskManager.section5.items.2'),
+          description: this.$t('taskManager.section5.desc.2'),
+          icon: 'communication',
         },
         {
-          title: 'Měřitelný přínos pro váš hotel',
-          description: 'Naše pokročilá analytika vám umožní sledovat výkonnost týmu , identifikovat slabá místa v provozu a okamžitě reagovat na podněty, které brzdí váš růst.',
-          icon: 'finance'
+          title: this.$t('taskManager.section5.items.3'),
+          description: this.$t('taskManager.section5.desc.3'),
+          icon: 'hotel_class',
         },
         {
-          title: 'Intuitivní a jednoduché ovládání',
-          description: 'Díky přehlednému prostředí se váš tým naučí se systémem Otel Apps pracovat během chvíle.',
-          icon: 'desktop_windows'
+          title: this.$t('taskManager.section5.items.4'),
+          description: this.$t('taskManager.section5.desc.4'),
+          icon: 'finance',
         },
-      ],
-    }
+        {
+          title: this.$t('taskManager.section5.items.5'),
+          description: this.$t('taskManager.section5.desc.5'),
+          icon: 'desktop_windows',
+        },
+      ]
+    },
   },
 }
 </script>

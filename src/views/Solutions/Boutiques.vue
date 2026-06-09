@@ -6,22 +6,21 @@
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
             <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight">
-              Guest Experience systém pro boutique hotely
+              {{ $t('boutiques.hero.title') }}
             </h1>
             <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-              Otel Apps je navržen tak, aby zachoval exkluzivitu vašeho hotelu a zároveň vám umožnil poskytovat kvalitní a 
-              vysoce personalizovanou péči, kterou vaši hosté očekávají.
+              {{ $t('boutiques.hero.desc') }}
             </p>
             <button
               class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Vyzkoušet demo-verzi
+              {{ $t('boutiques.hero.button') }}
             </button>
           </div>
 
           <!-- Right Section - Image -->
           <div class="flex items-center justify-center lg:justify-end">
-            <img :src="image1" alt="Boutigues obrázek" class="w-9/10">
+            <img :src="image1" alt="Boutigues obrázek" class="w-9/10" />
           </div>
         </div>
       </div>
@@ -31,10 +30,10 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Tvořte nezapomenutelné zážitky
+            {{ $t('boutiques.features.title') }}
           </h2>
           <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
-            Dopřejte svým hostům výjimečný pobyt, který plně odráží jedinečný charakter a styl vašeho hotelu.
+            {{ $t('boutiques.features.desc') }}
           </p>
         </div>
 
@@ -45,13 +44,16 @@
             class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm text-center"
           >
             <div class="w-12 h-12 flex items-center justify-center mb-4 mx-auto">
-              <span class="material-symbols-outlined text-[#f5a623]"
-                style="font-size: 35px; font-variation-settings: 'opsz' 40;"
+              <span
+                class="material-symbols-outlined text-[#f5a623]"
+                style="font-size: 35px; font-variation-settings: 'opsz' 40"
               >
                 {{ feature.icon }}
               </span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ feature.title }}</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">
+              {{ feature.title }}
+            </h3>
             <p class="text-sm sm:text-base text-gray-600">{{ feature.description }}</p>
           </div>
         </div>
@@ -64,16 +66,16 @@
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
           <!-- Left visual placeholder -->
           <div class="lg:col-span-2 flex items-center justify-center">
-            <img :src="image2" alt="Boutigues obrázek" class="w-full">
+            <img :src="image2" alt="Boutigues obrázek" class="w-full" />
           </div>
 
           <!-- Right content: title, subtitle, features -->
           <div class="lg:col-span-3 px-4">
             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Klíčové funkce pro boutique hotely
+              {{ $t('boutiques.keyFunctions.title') }}
             </h2>
             <p class="text-base sm:text-lg text-gray-600 mb-8 max-w-2xl">
-              Pečlivě vybraná sada nástrojů navržená k posílení komfortu a osobního přístupu, který vaši hosté ocení.
+              {{ $t('boutiques.keyFunctions.desc') }}
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5">
@@ -83,8 +85,9 @@
                 class="flex items-start space-x-4"
               >
                 <div class="w-12 h-12 flex items-start justify-start">
-                  <span class="material-symbols-outlined text-[#f5a623]"
-                    style="font-size: 35px; font-variation-settings: 'opsz' 40;"
+                  <span
+                    class="material-symbols-outlined text-[#f5a623]"
+                    style="font-size: 35px; font-variation-settings: 'opsz' 40"
                   >
                     {{ item.icon }}
                   </span>
@@ -103,15 +106,15 @@
     </section>
 
     <HowItWorks
-      title="Technologie s lehkostí, zážitek s elegancí"
-      subtitle="Digitální řešení, které působí stejně osobně jako váš hotel. Naše platforma je digitálním prodloužením vaší značky, navrženým pro snadnost a eleganci."
+      :title="$t('boutiques.howItWorks.title')"
+      :subtitle="$t('boutiques.howItWorks.subtitle')"
       :steps="boutiquesWork"
       :image="image3"
       image-alt="Boutigues obrázek"
     />
 
     <Benefits
-      title="Výjimečný zážitek v boutique hotelu"
+      :title="$t('boutiques.benefits.title')"
       :items="boutiquesBenefits"
       :rows="1"
       :columns="2"
@@ -137,93 +140,102 @@ export default {
       image1: image1,
       image2: image2,
       image3: image3,
-      boutiquesFeatures: [
+    }
+  },
+  computed: {
+    boutiquesFeatures() {
+      return [
         {
-          title: 'Uchovejte si svou exkluzivitu',
-          description: "Váš digitální prostor by měl být stejně okouzlující jako váš hotel sám.",
+          title: this.$t('boutiques.features.f1.title'),
+          description: this.$t('boutiques.features.f1.desc'),
           icon: 'crown',
         },
         {
-          title: 'Péče, která buduje loajalitu',
-          description: 'V digitálním věku je rychlost synonymem pro kvalitu. Otel Apps vám dává nástroj k okamžitému spojení s každým hostem.',
+          title: this.$t('boutiques.features.f2.title'),
+          description: this.$t('boutiques.features.f2.desc'),
           icon: 'loyalty',
         },
         {
-          title: 'Budování vztahu s hosty',
-          description: 'Oslovte své hosty personalizovanými nabídkami a obsahem na míru.',
+          title: this.$t('boutiques.features.f3.title'),
+          description: this.$t('boutiques.features.f3.desc'),
           icon: 'handshake',
         },
         {
-          title: 'Konec zbytečného čekání',
-          description: 'Umožněte hostům zadávat požadavky a hledat informace v čase, kdy se to hodí jim. Rychle, digitálně a bez front.',
+          title: this.$t('boutiques.features.f4.title'),
+          description: this.$t('boutiques.features.f4.desc'),
           icon: 'clock_arrow_down',
         },
-      ],
-      keyFunctions: [
+      ]
+    },
+    keyFunctions() {
+      return [
         {
-          title: 'Hotelový digitální průvodce: ',
-          description: "Esence vašeho hotelu v digitální podobě.",
+          title: this.$t('boutiques.keyFunctions.f1.title'),
+          description: this.$t('boutiques.keyFunctions.f1.desc'),
           icon: 'screen_search_desktop',
         },
         {
-          title: 'Okamžitá zpětná vazba: ',
-          description: 'Vyřešte problémy dřív, než se stanou recenzí.',
+          title: this.$t('boutiques.keyFunctions.f2.title'),
+          description: this.$t('boutiques.keyFunctions.f2.desc'),
           icon: 'comment',
         },
         {
-          title: 'Analytika a statistiky: ',
-          description: 'Poznejte své hosty do hloubky.',
+          title: this.$t('boutiques.keyFunctions.f3.title'),
+          description: this.$t('boutiques.keyFunctions.f3.desc'),
           icon: 'analytics',
         },
         {
-          title: 'Trip planner: ',
-          description: 'Staňte se pro své hosty tím nejlepším zdrojem inspirace a autentických zážitků.',
+          title: this.$t('boutiques.keyFunctions.f4.title'),
+          description: this.$t('boutiques.keyFunctions.f4.desc'),
           icon: 'trip',
         },
         {
-          title: 'Live chat: ',
-          description: 'Osobní péče na jeden dotek.',
+          title: this.$t('boutiques.keyFunctions.f5.title'),
+          description: this.$t('boutiques.keyFunctions.f5.desc'),
           icon: 'chat',
         },
         {
-          title: 'Spa & Wellness: ',
-          description: 'Relaxace, která začíná už při rezervaci.',
+          title: this.$t('boutiques.keyFunctions.f6.title'),
+          description: this.$t('boutiques.keyFunctions.f6.desc'),
           icon: 'spa',
         },
         {
-          title: 'Mobilní objednávky: ',
-          description: 'Room Service a exkluzivní nabídky přímo v telefonu. Zvyšte tržby díky pohodlnému objednávání jídla i zážitků na pár kliknutí.',
+          title: this.$t('boutiques.keyFunctions.f7.title'),
+          description: this.$t('boutiques.keyFunctions.f7.desc'),
           icon: 'mobile',
         },
-      ],
-      boutiquesWork: [
+      ]
+    },
+    boutiquesWork() {
+      return [
         {
-          title: 'Moderní řešení pro moderního hosta',
-          description: 'Nabídněte hostům mobilní rozhraní pro okamžitý přístup k vašim službám.',
+          title: this.$t('boutiques.howItWorks.step1.title'),
+          description: this.$t('boutiques.howItWorks.step1.desc'),
         },
         {
-          title: 'Vaše identita v každém pixelu',
-          description: 'Přizpůsobte platformu tak, aby dokonale odrážela unikátní charakter a vizuální styl vašeho hotelu.',
+          title: this.$t('boutiques.howItWorks.step2.title'),
+          description: this.$t('boutiques.howItWorks.step2.desc'),
         },
         {
-          title: 'Dokonalá souhra vašich systémů',
-          description: 'Otel Apps spolupracuje s vašimi stávajícími nástroji a zajišťuje plynulý provoz.',
+          title: this.$t('boutiques.howItWorks.step3.title'),
+          description: this.$t('boutiques.howItWorks.step3.desc'),
         },
-      ],
-      boutiquesBenefits: [
+      ]
+    },
+    boutiquesBenefits() {
+      return [
         {
-          title: 'Služby v hostově kapse',
-          description:
-            'Okamžitý přístup ke všemu podstatnému přímo z telefonu hosta',
-          icon: 'mobile_2'
+          title: this.$t('boutiques.benefits.b1.title'),
+          description: this.$t('boutiques.benefits.b1.desc'),
+          icon: 'mobile_2',
         },
         {
-          title: 'Personalizace',
-          description: 'Nabídněte doporučení a služby šité na míru. Nadchněte své hosty pozorností k detailu, která promění obyčejný pobyt v nezapomenutelný zážitek.',
-          icon: 'person'
+          title: this.$t('boutiques.benefits.b2.title'),
+          description: this.$t('boutiques.benefits.b2.desc'),
+          icon: 'person',
         },
-      ],
-    }
+      ]
+    },
   },
 }
 </script>

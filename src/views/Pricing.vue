@@ -9,17 +9,15 @@
             <h1
               class="text-3xl md:text-4xl font-bold mb-6 md:mb-8 leading-tight"
             >
-              Flexibilní cenotvorba, která se přizpůsobí vašim potřebám
+              {{ $t('pricing.title') }}
             </h1>
 
             <div class="space-y-4 md:space-y-6">
               <h3 class="text-base sm:text-lg font-semibold">
-                Rádi pro vás připravíme návrh na míru.
+                {{ $t('pricing.subtitle') }}
               </h3>
               <p class="text-sm sm:text-base">
-                Pojďme společně vytvořit řešení, které bude dokonale ladit s vizí vašeho hotelu a
-                podpoří vaši jedinečnost. Každý hotel má svou unikátní DNA a my se už teď těšíme, až
-                tu vaši propojíme s technologiemi Otel Apps.
+                {{ $t('pricing.desc') }}
               </p>
             </div>
           </div>
@@ -44,14 +42,14 @@
                   <input
                     name="Jmeno"
                     type="text"
-                    placeholder="Jméno *"
+                    :placeholder="$t('pricing.form.name') + ' *'"
                     class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
                     required
                   />
                   <input
                     name="Prijmeni"
                     type="text"
-                    placeholder="Příjmení *"
+                    :placeholder="$t('pricing.form.surname') + ' *'"
                     class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
                     required
                   />
@@ -61,7 +59,7 @@
                 <input
                   name="Email"
                   type="email"
-                  placeholder="Pracovní email *"
+                  :placeholder="$t('pricing.form.email') + ' *'"
                   class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                   required
                 />
@@ -74,19 +72,19 @@
                       class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                       required
                     >
-                      <option value="" disabled selected hidden>Země *</option>
-                      <option value="Cesko">Česká republika</option>
-                      <option value="Slovensko">Slovensko</option>
-                      <option value="Nemecko">Německo</option>
-                      <option value="Rakousko">Rakousko</option>
-                      <option value="Polsko">Polsko</option>
+                      <option value="" disabled selected hidden>{{ $t('pricing.form.country') }} *</option>
+                      <option value="Cesko">{{ $t('pricing.form.countries[0]') }}</option>
+                      <option value="Slovensko">{{ $t('pricing.form.countries[1]') }}</option>
+                      <option value="Nemecko">{{ $t('pricing.form.countries[2]') }}</option>
+                      <option value="Rakousko">{{ $t('pricing.form.countries[3]') }}</option>
+                      <option value="Polsko">{{ $t('pricing.form.countries[4]') }}</option>
                     </select>
                   </div>
                   <div>
                     <input
                       name="Telefonni cislo"
                       type="tel"
-                      placeholder="Telefonní číslo *"
+                      :placeholder="$t('pricing.form.phone') + ' *'"
                       class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
                       required
                     />
@@ -100,13 +98,13 @@
                     class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                     required
                   >
-                    <option value="" disabled selected hidden>Pracovní titul *</option>
-                    <option value="Majitel / Zakladatel">Majitel / Zakladatel</option>
-                    <option value="Generalni reditel">Generální ředitel</option>
-                    <option value="IT / Technologicky manazer">IT / Technologický manažer</option>
-                    <option value="Manazer trzeb">Manažer tržeb</option>
-                    <option value="Manazer konzultant">Manažer konzultant</option>
-                    <option value="Jine">Jiné</option>
+                    <option value="" disabled selected hidden>{{ $t('pricing.form.title') }} *</option>
+                    <option value="Majitel / Zakladatel">{{ $t('pricing.form.titles[0]') }}</option>
+                    <option value="Generalni reditel">{{ $t('pricing.form.titles[1]') }}</option>
+                    <option value="IT / Technologicky manazer">{{ $t('pricing.form.titles[2]') }}</option>
+                    <option value="Manazer trzeb">{{ $t('pricing.form.titles[3]') }}</option>
+                    <option value="Manazer konzultant">{{ $t('pricing.form.titles[4]') }}</option>
+                    <option value="Jine">{{ $t('pricing.form.titles[5]') }}</option>
                   </select>
                 </div>
 
@@ -117,10 +115,10 @@
                     class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
                     required
                   >
-                    <option value="" disabled selected hidden>Typ nemovitosti *</option>
-                    <option value="Hotel">Hotelový řetězec nebo skupina</option>
-                    <option value="Nezavisly hotel">Nezávislý hotel</option>
-                    <option value="Jine">Jiné (ne hotel ani hotelová skupina)</option>
+                    <option value="" disabled selected hidden>{{ $t('pricing.form.property') }} *</option>
+                    <option value="Hotel">{{ $t('pricing.form.properties[0]') }}</option>
+                    <option value="Nezavisly hotel">{{ $t('pricing.form.properties[1]') }}</option>
+                    <option value="Jine">{{ $t('pricing.form.properties[2]') }}</option>
                   </select>
                 </div>
 
@@ -135,7 +133,7 @@
                       required
                     />
                     <label for="communications" class="ml-3 text-sm text-gray-700">
-                      Souhlasím se zasíláním sdělení od OtelApps
+                      {{ $t('pricing.form.communication') }}
                       <span class="text-red-500">*</span>
                     </label>
                   </div>
@@ -150,12 +148,12 @@
                       required
                     />
                     <label for="terms" class="ml-3 text-sm text-gray-700">
-                      Příjmám
-                      <a href="#" class="text-black underline font-semibold">Obchodní podmínky</a>
-                      a
-                      <a href="#" class="text-black underline font-semibold"
-                        >Zásady ochrany osobních údajů</a
-                      >
+                      {{ $t('pricing.form.agreement[0]') }}
+                      <a href="#" class="text-black underline font-semibold">{{ $t('pricing.form.agreement[1]') }}</a>
+                      {{ $t('pricing.form.agreement[2]') }}
+                      <a href="#" class="text-black underline font-semibold">
+                        {{ $t('pricing.form.agreement[3]') }}
+                      </a>
                       <span class="text-red-500">*</span>
                     </label>
                   </div>
@@ -166,7 +164,7 @@
                   type="submit"
                   class="w-full sm:w-[75%] lg:w-[50%] bg-[#ffa500] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
                 >
-                  Získat nacenění
+                  {{ $t('pricing.form.button') }}
                 </button>
               </form>
             </div>

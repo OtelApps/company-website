@@ -5,17 +5,15 @@
       <div class="max-w-4xl">
         <section class="space-y-6">
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            Zlepšete komunikaci a budujte vztahy s vašimi hosty
+            {{ $t('guestApp.hero.title') }}
           </h1>
           <p class=" text-base sm:text-lg text-gray-700 leading-relaxed">
-            Vaši hosté už dnes telefonem ovládají a komunikují s celým svým svět. S OTEL APPS jim 
-            otevřete dveře ke všem vašim službám přímo v jejich mobilu – a získáte jedinečnou šanci, 
-            jak s nimi vybudovat silnější vztah.
+            {{ $t('guestApp.hero.desc') }}
           </p>
           <button
-            class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
+            class="w-full sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
           >
-            Vyzkoušet demo-verzi
+          {{ $t('guestApp.hero.button') }}
           </button>
         </section>
       </div>
@@ -26,11 +24,10 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <header class="text-center mb-12">
           <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Vaše služby budou dostupné kdykoliv a kdekoliv pro vaše hosty.
+            {{ $t('guestApp.features.title') }}
           </h2>
           <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
-            Objevte klíčové funkce a hlavní výhody, díky kterým je Otel Apps nepostradatelným partnerem 
-            pro hotely, bez kterého se moderní hotelový provoz neobejde.
+            {{ $t('guestApp.features.desc') }}
           </p>
         </header>
 
@@ -40,9 +37,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">info</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Informace o hotelu</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.hotelDirectoryTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Poskytněte hostům kompletní přehled o vašem hotelu, vybavení a dostupných službách.
+              {{ $t('guestApp.features.hotelDirectoryDesc') }}
             </p>
           </article>
 
@@ -51,9 +48,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">menstrual_health</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Wellness a procedury</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.spaBookingTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Jednoduchý způsob, jak si objednat relaxaci. Hosté si své procedury zarezervují snadno a bez čekání.
+              {{ $t('guestApp.features.spaBookingDesc') }}
             </p>
           </article>
 
@@ -62,9 +59,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">mobile_2</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Mobilní objednávky</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.mobileOrderingTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-6000">
-              Dejte hostům možnost objednat si jídlo, nápoje a další produkty odkudkoliv, přímo z jejich chytrého telefonu.
+              {{ $t('guestApp.features.mobileOrderingDesc') }}
             </p>
           </article>
 
@@ -73,9 +70,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">task</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Task management</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.taskManagerTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Efektivně řiďte a sledujte požadavky hostů. Zajistěte bleskový servis a mějte dokonalý přehled o každém úkolu.
+              {{ $t('guestApp.features.taskManagerDesc') }}
             </p>
           </article>
 
@@ -84,9 +81,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">table_restaurant</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Rezervace stolů</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.restaurantReservationsTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Umožněte hostům zarezervovat si stůl v hotelové restauraci či baru snadno, rychle a bez nutnosti kamkoliv volat.
+              {{ $t('guestApp.features.restaurantReservationsDesc') }}
             </p>
           </article>
 
@@ -95,9 +92,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">trip</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Trip planner</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.cabanaBookingsTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Poskytněte hostům nástroj k plánování jejich pobytu s tipy na výlety a místa v hotelovém okolí.
+              {{ $t('guestApp.features.cabanaBookingsDesc') }}
             </p>
           </article>
 
@@ -106,9 +103,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">feedback</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Okamžitá zpětná vazba</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.instantFeedbackTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Mějte neustálý přehled o spokojenosti svých hostů. Díky okamžitým podnětům můžete ihned reagovat a neustále zvyšovat úroveň svých služeb.
+              {{ $t('guestApp.features.instantFeedbackDesc') }}
             </p>
           </article>
 
@@ -117,9 +114,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">analytics</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Analytika a statistiky</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.analyticsInsightsTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Dělejte správná rozhodnutí podložená reálnými daty. Díky pokročilé analytice detailně porozumíte chování a preferencím svých hostů
+              {{ $t('guestApp.features.analyticsInsightsDesc') }}
             </p>
           </article>
 
@@ -128,9 +125,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">more_horiz</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">A mnohem více</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.features.andManyMoreTitle') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Rezervace služeb, Nástroje pro zvýšení tržeb, Live chat + AI virtuální recepční, Online check-in + check-out, Virtuální pokojová karta, a další...
+              {{ $t('guestApp.features.andManyMoreDesc') }}
             </p>
           </article>
         </div>
@@ -141,11 +138,10 @@
     <section class="max-w-screen-2xl mx-auto px-7 py-12 sm:py-12 lg:py-32">
       <header class="sm:text-center mb-12">
         <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-          Moderní a srozumitelný přístup pro každého hosta
+          {{ $t('guestApp.accessMethods.title') }}
         </h2>
         <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
-          Vaše služby jsou dostupné odkudkoliv. Díky různým možnostem přístupu k aplikaci garantujeme, 
-          že se k vašemu digitálnímu obsahu dostane každý snadno a bez čekání.
+          {{ $t('guestApp.accessMethods.desc') }}
         </p>
       </header>
 
@@ -159,9 +155,9 @@
           >
           <span class="material-symbols-outlined text-white">desktop_windows</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-4">Webová aplikace pro hosty (coming soon)</h3>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-4">{{ $t('guestApp.accessMethods.webAppTitle') }}</h3>
           <p class="text-sm sm:text-base text-gray-600">
-            Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč a všechny služby hotelu mají okamžitě na dosah ruky.
+            {{ $t('guestApp.accessMethods.webAppDesc') }}
           </p>
         </article>
 
@@ -174,10 +170,9 @@
           >
           <span class="material-symbols-outlined text-white">mobile_2</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-4">Mobilní aplikace pro iOS a Android</h3>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-4">{{ $t('guestApp.accessMethods.nativeAppTitle') }}</h3>
           <p class="text-sm sm:text-base text-gray-600">
-            Nabídněte hostům aplikaci ve vašem vlastním designu. S exkluzivními funkcemi, jako je mobilní virtuální pokojový klíč od pokoje, 
-            posunete zážitek z pobytu na tu nejvyšší úroveň.
+            {{ $t('guestApp.accessMethods.nativeAppDesc') }}
           </p>
         </article>
 
@@ -190,10 +185,9 @@
           >
           <span class="material-symbols-outlined text-white">integration_instructions</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-4">Integrace na míru</h3>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-4">{{ $t('guestApp.accessMethods.embeddedTitle') }}</h3>
           <p class="text-sm sm:text-base text-gray-600">
-            Vážíme si vašich současných nástrojů. Otel Apps dokážeme plně přizpůsobit tak, 
-            aby doplnily váš ekosystém a vytvořily jeden dokonale fungující celek.
+            {{ $t('guestApp.accessMethods.embeddedDesc') }}
           </p>
         </article>
 
@@ -206,9 +200,9 @@
           >
           <span class="material-symbols-outlined text-white">desktop_cloud</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-4">Webová aplikace pro hotel</h3>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-4">{{ $t('guestApp.accessMethods.hotelWebAppTitle') }}</h3>
           <p class="text-sm sm:text-base text-gray-600">
-            Mějte přehled o chodu celého hotelu a přáních vašich hostů na jednom místě.
+            {{ $t('guestApp.accessMethods.hotelWebAppDesc') }}
           </p>
         </article>
       </div>
@@ -221,10 +215,10 @@
           <!-- Left Section - Text Content -->
           <section class="space-y-8">
             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight not-sm:text-center">
-              Proč zvolit mobilní řešení od Otel Apps?
+              {{ $t('guestApp.whyChoose.title') }}
             </h2>
             <p class="text-base sm:text-lg text-gray-700 leading-relaxed not-sm:text-center">
-              Nejsme jen další aplikace v telefonu. Pomůžeme vám automatizovat procesy, zvýšit tržby a zajistit, aby se k vám hosté rádi vraceli.
+              {{ $t('guestApp.whyChoose.desc') }}
             </p>
 
             <!-- Benefits List -->
@@ -243,10 +237,9 @@
                   </svg>
                 </div>
                 <section>
-                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Vyšší efektivita</h3>
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.whyChoose.efficiencyTitle') }}</h3>
                   <p class="text-sm sm:text-base text-gray-600">
-                    Automatizujte požadavky a služby, abyste uvolnili ruce svému personálu. Ten se pak může plně soustředit na to 
-                    nejdůležitější – osobní a smysluplnou péči o hosty.
+                    {{ $t('guestApp.whyChoose.efficiencyDesc') }}
                   </p>
                 </section>
               </li>
@@ -265,10 +258,9 @@
                   </svg>
                 </div>
                 <section>
-                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Cesta k digitalizaci</h3>
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.whyChoose.digitizationTitle') }}</h3>
                   <p class="text-sm sm:text-base text-gray-600">
-                    Zbavte se zbytečných papírů. Snížíte své náklady a zároveň oslovíte moderní cestovatele, 
-                    kterým záleží na ekologii, udržitelnosti a technologiích.
+                    {{ $t('guestApp.whyChoose.digitizationDesc') }}
                   </p>
                 </section>
               </li>
@@ -288,10 +280,10 @@
                 </div>
                 <section>
                   <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">
-                    Lepší zážitek pro hosty
+                    {{ $t('guestApp.whyChoose.experienceTitle') }}
                   </h3>
                   <p class="text-sm sm:text-base text-gray-600">
-                    Nabídněte pohodlí a personalizaci, kterou dnešní hosté nejen očekávají, ale i vyžadují. Dopřejte jim servis, který odpovídá digitálnímu věku.
+                    {{ $t('guestApp.whyChoose.experienceDesc') }}
                   </p>
                 </section>
               </li>
@@ -310,10 +302,10 @@
     <section class="max-w-screen-2xl mx-auto px-7 py-12 sm:py-12 lg:py-32">
       <header class="sm:text-center mb-12">
         <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 not-sm:mr-4">
-          Objevte další možnosti s Otel Apps
+          {{ $t('guestApp.exploreMore.title') }}
         </h2>
         <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
-          Naše platforma je navržena tak, aby se snadno propojila s vašimi systémy a rostla společně s vaším podnikáním.
+          {{ $t('guestApp.exploreMore.desc') }}
         </p>
       </header>
 
@@ -327,8 +319,8 @@
           >
           <span class="material-symbols-outlined text-white">integration_instructions</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Integrace</h3>
-          <p class="text-sm sm:text-base text-gray-600">Propojte se s nástroji, které už denně používáte.</p>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.exploreMore.integrationsTitle') }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">{{ $t('guestApp.exploreMore.integrationsDesc') }}</p>
         </article>
 
         <!-- Case Studies -->
@@ -340,8 +332,8 @@
           >
           <span class="material-symbols-outlined text-white">award_star</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Příběhy úspěchu</h3>
-          <p class="text-sm sm:text-base text-gray-600">Podívejte se, jak s Otel Apps rostou a prosperují ostatní hotely</p>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.resources.caseStudiesTitle') }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">{{ $t('guestApp.resources.caseStudiesDesc') }}</p>
         </article>
 
         <!-- Blog & Resources -->
@@ -353,8 +345,8 @@
           >
           <span class="material-symbols-outlined text-white">news</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Blog a inspirace</h3>
-          <p class="text-sm sm:text-base text-gray-600">Mějte přehled o tom, co je nového z oboru a aktuální informace o našich produktech.</p>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.resources.blogTitle') }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">{{ $t('guestApp.resources.blogDesc') }}</p>
         </article>
 
         <!-- Support Center -->
@@ -366,8 +358,8 @@
           >
           <span class="material-symbols-outlined text-white">call</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Zákaznická podpora</h3>
-          <p class="text-sm sm:text-base text-gray-600">Jsme tu pro vás. Projděte si naše návody, nebo nás kontaktujte, pokud potřebujete s čímkoliv poradit.</p>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('guestApp.resources.supportTitle') }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">{{ $t('guestApp.resources.supportDesc') }}</p>
         </article>
       </div>
     </section>

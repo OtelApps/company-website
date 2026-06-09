@@ -5,15 +5,14 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <!-- Left Section - Text Content -->
           <div class="space-y-6">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight">Vyšší úroveň zážitku pro menší hotely</h1>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight">{{ $t('smallHotels.hero.title') }}</h1>
             <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-              Modernizujte svůj provoz s Otel Apps. Automatizujte rutinu, oslovte správné hosty 
-              a získejte svobodu řídit svůj hotel po svém.
+              {{ $t('smallHotels.hero.desc') }}
             </p>
             <button
               class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer"
             >
-              Vyzkoušet demo-verzi
+              {{ $t('smallHotels.hero.button') }}
             </button>
           </div>
 
@@ -26,8 +25,8 @@
     </section>
 
     <Advantages
-      title="Výkon, jednoduchost a flexibilita v jednom systému"
-      subtitle="Náš PMS zjednodušuje každodenní provoz, omezuje manuální rutinu a zlepšuje cestu hosta od rezervace až po odjezd."
+      :title="$t('smallHotels.advantages.title')"
+      :subtitle="$t('smallHotels.advantages.subtitle')"
       :features="smallHotelsAdvantages"
       background-color="bg-[#f4f4f4]"
     />
@@ -44,11 +43,10 @@
           <!-- Right content: title, subtitle, features -->
           <div class="lg:col-span-3 px-4">
             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Klíčové funkce pro malé a střední hotely
+              {{ $t('smallHotels.keyFunctions.title') }}
             </h2>
             <p class="text-base sm:text-lg text-gray-600 mb-8 max-w-2xl">
-              Komplexní sada nástrojů pro efektivní správu vašeho hotelu. Získejte systém, který se postará o každodenní operativu, 
-              a věnujte svůj drahocenný čas tomu, co udělá váš hotel skutečně výjimečným, osobní péčí o vaše hosty.
+              {{ $t('smallHotels.keyFunctions.desc') }}
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5">
@@ -78,9 +76,8 @@
     </section>
 
     <HowItWorks
-      title="Navrženo pro jednoduchost a flexibilitu"
-      subtitle="Věříme, že technologie by vám měla cestu usnadňovat, nikoli ji komplikovat. Naše cloudová platforma je od základu navržena jako intuitivní nástroj, 
-      který si plně přizpůsobíte svým potřebám."
+      :title="$t('smallHotels.howItWorks.title')"
+      :subtitle="$t('smallHotels.howItWorks.subtitle')"
       :steps="smallHotelsWork"
       :image="image3"
       image-alt="Small Hotels obrázek"
@@ -108,96 +105,103 @@ export default {
       image1: image1,
       image2: image2,
       image3: image3,
-      smallHotelsAdvantages: [
+    }
+  },
+  computed: {
+    smallHotelsAdvantages() {
+      return [
         {
-          title: 'Ušetřete čas',
-          description: 'Automatizujte rutinu a zbavte svůj tým administrativy. Dejte jim prostor soustředit se na to nejdůležitější na vaše hosty.',
+          title: this.$t('smallHotels.advantages.f1.title'),
+          description: this.$t('smallHotels.advantages.f1.desc'),
           icon: 'clock_arrow_down',
         },
         {
-          title: 'Větší kontrola',
-          description:
-            'Mějte správu rezervací, cenotvorbu i koordinaci úklidu plně ve svých rukou. Díky jednomu intuitivnímu rozhraní vidíte vše podstatné okamžitě a na jednom místě.',
+          title: this.$t('smallHotels.advantages.f2.title'),
+          description: this.$t('smallHotels.advantages.f2.desc'),
           icon: 'desktop_windows',
         },
         {
-          title: 'Navyšte své tržby a ziskovost',
-          description: 'Maximalizujte svůj výnos díky dynamické cenotvorbě a cílenému prodeji doplňkových služeb. Nabízejte hostům víc právě tehdy, kdy to nejvíce ocení.',
+          title: this.$t('smallHotels.advantages.f3.title'),
+          description: this.$t('smallHotels.advantages.f3.desc'),
           icon: 'chart_data',
         },
         {
-          title: 'Zážitek hostů na prvním místě',
-          description: 'Nabídněte jim rychlý check-in bez front, hladké placení a možnost okamžité komunikace s vaším týmem.',
+          title: this.$t('smallHotels.advantages.f4.title'),
+          description: this.$t('smallHotels.advantages.f4.desc'),
           icon: 'mood',
         },
         {
-          title: 'Rychlejší check-in a check-out bez front',
-          description: 'Nabídněte hostům komfort samoobslužných kiosků a mobilního check-inu. Zrychlete provoz recepce a dopřejte hostům snadný přístup k jejich pokojům.',
+          title: this.$t('smallHotels.advantages.f5.title'),
+          description: this.$t('smallHotels.advantages.f5.desc'),
           icon: 'bolt',
         },
         {
-          title: 'Automatizace procesů',
-          description: 'Propojte celý svůj hotel – od rezervací po úklid – do jednoho plynulého toku práce. Minimalizujte chyby a maximalizujte efektivitu svého týmu.',
+          title: this.$t('smallHotels.advantages.f6.title'),
+          description: this.$t('smallHotels.advantages.f6.desc'),
           icon: 'settings_applications',
         },
-      ],
-      keyFunctions: [
+      ]
+    },
+    keyFunctions() {
+      return [
         {
-          title: 'Cloudový přístup:',
-          description: 'Řiďte svůj hotel odkudkoli a kdykoli. S cloudovým řešením máte veškerá data a kontrolu nad provozem neustále ve svých rukou.',
+          title: this.$t('smallHotels.keyFunctions.f1.title'),
+          description: this.$t('smallHotels.keyFunctions.f1.desc'),
           icon: 'cloud_done',
         },
         {
-          title: 'Přímé rezervace:',
-          description: 'Získejte více objednávek napřímo a zvyšte své zisky díky integrovanému prodeji doplňkových služeb hned při rezervaci.',
+          title: this.$t('smallHotels.keyFunctions.f2.title'),
+          description: this.$t('smallHotels.keyFunctions.f2.desc'),
           icon: 'date_range',
         },
         {
-          title: 'Inteligentní správa rezervací:',
-          description: 'Přehledná časová osa, snadné přiřazování pokojů a okamžitý náhled na celkovou obsazenost. Vše intuitivně na jednom místě.',
+          title: this.$t('smallHotels.keyFunctions.f3.title'),
+          description: this.$t('smallHotels.keyFunctions.f3.desc'),
           icon: 'network_intel_node',
         },
         {
-          title: 'Samoobslužná řešení:',
-          description: 'Nabídněte hostům komfort v podobě mobilního check-inu a samoobslužných kiosků. Rychlé odbavení bez front a zbytečného čekání.',
+          title: this.$t('smallHotels.keyFunctions.f4.title'),
+          description: this.$t('smallHotels.keyFunctions.f4.desc'),
           icon: 'ar_on_you',
         },
         {
-          title: 'Chytré řízení cen a prodejů:',
-          description: 'Flexibilní správa cen a automatická reakce na poptávku.',
+          title: this.$t('smallHotels.keyFunctions.f5.title'),
+          description: this.$t('smallHotels.keyFunctions.f5.desc'),
           icon: 'price_change',
         },
         {
-          title: 'Integrované a bezpečné platby:',
-          description: 'Jednoduché a bezpečné transakce.',
+          title: this.$t('smallHotels.keyFunctions.f6.title'),
+          description: this.$t('smallHotels.keyFunctions.f6.desc'),
           icon: 'health_and_safety',
         },
         {
-          title: 'Efektivní správa úklidů:',
-          description: 'Okamžitý přehled o stavu pokojů v reálném čase a automatické plánování prioritních úklidů.',
+          title: this.$t('smallHotels.keyFunctions.f7.title'),
+          description: this.$t('smallHotels.keyFunctions.f7.desc'),
           icon: 'manage_accounts',
         },
         {
-          title: 'Reporty & analytika:',
-          description: 'Dělejte rozhodnutí podložená skutečnými daty.',
+          title: this.$t('smallHotels.keyFunctions.f8.title'),
+          description: this.$t('smallHotels.keyFunctions.f8.desc'),
           icon: 'analytics',
         },
-      ],
-      smallHotelsWork: [
+      ]
+    },
+    smallHotelsWork() {
+      return [
         {
-          title: 'Hravě to zvládne každý',
-          description: 'Intuitivní rozhraní, přehledné dashboardy a školení šité na míru konkrétním rolím v týmu.',
+          title: this.$t('smallHotels.howItWorks.step1.title'),
+          description: this.$t('smallHotels.howItWorks.step1.desc'),
         },
         {
-          title: 'Systém, který roste s vámi',
-          description: 'Propojte se s velkým množstvím aplikací a přizpůsobte si vzhled i funkce přesně své potřebě.',
+          title: this.$t('smallHotels.howItWorks.step2.title'),
+          description: this.$t('smallHotels.howItWorks.step2.desc'),
         },
         {
-          title: 'Všechny rezervace pod jednou střechou',
-          description: 'Připojte se k distribučním kanálům a spravujte vše z jednoho místa.',
+          title: this.$t('smallHotels.howItWorks.step3.title'),
+          description: this.$t('smallHotels.howItWorks.step3.desc'),
         },
-      ],
-    }
+      ]
+    },
   },
 }
 </script>
