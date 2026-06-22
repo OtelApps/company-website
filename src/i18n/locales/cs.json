@@ -7,7 +7,8 @@
       "aboutUs": "O nás",
       "contact": "Kontakt",
       "login": "Přihlásit se",
-      "bookDemo": "Vyzkoušet demo-verzi"
+      "bookDemo": "Vyzkoušet demo-verzi",
+      "stayProgress": "Průběh pobytu"
     },
     "menu": {
       "ecosystem": "Ecosystem",
@@ -19,6 +20,10 @@
       "guestWebApp": {
         "title": "Webová aplikace pro hosty",
         "desc": "Nezatěžujte hosty stahováním aplikací. Stačí otevřít webový prohlížeč k tomu, aby měl váš host vše na dosah ruky."
+      },
+      "webAdmin": {
+        "title": "WebAdmin pro obsluhu hotelu",
+        "desc": "Jedno místo pro správu obsahu a služeb mobilní aplikace — bez chaosu v e-mailech a tabulkách."
       },
       "hotelDirectory": {
         "title": "Informace o hotelu",
@@ -87,7 +92,8 @@
         "Live chat + AI virtuální recepční",
         "Online check-in + check-out",
         "Virtuální pokojová karta",
-        "Rezervace"
+        "Analytika a statistiky",
+        "Průběh pobytu"
       ]
     },
     "button3": {
@@ -1071,6 +1077,322 @@
         "title": "Všechny rezervace pod jednou střechou",
         "desc": "Připojte se k distribučním kanálům a spravujte vše z jednoho místa."
       }
+    }
+  },
+  "common": {
+    "exploreMore": {
+      "title": "Objevte další možnosti s Otel Apps",
+      "cards": {
+        "mobileApp": {
+          "title": "Mobilní aplikace",
+          "desc": "Umožněte hostům spravovat celý pobyt z jejich telefonu."
+        },
+        "mobileOrdering": {
+          "title": "Mobilní objednávky",
+          "desc": "Zvyšte prodeje díky snadnému objednávání na pokoj."
+        },
+        "hotelGuide": {
+          "title": "Hotelový průvodce",
+          "desc": "Veškeré informace o hotelu a službách přehledně na jednom místě."
+        },
+        "taskManager": {
+          "title": "Task manager",
+          "desc": "Efektivní vyřizování požadavků hostů pro personál."
+        }
+      }
+    }
+  },
+  "stayProgress": {
+    "hero": {
+      "title": "Provázejte hosty celým jejich pobytem",
+      "desc": "Od okamžiku rezervace, přes bezstarostný pobyt, až po pohodlný odjezd. Otel Apps digitalizuje a zjednodušuje každý krok na hostově cestě, zvyšuje vaše tržby a šetří čas vašemu personálu.",
+      "button": "Vyzkoušet demo-verzi",
+      "mock": {
+        "heading": "Cesta vašeho hosta",
+        "badge": "Aktivní pobyt",
+        "step1": {
+          "title": "1. Před příjezdem",
+          "desc": "Online Check-in dokončen, preference uloženy a doklady ověřeny."
+        },
+        "step2": {
+          "title": "2. Během pobytu",
+          "now": "Právě teď",
+          "room": "Pokoj 204",
+          "connected": "Připojeno",
+          "openKey": "Otevřít pokoj klíčem"
+        },
+        "step3": {
+          "title": "3. Odjezd z hotelu",
+          "desc": "Online vyúčtování minibaru a služeb, platba z pokoje bez front."
+        }
+      }
+    },
+    "phase1": {
+      "badge": "1. FÁZE",
+      "title": "Před příjezdem: První dojem dělá divy",
+      "desc": "Zaujměte hosty ještě předtím, než překročí práh vašeho hotelu. Nabídněte jim plně digitální check-in z pohodlí domova a zjistěte jejich preference.",
+      "cards": [
+        { "title": "Uvítací zpráva a e-mail", "desc": "Automatické rozesílání SMS a e-mailů s uvítáním a instrukcemi pro hladký příjezd." },
+        { "title": "Digitální Check-in a platba", "desc": "Host pohodlně předem vyplní registraci, naskenuje doklady a provede platbu online." },
+        { "title": "Digitální průvodce", "desc": "Zodpovězte často kladené dotazy dříve, než se hosté vůbec stihnou zeptat." },
+        { "title": "Preference hostů", "desc": "Zjistěte detaily (alergie, polštáře, účel) a připravte jim zážitek šitý na míru." }
+      ],
+      "mock": {
+        "label": "příchozí zpráva • Nyní",
+        "title": "Vítejte v hotelu, pane Dvořáku! 👋",
+        "desc": "Váš pobyt začíná zítra. Chcete-li přeskočit fronty na recepci, vyplňte prosím online check-in za méně než 2 minuty.",
+        "button": "Spustit rychlý check-in"
+      }
+    },
+    "phase2": {
+      "badge": "2. FÁZE",
+      "title": "Během pobytu: zážitek bez komplikací",
+      "desc": "Udělejte pobyt svých hostů pohodlným a nezapomenutelným. Veškeré služby, mobilní klíče i komunikaci s recepcí mají okamžitě k dispozici ve svém telefonu.",
+      "cards": [
+        { "title": "Virtuální klíč od pokoje", "desc": "Bezkontaktní a bezpečné otevírání pokojových dveří ze telefonu hosta." },
+        { "title": "Chytrý katalog služeb", "desc": "Objednávání pokojové služby, rezervace wellness a produktů z nabídky hotelu na jeden klik." },
+        { "title": "WiFi Landing Page & QR", "desc": "Připojení na hotelovou WiFi automaticky otevře hotelový rozcestník a promo akce přes QR kódy." },
+        { "title": "Komunikace s recepcí", "desc": "Hosté mohou komunikovat s recepcí prostřednictvím mobilní aplikace." }
+      ],
+      "mock": {
+        "hotel": "Hotel Otel Apps",
+        "roomWifi": "Pokoj 204 • Wifi: Grand_Guest",
+        "servicesLabel": "Hotelové služby",
+        "service1": { "title": "Snídaně na pokoj", "time": "Objednat do 10:00", "button": "Objednat" },
+        "service2": { "title": "Privátní wellness", "time": "Rezervovat volné termíny", "button": "Rezervovat" }
+      }
+    },
+    "phase3": {
+      "badge": "3. FÁZE",
+      "title": "Před odjezdem: Perfektní dojem až do konce",
+      "desc": "Ujistěte se, že odjezd proběhne bez front na recepci. Umožněte hostům zkontrolovat účet a zaplatit z pokoje, a poté je potěšte personalizovaným rozloučením.",
+      "cards": [
+        { "title": "Online Check-out a platba", "desc": "Host zkontroluje finální pokojový účet a zaplatí jej online při check-outu." },
+        { "title": "Digitální faktura", "desc": "Automatické zaslání faktury na e-mail hosta ihned po odhlášení z hotelu." },
+        { "title": "Feedback & Dotazník", "desc": "Odeslání zprávy na rozloučenou s dotazníkem spokojenosti a nabídkou věrnostních slev." },
+        { "title": "Věrnostní program", "desc": "Snadné navázání vztahu pro přímé rezervace a zamezení vysokým provizím na OTA portálech." }
+      ],
+      "mock": {
+        "title": "Hotelové vyúčtování",
+        "roomDeparture": "Pokoj 204 • Odjezd dnes",
+        "quickCheckout": "Rychlý odjezd",
+        "items": [
+          { "label": "Ubytování (2 noci)", "price": "4 200 Kč" },
+          { "label": "Minibar (Pilsner, Oříšky)", "price": "180 Kč" },
+          { "label": "Městský poplatek", "price": "100 Kč" }
+        ],
+        "totalLabel": "Celkem k úhradě",
+        "totalPrice": "4 480 Kč",
+        "payButton": "Zaplatit a odhlásit se",
+        "note": "Faktura Vám bude automaticky odeslána na e-mail."
+      }
+    },
+    "exploreMore": {
+      "title": "Objevte další možnosti s Otel Apps",
+      "desc": "Průběh pobytu je jen jednou z částí platformy. Prozkoumejte další specializované funkce, které vám pomohou digitalizovat a zefektivnit provoz hotelu.",
+      "cards": [
+        { "title": "Mobilní aplikace", "desc": "Umožněte hostům spravovat celý pobyt z jejich telefonu." },
+        { "title": "Live chat + AI recepční", "desc": "Zefektivněte komunikaci s hosty a zvyšte prodeje služeb." },
+        { "title": "Online check-in/out", "desc": "Urychlete proces příjezdu a odjezdu hostů bez zbytečných front." },
+        { "title": "Virtuální pokojová karta", "desc": "Moderní otevírání dveří pokoje pomocí mobilu místo klíčů." }
+      ]
+    }
+  },
+  "tripPlanner": {
+    "hero": {
+      "title": "Naplánujte hostům nezapomenutelné zážitky v Praze",
+      "desc": "S funkcí Trip Planner v naší mobilní aplikaci mají vaši hosté celou Prahu jako na dlani. Pomozte jim objevit nejznámější místa, naplánovat skvělé výlety a užít si pobyt na maximum.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "mockup": {
+      "appName": "Trip Planner",
+      "city": "Praha",
+      "search": "Kam se chcete vydat?",
+      "castle": "Pražský hrad",
+      "bridge": "Karlův most",
+      "clock": "Orloj",
+      "distance": "1.2 km od Vašeho hotelu",
+      "navigate": "Navigovat"
+    },
+    "features": {
+      "title": "Vše pro dokonalé objevování města",
+      "subtitle": "Interaktivní nástroj, který udělá z každé procházky Prahou perfektní zážitek.",
+      "items": [
+        { "title": "Interaktivní mapa", "desc": "Přehledná mapa Prahy s vyznačenými body, která hosty navede přímo k cíli." },
+        { "title": "Nejznámější památky", "desc": "Katedrála sv. Víta, Karlův most nebo Staroměstské náměstí. Hosté snadno zjistí potřebné informace." },
+        { "title": "Plánování tras", "desc": "Jednoduše propojitelné body do jedné trasy pro efektivní využití času při procházkách Prahou." },
+        { "title": "Doporučení od hotelu", "desc": "Možnost přidat vaše osobní tipy na skryté kavárny, restaurace nebo oblíbená místa, která v průvodci nenajdou." },
+        { "title": "Dostupné v mobilu", "desc": "Plánovač je vždy po ruce v hostově chytrém telefonu, přesně když ho potřebují na cestách městem." },
+        { "title": "Chytrá navigace", "desc": "Propojení s běžnými mapovými aplikacemi pro plynulý přechod k samotné navigaci krok za krokem." }
+      ]
+    },
+    "whyChoose": {
+      "title": "Proč nabídnout hostům plánování výletů?",
+      "desc": "Trip Planner není jen mapa, je to váš digitální průvodce. Usnadníte hostům pobyt a zároveň jim nabídnete profesionální péči.",
+      "benefits": [
+        { "title": "Úspora času pro recepci", "desc": "Méně opakujících se dotazů na cestu a památky znamená více času pro personál na důležitější úkoly." },
+        { "title": "Hodnotná doporučení", "desc": "Sdílejte své lokální znalosti a pomozte hostům zažít autentickou Prahu, což ocení v pozitivních recenzích." },
+        { "title": "Lepší zážitek z pobytu", "desc": "Hosté, kteří se ve městě snadno orientují a vidí to nejlepší, odjíždějí mnohem spokojenější." }
+      ],
+      "imageCaption": "Ukázka interaktivní mapy v aplikaci"
+    },
+    "exploreMore": {
+      "desc": "Trip Planner je jen jedna z mnoha funkcí. Prozkoumejte, jak může celá platforma pomoci vašemu hotelu."
+    }
+  },
+  "virtualReceptionist": {
+    "hero": {
+      "title": "Buďte neustále ve spojení se svými hosty",
+      "desc": "Komunikujte snadno a rychle se svými hosty a ulevte personálů díky chytré AI virtuální recepční, která okamžitě vyřídí rutinní dotazy a doporučuje vaše služby 24 hodin denně, 7 dní v týdnu.",
+      "button": "Vyzkoušet demo-verzi"
+    },
+    "mockup": {
+      "name": "Virtuální recepční",
+      "status": "Online",
+      "msg1": "Dobrý den! Jsem vaše virtuální asistentka z hotelu. Jak vám mohu zpříjemnit pobyt?",
+      "msg2": "Do kolika hodin jsou zítra snídaně?",
+      "msg3": "Snídaně se podávají od 7:00 do 10:30 v hlavní restauraci. Přejete si donést snídani na pokoj?"
+    },
+    "features": {
+      "title": "Komplexní řešení pro komunikaci s hosty",
+      "subtitle": "Zajistěte okamžitou odpověď na každý dotaz hostů. Náš systém chytře kombinuje umělou inteligenci s lidským přístupem.",
+      "items": [
+        { "title": "AI virtuální recepční", "desc": "Automatické a okamžité odpovědi na nejčastější dotazy. Uvolněte ruce svému personálu od rutinních otázek a dopřejte jim čas na skutečnou péči o hosty." },
+        { "title": "Plynulý přechod na živý chat", "desc": "Když AI narazí na složitější požadavek, chat se bez přerušení přesměruje na personál hotelu, a to včetně celé historie probíhající konverzace." },
+        { "title": "Inteligentní upselling", "desc": "AI dokáže číst kontext a v pravý okamžik nabídnout doplňkové služby – například masáž po dlouhém výletě nebo prodloužený check-out před odletem." },
+        { "title": "Vícejazyčná podpora a automatický překlad", "desc": "Překonejte jazykové bariéry. Komunikujte s hosty v jejich mateřském jazyce. Náš systém automaticky překládá komunikaci v reálném čase." }
+      ]
+    },
+    "whyChoose": {
+      "title": "Tři hlavní důvody, proč zavést chat s AI",
+      "items": [
+        { "title": "Úleva pro recepci", "desc": "Až 70 % běžných dotazů typu „kdy jsou snídaně“ nebo „jaké je heslo na Wi-Fi“ vyřeší AI recepční automaticky. Personál se tak může plně věnovat vašim hostům." },
+        { "title": "Zvýšení tržeb", "desc": "Pokud se host ptá na masáže, umělá inteligence mu okamžitě pošle odkaz na rezervaci nebo nabídne slevu, a významně tak podpoří prodej doplňkových služeb." },
+        { "title": "Perfektní dojem u hostů", "desc": "Hosté získají okamžitou a zdvořilou odpověď i ve 3 ráno. Tento neustálý a spolehlivý servis se velmi rychle projeví na vašem hodnocení a recenzích." }
+      ]
+    },
+    "exploreMore": {
+      "desc": "Live chat + AI virtuální recepční je jen jednou z mnoha funkcí. Prozkoumejte, jak může celá platforma pomoci vašemu hotelu."
+    }
+  },
+  "checkInCheckOut": {
+    "hero": {
+      "title": "Přivítejte hosty bez front a papírování",
+      "desc": "Umožněte svým hostům přeskočit recepci. S kompletním online check-inem a check-outem vyřídí registraci, naskenují doklady, zaplatí účet a podepíšou ubytovací kartu přímo ve svém telefonu.",
+      "button": "Chci nezávaznou ukázku"
+    },
+    "mockup": {
+      "title": "Online Check-in",
+      "step": "Krok 2 ze 3",
+      "heading": "Vyfoťte svůj občanský průkaz nebo pas",
+      "desc": "Pro bezpečné a rychlé načtení údajů umístěte doklad do vyznačeného rámečku.",
+      "hint": "Zarovnejte doklad a stiskněte spoušť",
+      "button": "Naskenovat a pokračovat"
+    },
+    "timeline": {
+      "title": "Průběh pobytu bez jediné papírové karty",
+      "subtitle": "Od rezervace až po finální odhlášení z hotelu.",
+      "steps": [
+        { "title": "Před příjezdem", "desc": "Host obdrží 24 hodin před příjezdem e-mail nebo SMS s výzvou k online check-inu. Vyplní své kontaktní údaje, bezpečně naskenuje doklad totožnosti (pas/OP) a potvrdí digitálním podpisem." },
+        { "title": "Příjezd", "desc": "Recepce má již všechny legislativní náležitosti předem schválené a zadané v PMS systému. Host nemusí na recepci vyplňovat žádné formuláře. Po příjezdu rovnou otevírá svůj pokoj přes digitální klíč v telefonu." },
+        { "title": "Odjezd (Check-out)", "desc": "Ráno v den odjezdu host v aplikaci zkontroluje svůj hotelový účet (ubytování, konzumaci z minibaru, wellness), provede bezpečně online platbu přes integrovanou bránu a kliknutím potvrdí odjezd." }
+      ]
+    },
+    "stats": {
+      "value": "-80%",
+      "label": "Zkrácení front na recepci",
+      "desc": "Už žádné zbytečné papírování a zdlouhavé přepisování občanských průkazů na recepci během ranních a odpoledních špiček.",
+      "features": [
+        { "title": "Platební brána a pre-autorizace", "desc": "Host může bezpečně zaplatit kartou, Apple Pay nebo Google Pay. Možnost předběžné autorizace karty jako záruky na útratu." },
+        { "title": "Elektronický podpis ubytovací karty", "desc": "Plně digitální ubytovací karta s právně uznávaným podpisem přímo na obrazovce mobilu. Splňuje veškeré místní legislativní standardy." },
+        { "title": "Plná integrace s PMS", "desc": "Data hosta i platby se okamžitě a bezpečně synchronizují s vaším hotelovým systémem. Žádná ruční práce a nulové riziko lidské chyby." }
+      ]
+    },
+    "exploreMore": {
+      "desc": "Online check-in + check-out je jen jednou z mnoha funkcí. Prozkoumejte, jak může celá platforma pomoci vašemu hotelu."
+    }
+  },
+  "virtualKey": {
+    "hero": {
+      "title": "Telefon jako klíč",
+      "desc": "Zapomeňte na ztracené plastové karty a fronty na recepci. S virtuální pokojovou kartou v aplikaci mohou vaši hosté odemknout dveře svého pokoje pouhým přiložením telefonu.",
+      "button": "Zjistit více o integracích"
+    },
+    "mockup": {
+      "room": "Pokoj",
+      "tap": "Přiložte k zámku pro odemčení",
+      "statusLabel": "Stav:",
+      "statusValue": "Aktivní"
+    },
+    "howItWorks": {
+      "title": "Jak to celé funguje?",
+      "subtitle": "Zcela bezkontaktní proces od rezervace až po vstup do pokoje.",
+      "steps": [
+        { "title": "1. Check-in v aplikaci", "desc": "Host provede online check-in přímo ve svém mobilním telefonu před příjezdem do hotelu." },
+        { "title": "2. Vydání klíče", "desc": "Systém automaticky vygeneruje bezpečný digitální klíč a stáhne ho do aplikace hosta." },
+        { "title": "3. Odemčení dveří", "desc": "Při příchodu stačí přiložit telefon se zapnutým Bluetooth nebo NFC ke dveřnímu zámku." }
+      ]
+    },
+    "benefits": {
+      "title": "Výhody virtuálního klíče",
+      "security": { "title": "Nejvyšší bezpečnost", "desc": "Digitální klíče jsou zabezpečeny moderním šifrováním. Nelze je snadno zkopírovat, a pokud host ztratí telefon, přístup lze okamžitě na dálku zablokovat přes recepční systém." },
+      "eco": { "title": "Šetrné k přírodě", "desc": "Eliminujte tisíce ztracených a vyhozených plastových karet ročně. Vše je 100% digitální." },
+      "noWaiting": { "title": "Žádné čekání", "desc": "Rovnou na pokoj." },
+      "compatibility": { "title": "Kompatibilita", "desc": "Salto, Assa Abloy a další." }
+    },
+    "exploreMore": {
+      "desc": "Virtuální pokojová karta je jen jednou z mnoha funkcí. Prozkoumejte, jak může celá platforma pomoci vašemu hotelu."
+    }
+  },
+  "webAdmin": {
+    "hero": {
+      "eyebrow": "Administrace hotelu",
+      "title": "OtelApps WebAdmin",
+      "desc": "Dávám hotelům jedno místo, odkud ovládají mobilní aplikaci pro hosty — obsah, služby i zpětnou vazbu bez chaosu v e-mailech a tabulkách.",
+      "demoButton": "Vyzkoušet demo-verzi",
+      "guestAppButton": "Mobilní app pro hosty",
+      "imageAlt": "OtelApps WebAdmin — přehled a dashboard",
+      "imageCaption": "Přehled modulů a stavu obsahu v jednom pohledu"
+    },
+    "intro": "OtelApps WebAdmin je administrace pro hotelový tým, který chce hostům nabídnout moderní mobilní zážitek bez IT oddělení na telefonu každý den. Z jednoho přehledného portálu spravujete to, co host uvidí v aplikaci: nabídky restaurací a barů, služby na pokoji, volnočasové tipy i důležité informace — rychle, konzistentně a podle toho, co váš hotel skutečně nabízí. Modulární stavba znamená, že zapínáte jen to, co potřebujete, takže rozhraní zůstává čisté a školení personálu je krátké.",
+    "content": {
+      "imageAlt": "OtelApps WebAdmin — úpravy obsahu pro hosty",
+      "imageCaption": "Editor a struktura toho, co host uvidí v mobilu",
+      "title": "Obsah pod kontrolou",
+      "desc": "Jedno přehledné místo pro všechno, co potřebujete řešit a mít pod kontrolou.",
+      "rows": [
+        { "title": "Restaurace, bary a pokojová služba: ", "text": "nabídky jídel a nápojů, služby na pokoji a informace k objednání — srozumitelně pro hosta." },
+        { "title": "Obsah a tipy: ", "text": "volnočasové tipy, pravidla hotelu a důležité informace bez zbytečných dotazů na recepci." },
+        { "title": "Provoz a zpětná vazba: ", "text": "přehled aktivit, concierge požadavků a signálů od hostů ještě během pobytu." }
+      ]
+    },
+    "about": {
+      "title": "O projektu",
+      "subtitle": "Od recepce po management — jedna pravda o obsahu v mobilu hosta.",
+      "p1": "Hotely dnes soutěží nejen postelí, ale i digitálním servisem. OtelApps WebAdmin jsem navrhl jako řídicí centrum pro takovou mobilní aplikaci: místo, kde recepce, gastronomie nebo concierge jedním klikem aktualizují nabídky, otevírací dobu, obsah pro hosta a kde má management přehled o aktivitách, zpětné vazbě nebo concierge požadavcích.",
+      "p2": "Cílem není „další admin“, ale méně chyb, rychlejší reakce na hosta a jednotná značka napříč tím, co host v telefonu vidí. Díky modulům se systém přizpůsobí velikosti provozu, od butikového hotelu po resort s širokým výběrem služeb."
+    },
+    "pillars": {
+      "title": "Co z WebAdminu získáte",
+      "subtitle": "Tři principy, které drží obsah, tým i škálování pohromadě.",
+      "cards": [
+        { "title": "Aktuální informace pro hosta", "text": "Měníte obsah centralizovaně, ne po pokojích a kanálech." },
+        { "title": "Jedno místo pro personál", "text": "Méně ručního přepisování a domluvy „kdo to upraví“." },
+        { "title": "Škáluje se s hotelem", "text": "Moduly podle toho, co opravdu provozujete." }
+      ]
+    },
+    "gallery": {
+      "title": "Dva pohledy na stejný systém",
+      "dashboard": { "alt": "Dashboard WebAdmin", "caption": "Dashboard a moduly", "desc": "Přehled toho, co je zapnuté a kde tým právě pracuje" },
+      "content": { "alt": "Editor obsahu WebAdmin", "caption": "Editor obsahu pro hosta", "desc": "Struktura nabídek, textů a služeb, které host uvidí v aplikaci" }
+    },
+    "cta": {
+      "tech": "Náš WebAdmin slouží k správě hostů a jejich potřebám - jednoduché CRM pro přehlednost, efektivnost a vyšší výnosnost z každého hosta, díky personalizovanému a jednoduchému upsellu.",
+      "title": "Ukázka na míru",
+      "desc": "Projdem WebAdmin v kontextu vašeho provozu.",
+      "button": "Domluvit demo",
+      "guestApp": "Mobilní aplikace pro hosty",
+      "hotelInfo": "Informace o hotelu"
     }
   }
 }

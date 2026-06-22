@@ -7,7 +7,8 @@
       "aboutUs": "Über uns",
       "contact": "Kontakt",
       "login": "Anmelden",
-      "bookDemo": "Demo testen"
+      "bookDemo": "Demo testen",
+      "stayProgress": "Aufenthaltsverlauf"
     },
     "menu": {
       "ecosystem": "Ecosystem",
@@ -19,6 +20,10 @@
       "guestWebApp": {
         "title": "Gäste-Web-App",
         "desc": "Kein App-Download nötig. Gäste haben alles im Browser zur Hand."
+      },
+      "webAdmin": {
+        "title": "WebAdmin für das Hotelteam",
+        "desc": "Ein Ort für die Verwaltung von Inhalten und Diensten der mobilen App — ohne Chaos in E-Mails und Tabellen."
       },
       "hotelDirectory": {
         "title": "Hotelinformationen",
@@ -87,7 +92,8 @@
         "Live-Chat + KI-gestützter virtueller Rezeptionist",
         "Online-Check-in + Check-out",
         "Virtuelle Zimmerkarte",
-        "Reservierungen"
+        "Analytik und Statistiken",
+        "Aufenthaltsverlauf"
       ]
     },
     "button3": {
@@ -1082,6 +1088,322 @@
         "title": "Alle Reservierungen unter einem Dach",
         "desc": "Verbinden Sie sich mit Vertriebskanälen und verwalten Sie alles zentral."
       }
+    }
+  },
+  "common": {
+    "exploreMore": {
+      "title": "Entdecken Sie weitere Möglichkeiten mit Otel Apps",
+      "cards": {
+        "mobileApp": {
+          "title": "Mobile App",
+          "desc": "Lassen Sie Gäste ihren gesamten Aufenthalt über ihr Telefon verwalten."
+        },
+        "mobileOrdering": {
+          "title": "Mobile Bestellungen",
+          "desc": "Steigern Sie den Umsatz durch einfache Bestellungen aufs Zimmer."
+        },
+        "hotelGuide": {
+          "title": "Hotelführer",
+          "desc": "Alle Informationen zum Hotel und zu den Services übersichtlich an einem Ort."
+        },
+        "taskManager": {
+          "title": "Task-Manager",
+          "desc": "Effiziente Bearbeitung von Gästewünschen für das Personal."
+        }
+      }
+    }
+  },
+  "stayProgress": {
+    "hero": {
+      "title": "Begleiten Sie Gäste durch ihren gesamten Aufenthalt",
+      "desc": "Vom Moment der Buchung über einen sorgenfreien Aufenthalt bis zur bequemen Abreise. Otel Apps digitalisiert und vereinfacht jeden Schritt der Gästereise, steigert Ihren Umsatz und spart Ihrem Personal Zeit.",
+      "button": "Demo testen",
+      "mock": {
+        "heading": "Die Reise Ihres Gastes",
+        "badge": "Aktiver Aufenthalt",
+        "step1": {
+          "title": "1. Vor der Ankunft",
+          "desc": "Online-Check-in abgeschlossen, Präferenzen gespeichert und Dokumente verifiziert."
+        },
+        "step2": {
+          "title": "2. Während des Aufenthalts",
+          "now": "Gerade jetzt",
+          "room": "Zimmer 204",
+          "connected": "Verbunden",
+          "openKey": "Zimmer mit Schlüssel öffnen"
+        },
+        "step3": {
+          "title": "3. Abreise aus dem Hotel",
+          "desc": "Online-Abrechnung von Minibar und Services, Zahlung vom Zimmer aus ohne Warteschlangen."
+        }
+      }
+    },
+    "phase1": {
+      "badge": "PHASE 1",
+      "title": "Vor der Ankunft: Der erste Eindruck wirkt Wunder",
+      "desc": "Begeistern Sie Gäste, noch bevor sie die Schwelle Ihres Hotels überschreiten. Bieten Sie ihnen einen vollständig digitalen Check-in von zu Hause aus und erfahren Sie ihre Präferenzen.",
+      "cards": [
+        { "title": "Willkommensnachricht und E-Mail", "desc": "Automatischer Versand von SMS und E-Mails mit Begrüßung und Anweisungen für eine reibungslose Ankunft." },
+        { "title": "Digitaler Check-in und Zahlung", "desc": "Der Gast füllt die Registrierung bequem im Voraus aus, scannt Dokumente und zahlt online." },
+        { "title": "Digitaler Reiseführer", "desc": "Beantworten Sie häufige Fragen, bevor die Gäste überhaupt fragen können." },
+        { "title": "Gästepräferenzen", "desc": "Erfahren Sie Details (Allergien, Kissen, Zweck) und bereiten Sie ein maßgeschneidertes Erlebnis vor." }
+      ],
+      "mock": {
+        "label": "eingehende Nachricht • Jetzt",
+        "title": "Willkommen im Hotel, Herr Dvořák! 👋",
+        "desc": "Ihr Aufenthalt beginnt morgen. Um die Warteschlangen an der Rezeption zu vermeiden, füllen Sie bitte den Online-Check-in in weniger als 2 Minuten aus.",
+        "button": "Schnellen Check-in starten"
+      }
+    },
+    "phase2": {
+      "badge": "PHASE 2",
+      "title": "Während des Aufenthalts: ein Erlebnis ohne Komplikationen",
+      "desc": "Machen Sie den Aufenthalt Ihrer Gäste komfortabel und unvergesslich. Alle Services, mobile Schlüssel und die Kommunikation mit der Rezeption haben sie sofort auf ihrem Telefon zur Verfügung.",
+      "cards": [
+        { "title": "Virtueller Zimmerschlüssel", "desc": "Kontaktloses und sicheres Öffnen der Zimmertüren vom Telefon des Gastes." },
+        { "title": "Intelligenter Servicekatalog", "desc": "Zimmerservice bestellen, Wellness und Produkte aus dem Hotelangebot mit einem Klick buchen." },
+        { "title": "WiFi-Landingpage & QR", "desc": "Die Verbindung mit dem Hotel-WiFi öffnet automatisch das Hotelportal und Promo-Aktionen über QR-Codes." },
+        { "title": "Kommunikation mit der Rezeption", "desc": "Gäste können über die mobile App mit der Rezeption kommunizieren." }
+      ],
+      "mock": {
+        "hotel": "Hotel Otel Apps",
+        "roomWifi": "Zimmer 204 • Wifi: Grand_Guest",
+        "servicesLabel": "Hotelservices",
+        "service1": { "title": "Frühstück aufs Zimmer", "time": "Bestellen bis 10:00", "button": "Bestellen" },
+        "service2": { "title": "Privates Wellness", "time": "Freie Termine buchen", "button": "Buchen" }
+      }
+    },
+    "phase3": {
+      "badge": "PHASE 3",
+      "title": "Vor der Abreise: Ein perfekter Eindruck bis zum Schluss",
+      "desc": "Sorgen Sie dafür, dass die Abreise ohne Warteschlangen an der Rezeption verläuft. Lassen Sie Gäste die Rechnung prüfen und vom Zimmer aus zahlen, und erfreuen Sie sie dann mit einem personalisierten Abschied.",
+      "cards": [
+        { "title": "Online-Check-out und Zahlung", "desc": "Der Gast prüft die endgültige Zimmerrechnung und bezahlt sie online beim Check-out." },
+        { "title": "Digitale Rechnung", "desc": "Automatischer Versand der Rechnung an die E-Mail des Gastes sofort nach dem Check-out." },
+        { "title": "Feedback & Fragebogen", "desc": "Versand einer Abschiedsnachricht mit Zufriedenheitsfragebogen und einem Angebot an Treuerabatten." },
+        { "title": "Treueprogramm", "desc": "Einfacher Beziehungsaufbau für Direktbuchungen und Vermeidung hoher Provisionen auf OTA-Portalen." }
+      ],
+      "mock": {
+        "title": "Hotelrechnung",
+        "roomDeparture": "Zimmer 204 • Abreise heute",
+        "quickCheckout": "Schnelle Abreise",
+        "items": [
+          { "label": "Unterkunft (2 Nächte)", "price": "4.200 CZK" },
+          { "label": "Minibar (Pilsner, Nüsse)", "price": "180 CZK" },
+          { "label": "Kurtaxe", "price": "100 CZK" }
+        ],
+        "totalLabel": "Gesamtbetrag",
+        "totalPrice": "4.480 CZK",
+        "payButton": "Bezahlen und auschecken",
+        "note": "Die Rechnung wird automatisch an Ihre E-Mail gesendet."
+      }
+    },
+    "exploreMore": {
+      "title": "Entdecken Sie weitere Möglichkeiten mit Otel Apps",
+      "desc": "Der Aufenthaltsverlauf ist nur ein Teil der Plattform. Entdecken Sie weitere spezialisierte Funktionen, die Ihnen helfen, den Hotelbetrieb zu digitalisieren und effizienter zu gestalten.",
+      "cards": [
+        { "title": "Mobile App", "desc": "Lassen Sie Gäste ihren gesamten Aufenthalt über ihr Telefon verwalten." },
+        { "title": "Live-Chat + KI-Rezeption", "desc": "Optimieren Sie die Kommunikation mit Gästen und steigern Sie den Serviceverkauf." },
+        { "title": "Online Check-in/out", "desc": "Beschleunigen Sie An- und Abreise der Gäste ohne unnötige Warteschlangen." },
+        { "title": "Virtuelle Zimmerkarte", "desc": "Modernes Öffnen der Zimmertür per Telefon statt mit Schlüsseln." }
+      ]
+    }
+  },
+  "tripPlanner": {
+    "hero": {
+      "title": "Planen Sie unvergessliche Erlebnisse in Prag für Ihre Gäste",
+      "desc": "Mit der Funktion Trip Planner in unserer mobilen App haben Ihre Gäste ganz Prag in der Hand. Helfen Sie ihnen, die bekanntesten Orte zu entdecken, tolle Ausflüge zu planen und ihren Aufenthalt in vollen Zügen zu genießen.",
+      "button": "Demo testen"
+    },
+    "mockup": {
+      "appName": "Trip Planner",
+      "city": "Prag",
+      "search": "Wohin möchten Sie gehen?",
+      "castle": "Prager Burg",
+      "bridge": "Karlsbrücke",
+      "clock": "Astronomische Uhr",
+      "distance": "1,2 km von Ihrem Hotel",
+      "navigate": "Navigieren"
+    },
+    "features": {
+      "title": "Alles für die perfekte Stadterkundung",
+      "subtitle": "Ein interaktives Tool, das jeden Spaziergang durch Prag zu einem perfekten Erlebnis macht.",
+      "items": [
+        { "title": "Interaktive Karte", "desc": "Eine übersichtliche Karte von Prag mit markierten Punkten, die Gäste direkt zum Ziel führt." },
+        { "title": "Bekannteste Sehenswürdigkeiten", "desc": "Veitsdom, Karlsbrücke oder Altstädter Ring. Gäste finden leicht die benötigten Informationen." },
+        { "title": "Routenplanung", "desc": "Punkte lassen sich einfach zu einer Route verbinden, um die Zeit beim Spaziergang durch Prag effizient zu nutzen." },
+        { "title": "Empfehlungen vom Hotel", "desc": "Die Möglichkeit, Ihre persönlichen Tipps für versteckte Cafés, Restaurants oder Lieblingsorte hinzuzufügen, die in keinem Reiseführer stehen." },
+        { "title": "Auf dem Handy verfügbar", "desc": "Der Planer ist immer auf dem Smartphone des Gastes zur Hand, genau dann, wenn er ihn beim Erkunden der Stadt braucht." },
+        { "title": "Intelligente Navigation", "desc": "Integration mit gängigen Karten-Apps für einen reibungslosen Übergang zur eigentlichen Schritt-für-Schritt-Navigation." }
+      ]
+    },
+    "whyChoose": {
+      "title": "Warum Gästen die Ausflugsplanung anbieten?",
+      "desc": "Trip Planner ist nicht nur eine Karte, sondern Ihr digitaler Reiseführer. Sie erleichtern den Gästen den Aufenthalt und bieten ihnen zugleich professionelle Betreuung.",
+      "benefits": [
+        { "title": "Zeitersparnis für die Rezeption", "desc": "Weniger wiederholte Fragen nach dem Weg und Sehenswürdigkeiten bedeutet mehr Zeit für das Personal für wichtigere Aufgaben." },
+        { "title": "Wertvolle Empfehlungen", "desc": "Teilen Sie Ihr lokales Wissen und helfen Sie Gästen, das authentische Prag zu erleben, was sie in positiven Bewertungen würdigen." },
+        { "title": "Besseres Aufenthaltserlebnis", "desc": "Gäste, die sich in der Stadt leicht zurechtfinden und das Beste sehen, reisen viel zufriedener ab." }
+      ],
+      "imageCaption": "Vorschau der interaktiven Karte in der App"
+    },
+    "exploreMore": {
+      "desc": "Trip Planner ist nur eine von vielen Funktionen. Entdecken Sie, wie die gesamte Plattform Ihrem Hotel helfen kann."
+    }
+  },
+  "virtualReceptionist": {
+    "hero": {
+      "title": "Bleiben Sie jederzeit mit Ihren Gästen verbunden",
+      "desc": "Kommunizieren Sie einfach und schnell mit Ihren Gästen und entlasten Sie Ihr Personal dank einer smarten KI-Rezeption, die Routineanfragen sofort bearbeitet und Ihre Services rund um die Uhr empfiehlt, 7 Tage die Woche.",
+      "button": "Demo testen"
+    },
+    "mockup": {
+      "name": "Virtuelle Rezeption",
+      "status": "Online",
+      "msg1": "Guten Tag! Ich bin Ihre virtuelle Assistentin des Hotels. Wie kann ich Ihren Aufenthalt angenehmer gestalten?",
+      "msg2": "Bis wie viel Uhr gibt es morgen Frühstück?",
+      "msg3": "Das Frühstück wird von 7:00 bis 10:30 Uhr im Hauptrestaurant serviert. Möchten Sie das Frühstück aufs Zimmer gebracht bekommen?"
+    },
+    "features": {
+      "title": "Eine umfassende Lösung für die Gästekommunikation",
+      "subtitle": "Sichern Sie eine sofortige Antwort auf jede Gästeanfrage. Unser System kombiniert geschickt künstliche Intelligenz mit einem menschlichen Ansatz.",
+      "items": [
+        { "title": "KI-Rezeption", "desc": "Automatische und sofortige Antworten auf die häufigsten Fragen. Befreien Sie Ihr Personal von Routinefragen und geben Sie ihm Zeit für die echte Betreuung der Gäste." },
+        { "title": "Nahtloser Übergang zum Live-Chat", "desc": "Wenn die KI auf eine komplexere Anfrage stößt, wird der Chat ohne Unterbrechung an das Hotelpersonal weitergeleitet, einschließlich der gesamten Historie des laufenden Gesprächs." },
+        { "title": "Intelligentes Upselling", "desc": "Die KI kann den Kontext lesen und im richtigen Moment Zusatzleistungen anbieten – zum Beispiel eine Massage nach einem langen Ausflug oder einen späten Check-out vor dem Abflug." },
+        { "title": "Mehrsprachiger Support und automatische Übersetzung", "desc": "Überwinden Sie Sprachbarrieren. Kommunizieren Sie mit Gästen in ihrer Muttersprache. Unser System übersetzt die Kommunikation automatisch in Echtzeit." }
+      ]
+    },
+    "whyChoose": {
+      "title": "Drei Hauptgründe, einen KI-Chat einzuführen",
+      "items": [
+        { "title": "Entlastung für die Rezeption", "desc": "Bis zu 70 % der gängigen Fragen wie „wann gibt es Frühstück“ oder „wie lautet das WLAN-Passwort“ werden von der KI-Rezeption automatisch beantwortet. So kann sich das Personal voll auf Ihre Gäste konzentrieren." },
+        { "title": "Umsatzsteigerung", "desc": "Wenn ein Gast nach Massagen fragt, sendet die künstliche Intelligenz ihm sofort einen Buchungslink oder bietet einen Rabatt an und fördert so deutlich den Verkauf von Zusatzleistungen." },
+        { "title": "Perfekter Eindruck bei den Gästen", "desc": "Gäste erhalten auch um 3 Uhr morgens eine sofortige und höfliche Antwort. Dieser ständige und zuverlässige Service zeigt sich sehr schnell in Ihren Bewertungen und Rezensionen." }
+      ]
+    },
+    "exploreMore": {
+      "desc": "Live-Chat + KI-Rezeption ist nur eine von vielen Funktionen. Entdecken Sie, wie die gesamte Plattform Ihrem Hotel helfen kann."
+    }
+  },
+  "checkInCheckOut": {
+    "hero": {
+      "title": "Begrüßen Sie Gäste ohne Warteschlangen und Papierkram",
+      "desc": "Lassen Sie Ihre Gäste die Rezeption überspringen. Mit dem vollständigen Online-Check-in und Check-out erledigen sie die Registrierung, scannen Dokumente, bezahlen die Rechnung und unterschreiben die Meldekarte direkt auf ihrem Telefon.",
+      "button": "Ich möchte eine unverbindliche Demo"
+    },
+    "mockup": {
+      "title": "Online Check-in",
+      "step": "Schritt 2 von 3",
+      "heading": "Fotografieren Sie Ihren Personalausweis oder Reisepass",
+      "desc": "Für eine sichere und schnelle Datenerfassung legen Sie das Dokument in den markierten Rahmen.",
+      "hint": "Dokument ausrichten und den Auslöser drücken",
+      "button": "Scannen und fortfahren"
+    },
+    "timeline": {
+      "title": "Ein Aufenthaltsverlauf ohne eine einzige Papierkarte",
+      "subtitle": "Von der Buchung bis zum endgültigen Check-out aus dem Hotel.",
+      "steps": [
+        { "title": "Vor der Ankunft", "desc": "Der Gast erhält 24 Stunden vor der Ankunft eine E-Mail oder SMS mit der Aufforderung zum Online-Check-in. Er füllt seine Kontaktdaten aus, scannt sicher sein Ausweisdokument (Reisepass/Ausweis) und bestätigt mit einer digitalen Unterschrift." },
+        { "title": "Ankunft", "desc": "Die Rezeption hat bereits alle gesetzlichen Anforderungen im Voraus genehmigt und im PMS-System erfasst. Der Gast muss an der Rezeption keine Formulare ausfüllen. Nach der Ankunft öffnet er sein Zimmer direkt über den digitalen Schlüssel auf dem Telefon." },
+        { "title": "Abreise (Check-out)", "desc": "Am Morgen der Abreise prüft der Gast in der App seine Hotelrechnung (Unterkunft, Minibar-Konsum, Wellness), führt sicher eine Online-Zahlung über das integrierte Gateway durch und bestätigt die Abreise mit einem Klick." }
+      ]
+    },
+    "stats": {
+      "value": "-80%",
+      "label": "Reduzierung der Warteschlangen an der Rezeption",
+      "desc": "Kein unnötiger Papierkram und langwieriges Abschreiben von Ausweisen an der Rezeption während der Morgen- und Nachmittagsspitzen mehr.",
+      "features": [
+        { "title": "Zahlungsgateway und Vorautorisierung", "desc": "Der Gast kann sicher mit Karte, Apple Pay oder Google Pay bezahlen. Möglichkeit der Vorautorisierung der Karte als Garantie für den Verbrauch." },
+        { "title": "Elektronische Unterschrift der Meldekarte", "desc": "Eine vollständig digitale Meldekarte mit rechtlich anerkannter Unterschrift direkt auf dem Mobilbildschirm. Sie erfüllt alle lokalen gesetzlichen Standards." },
+        { "title": "Volle PMS-Integration", "desc": "Gästedaten und Zahlungen werden sofort und sicher mit Ihrem Hotelsystem synchronisiert. Keine manuelle Arbeit und null Risiko menschlicher Fehler." }
+      ]
+    },
+    "exploreMore": {
+      "desc": "Online Check-in + Check-out ist nur eine von vielen Funktionen. Entdecken Sie, wie die gesamte Plattform Ihrem Hotel helfen kann."
+    }
+  },
+  "virtualKey": {
+    "hero": {
+      "title": "Das Telefon als Schlüssel",
+      "desc": "Vergessen Sie verlorene Plastikkarten und Warteschlangen an der Rezeption. Mit der virtuellen Zimmerkarte in der App können Ihre Gäste die Tür ihres Zimmers einfach durch Auflegen des Telefons öffnen.",
+      "button": "Mehr über Integrationen erfahren"
+    },
+    "mockup": {
+      "room": "Zimmer",
+      "tap": "Zum Entsperren an das Schloss halten",
+      "statusLabel": "Status:",
+      "statusValue": "Aktiv"
+    },
+    "howItWorks": {
+      "title": "Wie funktioniert das Ganze?",
+      "subtitle": "Ein völlig kontaktloser Prozess von der Buchung bis zum Betreten des Zimmers.",
+      "steps": [
+        { "title": "1. Check-in in der App", "desc": "Der Gast führt den Online-Check-in direkt auf seinem Mobiltelefon durch, bevor er im Hotel ankommt." },
+        { "title": "2. Schlüsselausgabe", "desc": "Das System generiert automatisch einen sicheren digitalen Schlüssel und lädt ihn in die App des Gastes herunter." },
+        { "title": "3. Tür entsperren", "desc": "Bei der Ankunft genügt es, das Telefon mit aktiviertem Bluetooth oder NFC an das Türschloss zu halten." }
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile des virtuellen Schlüssels",
+      "security": { "title": "Höchste Sicherheit", "desc": "Digitale Schlüssel sind mit moderner Verschlüsselung gesichert. Sie lassen sich nicht einfach kopieren, und wenn ein Gast sein Telefon verliert, kann der Zugang sofort aus der Ferne über das Rezeptionssystem gesperrt werden." },
+      "eco": { "title": "Umweltfreundlich", "desc": "Eliminieren Sie jährlich Tausende verlorener und weggeworfener Plastikkarten. Alles ist zu 100 % digital." },
+      "noWaiting": { "title": "Kein Warten", "desc": "Direkt aufs Zimmer." },
+      "compatibility": { "title": "Kompatibilität", "desc": "Salto, Assa Abloy und weitere." }
+    },
+    "exploreMore": {
+      "desc": "Die virtuelle Zimmerkarte ist nur eine von vielen Funktionen. Entdecken Sie, wie die gesamte Plattform Ihrem Hotel helfen kann."
+    }
+  },
+  "webAdmin": {
+    "hero": {
+      "eyebrow": "Hotelverwaltung",
+      "title": "OtelApps WebAdmin",
+      "desc": "Ich gebe Hotels einen Ort, von dem aus sie die mobile Gäste-App steuern — Inhalte, Services und Feedback ohne Chaos in E-Mails und Tabellen.",
+      "demoButton": "Demo testen",
+      "guestAppButton": "Mobile App für Gäste",
+      "imageAlt": "OtelApps WebAdmin — Übersicht und Dashboard",
+      "imageCaption": "Eine Übersicht der Module und des Inhaltsstatus auf einen Blick"
+    },
+    "intro": "OtelApps WebAdmin ist ein Verwaltungstool für das Hotelteam, das Gästen ein modernes mobiles Erlebnis bieten möchte, ohne täglich eine IT-Abteilung am Telefon zu haben. Über ein übersichtliches Portal verwalten Sie, was der Gast in der App sieht: Restaurant- und Barangebote, Zimmerservices, Freizeittipps und wichtige Informationen — schnell, konsistent und entsprechend dem, was Ihr Hotel tatsächlich anbietet. Der modulare Aufbau bedeutet, dass Sie nur das aktivieren, was Sie brauchen, sodass die Oberfläche übersichtlich bleibt und die Personalschulung kurz ist.",
+    "content": {
+      "imageAlt": "OtelApps WebAdmin — Bearbeitung von Inhalten für Gäste",
+      "imageCaption": "Der Editor und die Struktur dessen, was der Gast auf dem Handy sieht",
+      "title": "Inhalte unter Kontrolle",
+      "desc": "Ein übersichtlicher Ort für alles, was Sie regeln und unter Kontrolle haben müssen.",
+      "rows": [
+        { "title": "Restaurants, Bars und Zimmerservice: ", "text": "Speise- und Getränkeangebote, Zimmerservices und Bestellinformationen — verständlich für den Gast." },
+        { "title": "Inhalte und Tipps: ", "text": "Freizeittipps, Hotelregeln und wichtige Informationen ohne unnötige Fragen an der Rezeption." },
+        { "title": "Betrieb und Feedback: ", "text": "eine Übersicht über Aktivitäten, Concierge-Anfragen und Signale von Gästen noch während des Aufenthalts." }
+      ]
+    },
+    "about": {
+      "title": "Über das Projekt",
+      "subtitle": "Von der Rezeption bis zum Management — eine einzige Wahrheit über die Inhalte auf dem Handy des Gastes.",
+      "p1": "Hotels konkurrieren heute nicht nur mit Betten, sondern auch mit digitalem Service. Ich habe OtelApps WebAdmin als Steuerungszentrum für eine solche mobile App konzipiert: ein Ort, an dem Rezeption, Gastronomie oder Concierge mit einem Klick Angebote, Öffnungszeiten und Gästeinhalte aktualisieren und an dem das Management einen Überblick über Aktivitäten, Feedback oder Concierge-Anfragen hat.",
+      "p2": "Das Ziel ist nicht „ein weiteres Admin“, sondern weniger Fehler, schnellere Reaktion auf den Gast und eine einheitliche Marke über das, was der Gast auf seinem Telefon sieht. Dank der Module passt sich das System an die Größe des Betriebs an, vom Boutique-Hotel bis zum Resort mit breitem Serviceangebot."
+    },
+    "pillars": {
+      "title": "Was Sie von WebAdmin erhalten",
+      "subtitle": "Drei Prinzipien, die Inhalte, Team und Skalierung zusammenhalten.",
+      "cards": [
+        { "title": "Aktuelle Informationen für den Gast", "text": "Sie ändern Inhalte zentral, nicht Zimmer für Zimmer und Kanal für Kanal." },
+        { "title": "Ein Ort für das Personal", "text": "Weniger manuelles Umschreiben und Abstimmen, „wer es bearbeitet“." },
+        { "title": "Skaliert mit dem Hotel", "text": "Module je nachdem, was Sie tatsächlich betreiben." }
+      ]
+    },
+    "gallery": {
+      "title": "Zwei Ansichten desselben Systems",
+      "dashboard": { "alt": "WebAdmin Dashboard", "caption": "Dashboard und Module", "desc": "Eine Übersicht darüber, was aktiviert ist und wo das Team gerade arbeitet" },
+      "content": { "alt": "WebAdmin Inhaltseditor", "caption": "Inhaltseditor für den Gast", "desc": "Die Struktur der Angebote, Texte und Services, die der Gast in der App sieht" }
+    },
+    "cta": {
+      "tech": "Unser WebAdmin dient der Verwaltung von Gästen und ihren Bedürfnissen - ein einfaches CRM für Übersicht, Effizienz und höhere Erträge aus jedem Gast, dank personalisiertem und einfachem Upselling.",
+      "title": "Eine maßgeschneiderte Demo",
+      "desc": "Wir gehen WebAdmin im Kontext Ihres Betriebs durch.",
+      "button": "Demo vereinbaren",
+      "guestApp": "Mobile App für Gäste",
+      "hotelInfo": "Hotelinformationen"
     }
   }
 }

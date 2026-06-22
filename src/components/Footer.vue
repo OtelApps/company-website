@@ -116,14 +116,14 @@ const currentYear = new Date().getFullYear();
               'max-h-96 opacity-100': openDropdowns.klicoveFunkce
             }"
           >
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory" @click="closeDropdown('klicoveFunkce')">Informace o hotelu</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering" @click="closeDropdown('klicoveFunkce')">Objednávání</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/TripPlanner" @click="closeDropdown('klicoveFunkce')">Trip Planner</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/VirtualReceptionist" @click="closeDropdown('klicoveFunkce')">Live chat + AI virtuální recepční</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/CheckInCheckOut" @click="closeDropdown('klicoveFunkce')">Online check-in + check-out</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/VirtualKey" @click="closeDropdown('klicoveFunkce')">Virtuální pokojová karta</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/AnalyticsInsights" @click="closeDropdown('klicoveFunkce')">Analytika a statistiky</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/StayProgress" @click="closeDropdown('klicoveFunkce')">Průběh pobytu</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/HotelDirectory" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[0]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/MobileOrdering" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[1]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/TripPlanner" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[2]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/VirtualReceptionist" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[3]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/CheckInCheckOut" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[4]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/VirtualKey" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[5]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Product/AnalyticsInsights" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[6]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/StayProgress" @click="closeDropdown('klicoveFunkce')">{{ $t('footer.button2.items[7]') }}</router-link></li>
           </ul>
         </article>
 
@@ -246,7 +246,7 @@ const currentYear = new Date().getFullYear();
         </article>
       </div>
 
-      <p class="text-xs text-gray-600 dark:text-white">© {{ currentYear }} OtelApps. All rights reserved.</p>
+      <p class="text-xs text-gray-600 dark:text-white">© {{ currentYear }} OtelApps. {{ $t('footer.rights') }}</p>
     </section>
   </footer>
 </template>

@@ -7,7 +7,8 @@
       "aboutUs": "About us",
       "contact": "Contact",
       "login": "Log in",
-      "bookDemo": "Try the demo"
+      "bookDemo": "Try the demo",
+      "stayProgress": "Stay journey"
     },
     "menu": {
       "ecosystem": "Ecosystem",
@@ -19,6 +20,10 @@
       "guestWebApp": {
         "title": "Guest web app",
         "desc": "No app downloads required. Guests get everything they need in their browser."
+      },
+      "webAdmin": {
+        "title": "WebAdmin for hotel staff",
+        "desc": "One place to manage the mobile app's content and services — without the chaos of emails and spreadsheets."
       },
       "hotelDirectory": {
         "title": "Hotel information",
@@ -87,7 +92,8 @@
         "Live chat + AI virtual receptionist",
         "Online check-in + check-out",
         "Virtual room key",
-        "Reservations"
+        "Analytics and insights",
+        "Stay journey"
       ]
     },
     "button3": {
@@ -1035,6 +1041,322 @@
         "title": "All reservations under one roof",
         "desc": "Connect to distribution channels and manage everything from one place."
       }
+    }
+  },
+  "common": {
+    "exploreMore": {
+      "title": "Discover more options with Otel Apps",
+      "cards": {
+        "mobileApp": {
+          "title": "Mobile app",
+          "desc": "Let guests manage their entire stay from their phone."
+        },
+        "mobileOrdering": {
+          "title": "Mobile ordering",
+          "desc": "Boost sales with easy in-room ordering."
+        },
+        "hotelGuide": {
+          "title": "Hotel guide",
+          "desc": "All hotel and service information clearly in one place."
+        },
+        "taskManager": {
+          "title": "Task manager",
+          "desc": "Efficient handling of guest requests for your staff."
+        }
+      }
+    }
+  },
+  "stayProgress": {
+    "hero": {
+      "title": "Guide guests through their entire stay",
+      "desc": "From the moment of booking, through a carefree stay, to a comfortable departure. Otel Apps digitalizes and simplifies every step of the guest journey, increasing your revenue and saving your staff time.",
+      "button": "Try the demo",
+      "mock": {
+        "heading": "Your guest's journey",
+        "badge": "Active stay",
+        "step1": {
+          "title": "1. Before arrival",
+          "desc": "Online check-in completed, preferences saved and documents verified."
+        },
+        "step2": {
+          "title": "2. During the stay",
+          "now": "Right now",
+          "room": "Room 204",
+          "connected": "Connected",
+          "openKey": "Open room with key"
+        },
+        "step3": {
+          "title": "3. Departure from the hotel",
+          "desc": "Online billing of the minibar and services, payment from the room without queues."
+        }
+      }
+    },
+    "phase1": {
+      "badge": "PHASE 1",
+      "title": "Before arrival: First impressions work wonders",
+      "desc": "Engage guests even before they step through your hotel's door. Offer them a fully digital check-in from the comfort of home and learn their preferences.",
+      "cards": [
+        { "title": "Welcome message and email", "desc": "Automated sending of SMS and emails with a welcome and instructions for a smooth arrival." },
+        { "title": "Digital check-in and payment", "desc": "The guest conveniently fills in registration in advance, scans documents and pays online." },
+        { "title": "Digital guide", "desc": "Answer frequently asked questions before guests even get a chance to ask." },
+        { "title": "Guest preferences", "desc": "Find out details (allergies, pillows, purpose) and prepare a tailor-made experience for them." }
+      ],
+      "mock": {
+        "label": "incoming message • Now",
+        "title": "Welcome to the hotel, Mr. Dvořák! 👋",
+        "desc": "Your stay begins tomorrow. To skip the queues at reception, please complete the online check-in in less than 2 minutes.",
+        "button": "Start quick check-in"
+      }
+    },
+    "phase2": {
+      "badge": "PHASE 2",
+      "title": "During the stay: a hassle-free experience",
+      "desc": "Make your guests' stay comfortable and unforgettable. They have all services, mobile keys and communication with reception instantly available on their phone.",
+      "cards": [
+        { "title": "Virtual room key", "desc": "Contactless and secure opening of room doors from the guest's phone." },
+        { "title": "Smart service catalog", "desc": "Ordering room service, booking wellness and products from the hotel offer with a single click." },
+        { "title": "WiFi Landing Page & QR", "desc": "Connecting to the hotel WiFi automatically opens the hotel hub and promotions via QR codes." },
+        { "title": "Communication with reception", "desc": "Guests can communicate with reception through the mobile app." }
+      ],
+      "mock": {
+        "hotel": "Hotel Otel Apps",
+        "roomWifi": "Room 204 • Wifi: Grand_Guest",
+        "servicesLabel": "Hotel services",
+        "service1": { "title": "Breakfast in room", "time": "Order by 10:00", "button": "Order" },
+        "service2": { "title": "Private wellness", "time": "Book available slots", "button": "Book" }
+      }
+    },
+    "phase3": {
+      "badge": "PHASE 3",
+      "title": "Before departure: A perfect impression to the very end",
+      "desc": "Make sure departure goes smoothly without queues at reception. Let guests check their bill and pay from the room, then delight them with a personalized farewell.",
+      "cards": [
+        { "title": "Online check-out and payment", "desc": "The guest checks the final room bill and pays it online at check-out." },
+        { "title": "Digital invoice", "desc": "Automatic sending of the invoice to the guest's email immediately after checking out." },
+        { "title": "Feedback & Survey", "desc": "Sending a farewell message with a satisfaction survey and an offer of loyalty discounts." },
+        { "title": "Loyalty program", "desc": "Easy relationship building for direct bookings and avoiding high commissions on OTA portals." }
+      ],
+      "mock": {
+        "title": "Hotel bill",
+        "roomDeparture": "Room 204 • Departing today",
+        "quickCheckout": "Quick departure",
+        "items": [
+          { "label": "Accommodation (2 nights)", "price": "CZK 4,200" },
+          { "label": "Minibar (Pilsner, Nuts)", "price": "CZK 180" },
+          { "label": "City tax", "price": "CZK 100" }
+        ],
+        "totalLabel": "Total due",
+        "totalPrice": "CZK 4,480",
+        "payButton": "Pay and check out",
+        "note": "The invoice will be automatically sent to your email."
+      }
+    },
+    "exploreMore": {
+      "title": "Discover more options with Otel Apps",
+      "desc": "The stay journey is just one part of the platform. Explore other specialized features that will help you digitalize and streamline your hotel's operations.",
+      "cards": [
+        { "title": "Mobile app", "desc": "Let guests manage their entire stay from their phone." },
+        { "title": "Live chat + AI reception", "desc": "Streamline communication with guests and increase service sales." },
+        { "title": "Online check-in/out", "desc": "Speed up guest arrival and departure without unnecessary queues." },
+        { "title": "Virtual room key", "desc": "Modern room door opening using a phone instead of keys." }
+      ]
+    }
+  },
+  "tripPlanner": {
+    "hero": {
+      "title": "Plan unforgettable experiences in Prague for your guests",
+      "desc": "With the Trip Planner feature in our mobile app, your guests have all of Prague at their fingertips. Help them discover the most famous places, plan great trips and make the most of their stay.",
+      "button": "Try the demo"
+    },
+    "mockup": {
+      "appName": "Trip Planner",
+      "city": "Prague",
+      "search": "Where do you want to go?",
+      "castle": "Prague Castle",
+      "bridge": "Charles Bridge",
+      "clock": "Astronomical Clock",
+      "distance": "1.2 km from your hotel",
+      "navigate": "Navigate"
+    },
+    "features": {
+      "title": "Everything for perfect city exploration",
+      "subtitle": "An interactive tool that turns every walk through Prague into a perfect experience.",
+      "items": [
+        { "title": "Interactive map", "desc": "A clear map of Prague with marked points that guides guests straight to their destination." },
+        { "title": "Most famous landmarks", "desc": "St. Vitus Cathedral, Charles Bridge or Old Town Square. Guests easily find the information they need." },
+        { "title": "Route planning", "desc": "Points easily connected into a single route for efficient use of time while walking through Prague." },
+        { "title": "Recommendations from the hotel", "desc": "The option to add your personal tips for hidden cafés, restaurants or favorite spots not found in any guidebook." },
+        { "title": "Available on mobile", "desc": "The planner is always at hand on the guest's smartphone, exactly when they need it while exploring the city." },
+        { "title": "Smart navigation", "desc": "Integration with common map apps for a smooth transition to step-by-step navigation." }
+      ]
+    },
+    "whyChoose": {
+      "title": "Why offer guests trip planning?",
+      "desc": "Trip Planner is not just a map, it's your digital guide. You make guests' stay easier while offering them professional care.",
+      "benefits": [
+        { "title": "Time savings for reception", "desc": "Fewer repetitive questions about directions and landmarks means more time for staff to focus on more important tasks." },
+        { "title": "Valuable recommendations", "desc": "Share your local knowledge and help guests experience authentic Prague, which they'll appreciate in positive reviews." },
+        { "title": "Better stay experience", "desc": "Guests who easily navigate the city and see the best of it leave much more satisfied." }
+      ],
+      "imageCaption": "Preview of the interactive map in the app"
+    },
+    "exploreMore": {
+      "desc": "Trip Planner is just one of many features. Explore how the entire platform can help your hotel."
+    }
+  },
+  "virtualReceptionist": {
+    "hero": {
+      "title": "Stay connected with your guests at all times",
+      "desc": "Communicate easily and quickly with your guests and relieve your staff thanks to a smart AI virtual receptionist that instantly handles routine queries and recommends your services 24 hours a day, 7 days a week.",
+      "button": "Try the demo"
+    },
+    "mockup": {
+      "name": "Virtual receptionist",
+      "status": "Online",
+      "msg1": "Hello! I'm your virtual assistant from the hotel. How can I make your stay more pleasant?",
+      "msg2": "Until what time is breakfast tomorrow?",
+      "msg3": "Breakfast is served from 7:00 to 10:30 in the main restaurant. Would you like breakfast brought to your room?"
+    },
+    "features": {
+      "title": "A comprehensive solution for guest communication",
+      "subtitle": "Ensure an instant response to every guest query. Our system cleverly combines artificial intelligence with a human approach.",
+      "items": [
+        { "title": "AI virtual receptionist", "desc": "Automatic and instant answers to the most frequent questions. Free your staff from routine questions and give them time for real guest care." },
+        { "title": "Smooth transition to live chat", "desc": "When the AI encounters a more complex request, the chat is seamlessly redirected to the hotel staff, including the entire history of the ongoing conversation." },
+        { "title": "Intelligent upselling", "desc": "The AI can read the context and offer additional services at the right moment – for example a massage after a long trip or a late check-out before a flight." },
+        { "title": "Multilingual support and automatic translation", "desc": "Overcome language barriers. Communicate with guests in their native language. Our system automatically translates communication in real time." }
+      ]
+    },
+    "whyChoose": {
+      "title": "Three main reasons to introduce AI chat",
+      "items": [
+        { "title": "Relief for reception", "desc": "Up to 70% of common questions like “when is breakfast” or “what's the Wi-Fi password” are handled automatically by the AI receptionist. Staff can then fully focus on your guests." },
+        { "title": "Increased revenue", "desc": "If a guest asks about massages, the AI instantly sends them a booking link or offers a discount, significantly boosting sales of additional services." },
+        { "title": "Perfect impression on guests", "desc": "Guests get an instant and polite answer even at 3 a.m. This constant and reliable service quickly shows in your ratings and reviews." }
+      ]
+    },
+    "exploreMore": {
+      "desc": "Live chat + AI virtual receptionist is just one of many features. Explore how the entire platform can help your hotel."
+    }
+  },
+  "checkInCheckOut": {
+    "hero": {
+      "title": "Welcome guests without queues or paperwork",
+      "desc": "Let your guests skip reception. With complete online check-in and check-out, they handle registration, scan documents, pay the bill and sign the registration card directly on their phone.",
+      "button": "I want a no-obligation demo"
+    },
+    "mockup": {
+      "title": "Online Check-in",
+      "step": "Step 2 of 3",
+      "heading": "Photograph your ID card or passport",
+      "desc": "For safe and fast data capture, place the document inside the marked frame.",
+      "hint": "Align the document and press the shutter",
+      "button": "Scan and continue"
+    },
+    "timeline": {
+      "title": "A stay journey without a single paper card",
+      "subtitle": "From booking to final check-out from the hotel.",
+      "steps": [
+        { "title": "Before arrival", "desc": "The guest receives an email or SMS 24 hours before arrival inviting them to online check-in. They fill in their contact details, securely scan their ID document (passport/ID) and confirm with a digital signature." },
+        { "title": "Arrival", "desc": "Reception already has all legal requirements pre-approved and entered in the PMS system. The guest doesn't have to fill in any forms at reception. After arrival, they open their room right away via the digital key on their phone." },
+        { "title": "Departure (Check-out)", "desc": "On the morning of departure, the guest checks their hotel bill in the app (accommodation, minibar consumption, wellness), securely makes an online payment through the integrated gateway and confirms departure with a click." }
+      ]
+    },
+    "stats": {
+      "value": "-80%",
+      "label": "Reduction of reception queues",
+      "desc": "No more unnecessary paperwork and lengthy transcribing of ID cards at reception during morning and afternoon peaks.",
+      "features": [
+        { "title": "Payment gateway and pre-authorization", "desc": "The guest can pay securely by card, Apple Pay or Google Pay. The option to pre-authorize the card as a guarantee for spending." },
+        { "title": "Electronic signature of the registration card", "desc": "A fully digital registration card with a legally recognized signature directly on the mobile screen. It meets all local legal standards." },
+        { "title": "Full PMS integration", "desc": "Guest data and payments are instantly and securely synchronized with your hotel system. No manual work and zero risk of human error." }
+      ]
+    },
+    "exploreMore": {
+      "desc": "Online check-in + check-out is just one of many features. Explore how the entire platform can help your hotel."
+    }
+  },
+  "virtualKey": {
+    "hero": {
+      "title": "Phone as a key",
+      "desc": "Forget lost plastic cards and queues at reception. With the virtual room card in the app, your guests can unlock their room door simply by tapping their phone.",
+      "button": "Learn more about integrations"
+    },
+    "mockup": {
+      "room": "Room",
+      "tap": "Tap to the lock to unlock",
+      "statusLabel": "Status:",
+      "statusValue": "Active"
+    },
+    "howItWorks": {
+      "title": "How does it all work?",
+      "subtitle": "A completely contactless process from booking to entering the room.",
+      "steps": [
+        { "title": "1. Check-in in the app", "desc": "The guest completes online check-in directly on their mobile phone before arriving at the hotel." },
+        { "title": "2. Key issuance", "desc": "The system automatically generates a secure digital key and downloads it to the guest's app." },
+        { "title": "3. Unlocking the door", "desc": "On arrival, simply tap the phone with Bluetooth or NFC turned on to the door lock." }
+      ]
+    },
+    "benefits": {
+      "title": "Benefits of the virtual key",
+      "security": { "title": "Maximum security", "desc": "Digital keys are secured with modern encryption. They cannot be easily copied, and if a guest loses their phone, access can be blocked remotely immediately via the reception system." },
+      "eco": { "title": "Eco-friendly", "desc": "Eliminate thousands of lost and discarded plastic cards each year. Everything is 100% digital." },
+      "noWaiting": { "title": "No waiting", "desc": "Straight to the room." },
+      "compatibility": { "title": "Compatibility", "desc": "Salto, Assa Abloy and more." }
+    },
+    "exploreMore": {
+      "desc": "The virtual room card is just one of many features. Explore how the entire platform can help your hotel."
+    }
+  },
+  "webAdmin": {
+    "hero": {
+      "eyebrow": "Hotel administration",
+      "title": "OtelApps WebAdmin",
+      "desc": "I give hotels one place to control the guest mobile app — content, services and feedback without the chaos of emails and spreadsheets.",
+      "demoButton": "Try the demo",
+      "guestAppButton": "Guest mobile app",
+      "imageAlt": "OtelApps WebAdmin — overview and dashboard",
+      "imageCaption": "An overview of modules and content status in one view"
+    },
+    "intro": "OtelApps WebAdmin is an admin tool for the hotel team that wants to offer guests a modern mobile experience without an IT department on the phone every day. From one clear portal you manage what the guest sees in the app: restaurant and bar menus, in-room services, leisure tips and important information — quickly, consistently and according to what your hotel actually offers. The modular design means you only turn on what you need, so the interface stays clean and staff training is short.",
+    "content": {
+      "imageAlt": "OtelApps WebAdmin — editing content for guests",
+      "imageCaption": "The editor and structure of what the guest sees on mobile",
+      "title": "Content under control",
+      "desc": "One clear place for everything you need to handle and keep under control.",
+      "rows": [
+        { "title": "Restaurants, bars and room service: ", "text": "food and drink menus, in-room services and ordering information — clearly for the guest." },
+        { "title": "Content and tips: ", "text": "leisure tips, hotel rules and important information without unnecessary questions at reception." },
+        { "title": "Operations and feedback: ", "text": "an overview of activities, concierge requests and signals from guests during their stay." }
+      ]
+    },
+    "about": {
+      "title": "About the project",
+      "subtitle": "From reception to management — one single source of truth about the content on the guest's mobile.",
+      "p1": "Hotels today compete not only on beds but also on digital service. I designed OtelApps WebAdmin as a control center for such a mobile app: a place where reception, F&B or concierge update offers, opening hours and guest content with a single click, and where management has an overview of activities, feedback or concierge requests.",
+      "p2": "The goal is not “another admin”, but fewer errors, faster guest response and a unified brand across what the guest sees on their phone. Thanks to modules, the system adapts to the size of the operation, from a boutique hotel to a resort with a wide range of services."
+    },
+    "pillars": {
+      "title": "What you get from WebAdmin",
+      "subtitle": "Three principles that hold content, team and scaling together.",
+      "cards": [
+        { "title": "Up-to-date information for the guest", "text": "You change content centrally, not room by room and channel by channel." },
+        { "title": "One place for the staff", "text": "Less manual rewriting and arguing over “who will edit it”." },
+        { "title": "Scales with the hotel", "text": "Modules according to what you actually operate." }
+      ]
+    },
+    "gallery": {
+      "title": "Two views of the same system",
+      "dashboard": { "alt": "WebAdmin dashboard", "caption": "Dashboard and modules", "desc": "An overview of what's enabled and where the team is currently working" },
+      "content": { "alt": "WebAdmin content editor", "caption": "Content editor for the guest", "desc": "The structure of offers, texts and services the guest sees in the app" }
+    },
+    "cta": {
+      "tech": "Our WebAdmin serves to manage guests and their needs - a simple CRM for clarity, efficiency and higher returns from every guest, thanks to personalized and simple upselling.",
+      "title": "A tailored demo",
+      "desc": "We'll walk through WebAdmin in the context of your operation.",
+      "button": "Arrange a demo",
+      "guestApp": "Guest mobile app",
+      "hotelInfo": "Hotel information"
     }
   }
 }

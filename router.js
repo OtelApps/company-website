@@ -10,7 +10,7 @@ import TripPlanner from './src/views/Product/TripPlanner.vue'
 import VirtualReceptionist from './src/views/Product/VirtualReceptionist.vue'
 import VirtualKey from './src/views/Product/VirtualKey.vue'
 import CheckInCheckOut from './src/views/Product/CheckInCheckOut.vue'
-import StayProgress from './src/views/Product/StayProgress.vue'
+import StayProgress from './src/views/StayProgress.vue'
 import InstantFeedback from './src/views/Product/InstantFeedback.vue'
 import TaskManager from './src/views/Product/TaskManager.vue'
 import AnalyticsInsights from './src/views/Product/AnalyticsInsights.vue'
@@ -33,7 +33,7 @@ const routes = [
   { path: '/Product/VirtualReceptionist', component: VirtualReceptionist },
   { path: '/Product/VirtualKey', component: VirtualKey },
   { path: '/Product/CheckInCheckOut', component: CheckInCheckOut },
-  { path: '/Product/StayProgress', component: StayProgress },
+  { path: '/StayProgress', component: StayProgress },
   { path: '/Product/InstantFeedback', component: InstantFeedback },
   { path: '/Product/TaskManager', component: TaskManager },
   { path: '/Product/AnalyticsInsights', component: AnalyticsInsights },

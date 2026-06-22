@@ -38,11 +38,11 @@
               {{ $t('header.nav.pricing') }}
             </router-link>
             <router-link
-              to="/Product/StayProgress"
+              to="/StayProgress"
               class="text-gray-700 hover:text-gray-900 text-xs md:text-sm lg:text-base dark:text-white whitespace-nowrap"
               :class="{ 'font-bold': isStayProgressActive }"
             >
-              Průběh pobytu
+              {{ $t('header.nav.stayProgress') }}
             </router-link>
             <router-link
               to="/AboutUs"
@@ -324,9 +324,9 @@
                   <div class="flex items-start space-x-3">
                     <span class="material-symbols-outlined">admin_panel_settings</span>
                     <router-link to="/Product/WebAdmin" @click="closeMobileMenu" class="flex flex-col">
-                      <div class="font-medium text-gray-900 dark:text-white">WebAdmin pro obsluhu hotelu</div>
+                      <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.webAdmin.title') }}</div>
                       <p class="text-sm text-gray-600 dark:text-white">
-                        Jedno místo pro správu obsahu a služeb mobilní aplikace — bez chaosu v e-mailech a tabulkách.
+                        {{ $t('header.menu.webAdmin.desc') }}
                       </p>
                     </router-link>
                   </div>
@@ -392,22 +392,22 @@
                   <div class="flex items-start space-x-3">
                     <span class="material-symbols-outlined">chat_info</span>
                     <router-link to="/Product/VirtualReceptionist" @click="closeMobileMenu" class="flex flex-col text-left">
-                      <div class="font-medium text-gray-900 dark:text-white">Live chat + AI virtuální recepční</div>
-                      <p class="text-sm text-gray-600 dark:text-white">Buďte neustále ve spojení se svými hosty, kdykoliv to potřebují.</p>
+                      <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.liveChat.title') }}</div>
+                      <p class="text-sm text-gray-600 dark:text-white">{{ $t('header.menu.liveChat.desc') }}</p>
                     </router-link>
                   </div>
                   <div class="flex items-start space-x-3">
                     <span class="material-symbols-outlined">desktop_cloud</span>
                     <router-link to="/Product/CheckInCheckOut" @click="closeMobileMenu" class="flex flex-col text-left">
-                      <div class="font-medium text-gray-900 dark:text-white">Online check-in + check-out</div>
-                      <p class="text-sm text-gray-600 dark:text-white">Ušetřete čas svému personálu i hostům při příjezdu či odjezdu.</p>
+                      <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.checkInOut.title') }}</div>
+                      <p class="text-sm text-gray-600 dark:text-white">{{ $t('header.menu.checkInOut.desc') }}</p>
                     </router-link>
                   </div>
                   <div class="flex items-start space-x-3">
                     <span class="material-symbols-outlined">credit_card</span>
                     <router-link to="/Product/VirtualKey" @click="closeMobileMenu" class="flex flex-col text-left">
-                      <div class="font-medium text-gray-900 dark:text-white">Virtuální pokojová karta</div>
-                      <p class="text-sm text-gray-600 dark:text-white">Bez zbytečných karet, otevírejte pokoj i celý hotel jednoduše svým mobilem.</p>
+                      <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.virtualKey.title') }}</div>
+                      <p class="text-sm text-gray-600 dark:text-white">{{ $t('header.menu.virtualKey.desc') }}</p>
                     </router-link>
                   </div>
                 </div>
@@ -442,7 +442,7 @@
                     <router-link to="/Solution/Boutiques" @click="closeMobileMenu" class="flex flex-col">
                       <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.boutiqueHotels.title') }}</div>
                       <p class="text-sm text-gray-600 dark:text-white">
-                        {{ $t('menu.boutiqueHotels.desc') }}
+                        {{ $t('header.menu.boutiqueHotels.desc') }}
                       </p>
                     </router-link>
                   </div>
@@ -473,12 +473,12 @@
           </router-link>
 
           <router-link
-            to="/Product/StayProgress"
+            to="/StayProgress"
             @click="closeMobileMenu"
             class="block py-4 border-b border-gray-200 text-gray-900 text-base dark:text-white"
             :class="{ 'font-bold': isStayProgressActive }"
           >
-            Průběh pobytu
+            {{ $t('header.nav.stayProgress') }}
           </router-link>
 
           <router-link
@@ -553,9 +553,9 @@
               <div class="flex items-start space-x-3">
                 <span class="material-symbols-outlined">admin_panel_settings</span>
                 <router-link to="/Product/WebAdmin" @click="isProductOpen = false" class="flex flex-col">
-                  <div class="font-medium text-gray-900 dark:text-white">WebAdmin pro obsluhu hotelu</div>
+                  <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.webAdmin.title') }}</div>
                   <p class="text-sm text-gray-600 dark:text-white">
-                    Jedno místo pro správu obsahu a služeb mobilní aplikace — bez chaosu v e-mailech a tabulkách.
+                    {{ $t('header.menu.webAdmin.desc') }}
                   </p>
                 </router-link>
               </div>
@@ -622,22 +622,22 @@
               <div class="flex items-start space-x-3">
                 <span class="material-symbols-outlined">chat_info</span>
                 <router-link to="/Product/VirtualReceptionist" @click="isProductOpen = false" class="flex flex-col text-left">
-                  <div class="font-medium text-gray-900 dark:text-white">Live chat + AI virtuální recepční</div>
-                  <p class="text-sm text-gray-600 dark:text-white">Buďte neustále ve spojení se svými hosty, kdykoliv to potřebují.</p>
+                  <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.liveChat.title') }}</div>
+                  <p class="text-sm text-gray-600 dark:text-white">{{ $t('header.menu.liveChat.desc') }}</p>
                 </router-link>
               </div>
               <div class="flex items-start space-x-3">
                 <span class="material-symbols-outlined">desktop_cloud</span>
                 <router-link to="/Product/CheckInCheckOut" @click="isProductOpen = false" class="flex flex-col text-left">
-                  <div class="font-medium text-gray-900 dark:text-white">Online check-in + check-out</div>
-                  <p class="text-sm text-gray-600 dark:text-white">Ušetřete čas svému personálu i hostům při příjezdu či odjezdu.</p>
+                  <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.checkInOut.title') }}</div>
+                  <p class="text-sm text-gray-600 dark:text-white">{{ $t('header.menu.checkInOut.desc') }}</p>
                 </router-link>
               </div>
               <div class="flex items-start space-x-3">
                 <span class="material-symbols-outlined">credit_card</span>
                 <router-link to="/Product/VirtualKey" @click="isProductOpen = false" class="flex flex-col text-left">
-                  <div class="font-medium text-gray-900 dark:text-white">Virtuální pokojová karta</div>
-                  <p class="text-sm text-gray-600 dark:text-white">Bez zbytečných karet, otevírejte pokoj i celý hotel jednoduše svým mobilem.</p>
+                  <div class="font-medium text-gray-900 dark:text-white">{{ $t('header.menu.virtualKey.title') }}</div>
+                  <p class="text-sm text-gray-600 dark:text-white">{{ $t('header.menu.virtualKey.desc') }}</p>
                 </router-link>
               </div>
             </div>
@@ -731,7 +731,7 @@ export default {
       return this.$route.path === '/Pricing'
     },
     isStayProgressActive() {
-      return this.$route.path === '/Product/StayProgress'
+      return this.$route.path === '/StayProgress'
     },
     isAboutUsActive() {
       return this.$route.path === '/AboutUs'

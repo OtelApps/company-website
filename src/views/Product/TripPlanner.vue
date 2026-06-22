@@ -6,16 +6,15 @@
         <!-- Left Section - Text -->
         <section class="space-y-6">
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            Naplánujte hostům nezapomenutelné zážitky v Praze
+            {{ $t('tripPlanner.hero.title') }}
           </h1>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-            S funkcí Trip Planner v naší mobilní aplikaci mají vaši hosté celou Prahu jako na dlani. 
-            Pomozte jim objevit nejznámější místa, naplánovat skvělé výlety a užít si pobyt na maximum.
+            {{ $t('tripPlanner.hero.desc') }}
           </p>
           <button
             class="w-12/12 sm:w-auto mx-auto sm:mx-0 bg-white text-black border border-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold cursor-pointer hover:bg-gray-50 transition-colors"
           >
-            Vyzkoušet demo-verzi
+            {{ $t('tripPlanner.hero.button') }}
           </button>
         </section>
 
@@ -27,14 +26,14 @@
                 <div class="flex items-center justify-between">
                    <div class="flex items-center space-x-2">
                       <span class="material-symbols-outlined text-[#f5a623] text-lg">explore</span>
-                      <span class="font-bold text-gray-900 text-sm">Trip Planner</span>
+                      <span class="font-bold text-gray-900 text-sm">{{ $t('tripPlanner.mockup.appName') }}</span>
                    </div>
-                   <span class="text-xs text-gray-500 font-medium">Praha</span>
+                   <span class="text-xs text-gray-500 font-medium">{{ $t('tripPlanner.mockup.city') }}</span>
                 </div>
                 <!-- Search bar -->
                 <div class="flex items-center bg-gray-100 rounded-lg px-3 py-1.5 border border-gray-200">
                    <span class="material-symbols-outlined text-gray-400 text-sm mr-2">search</span>
-                   <span class="text-xs text-gray-400">Kam se chcete vydat?</span>
+                   <span class="text-xs text-gray-400">{{ $t('tripPlanner.mockup.search') }}</span>
                 </div>
              </div>
 
@@ -52,7 +51,7 @@
                    <div class="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center shadow-lg border-2 border-white hover:scale-110 transition-transform cursor-pointer">
                       <span class="material-symbols-outlined text-white text-xs">castle</span>
                    </div>
-                   <span class="text-[10px] font-bold text-gray-800 bg-white/95 px-1.5 py-0.5 rounded shadow mt-1">Pražský hrad</span>
+                   <span class="text-[10px] font-bold text-gray-800 bg-white/95 px-1.5 py-0.5 rounded shadow mt-1">{{ $t('tripPlanner.mockup.castle') }}</span>
                 </div>
 
                 <!-- Pin 2: Bridge (Active item) -->
@@ -64,7 +63,7 @@
                          <span class="relative inline-flex rounded-full h-3 w-3 bg-[#f5a623]"></span>
                       </span>
                    </div>
-                   <span class="text-[10px] font-extrabold text-white bg-gray-900 px-1.5 py-0.5 rounded shadow mt-1">Karlův most</span>
+                   <span class="text-[10px] font-extrabold text-white bg-gray-900 px-1.5 py-0.5 rounded shadow mt-1">{{ $t('tripPlanner.mockup.bridge') }}</span>
                 </div>
 
                 <!-- Pin 3: Square -->
@@ -72,7 +71,7 @@
                    <div class="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center shadow-lg border-2 border-white hover:scale-110 transition-transform cursor-pointer">
                       <span class="material-symbols-outlined text-white text-xs">account_balance</span>
                    </div>
-                   <span class="text-[10px] font-bold text-gray-800 bg-white/95 px-1.5 py-0.5 rounded shadow mt-1">Orloj</span>
+                   <span class="text-[10px] font-bold text-gray-800 bg-white/95 px-1.5 py-0.5 rounded shadow mt-1">{{ $t('tripPlanner.mockup.clock') }}</span>
                 </div>
 
                 <!-- Active Monument Popup Card (Bottom Float) -->
@@ -82,16 +81,16 @@
                          <span class="material-symbols-outlined text-[#f5a623] text-xl">map</span>
                       </div>
                       <div class="text-left text-left-important">
-                         <h4 class="font-bold text-gray-900 text-xs sm:text-sm text-left">Karlův most</h4>
+                         <h4 class="font-bold text-gray-900 text-xs sm:text-sm text-left">{{ $t('tripPlanner.mockup.bridge') }}</h4>
                          <p class="text-[10px] text-gray-500 flex items-center">
                             <span class="material-symbols-outlined text-[10px] text-[#f5a623] mr-1">location_on</span>
-                            1.2 km od Vašeho hotelu
+                            {{ $t('tripPlanner.mockup.distance') }}
                          </p>
                       </div>
                    </div>
                    <div class="flex flex-col items-end space-y-1">
                       <button class="bg-gray-900 text-white text-[10px] font-semibold px-3 py-1 rounded-md hover:bg-gray-800 transition-colors">
-                         Navigovat
+                         {{ $t('tripPlanner.mockup.navigate') }}
                       </button>
                    </div>
                 </div>
@@ -106,10 +105,10 @@
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <header class="text-center mb-12">
           <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Vše pro dokonalé objevování města
+            {{ $t('tripPlanner.features.title') }}
           </h2>
           <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
-            Interaktivní nástroj, který udělá z každé procházky Prahou perfektní zážitek.
+            {{ $t('tripPlanner.features.subtitle') }}
           </p>
         </header>
 
@@ -119,9 +118,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">map</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Interaktivní mapa</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.features.items.0.title') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Přehledná mapa Prahy s vyznačenými body, která hosty navede přímo k cíli.
+              {{ $t('tripPlanner.features.items.0.desc') }}
             </p>
           </article>
 
@@ -130,9 +129,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">account_balance</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Nejznámější památky</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.features.items.1.title') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Katedrála sv. Víta, Karlův most nebo Staroměstské náměstí. Hosté snadno zjistí potřebné informace.
+              {{ $t('tripPlanner.features.items.1.desc') }}
             </p>
           </article>
 
@@ -141,9 +140,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">route</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Plánování tras</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.features.items.2.title') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Jednoduše propojitelné body do jedné trasy pro efektivní využití času při procházkách Prahou.
+              {{ $t('tripPlanner.features.items.2.desc') }}
             </p>
           </article>
 
@@ -152,9 +151,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">recommend</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Doporučení od hotelu</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.features.items.3.title') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Možnost přidat vaše osobní tipy na skryté kavárny, restaurace nebo oblíbená místa, která v průvodci nenajdou.
+              {{ $t('tripPlanner.features.items.3.desc') }}
             </p>
           </article>
 
@@ -163,9 +162,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">wifi_off</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Dostupné v mobilu</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.features.items.4.title') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Plánovač je vždy po ruce v hostově chytrém telefonu, přesně když ho potřebují na cestách městem.
+              {{ $t('tripPlanner.features.items.4.desc') }}
             </p>
           </article>
 
@@ -174,9 +173,9 @@
             <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mb-4">
               <span class="material-symbols-outlined text-white">directions</span>
             </div>
-            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Chytrá navigace</h3>
+            <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.features.items.5.title') }}</h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Propojení s běžnými mapovými aplikacemi pro plynulý přechod k samotné navigaci krok za krokem.
+              {{ $t('tripPlanner.features.items.5.desc') }}
             </p>
           </article>
         </div>
@@ -190,10 +189,10 @@
           <!-- Left Section - Text Content -->
           <section class="space-y-8">
             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight not-sm:text-center">
-              Proč nabídnout hostům plánování výletů?
+              {{ $t('tripPlanner.whyChoose.title') }}
             </h2>
             <p class="text-base sm:text-lg text-gray-700 leading-relaxed not-sm:text-center">
-              Trip Planner není jen mapa, je to váš digitální průvodce. Usnadníte hostům pobyt a zároveň jim nabídnete profesionální péči.
+              {{ $t('tripPlanner.whyChoose.desc') }}
             </p>
 
             <!-- Benefits List -->
@@ -205,9 +204,9 @@
                   </svg>
                 </div>
                 <section>
-                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Úspora času pro recepci</h3>
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.whyChoose.benefits.0.title') }}</h3>
                   <p class="text-sm sm:text-base text-gray-600">
-                    Méně opakujících se dotazů na cestu a památky znamená více času pro personál na důležitější úkoly.
+                    {{ $t('tripPlanner.whyChoose.benefits.0.desc') }}
                   </p>
                 </section>
               </li>
@@ -219,9 +218,9 @@
                   </svg>
                 </div>
                 <section>
-                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Hodnotná doporučení</h3>
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.whyChoose.benefits.1.title') }}</h3>
                   <p class="text-sm sm:text-base text-gray-600">
-                    Sdílejte své lokální znalosti a pomozte hostům zažít autentickou Prahu, což ocení v pozitivních recenzích.
+                    {{ $t('tripPlanner.whyChoose.benefits.1.desc') }}
                   </p>
                 </section>
               </li>
@@ -233,9 +232,9 @@
                   </svg>
                 </div>
                 <section>
-                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Lepší zážitek z pobytu</h3>
+                  <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('tripPlanner.whyChoose.benefits.2.title') }}</h3>
                   <p class="text-sm sm:text-base text-gray-600">
-                    Hosté, kteří se ve městě snadno orientují a vidí to nejlepší, odjíždějí mnohem spokojenější.
+                    {{ $t('tripPlanner.whyChoose.benefits.2.desc') }}
                   </p>
                 </section>
               </li>
@@ -246,7 +245,7 @@
           <figure class="flex items-center justify-center bg-gray-100 rounded-xl p-8 h-full min-h-[300px]">
              <div class="text-center text-gray-400">
                <span class="material-symbols-outlined text-8xl mb-4 text-[#f5a623]">explore</span>
-               <p class="text-lg">Ukázka interaktivní mapy v aplikaci</p>
+               <p class="text-lg">{{ $t('tripPlanner.whyChoose.imageCaption') }}</p>
              </div>
           </figure>
         </div>
@@ -257,10 +256,10 @@
     <section class="max-w-screen-2xl mx-auto px-7 py-12 sm:py-12 lg:py-32">
       <header class="sm:text-center mb-12">
         <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 not-sm:mr-4">
-          Objevte další možnosti s Otel Apps
+          {{ $t('common.exploreMore.title') }}
         </h2>
         <p class="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
-          Trip Planner je jen jedna z mnoha funkcí. Prozkoumejte, jak může celá platforma pomoci vašemu hotelu.
+          {{ $t('tripPlanner.exploreMore.desc') }}
         </p>
       </header>
 
@@ -269,32 +268,32 @@
           <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mx-auto mb-4">
             <span class="material-symbols-outlined text-white">mobile_2</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Mobilní aplikace</h3>
-          <p class="text-sm sm:text-base text-gray-600">Umožněte hostům spravovat celý pobyt z jejich telefonu.</p>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('common.exploreMore.cards.mobileApp.title') }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">{{ $t('common.exploreMore.cards.mobileApp.desc') }}</p>
         </article>
 
         <article class="bg-[#f9fafb] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center">
           <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mx-auto mb-4">
             <span class="material-symbols-outlined text-white">restaurant_menu</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Mobilní objednávky</h3>
-          <p class="text-sm sm:text-base text-gray-600">Zvyšte prodeje díky snadnému objednávání na pokoj.</p>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('common.exploreMore.cards.mobileOrdering.title') }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">{{ $t('common.exploreMore.cards.mobileOrdering.desc') }}</p>
         </article>
 
         <article class="bg-[#f9fafb] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center">
           <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mx-auto mb-4">
             <span class="material-symbols-outlined text-white">info</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Hotelový průvodce</h3>
-          <p class="text-sm sm:text-base text-gray-600">Veškeré informace o hotelu a službách přehledně na jednom místě.</p>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('common.exploreMore.cards.hotelGuide.title') }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">{{ $t('common.exploreMore.cards.hotelGuide.desc') }}</p>
         </article>
 
         <article class="bg-[#f9fafb] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center">
           <div class="w-12 h-12 bg-[#f5a623] rounded-lg flex items-center justify-center mx-auto mb-4">
             <span class="material-symbols-outlined text-white">task</span>
           </div>
-          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">Task manager</h3>
-          <p class="text-sm sm:text-base text-gray-600">Efektivní vyřizování požadavků hostů pro personál.</p>
+          <h3 class="text-base sm:text-lg font-semibold text-gray-900 mb-2">{{ $t('common.exploreMore.cards.taskManager.title') }}</h3>
+          <p class="text-sm sm:text-base text-gray-600">{{ $t('common.exploreMore.cards.taskManager.desc') }}</p>
         </article>
       </div>
     </section>
