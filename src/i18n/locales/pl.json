@@ -1395,5 +1395,279 @@
       "guestApp": "Aplikacja mobilna dla gości",
       "hotelInfo": "Informacje o hotelu"
     }
+  },
+  "legal": {
+    "updated": "Ostatnia aktualizacja",
+    "contents": "Spis treści",
+    "related": "Powiązane dokumenty",
+    "gdpr": {
+      "title": "Polityka prywatności",
+      "subtitle": "Jak OtelApps postępuje z Twoimi danymi osobowymi, dlaczego je przetwarzamy i jakie masz prawa.",
+      "date": "14 sierpnia 2026",
+      "intro": "Ochrona Twoich danych osobowych jest dla nas ważna. W tej polityce wyjaśniamy, jakie dane o Tobie zbieramy, do czego ich używamy, komu je przekazujemy i jak możesz skorzystać ze swoich praw wynikających z rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).",
+      "sections": [
+        {
+          "title": "Administrator danych osobowych",
+          "paragraphs": [
+            "Administratorem Twoich danych osobowych jest OtelApps, REGON/IČO 23905719, NIP/DIČ 23905719, z siedzibą przy Příčná 1892/4, Nové Město, 110 00 Praga 1, Republika Czeska (dalej „my“ lub „administrator“).",
+            "We wszystkich sprawach dotyczących przetwarzania danych osobowych możesz skontaktować się z nami pod adresem info{'@'}otelapps.com lub telefonicznie pod numerem +420 604 607 225.",
+            "Nie wyznaczyliśmy inspektora ochrony danych, ponieważ przepisy prawa nie nakładają na nas takiego obowiązku."
+          ]
+        },
+        {
+          "title": "Zakres tej polityki",
+          "paragraphs": [
+            "Niniejsza polityka opisuje, jak postępujemy z danymi osobowymi osób odwiedzających naszą stronę internetową, osób zainteresowanych naszymi produktami oraz osób kontaktowych naszych klientów i partnerów biznesowych.",
+            "Jeżeli prowadzimy dla hotelu aplikację dla jego gości, dane gości przetwarzamy zwykle jako podmiot przetwarzający, zgodnie z poleceniami danego hotelu, który w takim przypadku jest administratorem. Informacje o tym przetwarzaniu przekaże Ci odpowiedni hotel."
+          ]
+        },
+        {
+          "title": "Jakie dane osobowe przetwarzamy",
+          "paragraphs": [
+            "W zależności od tego, w jaki sposób się z nami kontaktujesz, przetwarzamy przede wszystkim następujące kategorie danych:"
+          ],
+          "items": [
+            "Dane identyfikacyjne i kontaktowe – imię i nazwisko, adres e-mail, numer telefonu, kraj, nazwa firmy i stanowisko.",
+            "Dane z komunikacji – treść wiadomości z formularza kontaktowego, wiadomości e-mail oraz zapisy rozmów telefonicznych i innej komunikacji z Tobą.",
+            "Dane dotyczące zapytania – informacje o Twoim zainteresowaniu konkretnym produktem, preferowany termin prezentacji i notatki ze spotkań.",
+            "Dane techniczne – adres IP, typ i wersja przeglądarki, system operacyjny, język, data i godzina dostępu oraz strona, z której nastąpiło wejście.",
+            "Dane z plików cookie i podobnych technologii – w zakresie opisanym w Polityce plików cookie."
+          ]
+        },
+        {
+          "title": "Cele i podstawy prawne przetwarzania",
+          "paragraphs": [
+            "Dane osobowe przetwarzamy zawsze w konkretnym celu i na odpowiedniej podstawie prawnej:"
+          ],
+          "items": [
+            "Obsługa Twojego zapytania i komunikacja z Tobą – podjęcie działań przed zawarciem umowy na Twoje żądanie oraz nasz prawnie uzasadniony interes polegający na udzieleniu odpowiedzi [art. 6 ust. 1 lit. b) i f) RODO].",
+            "Zawarcie i wykonanie umowy – dostarczanie naszych produktów i usług, wsparcie oraz fakturowanie [art. 6 ust. 1 lit. b) RODO].",
+            "Wysyłka informacji handlowych – Twoja zgoda, a w przypadku naszych obecnych klientów prawnie uzasadniony interes polegający na oferowaniu podobnych usług [art. 6 ust. 1 lit. a) i f) RODO]. Subskrypcję możesz w każdej chwili anulować.",
+            "Prowadzenie, zabezpieczenie i ulepszanie strony internetowej – nasz prawnie uzasadniony interes w bezpiecznej i sprawnie działającej stronie [art. 6 ust. 1 lit. f) RODO].",
+            "Pomiar ruchu i analityka – Twoja zgoda udzielona za pośrednictwem banera cookie [art. 6 ust. 1 lit. a) RODO].",
+            "Wypełnianie obowiązków prawnych – w szczególności w zakresie księgowości, podatków i archiwizacji [art. 6 ust. 1 lit. c) RODO].",
+            "Ustalenie, dochodzenie lub obrona roszczeń – nasz prawnie uzasadniony interes [art. 6 ust. 1 lit. f) RODO]."
+          ]
+        },
+        {
+          "title": "Skąd pozyskujemy dane osobowe",
+          "paragraphs": [
+            "Większość danych pozyskujemy bezpośrednio od Ciebie – poprzez formularz na stronie, komunikację e-mailową lub telefoniczną, ewentualnie podczas targów czy spotkania biznesowego.",
+            "Dane techniczne zbieramy automatycznie podczas Twojej wizyty na stronie. Dane osób kontaktowych możemy pozyskać także od Twojego pracodawcy lub ze źródeł publicznie dostępnych, takich jak rejestry publiczne i strony firmowe.",
+            "Podanie danych jest dobrowolne. Bez danych oznaczonych w formularzach jako obowiązkowe nie możemy jednak obsłużyć Twojego zapytania."
+          ]
+        },
+        {
+          "title": "Komu przekazujemy dane osobowe",
+          "paragraphs": [
+            "Dostęp do Twoich danych mają nasi pracownicy i współpracownicy, którzy potrzebują ich do wykonywania swojej pracy, a także następujące kategorie odbiorców:"
+          ],
+          "items": [
+            "Dostawcy hostingu, infrastruktury chmurowej i obsługi strony internetowej.",
+            "Dostawca usługi obsługi formularzy, który dostarcza nam wiadomości wysłane z formularza kontaktowego.",
+            "Dostawcy narzędzi pocztowych, komunikacyjnych i biurowych.",
+            "Dostawcy narzędzi do pomiaru ruchu, o ile wyrazisz na to zgodę.",
+            "Doradcy księgowi, podatkowi i prawni.",
+            "Organy władzy publicznej, jeżeli obowiązek przekazania danych wynika z przepisów prawa."
+          ],
+          "note": "Z dostawcami, którzy przetwarzają dane osobowe w naszym imieniu, zawieramy umowy powierzenia przetwarzania danych osobowych. Nie sprzedajemy Twoich danych ani nie przekazujemy ich osobom trzecim na potrzeby ich własnego marketingu."
+        },
+        {
+          "title": "Przekazywanie do państw trzecich",
+          "paragraphs": [
+            "Twoje dane osobowe przetwarzamy przede wszystkim na terenie Unii Europejskiej.",
+            "Jeżeli któryś z naszych dostawców przetwarza dane poza UE lub Europejskim Obszarem Gospodarczym, odbywa się to wyłącznie na podstawie decyzji Komisji Europejskiej stwierdzającej odpowiedni stopień ochrony, standardowych klauzul umownych zatwierdzonych przez Komisję Europejską lub innego odpowiedniego zabezpieczenia zgodnie z rozdziałem V RODO."
+          ]
+        },
+        {
+          "title": "Jak długo przechowujemy dane",
+          "paragraphs": [
+            "Dane osobowe przechowujemy tylko przez okres niezbędny do realizacji danego celu:"
+          ],
+          "items": [
+            "Zapytanie, które nie doprowadziło do zawarcia umowy – najdłużej 12 miesięcy od ostatniej komunikacji.",
+            "Dane związane z zawartą umową – przez czas jej trwania, a następnie 10 lat od jej zakończenia, w szczególności ze względu na terminy przedawnienia.",
+            "Dane przetwarzane na podstawie zgody – do czasu jej wycofania, jednak nie dłużej niż 3 lata od jej udzielenia.",
+            "Dokumenty księgowe i podatkowe – przez okres wymagany przepisami prawa, zwykle 10 lat.",
+            "Dane techniczne i logi – zwykle 12 miesięcy."
+          ],
+          "note": "Po upływie wskazanych okresów dane osobowe bezpiecznie usuwamy lub nieodwracalnie anonimizujemy."
+        },
+        {
+          "title": "Bezpieczeństwo danych osobowych",
+          "paragraphs": [
+            "Wdrożyliśmy środki techniczne i organizacyjne odpowiadające charakterowi przetwarzania oraz ryzyku naruszenia Twoich praw i wolności.",
+            "Należą do nich szyfrowana transmisja danych (HTTPS), zarządzanie uprawnieniami dostępu zgodnie z zasadą minimalnego niezbędnego zakresu, regularne aktualizacje i zabezpieczanie systemów, tworzenie kopii zapasowych oraz szkolenia i obowiązek zachowania poufności osób pracujących z danymi."
+          ]
+        },
+        {
+          "title": "Twoje prawa",
+          "paragraphs": [
+            "W związku z przetwarzaniem danych osobowych przysługują Ci następujące prawa:"
+          ],
+          "items": [
+            "Prawo dostępu – uzyskania potwierdzenia, czy przetwarzamy Twoje dane, oraz otrzymania ich kopii wraz z informacjami o przetwarzaniu.",
+            "Prawo do sprostowania – poprawienia nieprawidłowych danych lub uzupełnienia danych niekompletnych.",
+            "Prawo do usunięcia – usunięcia danych, gdy nie są już potrzebne, gdy wycofasz zgodę lub gdy przetwarzanie nie ma innej podstawy prawnej.",
+            "Prawo do ograniczenia przetwarzania – żądania, abyśmy dane jedynie tymczasowo przechowywali, np. na czas weryfikacji ich prawidłowości.",
+            "Prawo do przenoszenia danych – otrzymania przekazanych nam przez Ciebie danych w ustrukturyzowanym, powszechnie używanym formacie nadającym się do odczytu maszynowego.",
+            "Prawo do sprzeciwu – wobec przetwarzania opartego na prawnie uzasadnionym interesie. Wobec marketingu bezpośredniego możesz wnieść sprzeciw w każdej chwili, a my niezwłocznie zakończymy przetwarzanie w tym celu.",
+            "Prawo do wycofania zgody – w każdej chwili i bez podania przyczyny, bez wpływu na zgodność z prawem przetwarzania dokonanego przed jej wycofaniem.",
+            "Prawo do wniesienia skargi – do czeskiego organu nadzorczego Úřad pro ochranu osobních údajů, Pplk. Sochora 27, 170 00 Praga 7, www.uoou.cz, lub do Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa."
+          ],
+          "note": "Swoje prawa możesz zrealizować, pisząc na adres info{'@'}otelapps.com lub listownie na adres naszej siedziby. Aby chronić Twoje dane, możemy poprosić o potwierdzenie tożsamości. Wniosek rozpatrzymy bez zbędnej zwłoki, najpóźniej w ciągu miesiąca; w skomplikowanych przypadkach możemy przedłużyć ten termin o kolejne dwa miesiące, o czym Cię poinformujemy."
+        },
+        {
+          "title": "Zautomatyzowane podejmowanie decyzji i profilowanie",
+          "paragraphs": [
+            "Przy przetwarzaniu Twoich danych osobowych nie dochodzi do zautomatyzowanego podejmowania decyzji wywołującego wobec Ciebie skutki prawne lub w podobny sposób istotnie na Ciebie wpływającego, ani do profilowania w tym zakresie."
+          ]
+        },
+        {
+          "title": "Pliki cookie",
+          "paragraphs": [
+            "Nasza strona internetowa używa plików cookie i podobnych technologii. Szczegóły dotyczące ich rodzajów, celu i okresu przechowywania, w tym możliwości zmiany zgody w dowolnym momencie, znajdziesz w Polityce plików cookie."
+          ]
+        },
+        {
+          "title": "Zmiany tej polityki",
+          "paragraphs": [
+            "Możemy aktualizować niniejszą politykę, w szczególności w przypadku zmiany przepisów prawa, naszych usług lub sposobu przetwarzania danych.",
+            "Aktualna wersja jest zawsze dostępna na tej stronie, a datę ostatniej aktualizacji znajdziesz w jej nagłówku. O istotnych zmianach poinformujemy Cię w odpowiedni sposób, na przykład komunikatem na stronie."
+          ]
+        },
+        {
+          "title": "Kontakt",
+          "paragraphs": [
+            "Jeżeli masz jakiekolwiek pytanie dotyczące ochrony danych osobowych lub chcesz skorzystać ze swoich praw, napisz do nas na adres info{'@'}otelapps.com lub zadzwoń pod numer +420 604 607 225.",
+            "Listownie możesz skontaktować się z nami pod adresem OtelApps, Příčná 1892/4, Nové Město, 110 00 Praga 1, Republika Czeska."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Polityka plików cookie",
+      "subtitle": "Jakich plików cookie używamy na stronie OtelApps, dlaczego są nam potrzebne i jak w każdej chwili zmienić swoją zgodę.",
+      "date": "14 sierpnia 2026",
+      "intro": "Pliki cookie pomagają nam zapewnić prawidłowe działanie strony, a za Twoją zgodą także lepiej rozumieć, w jaki sposób odwiedzający z niej korzystają. Poniżej znajdziesz przegląd tego, jakie pliki cookie zapisujemy, czemu służą i jak zachowujesz nad nimi kontrolę.",
+      "sections": [
+        {
+          "title": "Czym są pliki cookie",
+          "paragraphs": [
+            "Pliki cookie to niewielkie pliki tekstowe zapisywane na Twoim urządzeniu podczas odwiedzania strony internetowej. Pozwalają stronie zapamiętać Twoje ustawienia i rozpoznać urządzenie przy kolejnej wizycie.",
+            "Poza plikami cookie mogą być wykorzystywane również podobne technologie, na przykład pamięć lokalna przeglądarki (local storage). Dla uproszczenia w tej polityce określamy je łącznie jako pliki cookie."
+          ]
+        },
+        {
+          "title": "Dlaczego używamy plików cookie",
+          "paragraphs": [
+            "Pliki cookie na naszej stronie służą następującym celom:"
+          ],
+          "items": [
+            "Aby strona działała prawidłowo i zapamiętywała Twoje wybory, na przykład wybrany język.",
+            "Aby zapamiętać Twoją decyzję dotyczącą zgody na pliki cookie i nie pytać Cię przy każdej wizycie.",
+            "Aby zrozumieć, w jaki sposób strona jest używana, i móc ją dalej ulepszać.",
+            "Aby zapewnić bezpieczeństwo strony i zapobiegać nadużyciom."
+          ]
+        },
+        {
+          "title": "Jakich plików cookie używamy",
+          "paragraphs": [
+            "Niezbędne pliki cookie są konieczne do podstawowego działania strony i nie można ich wyłączyć. Zapisujemy je bez Twojej zgody, zgodnie z § 89 ust. 3 czeskiej ustawy nr 127/2005 Dz.U. o łączności elektronicznej.",
+            "Analityczne pliki cookie pomagają nam mierzyć ruch i zachowanie na stronie. Marketingowe pliki cookie służą do kierowania reklam i mierzenia ich skuteczności. Obie te kategorie zapisujemy wyłącznie wtedy, gdy wyrazisz na to zgodę.",
+            "Obecnie nasza strona zapisuje wyłącznie niezbędne pliki cookie wymienione w poniższej tabeli. Jeżeli wdrożymy narzędzia analityczne lub marketingowe, uzupełnimy tabelę i ponownie zapytamy Cię o zgodę."
+          ]
+        },
+        {
+          "title": "Zgoda i jak ją zmienić",
+          "paragraphs": [
+            "Przy pierwszej wizycie na stronie wyświetli się baner z pytaniem, czy zgadzasz się na używanie plików cookie. Twój wybór – tak lub nie – zapisujemy w Twojej przeglądarce, aby nie pytać Cię przy każdej wizycie.",
+            "Jeżeli odmówisz zgody, zapisujemy wyłącznie niezbędne pliki cookie, bez których strona nie działałaby poprawnie.",
+            "Swoją decyzję możesz zmienić w każdej chwili w sekcji Ustawienia plików cookie. Zmiana obowiązuje natychmiast.",
+            "Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania, którego dokonano przed jej wycofaniem."
+          ]
+        },
+        {
+          "title": "Pliki cookie podmiotów trzecich",
+          "paragraphs": [
+            "Niektóre pliki cookie mogą być zapisywane przez naszych partnerów, z których narzędzi korzystamy na stronie, na przykład dostawców pomiaru ruchu albo osadzonych map i filmów. Partnerzy ci mogą występować jako niezależni administratorzy i uzyskiwać dane o Twojej wizycie.",
+            "Narzędzia podmiotów trzecich uruchamiamy dopiero po wyrażeniu przez Ciebie zgody. Szczegóły przetwarzania znajdziesz w polityce prywatności danego partnera."
+          ]
+        },
+        {
+          "title": "Ustawienia plików cookie w przeglądarce",
+          "paragraphs": [
+            "Plikami cookie możesz zarządzać także bezpośrednio w swojej przeglądarce – usunąć je, zablokować lub ustawić ostrzeżenie przed ich zapisaniem:"
+          ],
+          "items": [
+            "Google Chrome: Ustawienia → Prywatność i bezpieczeństwo → Pliki cookie",
+            "Mozilla Firefox: Ustawienia → Prywatność i bezpieczeństwo → Ciasteczka i dane stron",
+            "Safari: Ustawienia → Prywatność → Zarządzaj danymi witryn",
+            "Microsoft Edge: Ustawienia → Pliki cookie i uprawnienia witryny"
+          ],
+          "note": "Zwracamy uwagę, że zablokowanie wszystkich plików cookie może ograniczyć funkcjonalność naszej strony."
+        },
+        {
+          "title": "Jak długo przechowywane są pliki cookie",
+          "paragraphs": [
+            "Pliki sesyjne są usuwane automatycznie po zamknięciu przeglądarki. Pliki trwałe pozostają na Twoim urządzeniu przez okres wskazany w powyższej tabeli, jednak nie dłużej niż 12 miesięcy, o ile nie usuniesz ich wcześniej.",
+            "O zgodę na pliki cookie zapytamy ponownie najpóźniej po 12 miesiącach od jej udzielenia."
+          ]
+        },
+        {
+          "title": "Ochrona danych osobowych i kontakt",
+          "paragraphs": [
+            "Jeżeli dane uzyskane za pośrednictwem plików cookie stanowią dane osobowe, przetwarzamy je zgodnie z Polityką prywatności, w której znajdziesz również informacje o swoich prawach.",
+            "Z wszelkimi pytaniami dotyczącymi plików cookie zwróć się do nas pod adresem info{'@'}otelapps.com."
+          ]
+        }
+      ],
+      "table": {
+        "title": "Przegląd plików cookie i podobnych technologii",
+        "headers": ["Nazwa", "Cel", "Kategoria", "Okres przechowywania"],
+        "categoryNecessary": "Niezbędne",
+        "rows": [
+          [
+            "cookie_consent",
+            "Przechowuje Twoją decyzję dotyczącą zgody na używanie plików cookie.",
+            "Niezbędne",
+            "12 miesięcy"
+          ],
+          [
+            "locale",
+            "Zapamiętuje język wybrany przez Ciebie na stronie.",
+            "Niezbędne",
+            "12 miesięcy"
+          ],
+          [
+            "theme",
+            "Przechowuje ustawienie wyglądu strony.",
+            "Niezbędne",
+            "12 miesięcy"
+          ]
+        ]
+      },
+      "settings": {
+        "title": "Ustawienia plików cookie",
+        "desc": "Tutaj możesz w każdej chwili wyrazić lub wycofać zgodę na używanie opcjonalnych plików cookie. Niezbędne pliki cookie pozostają zawsze aktywne.",
+        "question": "Czy zgadzasz się na używanie plików cookie?",
+        "accept": "Tak, zgadzam się",
+        "reject": "Nie, nie zgadzam się",
+        "statusLabel": "Twój aktualny wybór",
+        "accepted": "Zgoda udzielona",
+        "rejected": "Zgoda odrzucona",
+        "unset": "Decyzja nie została jeszcze podjęta",
+        "savedAt": "Zapisano dnia",
+        "saved": "Twój wybór został zapisany."
+      }
+    }
+  },
+  "cookieBanner": {
+    "title": "Czy zgadzasz się na używanie plików cookie?",
+    "text": "Niezbędne pliki cookie stosujemy, aby strona działała prawidłowo. Za Twoją zgodą chcielibyśmy używać także plików cookie do pomiaru ruchu. Swój wybór możesz zmienić w każdej chwili.",
+    "more": "Więcej informacji",
+    "accept": "Tak, zgadzam się",
+    "reject": "Nie, dziękuję",
+    "aria": "Zgoda na używanie plików cookie"
   }
 }

@@ -1394,5 +1394,272 @@
       "guestApp": "Mobilní aplikace pro hosty",
       "hotelInfo": "Informace o hotelu"
     }
+  },
+  "legal": {
+    "updated": "Poslední aktualizace",
+    "contents": "Obsah",
+    "related": "Související dokumenty",
+    "gdpr": {
+      "title": "Zásady ochrany osobních údajů",
+      "subtitle": "Jak ve společnosti OtelApps nakládáme s vašimi osobními údaji, proč je zpracováváme a jaká práva v souvislosti s tím máte.",
+      "date": "14. srpna 2026",
+      "intro": "Ochrana vašich osobních údajů je pro nás důležitá. V těchto zásadách vysvětlujeme, jaké údaje o vás shromažďujeme, k čemu je používáme, komu je předáváme a jak můžete uplatnit svá práva podle nařízení Evropského parlamentu a Rady (EU) 2016/679 (GDPR) a zákona č. 110/2019 Sb., o zpracování osobních údajů.",
+      "sections": [
+        {
+          "title": "Správce osobních údajů",
+          "paragraphs": [
+            "Správcem vašich osobních údajů je společnost OtelApps, IČO 23905719, DIČ 23905719, se sídlem Příčná 1892/4, Nové Město, 110 00 Praha 1, Česká republika (dále jen „my“ nebo „správce“).",
+            "Ve všech záležitostech týkajících se zpracování osobních údajů nás můžete kontaktovat na e-mailu info{'@'}otelapps.com nebo telefonicky na čísle +420 604 607 225.",
+            "Nejmenovali jsme pověřence pro ochranu osobních údajů, protože nám tuto povinnost právní předpisy neukládají."
+          ]
+        },
+        {
+          "title": "Rozsah těchto zásad",
+          "paragraphs": [
+            "Tyto zásady popisují, jak nakládáme s osobními údaji návštěvníků našich webových stránek, zájemců o naše produkty a kontaktních osob našich zákazníků a obchodních partnerů.",
+            "Pokud pro hotel provozujeme aplikaci pro jeho hosty, zpracováváme údaje hostů zpravidla v roli zpracovatele podle pokynů daného hotelu, který je v takovém případě správcem. Informace o tomto zpracování vám poskytne příslušný hotel."
+          ]
+        },
+        {
+          "title": "Jaké osobní údaje zpracováváme",
+          "paragraphs": [
+            "Podle toho, jak s námi přijdete do kontaktu, zpracováváme zejména tyto kategorie údajů:"
+          ],
+          "items": [
+            "Identifikační a kontaktní údaje – jméno a příjmení, e-mailová adresa, telefonní číslo, země, název společnosti a pracovní pozice.",
+            "Údaje z komunikace – obsah zpráv z kontaktního formuláře, e-mailů a záznamy o telefonické či jiné komunikaci s vámi.",
+            "Údaje o poptávce – informace o vašem zájmu o konkrétní produkt, preferovaný termín ukázky a poznámky z jednání.",
+            "Technické údaje – IP adresa, typ a verze prohlížeče, operační systém, jazyk, datum a čas přístupu a stránka, ze které jste přišli.",
+            "Údaje z cookies a obdobných technologií – v rozsahu popsaném v Zásadách používání cookies."
+          ]
+        },
+        {
+          "title": "Účely a právní základy zpracování",
+          "paragraphs": [
+            "Osobní údaje zpracováváme vždy pro konkrétní účel a na základě odpovídajícího právního titulu:"
+          ],
+          "items": [
+            "Vyřízení vaší poptávky a komunikace s vámi – provedení opatření před uzavřením smlouvy na vaši žádost a náš oprávněný zájem odpovědět na dotaz [čl. 6 odst. 1 písm. b) a f) GDPR].",
+            "Uzavření a plnění smlouvy – poskytování našich produktů a služeb, podpora a fakturace [čl. 6 odst. 1 písm. b) GDPR].",
+            "Zasílání obchodních sdělení – váš souhlas, u našich stávajících zákazníků náš oprávněný zájem nabízet obdobné služby [čl. 6 odst. 1 písm. a) a f) GDPR]. Odběr můžete kdykoli odhlásit.",
+            "Provoz, zabezpečení a zlepšování webových stránek – náš oprávněný zájem na bezpečném a funkčním webu [čl. 6 odst. 1 písm. f) GDPR].",
+            "Měření návštěvnosti a analytika – váš souhlas udělený prostřednictvím cookie lišty [čl. 6 odst. 1 písm. a) GDPR].",
+            "Plnění právních povinností – zejména v oblasti účetnictví, daní a archivace [čl. 6 odst. 1 písm. c) GDPR].",
+            "Určení, výkon nebo obhajoba právních nároků – náš oprávněný zájem [čl. 6 odst. 1 písm. f) GDPR]."
+          ]
+        },
+        {
+          "title": "Odkud osobní údaje získáváme",
+          "paragraphs": [
+            "Většinu údajů získáváme přímo od vás – vyplněním formuláře na webu, e-mailovou nebo telefonickou komunikací, případně na veletrhu či obchodním jednání.",
+            "Technické údaje získáváme automaticky při vaší návštěvě webových stránek. Údaje o kontaktních osobách můžeme získat také od vašeho zaměstnavatele nebo z veřejně dostupných zdrojů, jako jsou veřejné rejstříky a firemní webové stránky.",
+            "Poskytnutí údajů je dobrovolné. Bez údajů označených ve formulářích jako povinné však nemůžeme vaši poptávku vyřídit."
+          ]
+        },
+        {
+          "title": "Komu osobní údaje předáváme",
+          "paragraphs": [
+            "K vašim údajům mají přístup naši zaměstnanci a spolupracovníci, kteří je potřebují pro výkon své práce, a dále tyto kategorie příjemců:"
+          ],
+          "items": [
+            "Poskytovatelé hostingu, cloudové infrastruktury a provozu webových stránek.",
+            "Poskytovatel služby pro zpracování formulářů, který nám doručuje zprávy odeslané z kontaktního formuláře.",
+            "Poskytovatelé e-mailových, komunikačních a kancelářských nástrojů.",
+            "Poskytovatelé nástrojů pro měření návštěvnosti, pokud jste k tomu udělili souhlas.",
+            "Účetní, daňoví a právní poradci.",
+            "Orgány veřejné moci, pokud nám povinnost údaje předat ukládá právní předpis."
+          ],
+          "note": "S dodavateli, kteří pro nás osobní údaje zpracovávají, uzavíráme smlouvy o zpracování osobních údajů. Vaše údaje neprodáváme ani je nepředáváme třetím stranám pro jejich vlastní marketing."
+        },
+        {
+          "title": "Předávání do třetích zemí",
+          "paragraphs": [
+            "Vaše osobní údaje zpracováváme primárně na území Evropské unie.",
+            "Pokud některý z našich dodavatelů zpracovává údaje mimo EU nebo Evropský hospodářský prostor, děje se tak výhradně na základě rozhodnutí Evropské komise o odpovídající úrovni ochrany, standardních smluvních doložek schválených Evropskou komisí nebo jiné vhodné záruky podle kapitoly V GDPR."
+          ]
+        },
+        {
+          "title": "Jak dlouho údaje uchováváme",
+          "paragraphs": [
+            "Osobní údaje uchováváme pouze po dobu nezbytnou k danému účelu:"
+          ],
+          "items": [
+            "Poptávka, která nevedla k uzavření smlouvy – nejdéle 12 měsíců od poslední komunikace.",
+            "Údaje související s uzavřenou smlouvou – po dobu jejího trvání a následně 10 let od jejího ukončení, zejména s ohledem na promlčecí lhůty.",
+            "Údaje zpracovávané na základě souhlasu – do odvolání souhlasu, nejdéle však 3 roky od jeho udělení.",
+            "Účetní a daňové doklady – po dobu stanovenou právními předpisy, zpravidla 10 let.",
+            "Technické a logovací údaje – zpravidla 12 měsíců."
+          ],
+          "note": "Po uplynutí uvedených dob osobní údaje bezpečně zlikvidujeme nebo nevratně anonymizujeme."
+        },
+        {
+          "title": "Zabezpečení osobních údajů",
+          "paragraphs": [
+            "Přijali jsme technická a organizační opatření, která odpovídají povaze zpracování a rizikům pro vaše práva a svobody.",
+            "Patří mezi ně šifrovaný přenos dat (HTTPS), řízení přístupových oprávnění podle zásady nezbytného minima, pravidelné aktualizace a zabezpečení systémů, zálohování dat a poučení a mlčenlivost osob, které s údaji pracují."
+          ]
+        },
+        {
+          "title": "Vaše práva",
+          "paragraphs": [
+            "V souvislosti se zpracováním osobních údajů máte tato práva:"
+          ],
+          "items": [
+            "Právo na přístup – získat potvrzení, zda vaše údaje zpracováváme, a obdržet jejich kopii spolu s informacemi o zpracování.",
+            "Právo na opravu – nechat opravit nepřesné údaje nebo doplnit neúplné údaje.",
+            "Právo na výmaz – nechat údaje smazat, pokud již nejsou potřebné, odvoláte souhlas nebo zpracování nemá jiný právní základ.",
+            "Právo na omezení zpracování – požadovat, abychom údaje dočasně pouze uchovávali, například po dobu ověření jejich přesnosti.",
+            "Právo na přenositelnost – získat údaje, které jste nám poskytli, ve strukturovaném, běžně používaném a strojově čitelném formátu.",
+            "Právo vznést námitku – proti zpracování založenému na oprávněném zájmu. Proti přímému marketingu můžete vznést námitku kdykoli a zpracování pro tento účel ihned ukončíme.",
+            "Právo odvolat souhlas – kdykoli a bez uvedení důvodu, aniž je tím dotčena zákonnost zpracování před jeho odvoláním.",
+            "Právo podat stížnost – u Úřadu pro ochranu osobních údajů, Pplk. Sochora 27, 170 00 Praha 7, www.uoou.cz."
+          ],
+          "note": "Svá práva u nás uplatníte e-mailem na info{'@'}otelapps.com nebo písemně na adrese našeho sídla. Abychom chránili vaše údaje, můžeme vás požádat o ověření totožnosti. Žádost vyřídíme bez zbytečného odkladu, nejpozději do jednoho měsíce; ve složitých případech můžeme lhůtu prodloužit o další dva měsíce, o čemž vás budeme informovat."
+        },
+        {
+          "title": "Automatizované rozhodování a profilování",
+          "paragraphs": [
+            "Při zpracování vašich osobních údajů nedochází k automatizovanému rozhodování, které by pro vás mělo právní účinky nebo se vás obdobně významně dotýkalo, ani k profilování v tomto rozsahu."
+          ]
+        },
+        {
+          "title": "Cookies",
+          "paragraphs": [
+            "Naše webové stránky používají cookies a obdobné technologie. Podrobnosti o jejich druzích, účelu a době uložení, včetně možnosti kdykoli změnit svůj souhlas, najdete v Zásadách používání cookies."
+          ]
+        },
+        {
+          "title": "Změny těchto zásad",
+          "paragraphs": [
+            "Tyto zásady můžeme aktualizovat, zejména při změně právních předpisů, našich služeb nebo způsobu zpracování údajů.",
+            "Aktuální znění je vždy dostupné na této stránce a datum poslední aktualizace najdete v jejím záhlaví. O podstatných změnách vás budeme informovat vhodným způsobem, například upozorněním na webu."
+          ]
+        },
+        {
+          "title": "Kontaktujte nás",
+          "paragraphs": [
+            "Máte-li jakýkoli dotaz k ochraně osobních údajů nebo chcete uplatnit svá práva, napište nám na info{'@'}otelapps.com nebo zavolejte na +420 604 607 225.",
+            "Písemně nás zastihnete na adrese OtelApps, Příčná 1892/4, Nové Město, 110 00 Praha 1."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Zásady používání cookies",
+      "subtitle": "Jaké cookies na webu OtelApps používáme, proč je potřebujeme a jak můžete svůj souhlas kdykoli změnit.",
+      "date": "14. srpna 2026",
+      "intro": "Cookies nám pomáhají zajistit správné fungování webu a s vaším souhlasem také lépe rozumět tomu, jak jej návštěvníci používají. Níže najdete přehled, jaké cookies ukládáme, k čemu slouží a jak nad nimi máte kontrolu.",
+      "sections": [
+        {
+          "title": "Co jsou cookies",
+          "paragraphs": [
+            "Cookies jsou malé textové soubory, které se ukládají do vašeho zařízení při návštěvě webových stránek. Umožňují webu zapamatovat si vaše nastavení a rozpoznat vaše zařízení při další návštěvě.",
+            "Vedle cookies mohou být využívány i obdobné technologie, například úložiště prohlížeče (local storage). Pro zjednodušení je v těchto zásadách označujeme souhrnně jako cookies."
+          ]
+        },
+        {
+          "title": "Proč cookies používáme",
+          "paragraphs": ["Cookies na našem webu slouží k těmto účelům:"],
+          "items": [
+            "Aby web správně fungoval a pamatoval si vaše volby, například zvolený jazyk.",
+            "Abychom si zapamatovali vaše rozhodnutí o souhlasu s cookies a neptali se vás při každé návštěvě.",
+            "Abychom rozuměli tomu, jak je web používán, a mohli jej dále zlepšovat.",
+            "Abychom zajistili bezpečnost webu a předcházeli jeho zneužití."
+          ]
+        },
+        {
+          "title": "Jaké cookies používáme",
+          "paragraphs": [
+            "Nezbytné cookies jsou nutné pro základní fungování webu a nelze je vypnout. Ukládáme je bez vašeho souhlasu v souladu s § 89 odst. 3 zákona č. 127/2005 Sb., o elektronických komunikacích.",
+            "Analytické cookies nám pomáhají měřit návštěvnost a chování na webu. Marketingové cookies slouží k cílení reklamy a měření její účinnosti. Obě tyto kategorie ukládáme výhradně tehdy, pokud nám k tomu dáte souhlas.",
+            "V současné době náš web ukládá pouze nezbytné cookies uvedené v následující tabulce. Pokud nasadíme analytické nebo marketingové nástroje, doplníme je do tabulky a znovu se vás zeptáme na souhlas."
+          ]
+        },
+        {
+          "title": "Souhlas a jak jej změnit",
+          "paragraphs": [
+            "Při první návštěvě webu se vám zobrazí lišta s dotazem, zda souhlasíte s použitím cookies. Vaši volbu – ano i ne – uložíme do vašeho prohlížeče, abychom se vás neptali při každé návštěvě.",
+            "Pokud souhlas odmítnete, ukládáme pouze nezbytné cookies, bez kterých by web nefungoval.",
+            "Své rozhodnutí můžete kdykoli změnit v sekci Nastavení cookies. Změna se projeví okamžitě.",
+            "Odvolání souhlasu nemá vliv na zákonnost zpracování, ke kterému došlo před jeho odvoláním."
+          ]
+        },
+        {
+          "title": "Cookies třetích stran",
+          "paragraphs": [
+            "Některé cookies mohou ukládat naši partneři, jejichž nástroje na webu využíváme, například poskytovatelé měření návštěvnosti nebo vložených map a videí. Tito partneři mohou vystupovat jako samostatní správci a získat údaje o vaší návštěvě.",
+            "Nástroje třetích stran aktivujeme až poté, co k tomu udělíte souhlas. Podrobnosti o zpracování najdete v zásadách ochrany osobních údajů příslušného partnera."
+          ]
+        },
+        {
+          "title": "Nastavení cookies v prohlížeči",
+          "paragraphs": [
+            "Cookies můžete spravovat také přímo ve svém prohlížeči – smazat je, blokovat, nebo si nechat zobrazit upozornění před jejich uložením:"
+          ],
+          "items": [
+            "Google Chrome: Nastavení → Ochrana soukromí a zabezpečení → Soubory cookie",
+            "Mozilla Firefox: Nastavení → Soukromí a zabezpečení → Cookies a data stránek",
+            "Safari: Nastavení → Soukromí → Spravovat data webů",
+            "Microsoft Edge: Nastavení → Soubory cookie a oprávnění webu"
+          ],
+          "note": "Upozorňujeme, že zablokování všech cookies může omezit funkčnost našeho webu."
+        },
+        {
+          "title": "Jak dlouho jsou cookies uloženy",
+          "paragraphs": [
+            "Krátkodobé (session) cookies se automaticky smažou po zavření prohlížeče. Trvalé cookies zůstávají ve vašem zařízení po dobu uvedenou v tabulce výše, nejdéle však 12 měsíců, pokud je nesmažete dříve.",
+            "Na souhlas s cookies se vás znovu zeptáme nejpozději po 12 měsících od jeho udělení."
+          ]
+        },
+        {
+          "title": "Ochrana osobních údajů a kontakt",
+          "paragraphs": [
+            "Pokud jsou údaje získané prostřednictvím cookies osobními údaji, zpracováváme je v souladu se Zásadami ochrany osobních údajů, kde najdete i informace o vašich právech.",
+            "S jakýmkoli dotazem k cookies se na nás obraťte na info{'@'}otelapps.com."
+          ]
+        }
+      ],
+      "table": {
+        "title": "Přehled cookies a obdobných technologií",
+        "headers": ["Název", "Účel", "Kategorie", "Doba uložení"],
+        "categoryNecessary": "Nezbytné",
+        "rows": [
+          [
+            "cookie_consent",
+            "Uchovává vaše rozhodnutí o souhlasu s použitím cookies.",
+            "Nezbytné",
+            "12 měsíců"
+          ],
+          [
+            "locale",
+            "Zapamatuje si jazyk, který jste si na webu zvolili.",
+            "Nezbytné",
+            "12 měsíců"
+          ],
+          ["theme", "Uchovává nastavení vzhledu webu.", "Nezbytné", "12 měsíců"]
+        ]
+      },
+      "settings": {
+        "title": "Nastavení cookies",
+        "desc": "Zde můžete kdykoli udělit nebo odvolat souhlas s používáním volitelných cookies. Nezbytné cookies zůstávají aktivní vždy.",
+        "question": "Souhlasíte s použitím cookies?",
+        "accept": "Ano, souhlasím",
+        "reject": "Ne, nesouhlasím",
+        "statusLabel": "Vaše aktuální volba",
+        "accepted": "Souhlas udělen",
+        "rejected": "Souhlas odmítnut",
+        "unset": "Zatím jste se nerozhodli",
+        "savedAt": "Uloženo dne",
+        "saved": "Vaše volba byla uložena."
+      }
+    }
+  },
+  "cookieBanner": {
+    "title": "Souhlasíte s použitím cookies?",
+    "text": "Nezbytné cookies používáme, aby web správně fungoval. S vaším souhlasem bychom rádi využili také cookies pro měření návštěvnosti. Volbu můžete kdykoli změnit.",
+    "more": "Více informací",
+    "accept": "Ano, souhlasím",
+    "reject": "Ne, děkuji",
+    "aria": "Souhlas s používáním cookies"
   }
 }

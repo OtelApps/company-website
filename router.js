@@ -20,6 +20,8 @@ import CityCenter from './src/views/Solutions/CityCenter.vue'
 import SmallHotels from './src/views/Solutions/SmallHotels.vue'
 import Boutiques from './src/views/Solutions/Boutiques.vue'
 import WebApp from './src/views/Product/WebApp.vue'
+import Cookies from './src/views/Legal/Cookies.vue'
+import GDPR from './src/views/Legal/GDPR.vue'
 
 const routes = [
   { path: '/', component: HomePage },
@@ -43,6 +45,8 @@ const routes = [
   { path: '/Solution/SmallHotels', component: SmallHotels },
   { path: '/Solution/Boutiques', component: Boutiques },
   { path: '/Product/WebApp', component: WebApp },
+  { path: '/Legal/Cookies', component: Cookies },
+  { path: '/Legal/GDPR', component: GDPR },
 ]
 
 const router = createRouter({

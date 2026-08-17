@@ -1,6 +1,7 @@
 <script setup>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import CookieBanner from './components/CookieBanner.vue'
 </script>
 
 <template>
@@ -12,5 +13,7 @@ import Footer from './components/Footer.vue'
     </div>
 
     <Footer />
+
+    <CookieBanner />
   </div>
 </template>

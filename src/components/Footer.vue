@@ -208,8 +208,8 @@ const currentYear = new Date().getFullYear();
             }"
           >
             <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">{{ $t('footer.button5.items[0]') }}</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">{{ $t('footer.button5.items[1]') }}</router-link></li>
-            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="" @click="closeDropdown('legal')">{{ $t('footer.button5.items[2]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Legal/Cookies" @click="closeDropdown('legal')">{{ $t('footer.button5.items[1]') }}</router-link></li>
+            <li class="not-dark:hover:text-gray-900 cursor-pointer"><router-link to="/Legal/GDPR" @click="closeDropdown('legal')">{{ $t('footer.button5.items[2]') }}</router-link></li>
           </ul>
         </article>
       </div>

@@ -143,9 +143,9 @@
                       {{ $t('bookDemo.form.agreement[0]') }}
                       <a href="#" class="text-black underline font-semibold">{{ $t('bookDemo.form.agreement[1]') }}</a>
                       {{ $t('bookDemo.form.agreement[2]') }}
-                      <a href="#" class="text-black underline font-semibold">
+                      <router-link to="/Legal/GDPR" class="text-black underline font-semibold">
                         {{ $t('bookDemo.form.agreement[3]') }}
-                      </a>
+                      </router-link>
                       <span class="text-red-500">*</span>
                     </label>
                   </div>

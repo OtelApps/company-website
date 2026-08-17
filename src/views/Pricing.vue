@@ -151,9 +151,9 @@
                       {{ $t('pricing.form.agreement[0]') }}
                       <a href="#" class="text-black underline font-semibold">{{ $t('pricing.form.agreement[1]') }}</a>
                       {{ $t('pricing.form.agreement[2]') }}
-                      <a href="#" class="text-black underline font-semibold">
+                      <router-link to="/Legal/GDPR" class="text-black underline font-semibold">
                         {{ $t('pricing.form.agreement[3]') }}
-                      </a>
+                      </router-link>
                       <span class="text-red-500">*</span>
                     </label>
                   </div>

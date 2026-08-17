@@ -1358,5 +1358,279 @@
       "guestApp": "Guest mobile app",
       "hotelInfo": "Hotel information"
     }
+  },
+  "legal": {
+    "updated": "Last updated",
+    "contents": "Contents",
+    "related": "Related documents",
+    "gdpr": {
+      "title": "Privacy policy",
+      "subtitle": "How OtelApps handles your personal data, why we process it and what rights you have.",
+      "date": "14 August 2026",
+      "intro": "Protecting your personal data matters to us. This policy explains what data we collect about you, what we use it for, who we share it with and how you can exercise your rights under Regulation (EU) 2016/679 of the European Parliament and of the Council (GDPR) and Czech Act No. 110/2019 Coll., on personal data processing.",
+      "sections": [
+        {
+          "title": "Data controller",
+          "paragraphs": [
+            "The controller of your personal data is OtelApps, company ID 23905719, VAT ID 23905719, with its registered office at Příčná 1892/4, Nové Město, 110 00 Prague 1, Czech Republic (\"we\" or \"the controller\").",
+            "You can contact us about any personal data matter at info{'@'}otelapps.com or by phone at +420 604 607 225.",
+            "We have not appointed a data protection officer, as we are not required to do so by law."
+          ]
+        },
+        {
+          "title": "Scope of this policy",
+          "paragraphs": [
+            "This policy describes how we handle the personal data of visitors to our website, people interested in our products, and contact persons of our customers and business partners.",
+            "Where we operate a guest application on behalf of a hotel, we generally process guest data as a processor acting on that hotel's instructions, and the hotel is the controller. In such cases, the hotel will provide you with information about that processing."
+          ]
+        },
+        {
+          "title": "What personal data we process",
+          "paragraphs": [
+            "Depending on how you get in touch with us, we process the following categories of data:"
+          ],
+          "items": [
+            "Identification and contact data – first and last name, email address, phone number, country, company name and job title.",
+            "Communication data – the content of messages sent through the contact form, emails, and records of phone or other communication with you.",
+            "Enquiry data – information about your interest in a specific product, your preferred demo date and notes from our meetings.",
+            "Technical data – IP address, browser type and version, operating system, language, date and time of access and the page you arrived from.",
+            "Data from cookies and similar technologies – to the extent described in our Cookie policy."
+          ]
+        },
+        {
+          "title": "Purposes and legal bases",
+          "paragraphs": [
+            "We always process personal data for a specific purpose and on an appropriate legal basis:"
+          ],
+          "items": [
+            "Handling your enquiry and communicating with you – steps taken at your request prior to entering into a contract and our legitimate interest in answering questions [Art. 6(1)(b) and (f) GDPR].",
+            "Entering into and performing a contract – providing our products and services, support and invoicing [Art. 6(1)(b) GDPR].",
+            "Sending commercial communications – your consent, or our legitimate interest in offering similar services to existing customers [Art. 6(1)(a) and (f) GDPR]. You can unsubscribe at any time.",
+            "Operating, securing and improving the website – our legitimate interest in a secure and functional website [Art. 6(1)(f) GDPR].",
+            "Traffic measurement and analytics – your consent given through the cookie banner [Art. 6(1)(a) GDPR].",
+            "Complying with legal obligations – in particular accounting, tax and archiving duties [Art. 6(1)(c) GDPR].",
+            "Establishing, exercising or defending legal claims – our legitimate interest [Art. 6(1)(f) GDPR]."
+          ]
+        },
+        {
+          "title": "Where we obtain your data",
+          "paragraphs": [
+            "We obtain most data directly from you – when you fill in a form on our website, communicate with us by email or phone, or meet us at a trade fair or business meeting.",
+            "Technical data is collected automatically when you visit our website. Contact person data may also come from your employer or from publicly available sources such as public registers and company websites.",
+            "Providing your data is voluntary. However, without the data marked as mandatory in our forms we cannot handle your enquiry."
+          ]
+        },
+        {
+          "title": "Who we share your data with",
+          "paragraphs": [
+            "Your data is accessible to our employees and contractors who need it to do their job, and to the following categories of recipients:"
+          ],
+          "items": [
+            "Providers of hosting, cloud infrastructure and website operation.",
+            "The form processing service provider that delivers messages sent from our contact form.",
+            "Providers of email, communication and office tools.",
+            "Providers of traffic measurement tools, where you have given your consent.",
+            "Accounting, tax and legal advisors.",
+            "Public authorities, where we are required by law to disclose the data."
+          ],
+          "note": "We conclude data processing agreements with suppliers who process personal data on our behalf. We do not sell your data, nor do we share it with third parties for their own marketing purposes."
+        },
+        {
+          "title": "Transfers to third countries",
+          "paragraphs": [
+            "We process your personal data primarily within the European Union.",
+            "If any of our suppliers processes data outside the EU or the European Economic Area, this only happens on the basis of a European Commission adequacy decision, standard contractual clauses approved by the European Commission, or another appropriate safeguard under Chapter V of the GDPR."
+          ]
+        },
+        {
+          "title": "How long we keep your data",
+          "paragraphs": [
+            "We retain personal data only for as long as necessary for the given purpose:"
+          ],
+          "items": [
+            "Enquiries that did not lead to a contract – no longer than 12 months from the last communication.",
+            "Data related to a concluded contract – for the term of the contract and 10 years after it ends, mainly with regard to limitation periods.",
+            "Data processed on the basis of consent – until consent is withdrawn, and no longer than 3 years from the date it was given.",
+            "Accounting and tax records – for the period required by law, generally 10 years.",
+            "Technical and log data – generally 12 months."
+          ],
+          "note": "Once these periods expire, we securely delete or irreversibly anonymise the personal data."
+        },
+        {
+          "title": "Data security",
+          "paragraphs": [
+            "We have implemented technical and organisational measures appropriate to the nature of the processing and the risks to your rights and freedoms.",
+            "These include encrypted data transfer (HTTPS), access rights managed on a need-to-know basis, regular system updates and hardening, data backups, and training and confidentiality obligations for everyone who works with the data."
+          ]
+        },
+        {
+          "title": "Your rights",
+          "paragraphs": [
+            "In connection with the processing of your personal data, you have the following rights:"
+          ],
+          "items": [
+            "Right of access – to obtain confirmation of whether we process your data and to receive a copy of it together with information about the processing.",
+            "Right to rectification – to have inaccurate data corrected or incomplete data completed.",
+            "Right to erasure – to have your data deleted where it is no longer needed, you withdraw consent, or the processing has no other legal basis.",
+            "Right to restriction of processing – to require that we only store your data temporarily, for example while its accuracy is verified.",
+            "Right to data portability – to receive the data you have provided to us in a structured, commonly used and machine-readable format.",
+            "Right to object – to processing based on legitimate interest. You may object to direct marketing at any time and we will stop processing for that purpose immediately.",
+            "Right to withdraw consent – at any time and without giving a reason, without affecting the lawfulness of processing carried out before the withdrawal.",
+            "Right to lodge a complaint – with the Czech Data Protection Authority (Úřad pro ochranu osobních údajů), Pplk. Sochora 27, 170 00 Prague 7, www.uoou.cz."
+          ],
+          "note": "You can exercise your rights by emailing info{'@'}otelapps.com or writing to our registered office. To protect your data, we may ask you to verify your identity. We will handle your request without undue delay and within one month at the latest; in complex cases we may extend this period by a further two months and will inform you if we do."
+        },
+        {
+          "title": "Automated decision-making and profiling",
+          "paragraphs": [
+            "When processing your personal data, we do not carry out automated decision-making that would produce legal effects concerning you or similarly significantly affect you, nor profiling of that kind."
+          ]
+        },
+        {
+          "title": "Cookies",
+          "paragraphs": [
+            "Our website uses cookies and similar technologies. Details about their types, purpose and storage period, including how to change your consent at any time, can be found in our Cookie policy."
+          ]
+        },
+        {
+          "title": "Changes to this policy",
+          "paragraphs": [
+            "We may update this policy, in particular when legislation, our services or our processing practices change.",
+            "The current version is always available on this page and the date of the last update is shown at the top. We will notify you of any material changes in an appropriate way, for example with a notice on our website."
+          ]
+        },
+        {
+          "title": "Contact us",
+          "paragraphs": [
+            "If you have any question about data protection or wish to exercise your rights, write to us at info{'@'}otelapps.com or call +420 604 607 225.",
+            "You can also reach us in writing at OtelApps, Příčná 1892/4, Nové Město, 110 00 Prague 1, Czech Republic."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie policy",
+      "subtitle": "Which cookies the OtelApps website uses, why we need them and how you can change your consent at any time.",
+      "date": "14 August 2026",
+      "intro": "Cookies help us keep the website working correctly and, with your consent, better understand how visitors use it. Below you will find an overview of the cookies we store, what they are for and how you stay in control of them.",
+      "sections": [
+        {
+          "title": "What cookies are",
+          "paragraphs": [
+            "Cookies are small text files stored on your device when you visit a website. They allow the website to remember your settings and recognise your device on your next visit.",
+            "Alongside cookies, similar technologies such as browser local storage may also be used. For simplicity, we refer to all of them as cookies throughout this policy."
+          ]
+        },
+        {
+          "title": "Why we use cookies",
+          "paragraphs": [
+            "Cookies on our website serve the following purposes:"
+          ],
+          "items": [
+            "To make the website work correctly and remember your choices, such as your selected language.",
+            "To remember your cookie consent decision so we do not have to ask you on every visit.",
+            "To understand how the website is used so we can keep improving it.",
+            "To keep the website secure and prevent misuse."
+          ]
+        },
+        {
+          "title": "Which cookies we use",
+          "paragraphs": [
+            "Necessary cookies are required for the basic functioning of the website and cannot be switched off. We store them without your consent in line with Section 89(3) of Czech Act No. 127/2005 Coll., on electronic communications.",
+            "Analytics cookies help us measure traffic and behaviour on the website. Marketing cookies are used to target advertising and measure its effectiveness. We store both of these categories only if you give us your consent.",
+            "At present our website stores only the necessary cookies listed in the table below. If we deploy analytics or marketing tools, we will add them to the table and ask for your consent again."
+          ]
+        },
+        {
+          "title": "Consent and how to change it",
+          "paragraphs": [
+            "On your first visit, a banner asks whether you consent to the use of cookies. We store your choice – yes or no – in your browser so we do not have to ask you on every visit.",
+            "If you decline, we only store the necessary cookies without which the website would not work.",
+            "You can change your decision at any time in the Cookie settings section. The change takes effect immediately.",
+            "Withdrawing consent does not affect the lawfulness of processing carried out before the withdrawal."
+          ]
+        },
+        {
+          "title": "Third-party cookies",
+          "paragraphs": [
+            "Some cookies may be stored by partners whose tools we use on the website, such as traffic measurement providers or embedded maps and videos. These partners may act as separate controllers and may obtain data about your visit.",
+            "We only activate third-party tools once you have given your consent. Details of their processing can be found in the privacy policy of the relevant partner."
+          ]
+        },
+        {
+          "title": "Cookie settings in your browser",
+          "paragraphs": [
+            "You can also manage cookies directly in your browser – delete them, block them, or ask to be warned before they are stored:"
+          ],
+          "items": [
+            "Google Chrome: Settings → Privacy and security → Cookies",
+            "Mozilla Firefox: Settings → Privacy & Security → Cookies and Site Data",
+            "Safari: Settings → Privacy → Manage Website Data",
+            "Microsoft Edge: Settings → Cookies and site permissions"
+          ],
+          "note": "Please note that blocking all cookies may limit the functionality of our website."
+        },
+        {
+          "title": "How long cookies are stored",
+          "paragraphs": [
+            "Session cookies are deleted automatically when you close your browser. Persistent cookies remain on your device for the period stated in the table above, but no longer than 12 months unless you delete them sooner.",
+            "We will ask for your cookie consent again after 12 months at the latest."
+          ]
+        },
+        {
+          "title": "Data protection and contact",
+          "paragraphs": [
+            "Where data obtained through cookies constitutes personal data, we process it in accordance with our Privacy policy, which also explains your rights.",
+            "If you have any question about cookies, contact us at info{'@'}otelapps.com."
+          ]
+        }
+      ],
+      "table": {
+        "title": "Overview of cookies and similar technologies",
+        "headers": ["Name", "Purpose", "Category", "Storage period"],
+        "categoryNecessary": "Necessary",
+        "rows": [
+          [
+            "cookie_consent",
+            "Stores your decision about consent to the use of cookies.",
+            "Necessary",
+            "12 months"
+          ],
+          [
+            "locale",
+            "Remembers the language you selected on the website.",
+            "Necessary",
+            "12 months"
+          ],
+          [
+            "theme",
+            "Stores the website appearance setting.",
+            "Necessary",
+            "12 months"
+          ]
+        ]
+      },
+      "settings": {
+        "title": "Cookie settings",
+        "desc": "Here you can give or withdraw your consent to optional cookies at any time. Necessary cookies always remain active.",
+        "question": "Do you consent to the use of cookies?",
+        "accept": "Yes, I agree",
+        "reject": "No, I do not agree",
+        "statusLabel": "Your current choice",
+        "accepted": "Consent given",
+        "rejected": "Consent declined",
+        "unset": "You have not decided yet",
+        "savedAt": "Saved on",
+        "saved": "Your choice has been saved."
+      }
+    }
+  },
+  "cookieBanner": {
+    "title": "Do you consent to the use of cookies?",
+    "text": "We use necessary cookies to keep the website working. With your consent, we would also like to use cookies for traffic measurement. You can change your choice at any time.",
+    "more": "More information",
+    "accept": "Yes, I agree",
+    "reject": "No, thanks",
+    "aria": "Cookie consent"
   }
 }

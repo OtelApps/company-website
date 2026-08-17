@@ -1405,5 +1405,279 @@
       "guestApp": "Mobile App für Gäste",
       "hotelInfo": "Hotelinformationen"
     }
+  },
+  "legal": {
+    "updated": "Letzte Aktualisierung",
+    "contents": "Inhalt",
+    "related": "Verwandte Dokumente",
+    "gdpr": {
+      "title": "Datenschutzerklärung",
+      "subtitle": "Wie OtelApps mit Ihren personenbezogenen Daten umgeht, warum wir sie verarbeiten und welche Rechte Sie haben.",
+      "date": "14. August 2026",
+      "intro": "Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. In dieser Erklärung erläutern wir, welche Daten wir über Sie erheben, wofür wir sie verwenden, an wen wir sie weitergeben und wie Sie Ihre Rechte nach der Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates (DSGVO) sowie dem tschechischen Gesetz Nr. 110/2019 Slg. über die Verarbeitung personenbezogener Daten ausüben können.",
+      "sections": [
+        {
+          "title": "Verantwortlicher",
+          "paragraphs": [
+            "Verantwortlicher für die Verarbeitung Ihrer personenbezogenen Daten ist OtelApps, IdNr. 23905719, USt-IdNr. 23905719, mit Sitz in Příčná 1892/4, Nové Město, 110 00 Prag 1, Tschechische Republik (nachfolgend „wir“ oder „Verantwortlicher“).",
+            "In allen Angelegenheiten der Verarbeitung personenbezogener Daten erreichen Sie uns per E-Mail unter info{'@'}otelapps.com oder telefonisch unter +420 604 607 225.",
+            "Wir haben keinen Datenschutzbeauftragten benannt, da wir dazu gesetzlich nicht verpflichtet sind."
+          ]
+        },
+        {
+          "title": "Geltungsbereich dieser Erklärung",
+          "paragraphs": [
+            "Diese Erklärung beschreibt, wie wir mit den personenbezogenen Daten von Besucherinnen und Besuchern unserer Website, Interessenten an unseren Produkten sowie Ansprechpersonen unserer Kunden und Geschäftspartner umgehen.",
+            "Wenn wir für ein Hotel eine Gäste-App betreiben, verarbeiten wir die Daten der Gäste in der Regel als Auftragsverarbeiter nach Weisung des jeweiligen Hotels, das in diesem Fall Verantwortlicher ist. Informationen zu dieser Verarbeitung erhalten Sie vom betreffenden Hotel."
+          ]
+        },
+        {
+          "title": "Welche Daten wir verarbeiten",
+          "paragraphs": [
+            "Je nachdem, wie Sie mit uns in Kontakt treten, verarbeiten wir insbesondere folgende Datenkategorien:"
+          ],
+          "items": [
+            "Identifikations- und Kontaktdaten – Vor- und Nachname, E-Mail-Adresse, Telefonnummer, Land, Firmenname und Position.",
+            "Kommunikationsdaten – Inhalte von Nachrichten aus dem Kontaktformular, E-Mails sowie Aufzeichnungen über telefonische oder sonstige Kommunikation mit Ihnen.",
+            "Anfragedaten – Informationen über Ihr Interesse an einem bestimmten Produkt, Ihren Wunschtermin für eine Demo und Notizen aus Gesprächen.",
+            "Technische Daten – IP-Adresse, Browsertyp und -version, Betriebssystem, Sprache, Datum und Uhrzeit des Zugriffs sowie die Seite, von der Sie gekommen sind.",
+            "Daten aus Cookies und ähnlichen Technologien – im Umfang der Cookie-Richtlinie."
+          ]
+        },
+        {
+          "title": "Zwecke und Rechtsgrundlagen",
+          "paragraphs": [
+            "Wir verarbeiten personenbezogene Daten stets für einen konkreten Zweck und auf einer geeigneten Rechtsgrundlage:"
+          ],
+          "items": [
+            "Bearbeitung Ihrer Anfrage und Kommunikation mit Ihnen – Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage sowie unser berechtigtes Interesse an der Beantwortung von Anfragen [Art. 6 Abs. 1 lit. b und f DSGVO].",
+            "Abschluss und Erfüllung eines Vertrags – Bereitstellung unserer Produkte und Leistungen, Support und Abrechnung [Art. 6 Abs. 1 lit. b DSGVO].",
+            "Versand von Werbemitteilungen – Ihre Einwilligung bzw. unser berechtigtes Interesse, Bestandskunden ähnliche Leistungen anzubieten [Art. 6 Abs. 1 lit. a und f DSGVO]. Sie können sich jederzeit abmelden.",
+            "Betrieb, Sicherheit und Verbesserung der Website – unser berechtigtes Interesse an einer sicheren und funktionsfähigen Website [Art. 6 Abs. 1 lit. f DSGVO].",
+            "Reichweitenmessung und Analyse – Ihre über das Cookie-Banner erteilte Einwilligung [Art. 6 Abs. 1 lit. a DSGVO].",
+            "Erfüllung rechtlicher Pflichten – insbesondere im Bereich Buchhaltung, Steuern und Archivierung [Art. 6 Abs. 1 lit. c DSGVO].",
+            "Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen – unser berechtigtes Interesse [Art. 6 Abs. 1 lit. f DSGVO]."
+          ]
+        },
+        {
+          "title": "Woher wir Ihre Daten erhalten",
+          "paragraphs": [
+            "Die meisten Daten erhalten wir direkt von Ihnen – über das Formular auf unserer Website, per E-Mail, telefonisch oder bei einer Messe bzw. einem Geschäftstermin.",
+            "Technische Daten werden beim Besuch unserer Website automatisch erhoben. Daten zu Ansprechpersonen können wir auch von Ihrem Arbeitgeber oder aus öffentlich zugänglichen Quellen wie öffentlichen Registern und Unternehmenswebsites erhalten.",
+            "Die Angabe Ihrer Daten ist freiwillig. Ohne die in den Formularen als Pflichtangaben gekennzeichneten Daten können wir Ihre Anfrage jedoch nicht bearbeiten."
+          ]
+        },
+        {
+          "title": "An wen wir Daten weitergeben",
+          "paragraphs": [
+            "Zugriff auf Ihre Daten haben unsere Mitarbeitenden und Mitarbeiter, die sie für ihre Tätigkeit benötigen, sowie folgende Empfängerkategorien:"
+          ],
+          "items": [
+            "Anbieter von Hosting, Cloud-Infrastruktur und Website-Betrieb.",
+            "Der Anbieter des Formulardienstes, der uns die über das Kontaktformular gesendeten Nachrichten zustellt.",
+            "Anbieter von E-Mail-, Kommunikations- und Office-Werkzeugen.",
+            "Anbieter von Werkzeugen zur Reichweitenmessung, sofern Sie eingewilligt haben.",
+            "Steuer-, Buchhaltungs- und Rechtsberater.",
+            "Behörden, sofern wir gesetzlich zur Weitergabe verpflichtet sind."
+          ],
+          "note": "Mit Dienstleistern, die personenbezogene Daten in unserem Auftrag verarbeiten, schließen wir Auftragsverarbeitungsverträge. Wir verkaufen Ihre Daten nicht und geben sie nicht für eigene Marketingzwecke Dritter weiter."
+        },
+        {
+          "title": "Übermittlung in Drittländer",
+          "paragraphs": [
+            "Wir verarbeiten Ihre personenbezogenen Daten vorrangig innerhalb der Europäischen Union.",
+            "Sofern einer unserer Dienstleister Daten außerhalb der EU oder des Europäischen Wirtschaftsraums verarbeitet, erfolgt dies ausschließlich auf Grundlage eines Angemessenheitsbeschlusses der Europäischen Kommission, von der Europäischen Kommission genehmigter Standardvertragsklauseln oder einer anderen geeigneten Garantie nach Kapitel V DSGVO."
+          ]
+        },
+        {
+          "title": "Speicherdauer",
+          "paragraphs": [
+            "Wir speichern personenbezogene Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist:"
+          ],
+          "items": [
+            "Anfragen, die nicht zu einem Vertrag geführt haben – längstens 12 Monate ab der letzten Kommunikation.",
+            "Daten im Zusammenhang mit einem geschlossenen Vertrag – für dessen Laufzeit und anschließend 10 Jahre nach Vertragsende, insbesondere im Hinblick auf Verjährungsfristen.",
+            "Auf Grundlage einer Einwilligung verarbeitete Daten – bis zum Widerruf der Einwilligung, längstens jedoch 3 Jahre ab deren Erteilung.",
+            "Buchhaltungs- und Steuerunterlagen – für den gesetzlich vorgeschriebenen Zeitraum, in der Regel 10 Jahre.",
+            "Technische Daten und Protokolle – in der Regel 12 Monate."
+          ],
+          "note": "Nach Ablauf dieser Fristen löschen wir die personenbezogenen Daten sicher oder anonymisieren sie unwiderruflich."
+        },
+        {
+          "title": "Datensicherheit",
+          "paragraphs": [
+            "Wir haben technische und organisatorische Maßnahmen getroffen, die der Art der Verarbeitung und den Risiken für Ihre Rechte und Freiheiten entsprechen.",
+            "Dazu gehören verschlüsselte Datenübertragung (HTTPS), Zugriffsrechte nach dem Prinzip der minimalen Berechtigung, regelmäßige Updates und Absicherung der Systeme, Datensicherungen sowie Schulung und Verschwiegenheitspflicht aller Personen, die mit den Daten arbeiten."
+          ]
+        },
+        {
+          "title": "Ihre Rechte",
+          "paragraphs": [
+            "Im Zusammenhang mit der Verarbeitung Ihrer personenbezogenen Daten haben Sie folgende Rechte:"
+          ],
+          "items": [
+            "Recht auf Auskunft – eine Bestätigung darüber zu erhalten, ob wir Ihre Daten verarbeiten, sowie eine Kopie dieser Daten samt Informationen zur Verarbeitung.",
+            "Recht auf Berichtigung – unrichtige Daten berichtigen und unvollständige Daten vervollständigen zu lassen.",
+            "Recht auf Löschung – Ihre Daten löschen zu lassen, wenn sie nicht mehr benötigt werden, Sie Ihre Einwilligung widerrufen oder die Verarbeitung keine andere Rechtsgrundlage hat.",
+            "Recht auf Einschränkung der Verarbeitung – zu verlangen, dass wir Ihre Daten vorübergehend nur speichern, etwa während der Überprüfung ihrer Richtigkeit.",
+            "Recht auf Datenübertragbarkeit – die von Ihnen bereitgestellten Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten.",
+            "Widerspruchsrecht – gegen eine auf berechtigtem Interesse beruhende Verarbeitung. Gegen Direktwerbung können Sie jederzeit Widerspruch einlegen; wir beenden die Verarbeitung zu diesem Zweck sofort.",
+            "Recht auf Widerruf der Einwilligung – jederzeit und ohne Angabe von Gründen, unbeschadet der Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung.",
+            "Beschwerderecht – bei der tschechischen Datenschutzbehörde (Úřad pro ochranu osobních údajů), Pplk. Sochora 27, 170 00 Prag 7, www.uoou.cz."
+          ],
+          "note": "Ihre Rechte können Sie per E-Mail an info{'@'}otelapps.com oder schriftlich an unsere Geschäftsadresse geltend machen. Zum Schutz Ihrer Daten können wir Sie um einen Identitätsnachweis bitten. Wir bearbeiten Ihre Anfrage unverzüglich, spätestens innerhalb eines Monats; in komplexen Fällen können wir diese Frist um weitere zwei Monate verlängern und informieren Sie darüber."
+        },
+        {
+          "title": "Automatisierte Entscheidungsfindung und Profiling",
+          "paragraphs": [
+            "Bei der Verarbeitung Ihrer personenbezogenen Daten findet keine automatisierte Entscheidungsfindung statt, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt, und auch kein Profiling in diesem Umfang."
+          ]
+        },
+        {
+          "title": "Cookies",
+          "paragraphs": [
+            "Unsere Website verwendet Cookies und ähnliche Technologien. Einzelheiten zu ihren Arten, ihrem Zweck und ihrer Speicherdauer sowie zur jederzeitigen Änderung Ihrer Einwilligung finden Sie in der Cookie-Richtlinie."
+          ]
+        },
+        {
+          "title": "Änderungen dieser Erklärung",
+          "paragraphs": [
+            "Wir können diese Erklärung aktualisieren, insbesondere bei Änderungen der Rechtsvorschriften, unserer Leistungen oder der Art der Datenverarbeitung.",
+            "Die jeweils aktuelle Fassung ist stets auf dieser Seite verfügbar; das Datum der letzten Aktualisierung finden Sie im Seitenkopf. Über wesentliche Änderungen informieren wir Sie in geeigneter Weise, etwa durch einen Hinweis auf der Website."
+          ]
+        },
+        {
+          "title": "Kontakt",
+          "paragraphs": [
+            "Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Rechte schreiben Sie uns an info{'@'}otelapps.com oder rufen Sie uns an unter +420 604 607 225.",
+            "Schriftlich erreichen Sie uns unter OtelApps, Příčná 1892/4, Nové Město, 110 00 Prag 1, Tschechische Republik."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie-Richtlinie",
+      "subtitle": "Welche Cookies die Website von OtelApps verwendet, warum wir sie benötigen und wie Sie Ihre Einwilligung jederzeit ändern können.",
+      "date": "14. August 2026",
+      "intro": "Cookies helfen uns, den ordnungsgemäßen Betrieb der Website sicherzustellen und – mit Ihrer Einwilligung – besser zu verstehen, wie Besucher sie nutzen. Nachfolgend finden Sie eine Übersicht darüber, welche Cookies wir speichern, wozu sie dienen und wie Sie die Kontrolle darüber behalten.",
+      "sections": [
+        {
+          "title": "Was Cookies sind",
+          "paragraphs": [
+            "Cookies sind kleine Textdateien, die beim Besuch einer Website auf Ihrem Gerät gespeichert werden. Sie ermöglichen es der Website, sich Ihre Einstellungen zu merken und Ihr Gerät beim nächsten Besuch wiederzuerkennen.",
+            "Neben Cookies können auch ähnliche Technologien wie der lokale Speicher des Browsers (Local Storage) eingesetzt werden. Der Einfachheit halber bezeichnen wir sie in dieser Richtlinie einheitlich als Cookies."
+          ]
+        },
+        {
+          "title": "Warum wir Cookies verwenden",
+          "paragraphs": [
+            "Cookies auf unserer Website dienen folgenden Zwecken:"
+          ],
+          "items": [
+            "Damit die Website korrekt funktioniert und sich Ihre Auswahl merkt, etwa die gewählte Sprache.",
+            "Damit wir uns Ihre Entscheidung zur Cookie-Einwilligung merken und Sie nicht bei jedem Besuch erneut fragen müssen.",
+            "Damit wir nachvollziehen können, wie die Website genutzt wird, und sie weiter verbessern können.",
+            "Damit wir die Sicherheit der Website gewährleisten und Missbrauch vorbeugen."
+          ]
+        },
+        {
+          "title": "Welche Cookies wir verwenden",
+          "paragraphs": [
+            "Notwendige Cookies sind für die Grundfunktionen der Website erforderlich und können nicht deaktiviert werden. Wir speichern sie ohne Ihre Einwilligung gemäß § 89 Abs. 3 des tschechischen Gesetzes Nr. 127/2005 Slg. über elektronische Kommunikation.",
+            "Analyse-Cookies helfen uns, Reichweite und Nutzungsverhalten zu messen. Marketing-Cookies dienen der Ausrichtung von Werbung und der Messung ihrer Wirksamkeit. Beide Kategorien speichern wir ausschließlich mit Ihrer Einwilligung.",
+            "Derzeit speichert unsere Website ausschließlich die in der folgenden Tabelle aufgeführten notwendigen Cookies. Sollten wir Analyse- oder Marketingwerkzeuge einsetzen, ergänzen wir die Tabelle und holen Ihre Einwilligung erneut ein."
+          ]
+        },
+        {
+          "title": "Einwilligung und ihre Änderung",
+          "paragraphs": [
+            "Beim ersten Besuch der Website wird Ihnen ein Banner mit der Frage angezeigt, ob Sie der Verwendung von Cookies zustimmen. Ihre Auswahl – ja oder nein – speichern wir in Ihrem Browser, damit wir Sie nicht bei jedem Besuch erneut fragen müssen.",
+            "Wenn Sie ablehnen, speichern wir ausschließlich die notwendigen Cookies, ohne die die Website nicht funktionieren würde.",
+            "Ihre Entscheidung können Sie jederzeit im Abschnitt Cookie-Einstellungen ändern. Die Änderung wird sofort wirksam.",
+            "Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung."
+          ]
+        },
+        {
+          "title": "Cookies von Drittanbietern",
+          "paragraphs": [
+            "Einige Cookies können von Partnern gesetzt werden, deren Werkzeuge wir auf der Website einsetzen, etwa Anbieter von Reichweitenmessung oder eingebetteten Karten und Videos. Diese Partner können als eigenständige Verantwortliche auftreten und Daten über Ihren Besuch erhalten.",
+            "Werkzeuge von Drittanbietern aktivieren wir erst, nachdem Sie eingewilligt haben. Einzelheiten zur Verarbeitung finden Sie in der Datenschutzerklärung des jeweiligen Partners."
+          ]
+        },
+        {
+          "title": "Cookie-Einstellungen im Browser",
+          "paragraphs": [
+            "Sie können Cookies auch direkt in Ihrem Browser verwalten – sie löschen, blockieren oder sich vor dem Speichern warnen lassen:"
+          ],
+          "items": [
+            "Google Chrome: Einstellungen → Datenschutz und Sicherheit → Cookies",
+            "Mozilla Firefox: Einstellungen → Datenschutz & Sicherheit → Cookies und Website-Daten",
+            "Safari: Einstellungen → Datenschutz → Website-Daten verwalten",
+            "Microsoft Edge: Einstellungen → Cookies und Websiteberechtigungen"
+          ],
+          "note": "Bitte beachten Sie, dass das Blockieren aller Cookies die Funktionalität unserer Website einschränken kann."
+        },
+        {
+          "title": "Speicherdauer von Cookies",
+          "paragraphs": [
+            "Sitzungs-Cookies werden nach dem Schließen des Browsers automatisch gelöscht. Dauerhafte Cookies verbleiben für den in der obigen Tabelle angegebenen Zeitraum auf Ihrem Gerät, längstens jedoch 12 Monate, sofern Sie sie nicht vorher löschen.",
+            "Nach spätestens 12 Monaten fragen wir Sie erneut nach Ihrer Cookie-Einwilligung."
+          ]
+        },
+        {
+          "title": "Datenschutz und Kontakt",
+          "paragraphs": [
+            "Soweit die über Cookies erhobenen Daten personenbezogene Daten sind, verarbeiten wir sie im Einklang mit unserer Datenschutzerklärung, in der Sie auch Informationen zu Ihren Rechten finden.",
+            "Bei Fragen zu Cookies wenden Sie sich bitte an info{'@'}otelapps.com."
+          ]
+        }
+      ],
+      "table": {
+        "title": "Übersicht der Cookies und ähnlichen Technologien",
+        "headers": ["Name", "Zweck", "Kategorie", "Speicherdauer"],
+        "categoryNecessary": "Notwendig",
+        "rows": [
+          [
+            "cookie_consent",
+            "Speichert Ihre Entscheidung über die Einwilligung in die Verwendung von Cookies.",
+            "Notwendig",
+            "12 Monate"
+          ],
+          [
+            "locale",
+            "Merkt sich die von Ihnen auf der Website gewählte Sprache.",
+            "Notwendig",
+            "12 Monate"
+          ],
+          [
+            "theme",
+            "Speichert die Einstellung des Website-Erscheinungsbilds.",
+            "Notwendig",
+            "12 Monate"
+          ]
+        ]
+      },
+      "settings": {
+        "title": "Cookie-Einstellungen",
+        "desc": "Hier können Sie Ihre Einwilligung in optionale Cookies jederzeit erteilen oder widerrufen. Notwendige Cookies bleiben immer aktiv.",
+        "question": "Stimmen Sie der Verwendung von Cookies zu?",
+        "accept": "Ja, ich stimme zu",
+        "reject": "Nein, ich stimme nicht zu",
+        "statusLabel": "Ihre aktuelle Auswahl",
+        "accepted": "Einwilligung erteilt",
+        "rejected": "Einwilligung abgelehnt",
+        "unset": "Sie haben noch nicht entschieden",
+        "savedAt": "Gespeichert am",
+        "saved": "Ihre Auswahl wurde gespeichert."
+      }
+    }
+  },
+  "cookieBanner": {
+    "title": "Stimmen Sie der Verwendung von Cookies zu?",
+    "text": "Notwendige Cookies setzen wir ein, damit die Website funktioniert. Mit Ihrer Einwilligung möchten wir zusätzlich Cookies zur Reichweitenmessung verwenden. Sie können Ihre Auswahl jederzeit ändern.",
+    "more": "Mehr Informationen",
+    "accept": "Ja, ich stimme zu",
+    "reject": "Nein, danke",
+    "aria": "Einwilligung zur Verwendung von Cookies"
   }
 }
