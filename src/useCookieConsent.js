@@ -1,48 +1,60 @@
 import { computed, ref } from 'vue'
 
-const STORAGE_KEY = 'cookie_consent'
+const COOKIE_NAME = 'cookie_consent'
 
 // Po roce se na souhlas ptáme znovu — viz Zásady používání cookies.
-const CONSENT_MAX_AGE_DAYS = 365
+const COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 365
 
 const consent = ref(null)
 
-function readStoredConsent() {
-  if (typeof window === 'undefined') return null
+function readCookie(name) {
+  if (typeof document === 'undefined') return null
+
+  const prefix = `${name}=`
+  const entry = document.cookie
+    .split(';')
+    .map((part) => part.trim())
+    .find((part) => part.startsWith(prefix))
+
+  if (!entry) return null
 
   try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    if (!raw) return null
-
-    const stored = JSON.parse(raw)
-    if (stored?.value !== 'accepted' && stored?.value !== 'rejected') return null
-
-    const savedAt = new Date(stored.savedAt)
-    if (Number.isNaN(savedAt.getTime())) return null
-
-    const ageInDays = (Date.now() - savedAt.getTime()) / 86400000
-    if (ageInDays > CONSENT_MAX_AGE_DAYS) {
-      localStorage.removeItem(STORAGE_KEY)
-      return null
-    }
-
-    return stored
+    return decodeURIComponent(entry.slice(prefix.length))
   } catch {
     return null
   }
+}
+
+function readStoredConsent() {
+  const raw = readCookie(COOKIE_NAME)
+  if (!raw) return null
+
+  // Uloženo jako "accepted|2026-08-14T06:43:37.058Z", aby byla cookie čitelná i v prohlížeči.
+  const [value, savedAt = ''] = raw.split('|')
+  if (value !== 'accepted' && value !== 'rejected') return null
+
+  return { value, savedAt }
 }
 
 function storeConsent(value) {
   const record = { value, savedAt: new Date().toISOString() }
   consent.value = record
 
-  if (typeof window === 'undefined') return
+  if (typeof document === 'undefined') return
 
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(record))
-  } catch {
-    // Uložení může selhat např. v privátním režimu — volbu si držíme alespoň pro tuto relaci.
+  const attributes = [
+    `${COOKIE_NAME}=${encodeURIComponent(`${record.value}|${record.savedAt}`)}`,
+    'path=/',
+    `max-age=${COOKIE_MAX_AGE_SECONDS}`,
+    'SameSite=Lax',
+  ]
+
+  if (window.location.protocol === 'https:') {
+    attributes.push('Secure')
   }
+
+  // Zápis může selhat, pokud má návštěvník cookies zakázané — volbu si pak držíme aspoň pro tuto relaci.
+  document.cookie = attributes.join('; ')
 }
 
 consent.value = readStoredConsent()
@@ -51,7 +63,12 @@ export function useCookieConsent() {
   const hasDecided = computed(() => consent.value !== null)
   const isAccepted = computed(() => consent.value?.value === 'accepted')
   const isRejected = computed(() => consent.value?.value === 'rejected')
-  const savedAt = computed(() => (consent.value ? new Date(consent.value.savedAt) : null))
+  const savedAt = computed(() => {
+    if (!consent.value) return null
+
+    const date = new Date(consent.value.savedAt)
+    return Number.isNaN(date.getTime()) ? null : date
+  })
 
   function accept() {
     storeConsent('accepted')
