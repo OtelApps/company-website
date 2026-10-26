@@ -19,20 +19,11 @@
           </div>
 
           <div class="flex items-center justify-center lg:justify-end">
-            <div class="relative w-[280px] sm:w-[300px]">
-              <div
-                class="rounded-[2.5rem] border-[10px] border-gray-900 bg-gray-900 shadow-2xl overflow-hidden"
-              >
-                <div class="h-6 bg-gray-900 flex items-center justify-center">
-                  <div class="w-20 h-1 rounded-full bg-gray-700" />
-                </div>
-                <img
-                  :src="image1"
-                  :alt="$t('webApp.preview.screens.0')"
-                  class="w-full aspect-[9/19] object-cover object-top"
-                />
-              </div>
-            </div>
+            <img
+              :src="image1"
+              :alt="$t('webApp.preview.screens.0')"
+              class="w-full max-w-md rounded-2xl shadow-xl"
+            />
           </div>
         </div>
       </div>
@@ -50,24 +41,17 @@
           </p>
         </header>
 
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
           <figure
-            v-for="(screen, index) in previewScreens"
-            :key="screen.src"
+            v-for="screen in previewScreens"
+            :key="screen.label"
             class="flex flex-col items-center"
           >
-            <div
-              class="w-full max-w-[200px] rounded-[1.75rem] border-[6px] border-gray-900 bg-gray-900 shadow-lg overflow-hidden"
-            >
-              <div class="h-4 bg-gray-900 flex items-center justify-center">
-                <div class="w-14 h-0.5 rounded-full bg-gray-700" />
-              </div>
-              <img
-                :src="screen.src"
-                :alt="screen.label"
-                class="w-full aspect-[9/16] object-cover object-top"
-              />
-            </div>
+            <img
+              :src="screen.src"
+              :alt="screen.label"
+              class="w-full rounded-2xl shadow-lg"
+            />
             <figcaption class="mt-4 text-sm sm:text-base font-semibold text-gray-900 text-center">
               {{ screen.label }}
             </figcaption>
@@ -114,10 +98,10 @@ import Advantages from '@/components/Advantages.vue'
 import Features from '@/components/Features.vue'
 import HowItWorks from '@/components/HowItWorks.vue'
 import Benefits from '@/components/Benefits.vue'
-import image1 from '@/assets/product/WebApp/1.png'
-import image2 from '@/assets/product/WebApp/2.png'
-import image3 from '@/assets/product/WebApp/3.png'
-import image4 from '@/assets/product/WebApp/4.png'
+import image1 from '@/assets/mockups/guest/dashboard.png'
+import image2 from '@/assets/mockups/guest/home-services-rooms.png'
+import image3 from '@/assets/mockups/guest/services-ordering.png'
+import image4 from '@/assets/mockups/guest/detail-key-activities.png'
 
 export default {
   name: 'WebApp',

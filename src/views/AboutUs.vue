@@ -26,7 +26,7 @@
 
       <!-- Left side - Image -->
       <img
-        src="../assets/about/image1.png"
+        src="../assets/mockups/guest/dashboard.png"
         alt="Phone with app showcase"
         class="box-content rounded-[1.875rem] w-full sm:w-[28rem] lg:w-[37.5rem] h-auto basis-1/2"
       />
@@ -37,9 +37,9 @@
     >
       <!-- Right side - Image -->
       <img
-        src="../assets/about/image2.png"
+        src="../assets/mockups/guest/showcase-four.png"
         alt="Phone with app showcase"
-        class="box-content rounded-[1.875rem] w-full sm:w-[28rem] lg:w-[37.5rem] h-auto lg:h-[32rem] basis-1/2"
+        class="box-content rounded-2xl w-full sm:w-[28rem] lg:w-[37.5rem] h-auto basis-1/2 shadow-lg object-cover"
       />
 
       <!-- Left side - Text -->
@@ -94,7 +94,7 @@
 
       <!-- Left side - Image -->
       <img
-        src="../assets/about/image3.png"
+        src="../assets/mockups/guest/detail-key-activities.png"
         alt="Phone with app showcase"
         class="box-content rounded-[1.875rem] w-full sm:w-[28rem] lg:w-[37.5rem] h-auto basis-1/2"
       />

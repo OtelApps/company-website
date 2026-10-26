@@ -38,7 +38,7 @@ const activeButton = ref('f&b')
         <!-- Right Section - Image -->
         <div class="flex justify-center lg:justify-start mt-8 lg:mt-0">
           <img
-            src="../assets/home/image1.png"
+            src="../assets/mockups/guest/dashboard.png"
             class="max-w-full h-auto w-full lg:max-w-none"
             alt="Hotel app mockup"
           />
@@ -78,7 +78,7 @@ const activeButton = ref('f&b')
         <!-- Left Section - Image -->
         <div class="flex justify-center lg:justify-start order-2 lg:order-1">
           <img
-            src="../assets/home/image2.png"
+            src="../assets/mockups/guest/services-ordering.png"
             class="max-w-full h-auto w-full lg:max-w-none"
             alt="Mobile app interface"
           />
@@ -387,7 +387,7 @@ const activeButton = ref('f&b')
         <!-- Right: Image -->
         <div class="flex justify-center lg:justify-end mt-8 lg:mt-0">
           <img
-            src="../assets/home/image3.png"
+            src="../assets/mockups/guest/showcase-four.png"
             class="max-w-full h-auto w-full lg:max-w-none"
             alt="Staff operations"
           />
@@ -400,7 +400,7 @@ const activeButton = ref('f&b')
         <!-- Left: Image -->
         <div class="flex justify-center lg:justify-start order-2 lg:order-1">
           <img
-            src="../assets/home/image4.png"
+            src="../assets/mockups/guest/menu-home.png"
             class="max-w-full h-auto w-full lg:max-w-none"
             alt="Feedback analytics"
           />
@@ -462,7 +462,7 @@ const activeButton = ref('f&b')
         <!-- Right: Image -->
         <div class="flex justify-center lg:justify-end mt-8 lg:mt-0">
           <img
-            src="../assets/home/image5.png"
+            src="../assets/mockups/guest/showcase-six.png"
             class="max-w-full h-auto w-full lg:max-w-none"
             alt="Branded guest experience"
           />

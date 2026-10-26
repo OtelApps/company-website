@@ -20,7 +20,7 @@
 
           <!-- Right Section - Image -->
           <div class="flex items-center justify-center lg:justify-end">
-            <img :src="image1" alt="Mobile Ordering obrázek" class="w-[80%]">
+            <img :src="image1" alt="Mobile Ordering obrázek" class="w-full max-w-xl rounded-2xl shadow-lg">
           </div>
         </div>
       </div>
@@ -61,9 +61,9 @@
 <script>
 import Advantages from '@/components/Advantages.vue'
 import Features from '@/components/Features.vue'
-import image1 from '@/assets/product/Mobile/1.png'
-import image2 from '@/assets/product/Mobile/2.png'
-import image3 from '@/assets/product/Mobile/3.png'
+import image1 from '@/assets/mockups/guest/services-ordering.png'
+import image2 from '@/assets/mockups/guest/menu-home.png'
+import image3 from '@/assets/mockups/guest/showcase-four.png'
 import HowItWorks from '@/components/HowItWorks.vue'
 import Benefits from '@/components/Benefits.vue'
 import Improvement from '@/components/Improvement.vue'

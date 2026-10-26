@@ -20,7 +20,7 @@
 
           <!-- Right Section - Image -->
           <div class="flex items-center justify-center lg:justify-end">
-            <img :src="image1" alt="City Center obrázek" class="w-4/5">
+            <img :src="image1" alt="City Center obrázek" class="w-full max-w-xl rounded-2xl shadow-lg">
           </div>
         </div>
       </div>
@@ -118,9 +118,9 @@
 
 <script>
 import HowItWorks from '@/components/HowItWorks.vue'
-import image1 from '@/assets/solutions/CityCenter/1.png'
-import image2 from '@/assets/solutions/CityCenter/2.png'
-import image3 from '@/assets/solutions/CityCenter/3.png'
+import image1 from '@/assets/mockups/guest/dashboard.png'
+import image2 from '@/assets/mockups/guest/home-services-rooms.png'
+import image3 from '@/assets/mockups/guest/showcase-six.png'
 import Benefits from '@/components/Benefits.vue'
 
 export default {
