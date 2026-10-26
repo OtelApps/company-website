@@ -19,8 +19,8 @@
           </div>
 
           <!-- Right Section - Image -->
-          <div class="flex items-center justify-end">
-            <img :src="image1" alt="Instant Feedback Obrázek" class="w-full max-w-xl rounded-2xl shadow-lg">
+          <div class="flex items-center justify-end min-w-0 overflow-hidden">
+            <img :src="image1" alt="Instant Feedback Obrázek" class="w-full max-w-lg h-auto object-contain">
           </div>
         </div>
       </div>

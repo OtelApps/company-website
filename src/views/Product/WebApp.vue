@@ -18,11 +18,11 @@
             </button>
           </div>
 
-          <div class="flex items-center justify-center lg:justify-end">
+          <div class="flex items-center justify-center lg:justify-end min-w-0 overflow-hidden">
             <img
               :src="image1"
               :alt="$t('webApp.preview.screens.0')"
-              class="w-full max-w-md rounded-2xl shadow-xl"
+              class="w-auto max-w-[min(100%,320px)] sm:max-w-[360px] max-h-[min(70vh,560px)] h-auto object-contain"
             />
           </div>
         </div>

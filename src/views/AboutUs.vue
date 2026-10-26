@@ -28,7 +28,7 @@
       <img
         src="../assets/mockups/guest/dashboard.png"
         alt="Phone with app showcase"
-        class="box-content rounded-[1.875rem] w-full sm:w-[28rem] lg:w-[37.5rem] h-auto basis-1/2"
+        class="w-auto max-w-[min(100%,320px)] sm:max-w-[360px] max-h-[min(70vh,560px)] h-auto object-contain basis-1/2"
       />
     </section>
 
@@ -39,7 +39,7 @@
       <img
         src="../assets/mockups/guest/showcase-four.png"
         alt="Phone with app showcase"
-        class="box-content rounded-2xl w-full sm:w-[28rem] lg:w-[37.5rem] h-auto basis-1/2 shadow-lg object-cover"
+        class="w-full max-w-lg h-auto object-contain basis-1/2"
       />
 
       <!-- Left side - Text -->
@@ -96,7 +96,7 @@
       <img
         src="../assets/mockups/guest/detail-key-activities.png"
         alt="Phone with app showcase"
-        class="box-content rounded-[1.875rem] w-full sm:w-[28rem] lg:w-[37.5rem] h-auto basis-1/2"
+        class="w-full max-w-lg h-auto object-contain basis-1/2"
       />
     </section>
 

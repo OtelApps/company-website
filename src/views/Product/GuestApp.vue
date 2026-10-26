@@ -292,7 +292,7 @@
 
           <!-- Right Section - Image -->
           <figure class="flex items-center justify-center">
-            <img src="../../assets/mockups/guest/showcase-six.png" alt="Guest app page image" class="w-full max-w-xl">
+            <img src="../../assets/mockups/guest/showcase-six.png" alt="Guest app page image" class="w-full max-w-lg h-auto object-contain">
           </figure>
         </div>
       </div>

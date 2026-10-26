@@ -9,7 +9,7 @@ const activeButton = ref('f&b')
     <section>
       <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <!-- Left Section - Text Content -->
-        <div class="space-y-4 sm:space-y-8">
+        <div class="space-y-4 sm:space-y-8 min-w-0">
           <h1
             class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight dark:text-white"
           >
@@ -36,10 +36,10 @@ const activeButton = ref('f&b')
         </div>
 
         <!-- Right Section - Image -->
-        <div class="flex justify-center lg:justify-start mt-8 lg:mt-0">
+        <div class="flex justify-center lg:justify-end mt-8 lg:mt-0 min-w-0 overflow-hidden">
           <img
             src="../assets/mockups/guest/dashboard.png"
-            class="max-w-full h-auto w-full lg:max-w-none"
+            class="w-auto max-w-[min(100%,320px)] sm:max-w-[360px] max-h-[min(70vh,560px)] h-auto object-contain"
             alt="Hotel app mockup"
           />
         </div>
@@ -79,7 +79,7 @@ const activeButton = ref('f&b')
         <div class="flex justify-center lg:justify-start order-2 lg:order-1">
           <img
             src="../assets/mockups/guest/services-ordering.png"
-            class="max-w-full h-auto w-full lg:max-w-none"
+            class="w-full max-w-lg h-auto object-contain"
             alt="Mobile app interface"
           />
         </div>
@@ -388,7 +388,7 @@ const activeButton = ref('f&b')
         <div class="flex justify-center lg:justify-end mt-8 lg:mt-0">
           <img
             src="../assets/mockups/guest/showcase-four.png"
-            class="max-w-full h-auto w-full lg:max-w-none"
+            class="w-full max-w-lg h-auto object-contain"
             alt="Staff operations"
           />
         </div>
@@ -401,7 +401,7 @@ const activeButton = ref('f&b')
         <div class="flex justify-center lg:justify-start order-2 lg:order-1">
           <img
             src="../assets/mockups/guest/menu-home.png"
-            class="max-w-full h-auto w-full lg:max-w-none"
+            class="w-full max-w-lg h-auto object-contain"
             alt="Feedback analytics"
           />
         </div>
@@ -463,7 +463,7 @@ const activeButton = ref('f&b')
         <div class="flex justify-center lg:justify-end mt-8 lg:mt-0">
           <img
             src="../assets/mockups/guest/showcase-six.png"
-            class="max-w-full h-auto w-full lg:max-w-none"
+            class="w-full max-w-lg h-auto object-contain"
             alt="Branded guest experience"
           />
         </div>

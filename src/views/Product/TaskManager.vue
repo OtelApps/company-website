@@ -21,8 +21,8 @@
           </div>
 
           <!-- Right Section - Image -->
-          <div class="flex items-center justify-center lg:justify-end">
-            <img :src="image1" alt="Task Manager Obrázek" class="w-full max-w-xl rounded-2xl shadow-lg" />
+          <div class="flex items-center justify-center lg:justify-end min-w-0 overflow-hidden">
+            <img :src="image1" alt="Task Manager Obrázek" class="w-full max-w-lg h-auto object-contain" />
           </div>
         </div>
       </div>

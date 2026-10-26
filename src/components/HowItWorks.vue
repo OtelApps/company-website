@@ -30,9 +30,9 @@
         </div>
 
         <!-- Pravá strana - obrázek -->
-        <div class="flex justify-center lg:justify-end">
-          <div class="relative">
-            <img :src="image" :alt="imageAlt" class="w-full h-auto" />
+        <div class="flex justify-center lg:justify-end min-w-0 overflow-hidden">
+          <div class="relative w-full max-w-lg">
+            <img :src="image" :alt="imageAlt" class="w-full h-auto object-contain" />
           </div>
         </div>
       </div>
