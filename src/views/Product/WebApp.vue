@@ -50,7 +50,7 @@
             <img
               :src="screen.src"
               :alt="screen.label"
-              class="w-full rounded-2xl shadow-lg"
+              class="w-auto max-w-full max-h-[min(70vh,520px)] h-auto object-contain rounded-2xl shadow-lg"
             />
             <figcaption class="mt-4 text-sm sm:text-base font-semibold text-gray-900 text-center">
               {{ screen.label }}
