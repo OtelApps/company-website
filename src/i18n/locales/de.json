@@ -261,8 +261,7 @@
       "message2": "Ihre Nachricht",
       "communication": "Ich bin damit einverstanden, Mitteilungen von OtelApps zu erhalten",
       "agreement": ["Ich akzeptiere", "Bedingungen und Bedingungen", "a", "Datenschutzrichtlinie"],
-      "button": "Absenden",
-      "errors": ["Nur Buchstaben eingeben", "Telefonnummer im internationalen Format eingeben"]
+      "button": "Absenden"
     }
   },
   "aboutUs": {
@@ -1679,5 +1678,24 @@
     "accept": "Ja, ich stimme zu",
     "reject": "Nein, danke",
     "aria": "Einwilligung zur Verwendung von Cookies"
+  },
+  "forms": {
+    "errors": {
+      "required": "Bitte füllen Sie dieses Feld aus.",
+      "select": "Bitte wählen Sie eine Option aus.",
+      "consent": "Zum Absenden ist Ihre Zustimmung erforderlich.",
+      "name": "Bitte nur Buchstaben, Leerzeichen, Bindestriche oder Apostrophe verwenden.",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "phone": "Bitte geben Sie eine gültige Telefonnummer ein, z. B. +49 30 1234567.",
+      "message": "Ihre Nachricht muss mindestens 10 Zeichen lang sein.",
+      "tooLong": "Der Text ist zu lang."
+    },
+    "sending": "Wird gesendet…",
+    "failure": "Das Formular konnte nicht gesendet werden. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "success": {
+      "title": "Vielen Dank!",
+      "text": "Wir haben Ihre Nachricht erhalten und melden uns in Kürze bei Ihnen.",
+      "again": "Weitere Nachricht senden"
+    }
   }
 }

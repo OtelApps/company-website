@@ -1,3 +1,25 @@
+<script setup>
+import FormError from '@/components/FormError.vue'
+import FormSuccess from '@/components/FormSuccess.vue'
+import { useWeb3Form } from '@/composables/useWeb3Form'
+
+const { values, errors, status, honeypot, field, errorId, submit, startOver } = useWeb3Form({
+  id: 'pricing',
+  accessKey: 'd963ebcc-55d8-45cd-aa4a-410e51d23ef8',
+  fields: {
+    firstName: { name: 'Jmeno', type: 'name' },
+    lastName: { name: 'Prijmeni', type: 'name' },
+    email: { name: 'Email', type: 'email' },
+    country: { name: 'Zeme', type: 'select' },
+    phone: { name: 'Telefonni cislo', type: 'phone' },
+    jobTitle: { name: 'Pracovni titul', type: 'select' },
+    propertyType: { name: 'Typ nemovitosti', type: 'select' },
+    communications: { name: 'Sdeleni', type: 'consent', required: false },
+    terms: { name: 'Podminky', type: 'consent' },
+  },
+})
+</script>
+
 <template>
   <div class="relative min-h-screen bg-white font-sans antialiased">
     <div class="absolute top-0 left-0 w-full h-[40%] md:h-[800px] lg:h-[600px] bg-[#383e42] z-0"></div>
@@ -31,74 +53,115 @@
             <div
               class="w-full bg-white rounded-3xl shadow-2xl p-8 md:p-10 lg:p-12 border-1 border-[#383E42]"
             >
-              <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+              <FormSuccess v-if="status === 'success'" @again="startOver" />
+
+              <form v-else novalidate class="space-y-6" @submit.prevent="submit">
+                <!-- Honeypot proti spamu – lidé ho nevidí, boti ho vyplní -->
                 <input
-                  type="hidden"
-                  name="access_key"
-                  value="d963ebcc-55d8-45cd-aa4a-410e51d23ef8"
+                  v-model="honeypot"
+                  type="checkbox"
+                  name="botcheck"
+                  class="hidden"
+                  tabindex="-1"
+                  autocomplete="off"
+                  aria-hidden="true"
                 />
+
                 <!-- First Name and Last Name side by side -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <input
-                    name="Jmeno"
-                    type="text"
-                    :placeholder="$t('pricing.form.name') + ' *'"
-                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
-                    required
-                  />
-                  <input
-                    name="Prijmeni"
-                    type="text"
-                    :placeholder="$t('pricing.form.surname') + ' *'"
-                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#ffa500] focus:border-[#ffa500] outline-none"
-                    required
-                  />
+                  <div>
+                    <input
+                      v-model="values.firstName"
+                      v-bind="field('firstName')"
+                      name="Jmeno"
+                      type="text"
+                      autocomplete="given-name"
+                      :aria-label="$t('pricing.form.name')"
+                      :placeholder="$t('pricing.form.name') + ' *'"
+                      class="w-full px-4 py-3 border-1 rounded-lg focus:ring-2 outline-none bg-white"
+                      required
+                    />
+                    <FormError :id="errorId('firstName')" :error="errors.firstName" />
+                  </div>
+                  <div>
+                    <input
+                      v-model="values.lastName"
+                      v-bind="field('lastName')"
+                      name="Prijmeni"
+                      type="text"
+                      autocomplete="family-name"
+                      :aria-label="$t('pricing.form.surname')"
+                      :placeholder="$t('pricing.form.surname') + ' *'"
+                      class="w-full px-4 py-3 border-1 rounded-lg focus:ring-2 outline-none bg-white"
+                      required
+                    />
+                    <FormError :id="errorId('lastName')" :error="errors.lastName" />
+                  </div>
                 </div>
 
                 <!-- Work Email -->
-                <input
-                  name="Email"
-                  type="email"
-                  :placeholder="$t('pricing.form.email') + ' *'"
-                  class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
-                  required
-                />
+                <div>
+                  <input
+                    v-model="values.email"
+                    v-bind="field('email')"
+                    name="Email"
+                    type="email"
+                    autocomplete="email"
+                    :aria-label="$t('pricing.form.email')"
+                    :placeholder="$t('pricing.form.email') + ' *'"
+                    class="w-full px-4 py-3 border-1 rounded-lg focus:ring-2 outline-none bg-white"
+                    required
+                  />
+                  <FormError :id="errorId('email')" :error="errors.email" />
+                </div>
 
                 <!-- Country and Phone number -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <select
+                      v-model="values.country"
+                      v-bind="field('country')"
                       name="Zeme"
-                      class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                      :aria-label="$t('pricing.form.country')"
+                      class="w-full px-4 py-3 border-1 rounded-lg focus:ring-2 outline-none appearance-none bg-white"
                       required
                     >
-                      <option value="" disabled selected hidden>{{ $t('pricing.form.country') }} *</option>
+                      <option value="" disabled hidden>{{ $t('pricing.form.country') }} *</option>
                       <option value="Cesko">{{ $t('pricing.form.countries[0]') }}</option>
                       <option value="Slovensko">{{ $t('pricing.form.countries[1]') }}</option>
                       <option value="Nemecko">{{ $t('pricing.form.countries[2]') }}</option>
                       <option value="Rakousko">{{ $t('pricing.form.countries[3]') }}</option>
                       <option value="Polsko">{{ $t('pricing.form.countries[4]') }}</option>
                     </select>
+                    <FormError :id="errorId('country')" :error="errors.country" />
                   </div>
                   <div>
                     <input
+                      v-model="values.phone"
+                      v-bind="field('phone')"
                       name="Telefonni cislo"
                       type="tel"
+                      autocomplete="tel"
+                      :aria-label="$t('pricing.form.phone')"
                       :placeholder="$t('pricing.form.phone') + ' *'"
-                      class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none bg-white"
+                      class="w-full px-4 py-3 border-1 rounded-lg focus:ring-2 outline-none bg-white"
                       required
                     />
+                    <FormError :id="errorId('phone')" :error="errors.phone" />
                   </div>
                 </div>
 
                 <!-- Job Title -->
                 <div>
                   <select
+                    v-model="values.jobTitle"
+                    v-bind="field('jobTitle')"
                     name="Pracovni titul"
-                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                    :aria-label="$t('pricing.form.title')"
+                    class="w-full px-4 py-3 border-1 rounded-lg focus:ring-2 outline-none appearance-none bg-white"
                     required
                   >
-                    <option value="" disabled selected hidden>{{ $t('pricing.form.title') }} *</option>
+                    <option value="" disabled hidden>{{ $t('pricing.form.title') }} *</option>
                     <option value="Majitel / Zakladatel">{{ $t('pricing.form.titles[0]') }}</option>
                     <option value="Generalni reditel">{{ $t('pricing.form.titles[1]') }}</option>
                     <option value="IT / Technologicky manazer">{{ $t('pricing.form.titles[2]') }}</option>
@@ -106,65 +169,86 @@
                     <option value="Manazer konzultant">{{ $t('pricing.form.titles[4]') }}</option>
                     <option value="Jine">{{ $t('pricing.form.titles[5]') }}</option>
                   </select>
+                  <FormError :id="errorId('jobTitle')" :error="errors.jobTitle" />
                 </div>
 
                 <!-- Property Type -->
                 <div>
                   <select
+                    v-model="values.propertyType"
+                    v-bind="field('propertyType')"
                     name="Typ nemovitosti"
-                    class="w-full px-4 py-3 border-1 border-[#383E42] rounded-lg focus:ring-2 focus:ring-[#f5a623] focus:border-[#f5a623] outline-none appearance-none bg-white"
+                    :aria-label="$t('pricing.form.property')"
+                    class="w-full px-4 py-3 border-1 rounded-lg focus:ring-2 outline-none appearance-none bg-white"
                     required
                   >
-                    <option value="" disabled selected hidden>{{ $t('pricing.form.property') }} *</option>
+                    <option value="" disabled hidden>{{ $t('pricing.form.property') }} *</option>
                     <option value="Hotel">{{ $t('pricing.form.properties[0]') }}</option>
                     <option value="Nezavisly hotel">{{ $t('pricing.form.properties[1]') }}</option>
                     <option value="Jine">{{ $t('pricing.form.properties[2]') }}</option>
                   </select>
+                  <FormError :id="errorId('propertyType')" :error="errors.propertyType" />
                 </div>
 
                 <!-- Checkboxes -->
                 <div class="space-y-4">
-                  <div class="flex items-start">
-                    <input
-                      name="Sdeleni"
-                      type="checkbox"
-                      id="communications"
-                      class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
-                      required
-                    />
-                    <label for="communications" class="ml-3 text-sm text-gray-700">
-                      {{ $t('pricing.form.communication') }}
-                      <span class="text-red-500">*</span>
-                    </label>
+                  <div>
+                    <div class="flex items-start">
+                      <input
+                        v-model="values.communications"
+                        v-bind="field('communications')"
+                        name="Sdeleni"
+                        type="checkbox"
+                        id="communications"
+                        class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
+                      />
+                      <label for="communications" class="ml-3 text-sm text-gray-700">
+                        {{ $t('pricing.form.communication') }}
+                      </label>
+                    </div>
                   </div>
 
-                  <div class="flex items-start">
-                    <input
-                      name="Podminky"
-                      type="checkbox"
-                      id="terms"
-                      class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
-                      checked
-                      required
-                    />
-                    <label for="terms" class="ml-3 text-sm text-gray-700">
-                      {{ $t('pricing.form.agreement[0]') }}
-                      <a href="#" class="text-black underline font-semibold">{{ $t('pricing.form.agreement[1]') }}</a>
-                      {{ $t('pricing.form.agreement[2]') }}
-                      <router-link to="/Legal/GDPR" class="text-black underline font-semibold">
-                        {{ $t('pricing.form.agreement[3]') }}
-                      </router-link>
-                      <span class="text-red-500">*</span>
-                    </label>
+                  <div>
+                    <div class="flex items-start">
+                      <input
+                        v-model="values.terms"
+                        v-bind="field('terms')"
+                        name="Podminky"
+                        type="checkbox"
+                        id="terms"
+                        class="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
+                        required
+                      />
+                      <label for="terms" class="ml-3 text-sm text-gray-700">
+                        {{ $t('pricing.form.agreement[0]') }}
+                        <a href="#" class="text-black underline font-semibold">{{ $t('pricing.form.agreement[1]') }}</a>
+                        {{ $t('pricing.form.agreement[2]') }}
+                        <router-link to="/Legal/GDPR" class="text-black underline font-semibold">
+                          {{ $t('pricing.form.agreement[3]') }}
+                        </router-link>
+                        <span class="text-red-500">*</span>
+                      </label>
+                    </div>
+                    <FormError :id="errorId('terms')" :error="errors.terms" />
                   </div>
                 </div>
+
+                <p
+                  v-if="status === 'error'"
+                  role="alert"
+                  class="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700"
+                >
+                  {{ $t('forms.failure') }}
+                </p>
 
                 <!-- Submit Button -->
                 <button
                   type="submit"
-                  class="w-full sm:w-[75%] lg:w-[50%] bg-[#ffa500] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 cursor-pointer"
+                  :disabled="status === 'submitting'"
+                  :aria-busy="status === 'submitting' ? 'true' : undefined"
+                  class="w-full sm:w-[75%] lg:w-[50%] bg-[#ffa500] text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 cursor-pointer disabled:opacity-60 disabled:cursor-wait"
                 >
-                  {{ $t('pricing.form.button') }}
+                  {{ status === 'submitting' ? $t('forms.sending') : $t('pricing.form.button') }}
                 </button>
               </form>
             </div>

@@ -256,8 +256,7 @@
       "message2": "Twój wiadomość",
       "communication": "Wyrażam zgodę na otrzymywanie wiadomości od OtelApps",
       "agreement": ["Akceptuję", "Regulamin", "a", "Polityka prywatności"],
-      "button": "Wyślij",
-      "errors": ["Wprowadź tylko litery", "Wprowadź numer telefonu w formacie międzynarodowym"]
+      "button": "Wyślij"
     }
   },
   "aboutUs": {
@@ -1669,5 +1668,24 @@
     "accept": "Tak, zgadzam się",
     "reject": "Nie, dziękuję",
     "aria": "Zgoda na używanie plików cookie"
+  },
+  "forms": {
+    "errors": {
+      "required": "Proszę wypełnić to pole.",
+      "select": "Proszę wybrać jedną z opcji.",
+      "consent": "Aby wysłać formularz, wymagana jest zgoda.",
+      "name": "Używaj tylko liter, spacji, łączników lub apostrofów.",
+      "email": "Wprowadź prawidłowy adres e-mail.",
+      "phone": "Wprowadź prawidłowy numer telefonu, np. +48 512 345 678.",
+      "message": "Wiadomość musi mieć co najmniej 10 znaków.",
+      "tooLong": "Tekst jest za długi."
+    },
+    "sending": "Wysyłanie…",
+    "failure": "Nie udało się wysłać formularza. Sprawdź połączenie i spróbuj ponownie.",
+    "success": {
+      "title": "Dziękujemy!",
+      "text": "Otrzymaliśmy Twoją wiadomość i wkrótce się z Tobą skontaktujemy.",
+      "again": "Wyślij kolejną wiadomość"
+    }
   }
 }

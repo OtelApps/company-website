@@ -259,8 +259,7 @@
       "message2": "Your message",
       "communication": "I agree to receive communications from OtelApps",
       "agreement": ["I accept", "Terms and Conditions", "a", "Privacy Policy"],
-      "button": "Submit",
-      "errors": ["Enter letters only", "Enter phone number in international format"]
+      "button": "Submit"
     }
   },
   "aboutUs": {
@@ -1632,5 +1631,24 @@
     "accept": "Yes, I agree",
     "reject": "No, thanks",
     "aria": "Cookie consent"
+  },
+  "forms": {
+    "errors": {
+      "required": "Please fill in this field.",
+      "select": "Please choose one of the options.",
+      "consent": "You need to agree to continue.",
+      "name": "Use letters, spaces, hyphens or apostrophes only.",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number, e.g. +420 123 456 789.",
+      "message": "Your message must be at least 10 characters long.",
+      "tooLong": "This text is too long."
+    },
+    "sending": "Sending…",
+    "failure": "We couldn't send the form. Please check your connection and try again.",
+    "success": {
+      "title": "Thank you, we've got it!",
+      "text": "We've received your message and will get back to you soon.",
+      "again": "Send another message"
+    }
   }
 }

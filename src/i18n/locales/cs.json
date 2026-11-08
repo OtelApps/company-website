@@ -259,8 +259,7 @@
       "message2": "Vaše zpráva",
       "communication": "Souhlasím se zasíláním sdělení od OtelApps",
       "agreement": ["Příjmám", "Obchodní podmínky", "a", "Zásady ochrany osobních údajů"],
-      "button": "Odeslat",
-      "errors": ["Zadej pouze písmena", "Zadejte telefonní číslo v mezinárodním formátu"]
+      "button": "Odeslat"
     }
   },
   "aboutUs": {
@@ -1661,5 +1660,24 @@
     "accept": "Ano, souhlasím",
     "reject": "Ne, děkuji",
     "aria": "Souhlas s používáním cookies"
+  },
+  "forms": {
+    "errors": {
+      "required": "Vyplňte prosím toto pole.",
+      "select": "Vyberte prosím jednu z možností.",
+      "consent": "Pro odeslání je potřeba souhlasit.",
+      "name": "Použijte pouze písmena, mezery, pomlčky nebo apostrof.",
+      "email": "Zadejte platnou e-mailovou adresu.",
+      "phone": "Zadejte platné telefonní číslo, např. +420 123 456 789.",
+      "message": "Zpráva musí mít alespoň 10 znaků.",
+      "tooLong": "Text je příliš dlouhý."
+    },
+    "sending": "Odesílám…",
+    "failure": "Formulář se nepodařilo odeslat. Zkontrolujte připojení a zkuste to prosím znovu.",
+    "success": {
+      "title": "Děkujeme, máme to!",
+      "text": "Vaši zprávu jsme v pořádku přijali a brzy se vám ozveme.",
+      "again": "Odeslat další zprávu"
+    }
   }
 }

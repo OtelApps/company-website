@@ -259,8 +259,7 @@
       "message2": "Vaša správa",
       "communication": "Súhlasím so zasielaním oznámenia od OtelApps",
       "agreement": ["Prijímam", "Obchodné podmienky", "a", "Zásady ochrany osobných údajov"],
-      "button": "Odoslať",
-      "errors": ["Zadaj iba písmená", "Zadajte telefónne číslo v medzinárodnom formáte"]
+      "button": "Odoslať"
     }
   },
   "aboutUs": {
@@ -1670,5 +1669,24 @@
     "accept": "Áno, súhlasím",
     "reject": "Nie, ďakujem",
     "aria": "Súhlas s používaním cookies"
+  },
+  "forms": {
+    "errors": {
+      "required": "Vyplňte prosím toto pole.",
+      "select": "Vyberte prosím jednu z možností.",
+      "consent": "Na odoslanie je potrebný súhlas.",
+      "name": "Použite iba písmená, medzery, spojovníky alebo apostrof.",
+      "email": "Zadajte platnú e-mailovú adresu.",
+      "phone": "Zadajte platné telefónne číslo, napr. +421 912 345 678.",
+      "message": "Správa musí mať aspoň 10 znakov.",
+      "tooLong": "Text je príliš dlhý."
+    },
+    "sending": "Odosielam…",
+    "failure": "Formulár sa nepodarilo odoslať. Skontrolujte pripojenie a skúste to prosím znova.",
+    "success": {
+      "title": "Ďakujeme, máme to!",
+      "text": "Vašu správu sme v poriadku prijali a čoskoro sa vám ozveme.",
+      "again": "Odoslať ďalšiu správu"
+    }
   }
 }
